@@ -15,3 +15,7 @@ aws s3 sync --no-sign-request s3://amazon-last-mile-challenges/almrrc2021/ ./alm
 ```
 
 or following the instructions here https://registry.opendata.aws/amazon-last-mile-challenges/
+
+## How to Use
+
+This project is composed of an algorithm and visual component. See their readmes for instructions of how to run their code.
