@@ -651,16 +651,6 @@
     },
     {
         "id": 66,
-        "event_type": "LOAD_START",
-        "stop_id": "TA",
-        "time": 3273.6,
-        "coordinates": {
-            "lat": 47.918561,
-            "lng": -122.310312
-        }
-    },
-    {
-        "id": 67,
         "event_type": "LOAD_END",
         "stop_id": "TA",
         "time": 3288.6,
@@ -670,8 +660,18 @@
         }
     },
     {
-        "id": 68,
+        "id": 67,
         "event_type": "ARRIVE",
+        "stop_id": "GQ",
+        "time": 3325.1,
+        "coordinates": {
+            "lat": 47.917855,
+            "lng": -122.310428
+        }
+    },
+    {
+        "id": 68,
+        "event_type": "SERVICE_START",
         "stop_id": "GQ",
         "time": 3325.1,
         "coordinates": {
@@ -681,9 +681,9 @@
     },
     {
         "id": 69,
-        "event_type": "SERVICE_START",
+        "event_type": "SERVICE_END",
         "stop_id": "GQ",
-        "time": 3325.1,
+        "time": 3376.1,
         "coordinates": {
             "lat": 47.917855,
             "lng": -122.310428
@@ -691,7 +691,7 @@
     },
     {
         "id": 70,
-        "event_type": "SERVICE_END",
+        "event_type": "DEPART",
         "stop_id": "GQ",
         "time": 3376.1,
         "coordinates": {
@@ -701,17 +701,17 @@
     },
     {
         "id": 71,
-        "event_type": "DEPART",
-        "stop_id": "GQ",
-        "time": 3376.1,
+        "event_type": "ARRIVE",
+        "stop_id": "QQ",
+        "time": 3457.0,
         "coordinates": {
-            "lat": 47.917855,
-            "lng": -122.310428
+            "lat": 47.91912,
+            "lng": -122.309189
         }
     },
     {
         "id": 72,
-        "event_type": "ARRIVE",
+        "event_type": "SERVICE_START",
         "stop_id": "QQ",
         "time": 3457.0,
         "coordinates": {
@@ -721,9 +721,9 @@
     },
     {
         "id": 73,
-        "event_type": "SERVICE_START",
+        "event_type": "SERVICE_END",
         "stop_id": "QQ",
-        "time": 3457.0,
+        "time": 3509.5,
         "coordinates": {
             "lat": 47.91912,
             "lng": -122.309189
@@ -731,7 +731,7 @@
     },
     {
         "id": 74,
-        "event_type": "SERVICE_END",
+        "event_type": "DEPART",
         "stop_id": "QQ",
         "time": 3509.5,
         "coordinates": {
@@ -741,17 +741,17 @@
     },
     {
         "id": 75,
-        "event_type": "DEPART",
-        "stop_id": "QQ",
-        "time": 3509.5,
+        "event_type": "ARRIVE",
+        "stop_id": "LG",
+        "time": 3595.0,
         "coordinates": {
-            "lat": 47.91912,
-            "lng": -122.309189
+            "lat": 47.92035,
+            "lng": -122.311913
         }
     },
     {
         "id": 76,
-        "event_type": "ARRIVE",
+        "event_type": "SERVICE_START",
         "stop_id": "LG",
         "time": 3595.0,
         "coordinates": {
@@ -761,9 +761,9 @@
     },
     {
         "id": 77,
-        "event_type": "SERVICE_START",
+        "event_type": "SERVICE_END",
         "stop_id": "LG",
-        "time": 3595.0,
+        "time": 3713.0,
         "coordinates": {
             "lat": 47.92035,
             "lng": -122.311913
@@ -771,7 +771,7 @@
     },
     {
         "id": 78,
-        "event_type": "SERVICE_END",
+        "event_type": "DEPART",
         "stop_id": "LG",
         "time": 3713.0,
         "coordinates": {
@@ -781,17 +781,17 @@
     },
     {
         "id": 79,
-        "event_type": "DEPART",
-        "stop_id": "LG",
-        "time": 3713.0,
+        "event_type": "ARRIVE",
+        "stop_id": "UW",
+        "time": 3720.5,
         "coordinates": {
-            "lat": 47.92035,
-            "lng": -122.311913
+            "lat": 47.920436,
+            "lng": -122.311537
         }
     },
     {
         "id": 80,
-        "event_type": "ARRIVE",
+        "event_type": "SERVICE_START",
         "stop_id": "UW",
         "time": 3720.5,
         "coordinates": {
@@ -801,9 +801,9 @@
     },
     {
         "id": 81,
-        "event_type": "SERVICE_START",
+        "event_type": "SERVICE_END",
         "stop_id": "UW",
-        "time": 3720.5,
+        "time": 3804.5,
         "coordinates": {
             "lat": 47.920436,
             "lng": -122.311537
@@ -811,7 +811,7 @@
     },
     {
         "id": 82,
-        "event_type": "SERVICE_END",
+        "event_type": "LOAD_START",
         "stop_id": "UW",
         "time": 3804.5,
         "coordinates": {
@@ -821,26 +821,6 @@
     },
     {
         "id": 83,
-        "event_type": "LOAD_START",
-        "stop_id": "UW",
-        "time": 3804.5,
-        "coordinates": {
-            "lat": 47.920436,
-            "lng": -122.311537
-        }
-    },
-    {
-        "id": 84,
-        "event_type": "LOAD_START",
-        "stop_id": "UW",
-        "time": 3804.5,
-        "coordinates": {
-            "lat": 47.920436,
-            "lng": -122.311537
-        }
-    },
-    {
-        "id": 85,
         "event_type": "LOAD_END",
         "stop_id": "UW",
         "time": 3819.5,
@@ -850,10 +830,30 @@
         }
     },
     {
-        "id": 86,
+        "id": 84,
         "event_type": "ARRIVE",
         "stop_id": "KT",
         "time": 3905.8,
+        "coordinates": {
+            "lat": 47.918566,
+            "lng": -122.311517
+        }
+    },
+    {
+        "id": 85,
+        "event_type": "SERVICE_START",
+        "stop_id": "KT",
+        "time": 3905.8,
+        "coordinates": {
+            "lat": 47.918566,
+            "lng": -122.311517
+        }
+    },
+    {
+        "id": 86,
+        "event_type": "SERVICE_END",
+        "stop_id": "KT",
+        "time": 3952.8,
         "coordinates": {
             "lat": 47.918566,
             "lng": -122.311517
@@ -861,9 +861,9 @@
     },
     {
         "id": 87,
-        "event_type": "SERVICE_START",
+        "event_type": "DEPART",
         "stop_id": "KT",
-        "time": 3905.8,
+        "time": 3952.8,
         "coordinates": {
             "lat": 47.918566,
             "lng": -122.311517
@@ -871,29 +871,29 @@
     },
     {
         "id": 88,
-        "event_type": "SERVICE_END",
-        "stop_id": "KT",
-        "time": 3952.8,
+        "event_type": "ARRIVE",
+        "stop_id": "GV",
+        "time": 3969.5,
         "coordinates": {
-            "lat": 47.918566,
-            "lng": -122.311517
+            "lat": 47.918571,
+            "lng": -122.312325
         }
     },
     {
         "id": 89,
-        "event_type": "DEPART",
-        "stop_id": "KT",
-        "time": 3952.8,
+        "event_type": "SERVICE_START",
+        "stop_id": "GV",
+        "time": 3969.5,
         "coordinates": {
-            "lat": 47.918566,
-            "lng": -122.311517
+            "lat": 47.918571,
+            "lng": -122.312325
         }
     },
     {
         "id": 90,
-        "event_type": "ARRIVE",
+        "event_type": "SERVICE_END",
         "stop_id": "GV",
-        "time": 3969.5,
+        "time": 4033.5,
         "coordinates": {
             "lat": 47.918571,
             "lng": -122.312325
@@ -901,9 +901,9 @@
     },
     {
         "id": 91,
-        "event_type": "SERVICE_START",
+        "event_type": "DEPART",
         "stop_id": "GV",
-        "time": 3969.5,
+        "time": 4033.5,
         "coordinates": {
             "lat": 47.918571,
             "lng": -122.312325
@@ -911,29 +911,29 @@
     },
     {
         "id": 92,
-        "event_type": "SERVICE_END",
-        "stop_id": "GV",
-        "time": 4033.5,
+        "event_type": "ARRIVE",
+        "stop_id": "LV",
+        "time": 4226.5,
         "coordinates": {
-            "lat": 47.918571,
-            "lng": -122.312325
+            "lat": 47.916204,
+            "lng": -122.315553
         }
     },
     {
         "id": 93,
-        "event_type": "DEPART",
-        "stop_id": "GV",
-        "time": 4033.5,
+        "event_type": "SERVICE_START",
+        "stop_id": "LV",
+        "time": 4226.5,
         "coordinates": {
-            "lat": 47.918571,
-            "lng": -122.312325
+            "lat": 47.916204,
+            "lng": -122.315553
         }
     },
     {
         "id": 94,
-        "event_type": "ARRIVE",
+        "event_type": "SERVICE_END",
         "stop_id": "LV",
-        "time": 4226.5,
+        "time": 4315.5,
         "coordinates": {
             "lat": 47.916204,
             "lng": -122.315553
@@ -941,9 +941,9 @@
     },
     {
         "id": 95,
-        "event_type": "SERVICE_START",
+        "event_type": "DEPART",
         "stop_id": "LV",
-        "time": 4226.5,
+        "time": 4315.5,
         "coordinates": {
             "lat": 47.916204,
             "lng": -122.315553
@@ -951,29 +951,29 @@
     },
     {
         "id": 96,
-        "event_type": "SERVICE_END",
-        "stop_id": "LV",
-        "time": 4315.5,
+        "event_type": "ARRIVE",
+        "stop_id": "NQ",
+        "time": 4553.8,
         "coordinates": {
-            "lat": 47.916204,
-            "lng": -122.315553
+            "lat": 47.911898,
+            "lng": -122.317807
         }
     },
     {
         "id": 97,
-        "event_type": "DEPART",
-        "stop_id": "LV",
-        "time": 4315.5,
+        "event_type": "SERVICE_START",
+        "stop_id": "NQ",
+        "time": 4553.8,
         "coordinates": {
-            "lat": 47.916204,
-            "lng": -122.315553
+            "lat": 47.911898,
+            "lng": -122.317807
         }
     },
     {
         "id": 98,
-        "event_type": "ARRIVE",
+        "event_type": "SERVICE_END",
         "stop_id": "NQ",
-        "time": 4553.8,
+        "time": 4650.8,
         "coordinates": {
             "lat": 47.911898,
             "lng": -122.317807
@@ -981,9 +981,9 @@
     },
     {
         "id": 99,
-        "event_type": "SERVICE_START",
+        "event_type": "DEPART",
         "stop_id": "NQ",
-        "time": 4553.8,
+        "time": 4650.8,
         "coordinates": {
             "lat": 47.911898,
             "lng": -122.317807
@@ -991,29 +991,29 @@
     },
     {
         "id": 100,
-        "event_type": "SERVICE_END",
-        "stop_id": "NQ",
-        "time": 4650.8,
+        "event_type": "ARRIVE",
+        "stop_id": "RY",
+        "time": 4691.1,
         "coordinates": {
-            "lat": 47.911898,
-            "lng": -122.317807
+            "lat": 47.913138,
+            "lng": -122.317834
         }
     },
     {
         "id": 101,
-        "event_type": "DEPART",
-        "stop_id": "NQ",
-        "time": 4650.8,
+        "event_type": "SERVICE_START",
+        "stop_id": "RY",
+        "time": 4691.1,
         "coordinates": {
-            "lat": 47.911898,
-            "lng": -122.317807
+            "lat": 47.913138,
+            "lng": -122.317834
         }
     },
     {
         "id": 102,
-        "event_type": "ARRIVE",
+        "event_type": "SERVICE_END",
         "stop_id": "RY",
-        "time": 4691.1,
+        "time": 4696.1,
         "coordinates": {
             "lat": 47.913138,
             "lng": -122.317834
@@ -1021,9 +1021,9 @@
     },
     {
         "id": 103,
-        "event_type": "SERVICE_START",
+        "event_type": "DEPART",
         "stop_id": "RY",
-        "time": 4691.1,
+        "time": 4696.1,
         "coordinates": {
             "lat": 47.913138,
             "lng": -122.317834
@@ -1031,29 +1031,29 @@
     },
     {
         "id": 104,
-        "event_type": "SERVICE_END",
-        "stop_id": "RY",
-        "time": 4696.1,
+        "event_type": "ARRIVE",
+        "stop_id": "QL",
+        "time": 4700.900000000001,
         "coordinates": {
-            "lat": 47.913138,
-            "lng": -122.317834
+            "lat": 47.913379,
+            "lng": -122.317621
         }
     },
     {
         "id": 105,
-        "event_type": "DEPART",
-        "stop_id": "RY",
-        "time": 4696.1,
+        "event_type": "SERVICE_START",
+        "stop_id": "QL",
+        "time": 4700.900000000001,
         "coordinates": {
-            "lat": 47.913138,
-            "lng": -122.317834
+            "lat": 47.913379,
+            "lng": -122.317621
         }
     },
     {
         "id": 106,
-        "event_type": "ARRIVE",
+        "event_type": "SERVICE_END",
         "stop_id": "QL",
-        "time": 4700.900000000001,
+        "time": 4758.900000000001,
         "coordinates": {
             "lat": 47.913379,
             "lng": -122.317621
@@ -1061,26 +1061,6 @@
     },
     {
         "id": 107,
-        "event_type": "SERVICE_START",
-        "stop_id": "QL",
-        "time": 4700.900000000001,
-        "coordinates": {
-            "lat": 47.913379,
-            "lng": -122.317621
-        }
-    },
-    {
-        "id": 108,
-        "event_type": "SERVICE_END",
-        "stop_id": "QL",
-        "time": 4758.900000000001,
-        "coordinates": {
-            "lat": 47.913379,
-            "lng": -122.317621
-        }
-    },
-    {
-        "id": 109,
         "event_type": "DEPART",
         "stop_id": "QL",
         "time": 4758.900000000001,
@@ -1090,7 +1070,7 @@
         }
     },
     {
-        "id": 110,
+        "id": 108,
         "event_type": "ARRIVE",
         "stop_id": "LH",
         "time": 4903.700000000001,
@@ -1100,7 +1080,7 @@
         }
     },
     {
-        "id": 111,
+        "id": 109,
         "event_type": "SERVICE_START",
         "stop_id": "LH",
         "time": 4903.700000000001,
@@ -1110,7 +1090,7 @@
         }
     },
     {
-        "id": 112,
+        "id": 110,
         "event_type": "SERVICE_END",
         "stop_id": "LH",
         "time": 5031.700000000001,
@@ -1120,7 +1100,7 @@
         }
     },
     {
-        "id": 113,
+        "id": 111,
         "event_type": "LOAD_START",
         "stop_id": "LH",
         "time": 5031.700000000001,
@@ -1130,17 +1110,7 @@
         }
     },
     {
-        "id": 114,
-        "event_type": "LOAD_START",
-        "stop_id": "LH",
-        "time": 5031.700000000001,
-        "coordinates": {
-            "lat": 47.913708,
-            "lng": -122.313387
-        }
-    },
-    {
-        "id": 115,
+        "id": 112,
         "event_type": "LOAD_END",
         "stop_id": "LH",
         "time": 5046.700000000001,
@@ -1150,10 +1120,40 @@
         }
     },
     {
-        "id": 116,
+        "id": 113,
         "event_type": "ARRIVE",
         "stop_id": "LI",
         "time": 5128.400000000001,
+        "coordinates": {
+            "lat": 47.911979,
+            "lng": -122.315118
+        }
+    },
+    {
+        "id": 114,
+        "event_type": "SERVICE_START",
+        "stop_id": "LI",
+        "time": 5128.400000000001,
+        "coordinates": {
+            "lat": 47.911979,
+            "lng": -122.315118
+        }
+    },
+    {
+        "id": 115,
+        "event_type": "SERVICE_END",
+        "stop_id": "LI",
+        "time": 5158.400000000001,
+        "coordinates": {
+            "lat": 47.911979,
+            "lng": -122.315118
+        }
+    },
+    {
+        "id": 116,
+        "event_type": "DEPART",
+        "stop_id": "LI",
+        "time": 5158.400000000001,
         "coordinates": {
             "lat": 47.911979,
             "lng": -122.315118
@@ -1161,39 +1161,39 @@
     },
     {
         "id": 117,
-        "event_type": "SERVICE_START",
-        "stop_id": "LI",
-        "time": 5128.400000000001,
+        "event_type": "ARRIVE",
+        "stop_id": "KQ",
+        "time": 5273.6,
         "coordinates": {
-            "lat": 47.911979,
-            "lng": -122.315118
+            "lat": 47.910261,
+            "lng": -122.31351
         }
     },
     {
         "id": 118,
-        "event_type": "SERVICE_END",
-        "stop_id": "LI",
-        "time": 5158.400000000001,
+        "event_type": "SERVICE_START",
+        "stop_id": "KQ",
+        "time": 5273.6,
         "coordinates": {
-            "lat": 47.911979,
-            "lng": -122.315118
+            "lat": 47.910261,
+            "lng": -122.31351
         }
     },
     {
         "id": 119,
-        "event_type": "DEPART",
-        "stop_id": "LI",
-        "time": 5158.400000000001,
+        "event_type": "SERVICE_END",
+        "stop_id": "KQ",
+        "time": 5347.6,
         "coordinates": {
-            "lat": 47.911979,
-            "lng": -122.315118
+            "lat": 47.910261,
+            "lng": -122.31351
         }
     },
     {
         "id": 120,
-        "event_type": "ARRIVE",
+        "event_type": "DEPART",
         "stop_id": "KQ",
-        "time": 5273.6,
+        "time": 5347.6,
         "coordinates": {
             "lat": 47.910261,
             "lng": -122.31351
@@ -1201,39 +1201,39 @@
     },
     {
         "id": 121,
-        "event_type": "SERVICE_START",
-        "stop_id": "KQ",
-        "time": 5273.6,
+        "event_type": "ARRIVE",
+        "stop_id": "PR",
+        "time": 5392.200000000001,
         "coordinates": {
-            "lat": 47.910261,
-            "lng": -122.31351
+            "lat": 47.90949,
+            "lng": -122.313128
         }
     },
     {
         "id": 122,
-        "event_type": "SERVICE_END",
-        "stop_id": "KQ",
-        "time": 5347.6,
+        "event_type": "SERVICE_START",
+        "stop_id": "PR",
+        "time": 5392.200000000001,
         "coordinates": {
-            "lat": 47.910261,
-            "lng": -122.31351
+            "lat": 47.90949,
+            "lng": -122.313128
         }
     },
     {
         "id": 123,
-        "event_type": "DEPART",
-        "stop_id": "KQ",
-        "time": 5347.6,
+        "event_type": "SERVICE_END",
+        "stop_id": "PR",
+        "time": 5449.200000000001,
         "coordinates": {
-            "lat": 47.910261,
-            "lng": -122.31351
+            "lat": 47.90949,
+            "lng": -122.313128
         }
     },
     {
         "id": 124,
-        "event_type": "ARRIVE",
+        "event_type": "DEPART",
         "stop_id": "PR",
-        "time": 5392.200000000001,
+        "time": 5449.200000000001,
         "coordinates": {
             "lat": 47.90949,
             "lng": -122.313128
@@ -1241,39 +1241,39 @@
     },
     {
         "id": 125,
-        "event_type": "SERVICE_START",
-        "stop_id": "PR",
-        "time": 5392.200000000001,
+        "event_type": "ARRIVE",
+        "stop_id": "PV",
+        "time": 5546.6,
         "coordinates": {
-            "lat": 47.90949,
-            "lng": -122.313128
+            "lat": 47.91204,
+            "lng": -122.31151
         }
     },
     {
         "id": 126,
-        "event_type": "SERVICE_END",
-        "stop_id": "PR",
-        "time": 5449.200000000001,
+        "event_type": "SERVICE_START",
+        "stop_id": "PV",
+        "time": 5546.6,
         "coordinates": {
-            "lat": 47.90949,
-            "lng": -122.313128
+            "lat": 47.91204,
+            "lng": -122.31151
         }
     },
     {
         "id": 127,
-        "event_type": "DEPART",
-        "stop_id": "PR",
-        "time": 5449.200000000001,
+        "event_type": "SERVICE_END",
+        "stop_id": "PV",
+        "time": 5617.3,
         "coordinates": {
-            "lat": 47.90949,
-            "lng": -122.313128
+            "lat": 47.91204,
+            "lng": -122.31151
         }
     },
     {
         "id": 128,
-        "event_type": "ARRIVE",
+        "event_type": "DEPART",
         "stop_id": "PV",
-        "time": 5546.6,
+        "time": 5617.3,
         "coordinates": {
             "lat": 47.91204,
             "lng": -122.31151
@@ -1281,39 +1281,39 @@
     },
     {
         "id": 129,
-        "event_type": "SERVICE_START",
-        "stop_id": "PV",
-        "time": 5546.6,
+        "event_type": "ARRIVE",
+        "stop_id": "YN",
+        "time": 5645.2,
         "coordinates": {
-            "lat": 47.91204,
-            "lng": -122.31151
+            "lat": 47.91182,
+            "lng": -122.310019
         }
     },
     {
         "id": 130,
-        "event_type": "SERVICE_END",
-        "stop_id": "PV",
-        "time": 5617.3,
+        "event_type": "SERVICE_START",
+        "stop_id": "YN",
+        "time": 5645.2,
         "coordinates": {
-            "lat": 47.91204,
-            "lng": -122.31151
+            "lat": 47.91182,
+            "lng": -122.310019
         }
     },
     {
         "id": 131,
-        "event_type": "DEPART",
-        "stop_id": "PV",
-        "time": 5617.3,
+        "event_type": "SERVICE_END",
+        "stop_id": "YN",
+        "time": 5741.2,
         "coordinates": {
-            "lat": 47.91204,
-            "lng": -122.31151
+            "lat": 47.91182,
+            "lng": -122.310019
         }
     },
     {
         "id": 132,
-        "event_type": "ARRIVE",
+        "event_type": "DEPART",
         "stop_id": "YN",
-        "time": 5645.2,
+        "time": 5741.2,
         "coordinates": {
             "lat": 47.91182,
             "lng": -122.310019
@@ -1321,39 +1321,39 @@
     },
     {
         "id": 133,
-        "event_type": "SERVICE_START",
-        "stop_id": "YN",
-        "time": 5645.2,
+        "event_type": "ARRIVE",
+        "stop_id": "HJ",
+        "time": 5781.4,
         "coordinates": {
-            "lat": 47.91182,
-            "lng": -122.310019
+            "lat": 47.913504,
+            "lng": -122.310068
         }
     },
     {
         "id": 134,
-        "event_type": "SERVICE_END",
-        "stop_id": "YN",
-        "time": 5741.2,
+        "event_type": "SERVICE_START",
+        "stop_id": "HJ",
+        "time": 5781.4,
         "coordinates": {
-            "lat": 47.91182,
-            "lng": -122.310019
+            "lat": 47.913504,
+            "lng": -122.310068
         }
     },
     {
         "id": 135,
-        "event_type": "DEPART",
-        "stop_id": "YN",
-        "time": 5741.2,
+        "event_type": "SERVICE_END",
+        "stop_id": "HJ",
+        "time": 5823.4,
         "coordinates": {
-            "lat": 47.91182,
-            "lng": -122.310019
+            "lat": 47.913504,
+            "lng": -122.310068
         }
     },
     {
         "id": 136,
-        "event_type": "ARRIVE",
+        "event_type": "DEPART",
         "stop_id": "HJ",
-        "time": 5781.4,
+        "time": 5823.4,
         "coordinates": {
             "lat": 47.913504,
             "lng": -122.310068
@@ -1361,39 +1361,39 @@
     },
     {
         "id": 137,
-        "event_type": "SERVICE_START",
-        "stop_id": "HJ",
-        "time": 5781.4,
+        "event_type": "ARRIVE",
+        "stop_id": "IV",
+        "time": 5873.599999999999,
         "coordinates": {
-            "lat": 47.913504,
-            "lng": -122.310068
+            "lat": 47.914079,
+            "lng": -122.31153
         }
     },
     {
         "id": 138,
-        "event_type": "SERVICE_END",
-        "stop_id": "HJ",
-        "time": 5823.4,
+        "event_type": "SERVICE_START",
+        "stop_id": "IV",
+        "time": 5873.599999999999,
         "coordinates": {
-            "lat": 47.913504,
-            "lng": -122.310068
+            "lat": 47.914079,
+            "lng": -122.31153
         }
     },
     {
         "id": 139,
-        "event_type": "DEPART",
-        "stop_id": "HJ",
-        "time": 5823.4,
+        "event_type": "SERVICE_END",
+        "stop_id": "IV",
+        "time": 5924.599999999999,
         "coordinates": {
-            "lat": 47.913504,
-            "lng": -122.310068
+            "lat": 47.914079,
+            "lng": -122.31153
         }
     },
     {
         "id": 140,
-        "event_type": "ARRIVE",
+        "event_type": "DEPART",
         "stop_id": "IV",
-        "time": 5873.599999999999,
+        "time": 5924.599999999999,
         "coordinates": {
             "lat": 47.914079,
             "lng": -122.31153
@@ -1401,39 +1401,39 @@
     },
     {
         "id": 141,
-        "event_type": "SERVICE_START",
-        "stop_id": "IV",
-        "time": 5873.599999999999,
+        "event_type": "ARRIVE",
+        "stop_id": "JF",
+        "time": 6013.299999999999,
         "coordinates": {
-            "lat": 47.914079,
-            "lng": -122.31153
+            "lat": 47.91277,
+            "lng": -122.308859
         }
     },
     {
         "id": 142,
-        "event_type": "SERVICE_END",
-        "stop_id": "IV",
-        "time": 5924.599999999999,
+        "event_type": "SERVICE_START",
+        "stop_id": "JF",
+        "time": 6013.299999999999,
         "coordinates": {
-            "lat": 47.914079,
-            "lng": -122.31153
+            "lat": 47.91277,
+            "lng": -122.308859
         }
     },
     {
         "id": 143,
-        "event_type": "DEPART",
-        "stop_id": "IV",
-        "time": 5924.599999999999,
+        "event_type": "SERVICE_END",
+        "stop_id": "JF",
+        "time": 6051.799999999999,
         "coordinates": {
-            "lat": 47.914079,
-            "lng": -122.31153
+            "lat": 47.91277,
+            "lng": -122.308859
         }
     },
     {
         "id": 144,
-        "event_type": "ARRIVE",
+        "event_type": "DEPART",
         "stop_id": "JF",
-        "time": 6013.299999999999,
+        "time": 6051.799999999999,
         "coordinates": {
             "lat": 47.91277,
             "lng": -122.308859
@@ -1441,36 +1441,6 @@
     },
     {
         "id": 145,
-        "event_type": "SERVICE_START",
-        "stop_id": "JF",
-        "time": 6013.299999999999,
-        "coordinates": {
-            "lat": 47.91277,
-            "lng": -122.308859
-        }
-    },
-    {
-        "id": 146,
-        "event_type": "SERVICE_END",
-        "stop_id": "JF",
-        "time": 6051.799999999999,
-        "coordinates": {
-            "lat": 47.91277,
-            "lng": -122.308859
-        }
-    },
-    {
-        "id": 147,
-        "event_type": "DEPART",
-        "stop_id": "JF",
-        "time": 6051.799999999999,
-        "coordinates": {
-            "lat": 47.91277,
-            "lng": -122.308859
-        }
-    },
-    {
-        "id": 148,
         "event_type": "ARRIVE",
         "stop_id": "IO",
         "time": 6099.9,
@@ -1480,7 +1450,7 @@
         }
     },
     {
-        "id": 149,
+        "id": 146,
         "event_type": "SERVICE_START",
         "stop_id": "IO",
         "time": 6099.9,
@@ -1490,7 +1460,7 @@
         }
     },
     {
-        "id": 150,
+        "id": 147,
         "event_type": "SERVICE_END",
         "stop_id": "IO",
         "time": 6276.9,
@@ -1500,7 +1470,7 @@
         }
     },
     {
-        "id": 151,
+        "id": 148,
         "event_type": "LOAD_START",
         "stop_id": "IO",
         "time": 6276.9,
@@ -1510,17 +1480,7 @@
         }
     },
     {
-        "id": 152,
-        "event_type": "LOAD_START",
-        "stop_id": "IO",
-        "time": 6276.9,
-        "coordinates": {
-            "lat": 47.912865,
-            "lng": -122.305783
-        }
-    },
-    {
-        "id": 153,
+        "id": 149,
         "event_type": "LOAD_END",
         "stop_id": "IO",
         "time": 6291.9,
@@ -1530,297 +1490,287 @@
         }
     },
     {
-        "id": 154,
+        "id": 150,
         "event_type": "ARRIVE",
         "stop_id": "GD",
         "time": 6430.099999999999,
         "coordinates": {
             "lat": 47.916475,
             "lng": -122.308958
+        }
+    },
+    {
+        "id": 151,
+        "event_type": "SERVICE_START",
+        "stop_id": "GD",
+        "time": 6430.099999999999,
+        "coordinates": {
+            "lat": 47.916475,
+            "lng": -122.308958
+        }
+    },
+    {
+        "id": 152,
+        "event_type": "SERVICE_END",
+        "stop_id": "GD",
+        "time": 6473.099999999999,
+        "coordinates": {
+            "lat": 47.916475,
+            "lng": -122.308958
+        }
+    },
+    {
+        "id": 153,
+        "event_type": "DEPART",
+        "stop_id": "GD",
+        "time": 6473.099999999999,
+        "coordinates": {
+            "lat": 47.916475,
+            "lng": -122.308958
+        }
+    },
+    {
+        "id": 154,
+        "event_type": "ARRIVE",
+        "stop_id": "AK",
+        "time": 6485.999999999999,
+        "coordinates": {
+            "lat": 47.915882,
+            "lng": -122.309097
         }
     },
     {
         "id": 155,
         "event_type": "SERVICE_START",
-        "stop_id": "GD",
-        "time": 6430.099999999999,
+        "stop_id": "AK",
+        "time": 6485.999999999999,
         "coordinates": {
-            "lat": 47.916475,
-            "lng": -122.308958
+            "lat": 47.915882,
+            "lng": -122.309097
         }
     },
     {
         "id": 156,
         "event_type": "SERVICE_END",
-        "stop_id": "GD",
-        "time": 6473.099999999999,
+        "stop_id": "AK",
+        "time": 6520.999999999999,
         "coordinates": {
-            "lat": 47.916475,
-            "lng": -122.308958
+            "lat": 47.915882,
+            "lng": -122.309097
         }
     },
     {
         "id": 157,
         "event_type": "DEPART",
-        "stop_id": "GD",
-        "time": 6473.099999999999,
+        "stop_id": "AK",
+        "time": 6520.999999999999,
         "coordinates": {
-            "lat": 47.916475,
-            "lng": -122.308958
+            "lat": 47.915882,
+            "lng": -122.309097
         }
     },
     {
         "id": 158,
         "event_type": "ARRIVE",
-        "stop_id": "AK",
-        "time": 6485.999999999999,
+        "stop_id": "HM",
+        "time": 6610.499999999999,
         "coordinates": {
-            "lat": 47.915882,
-            "lng": -122.309097
+            "lat": 47.915502,
+            "lng": -122.3123
         }
     },
     {
         "id": 159,
         "event_type": "SERVICE_START",
-        "stop_id": "AK",
-        "time": 6485.999999999999,
+        "stop_id": "HM",
+        "time": 6610.499999999999,
         "coordinates": {
-            "lat": 47.915882,
-            "lng": -122.309097
+            "lat": 47.915502,
+            "lng": -122.3123
         }
     },
     {
         "id": 160,
         "event_type": "SERVICE_END",
-        "stop_id": "AK",
-        "time": 6520.999999999999,
+        "stop_id": "HM",
+        "time": 6630.499999999999,
         "coordinates": {
-            "lat": 47.915882,
-            "lng": -122.309097
+            "lat": 47.915502,
+            "lng": -122.3123
         }
     },
     {
         "id": 161,
         "event_type": "DEPART",
-        "stop_id": "AK",
-        "time": 6520.999999999999,
+        "stop_id": "HM",
+        "time": 6630.499999999999,
         "coordinates": {
-            "lat": 47.915882,
-            "lng": -122.309097
+            "lat": 47.915502,
+            "lng": -122.3123
         }
     },
     {
         "id": 162,
         "event_type": "ARRIVE",
-        "stop_id": "HM",
-        "time": 6610.499999999999,
+        "stop_id": "CI",
+        "time": 6636.399999999999,
         "coordinates": {
-            "lat": 47.915502,
-            "lng": -122.3123
+            "lat": 47.91549,
+            "lng": -122.312543
         }
     },
     {
         "id": 163,
         "event_type": "SERVICE_START",
-        "stop_id": "HM",
-        "time": 6610.499999999999,
+        "stop_id": "CI",
+        "time": 6636.399999999999,
         "coordinates": {
-            "lat": 47.915502,
-            "lng": -122.3123
+            "lat": 47.91549,
+            "lng": -122.312543
         }
     },
     {
         "id": 164,
         "event_type": "SERVICE_END",
-        "stop_id": "HM",
-        "time": 6630.499999999999,
+        "stop_id": "CI",
+        "time": 6666.399999999999,
         "coordinates": {
-            "lat": 47.915502,
-            "lng": -122.3123
+            "lat": 47.91549,
+            "lng": -122.312543
         }
     },
     {
         "id": 165,
         "event_type": "DEPART",
-        "stop_id": "HM",
-        "time": 6630.499999999999,
+        "stop_id": "CI",
+        "time": 6666.399999999999,
         "coordinates": {
-            "lat": 47.915502,
-            "lng": -122.3123
+            "lat": 47.91549,
+            "lng": -122.312543
         }
     },
     {
         "id": 166,
         "event_type": "ARRIVE",
-        "stop_id": "CI",
-        "time": 6636.399999999999,
+        "stop_id": "PQ",
+        "time": 6758.999999999999,
         "coordinates": {
-            "lat": 47.91549,
-            "lng": -122.312543
+            "lat": 47.914573,
+            "lng": -122.309946
         }
     },
     {
         "id": 167,
         "event_type": "SERVICE_START",
-        "stop_id": "CI",
-        "time": 6636.399999999999,
+        "stop_id": "PQ",
+        "time": 6758.999999999999,
         "coordinates": {
-            "lat": 47.91549,
-            "lng": -122.312543
+            "lat": 47.914573,
+            "lng": -122.309946
         }
     },
     {
         "id": 168,
         "event_type": "SERVICE_END",
-        "stop_id": "CI",
-        "time": 6666.399999999999,
+        "stop_id": "PQ",
+        "time": 6801.999999999999,
         "coordinates": {
-            "lat": 47.91549,
-            "lng": -122.312543
+            "lat": 47.914573,
+            "lng": -122.309946
         }
     },
     {
         "id": 169,
         "event_type": "DEPART",
-        "stop_id": "CI",
-        "time": 6666.399999999999,
+        "stop_id": "PQ",
+        "time": 6801.999999999999,
         "coordinates": {
-            "lat": 47.91549,
-            "lng": -122.312543
+            "lat": 47.914573,
+            "lng": -122.309946
         }
     },
     {
         "id": 170,
         "event_type": "ARRIVE",
-        "stop_id": "PQ",
-        "time": 6758.999999999999,
+        "stop_id": "CZ",
+        "time": 6861.799999999999,
         "coordinates": {
-            "lat": 47.914573,
-            "lng": -122.309946
+            "lat": 47.915078,
+            "lng": -122.307003
         }
     },
     {
         "id": 171,
         "event_type": "SERVICE_START",
-        "stop_id": "PQ",
-        "time": 6758.999999999999,
+        "stop_id": "CZ",
+        "time": 6861.799999999999,
         "coordinates": {
-            "lat": 47.914573,
-            "lng": -122.309946
+            "lat": 47.915078,
+            "lng": -122.307003
         }
     },
     {
         "id": 172,
         "event_type": "SERVICE_END",
-        "stop_id": "PQ",
-        "time": 6801.999999999999,
+        "stop_id": "CZ",
+        "time": 6949.799999999999,
         "coordinates": {
-            "lat": 47.914573,
-            "lng": -122.309946
+            "lat": 47.915078,
+            "lng": -122.307003
         }
     },
     {
         "id": 173,
         "event_type": "DEPART",
-        "stop_id": "PQ",
-        "time": 6801.999999999999,
+        "stop_id": "CZ",
+        "time": 6949.799999999999,
         "coordinates": {
-            "lat": 47.914573,
-            "lng": -122.309946
+            "lat": 47.915078,
+            "lng": -122.307003
         }
     },
     {
         "id": 174,
         "event_type": "ARRIVE",
-        "stop_id": "CZ",
-        "time": 6861.799999999999,
+        "stop_id": "IK",
+        "time": 6966.799999999999,
         "coordinates": {
-            "lat": 47.915078,
-            "lng": -122.307003
+            "lat": 47.915246,
+            "lng": -122.307823
         }
     },
     {
         "id": 175,
         "event_type": "SERVICE_START",
-        "stop_id": "CZ",
-        "time": 6861.799999999999,
+        "stop_id": "IK",
+        "time": 6966.799999999999,
         "coordinates": {
-            "lat": 47.915078,
-            "lng": -122.307003
+            "lat": 47.915246,
+            "lng": -122.307823
         }
     },
     {
         "id": 176,
         "event_type": "SERVICE_END",
-        "stop_id": "CZ",
-        "time": 6949.799999999999,
+        "stop_id": "IK",
+        "time": 7042.799999999999,
         "coordinates": {
-            "lat": 47.915078,
-            "lng": -122.307003
+            "lat": 47.915246,
+            "lng": -122.307823
         }
     },
     {
         "id": 177,
-        "event_type": "DEPART",
-        "stop_id": "CZ",
-        "time": 6949.799999999999,
+        "event_type": "LOAD_START",
+        "stop_id": "IK",
+        "time": 7042.799999999999,
         "coordinates": {
-            "lat": 47.915078,
-            "lng": -122.307003
+            "lat": 47.915246,
+            "lng": -122.307823
         }
     },
     {
         "id": 178,
-        "event_type": "ARRIVE",
-        "stop_id": "IK",
-        "time": 6966.799999999999,
-        "coordinates": {
-            "lat": 47.915246,
-            "lng": -122.307823
-        }
-    },
-    {
-        "id": 179,
-        "event_type": "SERVICE_START",
-        "stop_id": "IK",
-        "time": 6966.799999999999,
-        "coordinates": {
-            "lat": 47.915246,
-            "lng": -122.307823
-        }
-    },
-    {
-        "id": 180,
-        "event_type": "SERVICE_END",
-        "stop_id": "IK",
-        "time": 7042.799999999999,
-        "coordinates": {
-            "lat": 47.915246,
-            "lng": -122.307823
-        }
-    },
-    {
-        "id": 181,
-        "event_type": "LOAD_START",
-        "stop_id": "IK",
-        "time": 7042.799999999999,
-        "coordinates": {
-            "lat": 47.915246,
-            "lng": -122.307823
-        }
-    },
-    {
-        "id": 182,
-        "event_type": "LOAD_START",
-        "stop_id": "IK",
-        "time": 7042.799999999999,
-        "coordinates": {
-            "lat": 47.915246,
-            "lng": -122.307823
-        }
-    },
-    {
-        "id": 183,
         "event_type": "LOAD_END",
         "stop_id": "IK",
         "time": 7057.799999999999,
@@ -1830,7 +1780,7 @@
         }
     },
     {
-        "id": 184,
+        "id": 179,
         "event_type": "ARRIVE",
         "stop_id": "DU",
         "time": 7222.799999999999,
@@ -1840,7 +1790,7 @@
         }
     },
     {
-        "id": 185,
+        "id": 180,
         "event_type": "SERVICE_START",
         "stop_id": "DU",
         "time": 7222.799999999999,
@@ -1850,7 +1800,7 @@
         }
     },
     {
-        "id": 186,
+        "id": 181,
         "event_type": "SERVICE_END",
         "stop_id": "DU",
         "time": 7386.799999999999,
@@ -1860,7 +1810,7 @@
         }
     },
     {
-        "id": 187,
+        "id": 182,
         "event_type": "DEPART",
         "stop_id": "DU",
         "time": 7386.799999999999,
@@ -1870,7 +1820,7 @@
         }
     },
     {
-        "id": 188,
+        "id": 183,
         "event_type": "ARRIVE",
         "stop_id": "GL",
         "time": 7448.299999999999,
@@ -1880,7 +1830,7 @@
         }
     },
     {
-        "id": 189,
+        "id": 184,
         "event_type": "SERVICE_START",
         "stop_id": "GL",
         "time": 7448.299999999999,
@@ -1890,7 +1840,7 @@
         }
     },
     {
-        "id": 190,
+        "id": 185,
         "event_type": "SERVICE_END",
         "stop_id": "GL",
         "time": 7493.299999999999,
@@ -1900,7 +1850,7 @@
         }
     },
     {
-        "id": 191,
+        "id": 186,
         "event_type": "LOAD_START",
         "stop_id": "GL",
         "time": 7493.299999999999,
@@ -1910,17 +1860,7 @@
         }
     },
     {
-        "id": 192,
-        "event_type": "LOAD_START",
-        "stop_id": "GL",
-        "time": 7493.299999999999,
-        "coordinates": {
-            "lat": 47.919477,
-            "lng": -122.305127
-        }
-    },
-    {
-        "id": 193,
+        "id": 187,
         "event_type": "LOAD_END",
         "stop_id": "GL",
         "time": 7508.299999999999,
@@ -1930,7 +1870,7 @@
         }
     },
     {
-        "id": 194,
+        "id": 188,
         "event_type": "ARRIVE",
         "stop_id": "HV",
         "time": 7560.4,
@@ -1940,7 +1880,7 @@
         }
     },
     {
-        "id": 195,
+        "id": 189,
         "event_type": "SERVICE_START",
         "stop_id": "HV",
         "time": 7560.4,
@@ -1950,7 +1890,7 @@
         }
     },
     {
-        "id": 196,
+        "id": 190,
         "event_type": "SERVICE_END",
         "stop_id": "HV",
         "time": 7590.4,
@@ -1960,7 +1900,7 @@
         }
     },
     {
-        "id": 197,
+        "id": 191,
         "event_type": "LOAD_START",
         "stop_id": "HV",
         "time": 7590.4,
@@ -1970,17 +1910,7 @@
         }
     },
     {
-        "id": 198,
-        "event_type": "LOAD_START",
-        "stop_id": "HV",
-        "time": 7590.4,
-        "coordinates": {
-            "lat": 47.919042,
-            "lng": -122.304025
-        }
-    },
-    {
-        "id": 199,
+        "id": 192,
         "event_type": "LOAD_END",
         "stop_id": "HV",
         "time": 7605.4,
@@ -1990,7 +1920,7 @@
         }
     },
     {
-        "id": 200,
+        "id": 193,
         "event_type": "ARRIVE",
         "stop_id": "RH",
         "time": 7745.0,
@@ -2000,7 +1930,7 @@
         }
     },
     {
-        "id": 201,
+        "id": 194,
         "event_type": "SERVICE_START",
         "stop_id": "RH",
         "time": 7745.0,
@@ -2010,7 +1940,7 @@
         }
     },
     {
-        "id": 202,
+        "id": 195,
         "event_type": "SERVICE_END",
         "stop_id": "RH",
         "time": 7787.3,
@@ -2020,7 +1950,7 @@
         }
     },
     {
-        "id": 203,
+        "id": 196,
         "event_type": "DEPART",
         "stop_id": "RH",
         "time": 7787.3,
@@ -2030,7 +1960,7 @@
         }
     },
     {
-        "id": 204,
+        "id": 197,
         "event_type": "ARRIVE",
         "stop_id": "TM",
         "time": 7841.3,
@@ -2040,7 +1970,7 @@
         }
     },
     {
-        "id": 205,
+        "id": 198,
         "event_type": "SERVICE_START",
         "stop_id": "TM",
         "time": 7841.3,
@@ -2050,7 +1980,7 @@
         }
     },
     {
-        "id": 206,
+        "id": 199,
         "event_type": "SERVICE_END",
         "stop_id": "TM",
         "time": 7978.3,
@@ -2060,7 +1990,7 @@
         }
     },
     {
-        "id": 207,
+        "id": 200,
         "event_type": "LOAD_START",
         "stop_id": "TM",
         "time": 7978.3,
@@ -2070,17 +2000,7 @@
         }
     },
     {
-        "id": 208,
-        "event_type": "LOAD_START",
-        "stop_id": "TM",
-        "time": 7978.3,
-        "coordinates": {
-            "lat": 47.915951,
-            "lng": -122.29668
-        }
-    },
-    {
-        "id": 209,
+        "id": 201,
         "event_type": "LOAD_END",
         "stop_id": "TM",
         "time": 7993.3,
@@ -2090,7 +2010,7 @@
         }
     },
     {
-        "id": 210,
+        "id": 202,
         "event_type": "ARRIVE",
         "stop_id": "KI",
         "time": 8099.1,
@@ -2100,7 +2020,7 @@
         }
     },
     {
-        "id": 211,
+        "id": 203,
         "event_type": "SERVICE_START",
         "stop_id": "KI",
         "time": 8099.1,
@@ -2110,7 +2030,7 @@
         }
     },
     {
-        "id": 212,
+        "id": 204,
         "event_type": "SERVICE_END",
         "stop_id": "KI",
         "time": 8158.1,
@@ -2120,7 +2040,7 @@
         }
     },
     {
-        "id": 213,
+        "id": 205,
         "event_type": "LOAD_START",
         "stop_id": "KI",
         "time": 8158.1,
@@ -2130,17 +2050,7 @@
         }
     },
     {
-        "id": 214,
-        "event_type": "LOAD_START",
-        "stop_id": "KI",
-        "time": 8158.1,
-        "coordinates": {
-            "lat": 47.918344,
-            "lng": -122.298032
-        }
-    },
-    {
-        "id": 215,
+        "id": 206,
         "event_type": "LOAD_END",
         "stop_id": "KI",
         "time": 8173.1,
@@ -2150,177 +2060,167 @@
         }
     },
     {
-        "id": 216,
+        "id": 207,
         "event_type": "ARRIVE",
         "stop_id": "SO",
         "time": 8234.6,
         "coordinates": {
             "lat": 47.919579,
             "lng": -122.2967
+        }
+    },
+    {
+        "id": 208,
+        "event_type": "SERVICE_START",
+        "stop_id": "SO",
+        "time": 8234.6,
+        "coordinates": {
+            "lat": 47.919579,
+            "lng": -122.2967
+        }
+    },
+    {
+        "id": 209,
+        "event_type": "SERVICE_END",
+        "stop_id": "SO",
+        "time": 8280.6,
+        "coordinates": {
+            "lat": 47.919579,
+            "lng": -122.2967
+        }
+    },
+    {
+        "id": 210,
+        "event_type": "DEPART",
+        "stop_id": "SO",
+        "time": 8280.6,
+        "coordinates": {
+            "lat": 47.919579,
+            "lng": -122.2967
+        }
+    },
+    {
+        "id": 211,
+        "event_type": "ARRIVE",
+        "stop_id": "IY",
+        "time": 8290.5,
+        "coordinates": {
+            "lat": 47.919085,
+            "lng": -122.296899
+        }
+    },
+    {
+        "id": 212,
+        "event_type": "SERVICE_START",
+        "stop_id": "IY",
+        "time": 8290.5,
+        "coordinates": {
+            "lat": 47.919085,
+            "lng": -122.296899
+        }
+    },
+    {
+        "id": 213,
+        "event_type": "SERVICE_END",
+        "stop_id": "IY",
+        "time": 8427.5,
+        "coordinates": {
+            "lat": 47.919085,
+            "lng": -122.296899
+        }
+    },
+    {
+        "id": 214,
+        "event_type": "DEPART",
+        "stop_id": "IY",
+        "time": 8427.5,
+        "coordinates": {
+            "lat": 47.919085,
+            "lng": -122.296899
+        }
+    },
+    {
+        "id": 215,
+        "event_type": "ARRIVE",
+        "stop_id": "NR",
+        "time": 8458.2,
+        "coordinates": {
+            "lat": 47.917728,
+            "lng": -122.296781
+        }
+    },
+    {
+        "id": 216,
+        "event_type": "SERVICE_START",
+        "stop_id": "NR",
+        "time": 8458.2,
+        "coordinates": {
+            "lat": 47.917728,
+            "lng": -122.296781
         }
     },
     {
         "id": 217,
-        "event_type": "SERVICE_START",
-        "stop_id": "SO",
-        "time": 8234.6,
+        "event_type": "SERVICE_END",
+        "stop_id": "NR",
+        "time": 8503.2,
         "coordinates": {
-            "lat": 47.919579,
-            "lng": -122.2967
+            "lat": 47.917728,
+            "lng": -122.296781
         }
     },
     {
         "id": 218,
-        "event_type": "SERVICE_END",
-        "stop_id": "SO",
-        "time": 8280.6,
+        "event_type": "DEPART",
+        "stop_id": "NR",
+        "time": 8503.2,
         "coordinates": {
-            "lat": 47.919579,
-            "lng": -122.2967
+            "lat": 47.917728,
+            "lng": -122.296781
         }
     },
     {
         "id": 219,
-        "event_type": "DEPART",
-        "stop_id": "SO",
-        "time": 8280.6,
+        "event_type": "ARRIVE",
+        "stop_id": "ZM",
+        "time": 8562.900000000001,
         "coordinates": {
-            "lat": 47.919579,
-            "lng": -122.2967
+            "lat": 47.917977,
+            "lng": -122.295583
         }
     },
     {
         "id": 220,
-        "event_type": "ARRIVE",
-        "stop_id": "IY",
-        "time": 8290.5,
+        "event_type": "SERVICE_START",
+        "stop_id": "ZM",
+        "time": 8562.900000000001,
         "coordinates": {
-            "lat": 47.919085,
-            "lng": -122.296899
+            "lat": 47.917977,
+            "lng": -122.295583
         }
     },
     {
         "id": 221,
-        "event_type": "SERVICE_START",
-        "stop_id": "IY",
-        "time": 8290.5,
+        "event_type": "SERVICE_END",
+        "stop_id": "ZM",
+        "time": 8650.900000000001,
         "coordinates": {
-            "lat": 47.919085,
-            "lng": -122.296899
+            "lat": 47.917977,
+            "lng": -122.295583
         }
     },
     {
         "id": 222,
-        "event_type": "SERVICE_END",
-        "stop_id": "IY",
-        "time": 8427.5,
+        "event_type": "LOAD_START",
+        "stop_id": "ZM",
+        "time": 8650.900000000001,
         "coordinates": {
-            "lat": 47.919085,
-            "lng": -122.296899
+            "lat": 47.917977,
+            "lng": -122.295583
         }
     },
     {
         "id": 223,
-        "event_type": "DEPART",
-        "stop_id": "IY",
-        "time": 8427.5,
-        "coordinates": {
-            "lat": 47.919085,
-            "lng": -122.296899
-        }
-    },
-    {
-        "id": 224,
-        "event_type": "ARRIVE",
-        "stop_id": "NR",
-        "time": 8458.2,
-        "coordinates": {
-            "lat": 47.917728,
-            "lng": -122.296781
-        }
-    },
-    {
-        "id": 225,
-        "event_type": "SERVICE_START",
-        "stop_id": "NR",
-        "time": 8458.2,
-        "coordinates": {
-            "lat": 47.917728,
-            "lng": -122.296781
-        }
-    },
-    {
-        "id": 226,
-        "event_type": "SERVICE_END",
-        "stop_id": "NR",
-        "time": 8503.2,
-        "coordinates": {
-            "lat": 47.917728,
-            "lng": -122.296781
-        }
-    },
-    {
-        "id": 227,
-        "event_type": "DEPART",
-        "stop_id": "NR",
-        "time": 8503.2,
-        "coordinates": {
-            "lat": 47.917728,
-            "lng": -122.296781
-        }
-    },
-    {
-        "id": 228,
-        "event_type": "ARRIVE",
-        "stop_id": "ZM",
-        "time": 8562.900000000001,
-        "coordinates": {
-            "lat": 47.917977,
-            "lng": -122.295583
-        }
-    },
-    {
-        "id": 229,
-        "event_type": "SERVICE_START",
-        "stop_id": "ZM",
-        "time": 8562.900000000001,
-        "coordinates": {
-            "lat": 47.917977,
-            "lng": -122.295583
-        }
-    },
-    {
-        "id": 230,
-        "event_type": "SERVICE_END",
-        "stop_id": "ZM",
-        "time": 8650.900000000001,
-        "coordinates": {
-            "lat": 47.917977,
-            "lng": -122.295583
-        }
-    },
-    {
-        "id": 231,
-        "event_type": "LOAD_START",
-        "stop_id": "ZM",
-        "time": 8650.900000000001,
-        "coordinates": {
-            "lat": 47.917977,
-            "lng": -122.295583
-        }
-    },
-    {
-        "id": 232,
-        "event_type": "LOAD_START",
-        "stop_id": "ZM",
-        "time": 8650.900000000001,
-        "coordinates": {
-            "lat": 47.917977,
-            "lng": -122.295583
-        }
-    },
-    {
-        "id": 233,
         "event_type": "LOAD_END",
         "stop_id": "ZM",
         "time": 8665.900000000001,
@@ -2330,7 +2230,7 @@
         }
     },
     {
-        "id": 234,
+        "id": 224,
         "event_type": "ARRIVE",
         "stop_id": "HD",
         "time": 8901.300000000001,
@@ -2340,7 +2240,7 @@
         }
     },
     {
-        "id": 235,
+        "id": 225,
         "event_type": "SERVICE_START",
         "stop_id": "HD",
         "time": 8901.300000000001,
@@ -2350,7 +2250,7 @@
         }
     },
     {
-        "id": 236,
+        "id": 226,
         "event_type": "SERVICE_END",
         "stop_id": "HD",
         "time": 8930.000000000002,
@@ -2360,7 +2260,7 @@
         }
     },
     {
-        "id": 237,
+        "id": 227,
         "event_type": "LOAD_START",
         "stop_id": "HD",
         "time": 8930.000000000002,
@@ -2370,17 +2270,7 @@
         }
     },
     {
-        "id": 238,
-        "event_type": "LOAD_START",
-        "stop_id": "HD",
-        "time": 8930.000000000002,
-        "coordinates": {
-            "lat": 47.911444,
-            "lng": -122.299652
-        }
-    },
-    {
-        "id": 239,
+        "id": 228,
         "event_type": "LOAD_END",
         "stop_id": "HD",
         "time": 8945.000000000002,
@@ -2390,377 +2280,367 @@
         }
     },
     {
-        "id": 240,
+        "id": 229,
         "event_type": "ARRIVE",
         "stop_id": "SJ",
         "time": 9053.900000000001,
         "coordinates": {
             "lat": 47.912568,
             "lng": -122.299488
+        }
+    },
+    {
+        "id": 230,
+        "event_type": "SERVICE_START",
+        "stop_id": "SJ",
+        "time": 9053.900000000001,
+        "coordinates": {
+            "lat": 47.912568,
+            "lng": -122.299488
+        }
+    },
+    {
+        "id": 231,
+        "event_type": "SERVICE_END",
+        "stop_id": "SJ",
+        "time": 9113.900000000001,
+        "coordinates": {
+            "lat": 47.912568,
+            "lng": -122.299488
+        }
+    },
+    {
+        "id": 232,
+        "event_type": "DEPART",
+        "stop_id": "SJ",
+        "time": 9113.900000000001,
+        "coordinates": {
+            "lat": 47.912568,
+            "lng": -122.299488
+        }
+    },
+    {
+        "id": 233,
+        "event_type": "ARRIVE",
+        "stop_id": "DS",
+        "time": 9206.7,
+        "coordinates": {
+            "lat": 47.912376,
+            "lng": -122.298355
+        }
+    },
+    {
+        "id": 234,
+        "event_type": "SERVICE_START",
+        "stop_id": "DS",
+        "time": 9206.7,
+        "coordinates": {
+            "lat": 47.912376,
+            "lng": -122.298355
+        }
+    },
+    {
+        "id": 235,
+        "event_type": "SERVICE_END",
+        "stop_id": "DS",
+        "time": 9243.5,
+        "coordinates": {
+            "lat": 47.912376,
+            "lng": -122.298355
+        }
+    },
+    {
+        "id": 236,
+        "event_type": "DEPART",
+        "stop_id": "DS",
+        "time": 9243.5,
+        "coordinates": {
+            "lat": 47.912376,
+            "lng": -122.298355
+        }
+    },
+    {
+        "id": 237,
+        "event_type": "ARRIVE",
+        "stop_id": "IR",
+        "time": 9317.9,
+        "coordinates": {
+            "lat": 47.91247,
+            "lng": -122.299099
+        }
+    },
+    {
+        "id": 238,
+        "event_type": "SERVICE_START",
+        "stop_id": "IR",
+        "time": 9317.9,
+        "coordinates": {
+            "lat": 47.91247,
+            "lng": -122.299099
+        }
+    },
+    {
+        "id": 239,
+        "event_type": "SERVICE_END",
+        "stop_id": "IR",
+        "time": 9358.199999999999,
+        "coordinates": {
+            "lat": 47.91247,
+            "lng": -122.299099
+        }
+    },
+    {
+        "id": 240,
+        "event_type": "DEPART",
+        "stop_id": "IR",
+        "time": 9358.199999999999,
+        "coordinates": {
+            "lat": 47.91247,
+            "lng": -122.299099
         }
     },
     {
         "id": 241,
-        "event_type": "SERVICE_START",
-        "stop_id": "SJ",
-        "time": 9053.900000000001,
+        "event_type": "ARRIVE",
+        "stop_id": "SE",
+        "time": 9429.599999999999,
         "coordinates": {
-            "lat": 47.912568,
-            "lng": -122.299488
+            "lat": 47.912739,
+            "lng": -122.298808
         }
     },
     {
         "id": 242,
-        "event_type": "SERVICE_END",
-        "stop_id": "SJ",
-        "time": 9113.900000000001,
+        "event_type": "SERVICE_START",
+        "stop_id": "SE",
+        "time": 9429.599999999999,
         "coordinates": {
-            "lat": 47.912568,
-            "lng": -122.299488
+            "lat": 47.912739,
+            "lng": -122.298808
         }
     },
     {
         "id": 243,
-        "event_type": "DEPART",
-        "stop_id": "SJ",
-        "time": 9113.900000000001,
+        "event_type": "SERVICE_END",
+        "stop_id": "SE",
+        "time": 9502.599999999999,
         "coordinates": {
-            "lat": 47.912568,
-            "lng": -122.299488
+            "lat": 47.912739,
+            "lng": -122.298808
         }
     },
     {
         "id": 244,
-        "event_type": "ARRIVE",
-        "stop_id": "DS",
-        "time": 9206.7,
+        "event_type": "DEPART",
+        "stop_id": "SE",
+        "time": 9502.599999999999,
         "coordinates": {
-            "lat": 47.912376,
-            "lng": -122.298355
+            "lat": 47.912739,
+            "lng": -122.298808
         }
     },
     {
         "id": 245,
-        "event_type": "SERVICE_START",
-        "stop_id": "DS",
-        "time": 9206.7,
+        "event_type": "ARRIVE",
+        "stop_id": "ZO",
+        "time": 9625.099999999999,
         "coordinates": {
-            "lat": 47.912376,
-            "lng": -122.298355
+            "lat": 47.91605,
+            "lng": -122.299959
         }
     },
     {
         "id": 246,
-        "event_type": "SERVICE_END",
-        "stop_id": "DS",
-        "time": 9243.5,
+        "event_type": "SERVICE_START",
+        "stop_id": "ZO",
+        "time": 9625.099999999999,
         "coordinates": {
-            "lat": 47.912376,
-            "lng": -122.298355
+            "lat": 47.91605,
+            "lng": -122.299959
         }
     },
     {
         "id": 247,
-        "event_type": "DEPART",
-        "stop_id": "DS",
-        "time": 9243.5,
+        "event_type": "SERVICE_END",
+        "stop_id": "ZO",
+        "time": 9675.099999999999,
         "coordinates": {
-            "lat": 47.912376,
-            "lng": -122.298355
+            "lat": 47.91605,
+            "lng": -122.299959
         }
     },
     {
         "id": 248,
-        "event_type": "ARRIVE",
-        "stop_id": "IR",
-        "time": 9317.9,
+        "event_type": "DEPART",
+        "stop_id": "ZO",
+        "time": 9675.099999999999,
         "coordinates": {
-            "lat": 47.91247,
-            "lng": -122.299099
+            "lat": 47.91605,
+            "lng": -122.299959
         }
     },
     {
         "id": 249,
-        "event_type": "SERVICE_START",
-        "stop_id": "IR",
-        "time": 9317.9,
+        "event_type": "ARRIVE",
+        "stop_id": "TG",
+        "time": 9740.399999999998,
         "coordinates": {
-            "lat": 47.91247,
-            "lng": -122.299099
+            "lat": 47.917259,
+            "lng": -122.300945
         }
     },
     {
         "id": 250,
-        "event_type": "SERVICE_END",
-        "stop_id": "IR",
-        "time": 9358.199999999999,
+        "event_type": "SERVICE_START",
+        "stop_id": "TG",
+        "time": 9740.399999999998,
         "coordinates": {
-            "lat": 47.91247,
-            "lng": -122.299099
+            "lat": 47.917259,
+            "lng": -122.300945
         }
     },
     {
         "id": 251,
-        "event_type": "DEPART",
-        "stop_id": "IR",
-        "time": 9358.199999999999,
+        "event_type": "SERVICE_END",
+        "stop_id": "TG",
+        "time": 9782.399999999998,
         "coordinates": {
-            "lat": 47.91247,
-            "lng": -122.299099
+            "lat": 47.917259,
+            "lng": -122.300945
         }
     },
     {
         "id": 252,
-        "event_type": "ARRIVE",
-        "stop_id": "SE",
-        "time": 9429.599999999999,
+        "event_type": "DEPART",
+        "stop_id": "TG",
+        "time": 9782.399999999998,
         "coordinates": {
-            "lat": 47.912739,
-            "lng": -122.298808
+            "lat": 47.917259,
+            "lng": -122.300945
         }
     },
     {
         "id": 253,
-        "event_type": "SERVICE_START",
-        "stop_id": "SE",
-        "time": 9429.599999999999,
+        "event_type": "ARRIVE",
+        "stop_id": "VZ",
+        "time": 9828.999999999998,
         "coordinates": {
-            "lat": 47.912739,
-            "lng": -122.298808
+            "lat": 47.916378,
+            "lng": -122.300942
         }
     },
     {
         "id": 254,
-        "event_type": "SERVICE_END",
-        "stop_id": "SE",
-        "time": 9502.599999999999,
+        "event_type": "SERVICE_START",
+        "stop_id": "VZ",
+        "time": 9828.999999999998,
         "coordinates": {
-            "lat": 47.912739,
-            "lng": -122.298808
+            "lat": 47.916378,
+            "lng": -122.300942
         }
     },
     {
         "id": 255,
-        "event_type": "DEPART",
-        "stop_id": "SE",
-        "time": 9502.599999999999,
+        "event_type": "SERVICE_END",
+        "stop_id": "VZ",
+        "time": 9871.699999999999,
         "coordinates": {
-            "lat": 47.912739,
-            "lng": -122.298808
+            "lat": 47.916378,
+            "lng": -122.300942
         }
     },
     {
         "id": 256,
-        "event_type": "ARRIVE",
-        "stop_id": "ZO",
-        "time": 9625.099999999999,
+        "event_type": "DEPART",
+        "stop_id": "VZ",
+        "time": 9871.699999999999,
         "coordinates": {
-            "lat": 47.91605,
-            "lng": -122.299959
+            "lat": 47.916378,
+            "lng": -122.300942
         }
     },
     {
         "id": 257,
-        "event_type": "SERVICE_START",
-        "stop_id": "ZO",
-        "time": 9625.099999999999,
+        "event_type": "ARRIVE",
+        "stop_id": "GJ",
+        "time": 9940.3,
         "coordinates": {
-            "lat": 47.91605,
-            "lng": -122.299959
+            "lat": 47.91564,
+            "lng": -122.301631
         }
     },
     {
         "id": 258,
-        "event_type": "SERVICE_END",
-        "stop_id": "ZO",
-        "time": 9675.099999999999,
+        "event_type": "SERVICE_START",
+        "stop_id": "GJ",
+        "time": 9940.3,
         "coordinates": {
-            "lat": 47.91605,
-            "lng": -122.299959
+            "lat": 47.91564,
+            "lng": -122.301631
         }
     },
     {
         "id": 259,
-        "event_type": "DEPART",
-        "stop_id": "ZO",
-        "time": 9675.099999999999,
+        "event_type": "SERVICE_END",
+        "stop_id": "GJ",
+        "time": 9996.3,
         "coordinates": {
-            "lat": 47.91605,
-            "lng": -122.299959
+            "lat": 47.91564,
+            "lng": -122.301631
         }
     },
     {
         "id": 260,
-        "event_type": "ARRIVE",
-        "stop_id": "TG",
-        "time": 9740.399999999998,
+        "event_type": "DEPART",
+        "stop_id": "GJ",
+        "time": 9996.3,
         "coordinates": {
-            "lat": 47.917259,
-            "lng": -122.300945
+            "lat": 47.91564,
+            "lng": -122.301631
         }
     },
     {
         "id": 261,
-        "event_type": "SERVICE_START",
-        "stop_id": "TG",
-        "time": 9740.399999999998,
+        "event_type": "ARRIVE",
+        "stop_id": "NM",
+        "time": 10035.0,
         "coordinates": {
-            "lat": 47.917259,
-            "lng": -122.300945
+            "lat": 47.916373,
+            "lng": -122.302029
         }
     },
     {
         "id": 262,
-        "event_type": "SERVICE_END",
-        "stop_id": "TG",
-        "time": 9782.399999999998,
+        "event_type": "SERVICE_START",
+        "stop_id": "NM",
+        "time": 10035.0,
         "coordinates": {
-            "lat": 47.917259,
-            "lng": -122.300945
+            "lat": 47.916373,
+            "lng": -122.302029
         }
     },
     {
         "id": 263,
-        "event_type": "DEPART",
-        "stop_id": "TG",
-        "time": 9782.399999999998,
+        "event_type": "SERVICE_END",
+        "stop_id": "NM",
+        "time": 10080.0,
         "coordinates": {
-            "lat": 47.917259,
-            "lng": -122.300945
+            "lat": 47.916373,
+            "lng": -122.302029
         }
     },
     {
         "id": 264,
-        "event_type": "ARRIVE",
-        "stop_id": "VZ",
-        "time": 9828.999999999998,
+        "event_type": "LOAD_START",
+        "stop_id": "NM",
+        "time": 10080.0,
         "coordinates": {
-            "lat": 47.916378,
-            "lng": -122.300942
+            "lat": 47.916373,
+            "lng": -122.302029
         }
     },
     {
         "id": 265,
-        "event_type": "SERVICE_START",
-        "stop_id": "VZ",
-        "time": 9828.999999999998,
-        "coordinates": {
-            "lat": 47.916378,
-            "lng": -122.300942
-        }
-    },
-    {
-        "id": 266,
-        "event_type": "SERVICE_END",
-        "stop_id": "VZ",
-        "time": 9871.699999999999,
-        "coordinates": {
-            "lat": 47.916378,
-            "lng": -122.300942
-        }
-    },
-    {
-        "id": 267,
-        "event_type": "DEPART",
-        "stop_id": "VZ",
-        "time": 9871.699999999999,
-        "coordinates": {
-            "lat": 47.916378,
-            "lng": -122.300942
-        }
-    },
-    {
-        "id": 268,
-        "event_type": "ARRIVE",
-        "stop_id": "GJ",
-        "time": 9940.3,
-        "coordinates": {
-            "lat": 47.91564,
-            "lng": -122.301631
-        }
-    },
-    {
-        "id": 269,
-        "event_type": "SERVICE_START",
-        "stop_id": "GJ",
-        "time": 9940.3,
-        "coordinates": {
-            "lat": 47.91564,
-            "lng": -122.301631
-        }
-    },
-    {
-        "id": 270,
-        "event_type": "SERVICE_END",
-        "stop_id": "GJ",
-        "time": 9996.3,
-        "coordinates": {
-            "lat": 47.91564,
-            "lng": -122.301631
-        }
-    },
-    {
-        "id": 271,
-        "event_type": "DEPART",
-        "stop_id": "GJ",
-        "time": 9996.3,
-        "coordinates": {
-            "lat": 47.91564,
-            "lng": -122.301631
-        }
-    },
-    {
-        "id": 272,
-        "event_type": "ARRIVE",
-        "stop_id": "NM",
-        "time": 10035.0,
-        "coordinates": {
-            "lat": 47.916373,
-            "lng": -122.302029
-        }
-    },
-    {
-        "id": 273,
-        "event_type": "SERVICE_START",
-        "stop_id": "NM",
-        "time": 10035.0,
-        "coordinates": {
-            "lat": 47.916373,
-            "lng": -122.302029
-        }
-    },
-    {
-        "id": 274,
-        "event_type": "SERVICE_END",
-        "stop_id": "NM",
-        "time": 10080.0,
-        "coordinates": {
-            "lat": 47.916373,
-            "lng": -122.302029
-        }
-    },
-    {
-        "id": 275,
-        "event_type": "LOAD_START",
-        "stop_id": "NM",
-        "time": 10080.0,
-        "coordinates": {
-            "lat": 47.916373,
-            "lng": -122.302029
-        }
-    },
-    {
-        "id": 276,
-        "event_type": "LOAD_START",
-        "stop_id": "NM",
-        "time": 10080.0,
-        "coordinates": {
-            "lat": 47.916373,
-            "lng": -122.302029
-        }
-    },
-    {
-        "id": 277,
         "event_type": "LOAD_END",
         "stop_id": "NM",
         "time": 10095.0,
@@ -2770,7 +2650,7 @@
         }
     },
     {
-        "id": 278,
+        "id": 266,
         "event_type": "ARRIVE",
         "stop_id": "LC",
         "time": 10162.2,
@@ -2780,7 +2660,7 @@
         }
     },
     {
-        "id": 279,
+        "id": 267,
         "event_type": "SERVICE_START",
         "stop_id": "LC",
         "time": 10162.2,
@@ -2790,7 +2670,7 @@
         }
     },
     {
-        "id": 280,
+        "id": 268,
         "event_type": "SERVICE_END",
         "stop_id": "LC",
         "time": 10197.2,
@@ -2800,7 +2680,7 @@
         }
     },
     {
-        "id": 281,
+        "id": 269,
         "event_type": "DEPART",
         "stop_id": "LC",
         "time": 10197.2,
@@ -2810,7 +2690,7 @@
         }
     },
     {
-        "id": 282,
+        "id": 270,
         "event_type": "ARRIVE",
         "stop_id": "CM",
         "time": 10295.400000000001,
@@ -2820,7 +2700,7 @@
         }
     },
     {
-        "id": 283,
+        "id": 271,
         "event_type": "SERVICE_START",
         "stop_id": "CM",
         "time": 10295.400000000001,
@@ -2830,7 +2710,7 @@
         }
     },
     {
-        "id": 284,
+        "id": 272,
         "event_type": "SERVICE_END",
         "stop_id": "CM",
         "time": 10352.400000000001,
@@ -2840,7 +2720,7 @@
         }
     },
     {
-        "id": 285,
+        "id": 273,
         "event_type": "LOAD_START",
         "stop_id": "CM",
         "time": 10352.400000000001,
@@ -2850,17 +2730,7 @@
         }
     },
     {
-        "id": 286,
-        "event_type": "LOAD_START",
-        "stop_id": "CM",
-        "time": 10352.400000000001,
-        "coordinates": {
-            "lat": 47.914218,
-            "lng": -122.301782
-        }
-    },
-    {
-        "id": 287,
+        "id": 274,
         "event_type": "LOAD_END",
         "stop_id": "CM",
         "time": 10367.400000000001,
@@ -2870,377 +2740,367 @@
         }
     },
     {
-        "id": 288,
+        "id": 275,
         "event_type": "ARRIVE",
         "stop_id": "NE",
         "time": 10410.900000000001,
         "coordinates": {
             "lat": 47.914999,
             "lng": -122.303135
+        }
+    },
+    {
+        "id": 276,
+        "event_type": "SERVICE_START",
+        "stop_id": "NE",
+        "time": 10410.900000000001,
+        "coordinates": {
+            "lat": 47.914999,
+            "lng": -122.303135
+        }
+    },
+    {
+        "id": 277,
+        "event_type": "SERVICE_END",
+        "stop_id": "NE",
+        "time": 10477.900000000001,
+        "coordinates": {
+            "lat": 47.914999,
+            "lng": -122.303135
+        }
+    },
+    {
+        "id": 278,
+        "event_type": "DEPART",
+        "stop_id": "NE",
+        "time": 10477.900000000001,
+        "coordinates": {
+            "lat": 47.914999,
+            "lng": -122.303135
+        }
+    },
+    {
+        "id": 279,
+        "event_type": "ARRIVE",
+        "stop_id": "RJ",
+        "time": 10719.7,
+        "coordinates": {
+            "lat": 47.904342,
+            "lng": -122.294638
+        }
+    },
+    {
+        "id": 280,
+        "event_type": "SERVICE_START",
+        "stop_id": "RJ",
+        "time": 10719.7,
+        "coordinates": {
+            "lat": 47.904342,
+            "lng": -122.294638
+        }
+    },
+    {
+        "id": 281,
+        "event_type": "SERVICE_END",
+        "stop_id": "RJ",
+        "time": 10911.7,
+        "coordinates": {
+            "lat": 47.904342,
+            "lng": -122.294638
+        }
+    },
+    {
+        "id": 282,
+        "event_type": "DEPART",
+        "stop_id": "RJ",
+        "time": 10911.7,
+        "coordinates": {
+            "lat": 47.904342,
+            "lng": -122.294638
+        }
+    },
+    {
+        "id": 283,
+        "event_type": "ARRIVE",
+        "stop_id": "NP",
+        "time": 10971.0,
+        "coordinates": {
+            "lat": 47.903351,
+            "lng": -122.29454
+        }
+    },
+    {
+        "id": 284,
+        "event_type": "SERVICE_START",
+        "stop_id": "NP",
+        "time": 10971.0,
+        "coordinates": {
+            "lat": 47.903351,
+            "lng": -122.29454
+        }
+    },
+    {
+        "id": 285,
+        "event_type": "SERVICE_END",
+        "stop_id": "NP",
+        "time": 11038.2,
+        "coordinates": {
+            "lat": 47.903351,
+            "lng": -122.29454
+        }
+    },
+    {
+        "id": 286,
+        "event_type": "DEPART",
+        "stop_id": "NP",
+        "time": 11038.2,
+        "coordinates": {
+            "lat": 47.903351,
+            "lng": -122.29454
+        }
+    },
+    {
+        "id": 287,
+        "event_type": "ARRIVE",
+        "stop_id": "ZV",
+        "time": 11073.0,
+        "coordinates": {
+            "lat": 47.903744,
+            "lng": -122.294211
+        }
+    },
+    {
+        "id": 288,
+        "event_type": "SERVICE_START",
+        "stop_id": "ZV",
+        "time": 11073.0,
+        "coordinates": {
+            "lat": 47.903744,
+            "lng": -122.294211
         }
     },
     {
         "id": 289,
-        "event_type": "SERVICE_START",
-        "stop_id": "NE",
-        "time": 10410.900000000001,
+        "event_type": "SERVICE_END",
+        "stop_id": "ZV",
+        "time": 11120.0,
         "coordinates": {
-            "lat": 47.914999,
-            "lng": -122.303135
+            "lat": 47.903744,
+            "lng": -122.294211
         }
     },
     {
         "id": 290,
-        "event_type": "SERVICE_END",
-        "stop_id": "NE",
-        "time": 10477.900000000001,
+        "event_type": "DEPART",
+        "stop_id": "ZV",
+        "time": 11120.0,
         "coordinates": {
-            "lat": 47.914999,
-            "lng": -122.303135
+            "lat": 47.903744,
+            "lng": -122.294211
         }
     },
     {
         "id": 291,
-        "event_type": "DEPART",
-        "stop_id": "NE",
-        "time": 10477.900000000001,
+        "event_type": "ARRIVE",
+        "stop_id": "IE",
+        "time": 11153.2,
         "coordinates": {
-            "lat": 47.914999,
-            "lng": -122.303135
+            "lat": 47.904242,
+            "lng": -122.294568
         }
     },
     {
         "id": 292,
-        "event_type": "ARRIVE",
-        "stop_id": "RJ",
-        "time": 10719.7,
+        "event_type": "SERVICE_START",
+        "stop_id": "IE",
+        "time": 11153.2,
         "coordinates": {
-            "lat": 47.904342,
-            "lng": -122.294638
+            "lat": 47.904242,
+            "lng": -122.294568
         }
     },
     {
         "id": 293,
-        "event_type": "SERVICE_START",
-        "stop_id": "RJ",
-        "time": 10719.7,
+        "event_type": "SERVICE_END",
+        "stop_id": "IE",
+        "time": 11222.7,
         "coordinates": {
-            "lat": 47.904342,
-            "lng": -122.294638
+            "lat": 47.904242,
+            "lng": -122.294568
         }
     },
     {
         "id": 294,
-        "event_type": "SERVICE_END",
-        "stop_id": "RJ",
-        "time": 10911.7,
+        "event_type": "DEPART",
+        "stop_id": "IE",
+        "time": 11222.7,
         "coordinates": {
-            "lat": 47.904342,
-            "lng": -122.294638
+            "lat": 47.904242,
+            "lng": -122.294568
         }
     },
     {
         "id": 295,
-        "event_type": "DEPART",
-        "stop_id": "RJ",
-        "time": 10911.7,
+        "event_type": "ARRIVE",
+        "stop_id": "AL",
+        "time": 11295.7,
         "coordinates": {
-            "lat": 47.904342,
-            "lng": -122.294638
+            "lat": 47.90587,
+            "lng": -122.295139
         }
     },
     {
         "id": 296,
-        "event_type": "ARRIVE",
-        "stop_id": "NP",
-        "time": 10971.0,
+        "event_type": "SERVICE_START",
+        "stop_id": "AL",
+        "time": 11295.7,
         "coordinates": {
-            "lat": 47.903351,
-            "lng": -122.29454
+            "lat": 47.90587,
+            "lng": -122.295139
         }
     },
     {
         "id": 297,
-        "event_type": "SERVICE_START",
-        "stop_id": "NP",
-        "time": 10971.0,
+        "event_type": "SERVICE_END",
+        "stop_id": "AL",
+        "time": 11342.7,
         "coordinates": {
-            "lat": 47.903351,
-            "lng": -122.29454
+            "lat": 47.90587,
+            "lng": -122.295139
         }
     },
     {
         "id": 298,
-        "event_type": "SERVICE_END",
-        "stop_id": "NP",
-        "time": 11038.2,
+        "event_type": "DEPART",
+        "stop_id": "AL",
+        "time": 11342.7,
         "coordinates": {
-            "lat": 47.903351,
-            "lng": -122.29454
+            "lat": 47.90587,
+            "lng": -122.295139
         }
     },
     {
         "id": 299,
-        "event_type": "DEPART",
-        "stop_id": "NP",
-        "time": 11038.2,
+        "event_type": "ARRIVE",
+        "stop_id": "FE",
+        "time": 11469.1,
         "coordinates": {
-            "lat": 47.903351,
-            "lng": -122.29454
+            "lat": 47.90567,
+            "lng": -122.300271
         }
     },
     {
         "id": 300,
-        "event_type": "ARRIVE",
-        "stop_id": "ZV",
-        "time": 11073.0,
+        "event_type": "SERVICE_START",
+        "stop_id": "FE",
+        "time": 11469.1,
         "coordinates": {
-            "lat": 47.903744,
-            "lng": -122.294211
+            "lat": 47.90567,
+            "lng": -122.300271
         }
     },
     {
         "id": 301,
-        "event_type": "SERVICE_START",
-        "stop_id": "ZV",
-        "time": 11073.0,
+        "event_type": "SERVICE_END",
+        "stop_id": "FE",
+        "time": 11520.6,
         "coordinates": {
-            "lat": 47.903744,
-            "lng": -122.294211
+            "lat": 47.90567,
+            "lng": -122.300271
         }
     },
     {
         "id": 302,
-        "event_type": "SERVICE_END",
-        "stop_id": "ZV",
-        "time": 11120.0,
+        "event_type": "DEPART",
+        "stop_id": "FE",
+        "time": 11520.6,
         "coordinates": {
-            "lat": 47.903744,
-            "lng": -122.294211
+            "lat": 47.90567,
+            "lng": -122.300271
         }
     },
     {
         "id": 303,
-        "event_type": "DEPART",
-        "stop_id": "ZV",
-        "time": 11120.0,
+        "event_type": "ARRIVE",
+        "stop_id": "WO",
+        "time": 11605.7,
         "coordinates": {
-            "lat": 47.903744,
-            "lng": -122.294211
+            "lat": 47.906411,
+            "lng": -122.300415
         }
     },
     {
         "id": 304,
-        "event_type": "ARRIVE",
-        "stop_id": "IE",
-        "time": 11153.2,
+        "event_type": "SERVICE_START",
+        "stop_id": "WO",
+        "time": 11605.7,
         "coordinates": {
-            "lat": 47.904242,
-            "lng": -122.294568
+            "lat": 47.906411,
+            "lng": -122.300415
         }
     },
     {
         "id": 305,
-        "event_type": "SERVICE_START",
-        "stop_id": "IE",
-        "time": 11153.2,
+        "event_type": "SERVICE_END",
+        "stop_id": "WO",
+        "time": 11641.7,
         "coordinates": {
-            "lat": 47.904242,
-            "lng": -122.294568
+            "lat": 47.906411,
+            "lng": -122.300415
         }
     },
     {
         "id": 306,
-        "event_type": "SERVICE_END",
-        "stop_id": "IE",
-        "time": 11222.7,
+        "event_type": "DEPART",
+        "stop_id": "WO",
+        "time": 11641.7,
         "coordinates": {
-            "lat": 47.904242,
-            "lng": -122.294568
+            "lat": 47.906411,
+            "lng": -122.300415
         }
     },
     {
         "id": 307,
-        "event_type": "DEPART",
-        "stop_id": "IE",
-        "time": 11222.7,
+        "event_type": "ARRIVE",
+        "stop_id": "DE",
+        "time": 11724.300000000001,
         "coordinates": {
-            "lat": 47.904242,
-            "lng": -122.294568
+            "lat": 47.907809,
+            "lng": -122.299154
         }
     },
     {
         "id": 308,
-        "event_type": "ARRIVE",
-        "stop_id": "AL",
-        "time": 11295.7,
+        "event_type": "SERVICE_START",
+        "stop_id": "DE",
+        "time": 11724.300000000001,
         "coordinates": {
-            "lat": 47.90587,
-            "lng": -122.295139
+            "lat": 47.907809,
+            "lng": -122.299154
         }
     },
     {
         "id": 309,
-        "event_type": "SERVICE_START",
-        "stop_id": "AL",
-        "time": 11295.7,
+        "event_type": "SERVICE_END",
+        "stop_id": "DE",
+        "time": 11895.300000000001,
         "coordinates": {
-            "lat": 47.90587,
-            "lng": -122.295139
+            "lat": 47.907809,
+            "lng": -122.299154
         }
     },
     {
         "id": 310,
-        "event_type": "SERVICE_END",
-        "stop_id": "AL",
-        "time": 11342.7,
+        "event_type": "LOAD_START",
+        "stop_id": "DE",
+        "time": 11895.300000000001,
         "coordinates": {
-            "lat": 47.90587,
-            "lng": -122.295139
+            "lat": 47.907809,
+            "lng": -122.299154
         }
     },
     {
         "id": 311,
-        "event_type": "DEPART",
-        "stop_id": "AL",
-        "time": 11342.7,
-        "coordinates": {
-            "lat": 47.90587,
-            "lng": -122.295139
-        }
-    },
-    {
-        "id": 312,
-        "event_type": "ARRIVE",
-        "stop_id": "FE",
-        "time": 11469.1,
-        "coordinates": {
-            "lat": 47.90567,
-            "lng": -122.300271
-        }
-    },
-    {
-        "id": 313,
-        "event_type": "SERVICE_START",
-        "stop_id": "FE",
-        "time": 11469.1,
-        "coordinates": {
-            "lat": 47.90567,
-            "lng": -122.300271
-        }
-    },
-    {
-        "id": 314,
-        "event_type": "SERVICE_END",
-        "stop_id": "FE",
-        "time": 11520.6,
-        "coordinates": {
-            "lat": 47.90567,
-            "lng": -122.300271
-        }
-    },
-    {
-        "id": 315,
-        "event_type": "DEPART",
-        "stop_id": "FE",
-        "time": 11520.6,
-        "coordinates": {
-            "lat": 47.90567,
-            "lng": -122.300271
-        }
-    },
-    {
-        "id": 316,
-        "event_type": "ARRIVE",
-        "stop_id": "WO",
-        "time": 11605.7,
-        "coordinates": {
-            "lat": 47.906411,
-            "lng": -122.300415
-        }
-    },
-    {
-        "id": 317,
-        "event_type": "SERVICE_START",
-        "stop_id": "WO",
-        "time": 11605.7,
-        "coordinates": {
-            "lat": 47.906411,
-            "lng": -122.300415
-        }
-    },
-    {
-        "id": 318,
-        "event_type": "SERVICE_END",
-        "stop_id": "WO",
-        "time": 11641.7,
-        "coordinates": {
-            "lat": 47.906411,
-            "lng": -122.300415
-        }
-    },
-    {
-        "id": 319,
-        "event_type": "DEPART",
-        "stop_id": "WO",
-        "time": 11641.7,
-        "coordinates": {
-            "lat": 47.906411,
-            "lng": -122.300415
-        }
-    },
-    {
-        "id": 320,
-        "event_type": "ARRIVE",
-        "stop_id": "DE",
-        "time": 11724.300000000001,
-        "coordinates": {
-            "lat": 47.907809,
-            "lng": -122.299154
-        }
-    },
-    {
-        "id": 321,
-        "event_type": "SERVICE_START",
-        "stop_id": "DE",
-        "time": 11724.300000000001,
-        "coordinates": {
-            "lat": 47.907809,
-            "lng": -122.299154
-        }
-    },
-    {
-        "id": 322,
-        "event_type": "SERVICE_END",
-        "stop_id": "DE",
-        "time": 11895.300000000001,
-        "coordinates": {
-            "lat": 47.907809,
-            "lng": -122.299154
-        }
-    },
-    {
-        "id": 323,
-        "event_type": "LOAD_START",
-        "stop_id": "DE",
-        "time": 11895.300000000001,
-        "coordinates": {
-            "lat": 47.907809,
-            "lng": -122.299154
-        }
-    },
-    {
-        "id": 324,
-        "event_type": "LOAD_START",
-        "stop_id": "DE",
-        "time": 11895.300000000001,
-        "coordinates": {
-            "lat": 47.907809,
-            "lng": -122.299154
-        }
-    },
-    {
-        "id": 325,
         "event_type": "LOAD_END",
         "stop_id": "DE",
         "time": 11910.300000000001,
@@ -3250,257 +3110,247 @@
         }
     },
     {
-        "id": 326,
+        "id": 312,
         "event_type": "ARRIVE",
         "stop_id": "BX",
         "time": 11933.900000000001,
         "coordinates": {
             "lat": 47.907325,
             "lng": -122.298835
+        }
+    },
+    {
+        "id": 313,
+        "event_type": "SERVICE_START",
+        "stop_id": "BX",
+        "time": 11933.900000000001,
+        "coordinates": {
+            "lat": 47.907325,
+            "lng": -122.298835
+        }
+    },
+    {
+        "id": 314,
+        "event_type": "SERVICE_END",
+        "stop_id": "BX",
+        "time": 11987.900000000001,
+        "coordinates": {
+            "lat": 47.907325,
+            "lng": -122.298835
+        }
+    },
+    {
+        "id": 315,
+        "event_type": "DEPART",
+        "stop_id": "BX",
+        "time": 11987.900000000001,
+        "coordinates": {
+            "lat": 47.907325,
+            "lng": -122.298835
+        }
+    },
+    {
+        "id": 316,
+        "event_type": "ARRIVE",
+        "stop_id": "IN",
+        "time": 11998.600000000002,
+        "coordinates": {
+            "lat": 47.907906,
+            "lng": -122.298511
+        }
+    },
+    {
+        "id": 317,
+        "event_type": "SERVICE_START",
+        "stop_id": "IN",
+        "time": 11998.600000000002,
+        "coordinates": {
+            "lat": 47.907906,
+            "lng": -122.298511
+        }
+    },
+    {
+        "id": 318,
+        "event_type": "SERVICE_END",
+        "stop_id": "IN",
+        "time": 12045.900000000001,
+        "coordinates": {
+            "lat": 47.907906,
+            "lng": -122.298511
+        }
+    },
+    {
+        "id": 319,
+        "event_type": "DEPART",
+        "stop_id": "IN",
+        "time": 12045.900000000001,
+        "coordinates": {
+            "lat": 47.907906,
+            "lng": -122.298511
+        }
+    },
+    {
+        "id": 320,
+        "event_type": "ARRIVE",
+        "stop_id": "YF",
+        "time": 12055.400000000001,
+        "coordinates": {
+            "lat": 47.908355,
+            "lng": -122.298819
+        }
+    },
+    {
+        "id": 321,
+        "event_type": "SERVICE_START",
+        "stop_id": "YF",
+        "time": 12055.400000000001,
+        "coordinates": {
+            "lat": 47.908355,
+            "lng": -122.298819
+        }
+    },
+    {
+        "id": 322,
+        "event_type": "SERVICE_END",
+        "stop_id": "YF",
+        "time": 12088.400000000001,
+        "coordinates": {
+            "lat": 47.908355,
+            "lng": -122.298819
+        }
+    },
+    {
+        "id": 323,
+        "event_type": "DEPART",
+        "stop_id": "YF",
+        "time": 12088.400000000001,
+        "coordinates": {
+            "lat": 47.908355,
+            "lng": -122.298819
+        }
+    },
+    {
+        "id": 324,
+        "event_type": "ARRIVE",
+        "stop_id": "EM",
+        "time": 12098.7,
+        "coordinates": {
+            "lat": 47.908762,
+            "lng": -122.299334
+        }
+    },
+    {
+        "id": 325,
+        "event_type": "SERVICE_START",
+        "stop_id": "EM",
+        "time": 12098.7,
+        "coordinates": {
+            "lat": 47.908762,
+            "lng": -122.299334
+        }
+    },
+    {
+        "id": 326,
+        "event_type": "SERVICE_END",
+        "stop_id": "EM",
+        "time": 12156.7,
+        "coordinates": {
+            "lat": 47.908762,
+            "lng": -122.299334
         }
     },
     {
         "id": 327,
-        "event_type": "SERVICE_START",
-        "stop_id": "BX",
-        "time": 11933.900000000001,
+        "event_type": "DEPART",
+        "stop_id": "EM",
+        "time": 12156.7,
         "coordinates": {
-            "lat": 47.907325,
-            "lng": -122.298835
+            "lat": 47.908762,
+            "lng": -122.299334
         }
     },
     {
         "id": 328,
-        "event_type": "SERVICE_END",
-        "stop_id": "BX",
-        "time": 11987.900000000001,
+        "event_type": "ARRIVE",
+        "stop_id": "YQ",
+        "time": 12168.5,
         "coordinates": {
-            "lat": 47.907325,
-            "lng": -122.298835
+            "lat": 47.909039,
+            "lng": -122.30008
         }
     },
     {
         "id": 329,
-        "event_type": "DEPART",
-        "stop_id": "BX",
-        "time": 11987.900000000001,
+        "event_type": "SERVICE_START",
+        "stop_id": "YQ",
+        "time": 12168.5,
         "coordinates": {
-            "lat": 47.907325,
-            "lng": -122.298835
+            "lat": 47.909039,
+            "lng": -122.30008
         }
     },
     {
         "id": 330,
-        "event_type": "ARRIVE",
-        "stop_id": "IN",
-        "time": 11998.600000000002,
+        "event_type": "SERVICE_END",
+        "stop_id": "YQ",
+        "time": 12213.5,
         "coordinates": {
-            "lat": 47.907906,
-            "lng": -122.298511
+            "lat": 47.909039,
+            "lng": -122.30008
         }
     },
     {
         "id": 331,
-        "event_type": "SERVICE_START",
-        "stop_id": "IN",
-        "time": 11998.600000000002,
+        "event_type": "DEPART",
+        "stop_id": "YQ",
+        "time": 12213.5,
         "coordinates": {
-            "lat": 47.907906,
-            "lng": -122.298511
+            "lat": 47.909039,
+            "lng": -122.30008
         }
     },
     {
         "id": 332,
-        "event_type": "SERVICE_END",
-        "stop_id": "IN",
-        "time": 12045.900000000001,
+        "event_type": "ARRIVE",
+        "stop_id": "AG",
+        "time": 12241.0,
         "coordinates": {
-            "lat": 47.907906,
-            "lng": -122.298511
+            "lat": 47.909161,
+            "lng": -122.301999
         }
     },
     {
         "id": 333,
-        "event_type": "DEPART",
-        "stop_id": "IN",
-        "time": 12045.900000000001,
+        "event_type": "SERVICE_START",
+        "stop_id": "AG",
+        "time": 12241.0,
         "coordinates": {
-            "lat": 47.907906,
-            "lng": -122.298511
+            "lat": 47.909161,
+            "lng": -122.301999
         }
     },
     {
         "id": 334,
-        "event_type": "ARRIVE",
-        "stop_id": "YF",
-        "time": 12055.400000000001,
+        "event_type": "SERVICE_END",
+        "stop_id": "AG",
+        "time": 12310.0,
         "coordinates": {
-            "lat": 47.908355,
-            "lng": -122.298819
+            "lat": 47.909161,
+            "lng": -122.301999
         }
     },
     {
         "id": 335,
-        "event_type": "SERVICE_START",
-        "stop_id": "YF",
-        "time": 12055.400000000001,
+        "event_type": "LOAD_START",
+        "stop_id": "AG",
+        "time": 12310.0,
         "coordinates": {
-            "lat": 47.908355,
-            "lng": -122.298819
+            "lat": 47.909161,
+            "lng": -122.301999
         }
     },
     {
         "id": 336,
-        "event_type": "SERVICE_END",
-        "stop_id": "YF",
-        "time": 12088.400000000001,
-        "coordinates": {
-            "lat": 47.908355,
-            "lng": -122.298819
-        }
-    },
-    {
-        "id": 337,
-        "event_type": "DEPART",
-        "stop_id": "YF",
-        "time": 12088.400000000001,
-        "coordinates": {
-            "lat": 47.908355,
-            "lng": -122.298819
-        }
-    },
-    {
-        "id": 338,
-        "event_type": "ARRIVE",
-        "stop_id": "EM",
-        "time": 12098.7,
-        "coordinates": {
-            "lat": 47.908762,
-            "lng": -122.299334
-        }
-    },
-    {
-        "id": 339,
-        "event_type": "SERVICE_START",
-        "stop_id": "EM",
-        "time": 12098.7,
-        "coordinates": {
-            "lat": 47.908762,
-            "lng": -122.299334
-        }
-    },
-    {
-        "id": 340,
-        "event_type": "SERVICE_END",
-        "stop_id": "EM",
-        "time": 12156.7,
-        "coordinates": {
-            "lat": 47.908762,
-            "lng": -122.299334
-        }
-    },
-    {
-        "id": 341,
-        "event_type": "DEPART",
-        "stop_id": "EM",
-        "time": 12156.7,
-        "coordinates": {
-            "lat": 47.908762,
-            "lng": -122.299334
-        }
-    },
-    {
-        "id": 342,
-        "event_type": "ARRIVE",
-        "stop_id": "YQ",
-        "time": 12168.5,
-        "coordinates": {
-            "lat": 47.909039,
-            "lng": -122.30008
-        }
-    },
-    {
-        "id": 343,
-        "event_type": "SERVICE_START",
-        "stop_id": "YQ",
-        "time": 12168.5,
-        "coordinates": {
-            "lat": 47.909039,
-            "lng": -122.30008
-        }
-    },
-    {
-        "id": 344,
-        "event_type": "SERVICE_END",
-        "stop_id": "YQ",
-        "time": 12213.5,
-        "coordinates": {
-            "lat": 47.909039,
-            "lng": -122.30008
-        }
-    },
-    {
-        "id": 345,
-        "event_type": "DEPART",
-        "stop_id": "YQ",
-        "time": 12213.5,
-        "coordinates": {
-            "lat": 47.909039,
-            "lng": -122.30008
-        }
-    },
-    {
-        "id": 346,
-        "event_type": "ARRIVE",
-        "stop_id": "AG",
-        "time": 12241.0,
-        "coordinates": {
-            "lat": 47.909161,
-            "lng": -122.301999
-        }
-    },
-    {
-        "id": 347,
-        "event_type": "SERVICE_START",
-        "stop_id": "AG",
-        "time": 12241.0,
-        "coordinates": {
-            "lat": 47.909161,
-            "lng": -122.301999
-        }
-    },
-    {
-        "id": 348,
-        "event_type": "SERVICE_END",
-        "stop_id": "AG",
-        "time": 12310.0,
-        "coordinates": {
-            "lat": 47.909161,
-            "lng": -122.301999
-        }
-    },
-    {
-        "id": 349,
-        "event_type": "LOAD_START",
-        "stop_id": "AG",
-        "time": 12310.0,
-        "coordinates": {
-            "lat": 47.909161,
-            "lng": -122.301999
-        }
-    },
-    {
-        "id": 350,
-        "event_type": "LOAD_START",
-        "stop_id": "AG",
-        "time": 12310.0,
-        "coordinates": {
-            "lat": 47.909161,
-            "lng": -122.301999
-        }
-    },
-    {
-        "id": 351,
         "event_type": "LOAD_END",
         "stop_id": "AG",
         "time": 12325.0,
@@ -3510,7 +3360,7 @@
         }
     },
     {
-        "id": 352,
+        "id": 337,
         "event_type": "ARRIVE",
         "stop_id": "IS",
         "time": 12361.7,
@@ -3520,7 +3370,7 @@
         }
     },
     {
-        "id": 353,
+        "id": 338,
         "event_type": "SERVICE_START",
         "stop_id": "IS",
         "time": 12361.7,
@@ -3530,7 +3380,7 @@
         }
     },
     {
-        "id": 354,
+        "id": 339,
         "event_type": "SERVICE_END",
         "stop_id": "IS",
         "time": 12389.400000000001,
@@ -3540,7 +3390,7 @@
         }
     },
     {
-        "id": 355,
+        "id": 340,
         "event_type": "DEPART",
         "stop_id": "IS",
         "time": 12389.400000000001,
@@ -3550,7 +3400,7 @@
         }
     },
     {
-        "id": 356,
+        "id": 341,
         "event_type": "ARRIVE",
         "stop_id": "LO",
         "time": 12396.100000000002,
@@ -3560,7 +3410,7 @@
         }
     },
     {
-        "id": 357,
+        "id": 342,
         "event_type": "SERVICE_START",
         "stop_id": "LO",
         "time": 12396.100000000002,
@@ -3570,7 +3420,7 @@
         }
     },
     {
-        "id": 358,
+        "id": 343,
         "event_type": "SERVICE_END",
         "stop_id": "LO",
         "time": 12434.100000000002,
@@ -3580,7 +3430,7 @@
         }
     },
     {
-        "id": 359,
+        "id": 344,
         "event_type": "LOAD_START",
         "stop_id": "LO",
         "time": 12434.100000000002,
@@ -3590,17 +3440,7 @@
         }
     },
     {
-        "id": 360,
-        "event_type": "LOAD_START",
-        "stop_id": "LO",
-        "time": 12434.100000000002,
-        "coordinates": {
-            "lat": 47.90829,
-            "lng": -122.303635
-        }
-    },
-    {
-        "id": 361,
+        "id": 345,
         "event_type": "LOAD_END",
         "stop_id": "LO",
         "time": 12449.100000000002,
@@ -3610,7 +3450,7 @@
         }
     },
     {
-        "id": 362,
+        "id": 346,
         "event_type": "ARRIVE",
         "stop_id": "JS",
         "time": 12502.200000000003,
@@ -3620,7 +3460,7 @@
         }
     },
     {
-        "id": 363,
+        "id": 347,
         "event_type": "SERVICE_START",
         "stop_id": "JS",
         "time": 12502.200000000003,
@@ -3630,7 +3470,7 @@
         }
     },
     {
-        "id": 364,
+        "id": 348,
         "event_type": "SERVICE_END",
         "stop_id": "JS",
         "time": 12600.200000000003,
@@ -3640,7 +3480,7 @@
         }
     },
     {
-        "id": 365,
+        "id": 349,
         "event_type": "LOAD_START",
         "stop_id": "JS",
         "time": 12600.200000000003,
@@ -3650,17 +3490,7 @@
         }
     },
     {
-        "id": 366,
-        "event_type": "LOAD_START",
-        "stop_id": "JS",
-        "time": 12600.200000000003,
-        "coordinates": {
-            "lat": 47.909934,
-            "lng": -122.305279
-        }
-    },
-    {
-        "id": 367,
+        "id": 350,
         "event_type": "LOAD_END",
         "stop_id": "JS",
         "time": 12615.200000000003,
@@ -3670,7 +3500,7 @@
         }
     },
     {
-        "id": 368,
+        "id": 351,
         "event_type": "ARRIVE",
         "stop_id": "HN",
         "time": 12730.300000000003,
@@ -3680,7 +3510,7 @@
         }
     },
     {
-        "id": 369,
+        "id": 352,
         "event_type": "SERVICE_START",
         "stop_id": "HN",
         "time": 12730.300000000003,
@@ -3690,7 +3520,7 @@
         }
     },
     {
-        "id": 370,
+        "id": 353,
         "event_type": "SERVICE_END",
         "stop_id": "HN",
         "time": 12833.000000000004,
@@ -3700,7 +3530,7 @@
         }
     },
     {
-        "id": 371,
+        "id": 354,
         "event_type": "DEPART",
         "stop_id": "HN",
         "time": 12833.000000000004,
@@ -3710,7 +3540,7 @@
         }
     },
     {
-        "id": 372,
+        "id": 355,
         "event_type": "ARRIVE",
         "stop_id": "SN",
         "time": 12916.900000000003,
@@ -3720,7 +3550,7 @@
         }
     },
     {
-        "id": 373,
+        "id": 356,
         "event_type": "SERVICE_START",
         "stop_id": "SN",
         "time": 12916.900000000003,
@@ -3730,7 +3560,7 @@
         }
     },
     {
-        "id": 374,
+        "id": 357,
         "event_type": "SERVICE_END",
         "stop_id": "SN",
         "time": 12967.900000000003,
@@ -3740,7 +3570,7 @@
         }
     },
     {
-        "id": 375,
+        "id": 358,
         "event_type": "DEPART",
         "stop_id": "SN",
         "time": 12967.900000000003,
@@ -3750,7 +3580,7 @@
         }
     },
     {
-        "id": 376,
+        "id": 359,
         "event_type": "ARRIVE",
         "stop_id": "KW",
         "time": 13017.300000000003,
@@ -3760,7 +3590,7 @@
         }
     },
     {
-        "id": 377,
+        "id": 360,
         "event_type": "SERVICE_START",
         "stop_id": "KW",
         "time": 13017.300000000003,
@@ -3770,7 +3600,7 @@
         }
     },
     {
-        "id": 378,
+        "id": 361,
         "event_type": "SERVICE_END",
         "stop_id": "KW",
         "time": 13092.000000000004,
@@ -3780,7 +3610,7 @@
         }
     },
     {
-        "id": 379,
+        "id": 362,
         "event_type": "DEPART",
         "stop_id": "KW",
         "time": 13092.000000000004,
@@ -3790,7 +3620,7 @@
         }
     },
     {
-        "id": 380,
+        "id": 363,
         "event_type": "ARRIVE",
         "stop_id": "UP",
         "time": 13145.400000000003,
@@ -3800,7 +3630,7 @@
         }
     },
     {
-        "id": 381,
+        "id": 364,
         "event_type": "SERVICE_START",
         "stop_id": "UP",
         "time": 13145.400000000003,
@@ -3810,7 +3640,7 @@
         }
     },
     {
-        "id": 382,
+        "id": 365,
         "event_type": "SERVICE_END",
         "stop_id": "UP",
         "time": 13177.900000000003,
@@ -3820,7 +3650,7 @@
         }
     },
     {
-        "id": 383,
+        "id": 366,
         "event_type": "LOAD_START",
         "stop_id": "UP",
         "time": 13177.900000000003,
@@ -3830,17 +3660,7 @@
         }
     },
     {
-        "id": 384,
-        "event_type": "LOAD_START",
-        "stop_id": "UP",
-        "time": 13177.900000000003,
-        "coordinates": {
-            "lat": 47.907273,
-            "lng": -122.308832
-        }
-    },
-    {
-        "id": 385,
+        "id": 367,
         "event_type": "LOAD_END",
         "stop_id": "UP",
         "time": 13192.900000000003,
@@ -3850,7 +3670,7 @@
         }
     },
     {
-        "id": 386,
+        "id": 368,
         "event_type": "ARRIVE",
         "stop_id": "UV",
         "time": 13256.000000000004,
@@ -3860,7 +3680,7 @@
         }
     },
     {
-        "id": 387,
+        "id": 369,
         "event_type": "SERVICE_START",
         "stop_id": "UV",
         "time": 13256.000000000004,
@@ -3870,7 +3690,7 @@
         }
     },
     {
-        "id": 388,
+        "id": 370,
         "event_type": "SERVICE_END",
         "stop_id": "UV",
         "time": 13297.000000000004,
@@ -3880,7 +3700,7 @@
         }
     },
     {
-        "id": 389,
+        "id": 371,
         "event_type": "DEPART",
         "stop_id": "UV",
         "time": 13298.57428895795,
@@ -3890,7 +3710,7 @@
         }
     },
     {
-        "id": 390,
+        "id": 372,
         "event_type": "ARRIVE",
         "stop_id": "RV",
         "time": 13330.87428895795,
@@ -3900,7 +3720,7 @@
         }
     },
     {
-        "id": 391,
+        "id": 373,
         "event_type": "SERVICE_START",
         "stop_id": "RV",
         "time": 13330.87428895795,
@@ -3910,7 +3730,7 @@
         }
     },
     {
-        "id": 392,
+        "id": 374,
         "event_type": "SERVICE_END",
         "stop_id": "RV",
         "time": 13379.87428895795,
@@ -3920,7 +3740,7 @@
         }
     },
     {
-        "id": 393,
+        "id": 375,
         "event_type": "DEPART",
         "stop_id": "RV",
         "time": 13379.87428895795,
@@ -3930,7 +3750,7 @@
         }
     },
     {
-        "id": 394,
+        "id": 376,
         "event_type": "ARRIVE",
         "stop_id": "FI",
         "time": 13498.87428895795,
@@ -3940,7 +3760,7 @@
         }
     },
     {
-        "id": 395,
+        "id": 377,
         "event_type": "SERVICE_START",
         "stop_id": "FI",
         "time": 13498.87428895795,
@@ -3950,7 +3770,7 @@
         }
     },
     {
-        "id": 396,
+        "id": 378,
         "event_type": "SERVICE_END",
         "stop_id": "FI",
         "time": 13531.87428895795,
@@ -3960,7 +3780,7 @@
         }
     },
     {
-        "id": 397,
+        "id": 379,
         "event_type": "LOAD_START",
         "stop_id": "FI",
         "time": 13531.87428895795,
@@ -3970,17 +3790,7 @@
         }
     },
     {
-        "id": 398,
-        "event_type": "LOAD_START",
-        "stop_id": "FI",
-        "time": 13531.87428895795,
-        "coordinates": {
-            "lat": 47.900543,
-            "lng": -122.304338
-        }
-    },
-    {
-        "id": 399,
+        "id": 380,
         "event_type": "LOAD_END",
         "stop_id": "FI",
         "time": 13546.87428895795,
@@ -3990,7 +3800,7 @@
         }
     },
     {
-        "id": 400,
+        "id": 381,
         "event_type": "ARRIVE",
         "stop_id": "VY",
         "time": 13667.97428895795,
@@ -4000,7 +3810,7 @@
         }
     },
     {
-        "id": 401,
+        "id": 382,
         "event_type": "SERVICE_START",
         "stop_id": "VY",
         "time": 13667.97428895795,
@@ -4010,7 +3820,7 @@
         }
     },
     {
-        "id": 402,
+        "id": 383,
         "event_type": "SERVICE_END",
         "stop_id": "VY",
         "time": 13717.97428895795,
@@ -4020,7 +3830,7 @@
         }
     },
     {
-        "id": 403,
+        "id": 384,
         "event_type": "DEPART",
         "stop_id": "VY",
         "time": 13717.97428895795,
@@ -4030,7 +3840,7 @@
         }
     },
     {
-        "id": 404,
+        "id": 385,
         "event_type": "ARRIVE",
         "stop_id": "RU",
         "time": 13778.07428895795,
@@ -4040,7 +3850,7 @@
         }
     },
     {
-        "id": 405,
+        "id": 386,
         "event_type": "SERVICE_START",
         "stop_id": "RU",
         "time": 13778.07428895795,
@@ -4050,7 +3860,7 @@
         }
     },
     {
-        "id": 406,
+        "id": 387,
         "event_type": "SERVICE_END",
         "stop_id": "RU",
         "time": 13857.07428895795,
@@ -4060,7 +3870,7 @@
         }
     },
     {
-        "id": 407,
+        "id": 388,
         "event_type": "LOAD_START",
         "stop_id": "RU",
         "time": 13857.07428895795,
@@ -4070,17 +3880,7 @@
         }
     },
     {
-        "id": 408,
-        "event_type": "LOAD_START",
-        "stop_id": "RU",
-        "time": 13857.07428895795,
-        "coordinates": {
-            "lat": 47.904031,
-            "lng": -122.308929
-        }
-    },
-    {
-        "id": 409,
+        "id": 389,
         "event_type": "LOAD_END",
         "stop_id": "RU",
         "time": 13872.07428895795,
@@ -4090,457 +3890,447 @@
         }
     },
     {
-        "id": 410,
+        "id": 390,
         "event_type": "ARRIVE",
         "stop_id": "FF",
         "time": 13954.07428895795,
         "coordinates": {
             "lat": 47.901412,
             "lng": -122.307906
+        }
+    },
+    {
+        "id": 391,
+        "event_type": "SERVICE_START",
+        "stop_id": "FF",
+        "time": 13954.07428895795,
+        "coordinates": {
+            "lat": 47.901412,
+            "lng": -122.307906
+        }
+    },
+    {
+        "id": 392,
+        "event_type": "SERVICE_END",
+        "stop_id": "FF",
+        "time": 14024.57428895795,
+        "coordinates": {
+            "lat": 47.901412,
+            "lng": -122.307906
+        }
+    },
+    {
+        "id": 393,
+        "event_type": "DEPART",
+        "stop_id": "FF",
+        "time": 14024.57428895795,
+        "coordinates": {
+            "lat": 47.901412,
+            "lng": -122.307906
+        }
+    },
+    {
+        "id": 394,
+        "event_type": "ARRIVE",
+        "stop_id": "VT",
+        "time": 14221.774288957951,
+        "coordinates": {
+            "lat": 47.901422,
+            "lng": -122.321095
+        }
+    },
+    {
+        "id": 395,
+        "event_type": "SERVICE_START",
+        "stop_id": "VT",
+        "time": 14221.774288957951,
+        "coordinates": {
+            "lat": 47.901422,
+            "lng": -122.321095
+        }
+    },
+    {
+        "id": 396,
+        "event_type": "SERVICE_END",
+        "stop_id": "VT",
+        "time": 14358.774288957951,
+        "coordinates": {
+            "lat": 47.901422,
+            "lng": -122.321095
+        }
+    },
+    {
+        "id": 397,
+        "event_type": "DEPART",
+        "stop_id": "VT",
+        "time": 14358.774288957951,
+        "coordinates": {
+            "lat": 47.901422,
+            "lng": -122.321095
+        }
+    },
+    {
+        "id": 398,
+        "event_type": "ARRIVE",
+        "stop_id": "VL",
+        "time": 14435.174288957951,
+        "coordinates": {
+            "lat": 47.901703,
+            "lng": -122.323671
+        }
+    },
+    {
+        "id": 399,
+        "event_type": "SERVICE_START",
+        "stop_id": "VL",
+        "time": 14435.174288957951,
+        "coordinates": {
+            "lat": 47.901703,
+            "lng": -122.323671
+        }
+    },
+    {
+        "id": 400,
+        "event_type": "SERVICE_END",
+        "stop_id": "VL",
+        "time": 14536.174288957951,
+        "coordinates": {
+            "lat": 47.901703,
+            "lng": -122.323671
+        }
+    },
+    {
+        "id": 401,
+        "event_type": "DEPART",
+        "stop_id": "VL",
+        "time": 14536.174288957951,
+        "coordinates": {
+            "lat": 47.901703,
+            "lng": -122.323671
+        }
+    },
+    {
+        "id": 402,
+        "event_type": "ARRIVE",
+        "stop_id": "KM",
+        "time": 14585.07428895795,
+        "coordinates": {
+            "lat": 47.904382,
+            "lng": -122.323276
+        }
+    },
+    {
+        "id": 403,
+        "event_type": "SERVICE_START",
+        "stop_id": "KM",
+        "time": 14585.07428895795,
+        "coordinates": {
+            "lat": 47.904382,
+            "lng": -122.323276
+        }
+    },
+    {
+        "id": 404,
+        "event_type": "SERVICE_END",
+        "stop_id": "KM",
+        "time": 14640.07428895795,
+        "coordinates": {
+            "lat": 47.904382,
+            "lng": -122.323276
+        }
+    },
+    {
+        "id": 405,
+        "event_type": "DEPART",
+        "stop_id": "KM",
+        "time": 14640.07428895795,
+        "coordinates": {
+            "lat": 47.904382,
+            "lng": -122.323276
+        }
+    },
+    {
+        "id": 406,
+        "event_type": "ARRIVE",
+        "stop_id": "QE",
+        "time": 14681.87428895795,
+        "coordinates": {
+            "lat": 47.906566,
+            "lng": -122.321865
+        }
+    },
+    {
+        "id": 407,
+        "event_type": "SERVICE_START",
+        "stop_id": "QE",
+        "time": 14681.87428895795,
+        "coordinates": {
+            "lat": 47.906566,
+            "lng": -122.321865
+        }
+    },
+    {
+        "id": 408,
+        "event_type": "SERVICE_END",
+        "stop_id": "QE",
+        "time": 14722.87428895795,
+        "coordinates": {
+            "lat": 47.906566,
+            "lng": -122.321865
+        }
+    },
+    {
+        "id": 409,
+        "event_type": "DEPART",
+        "stop_id": "QE",
+        "time": 14722.87428895795,
+        "coordinates": {
+            "lat": 47.906566,
+            "lng": -122.321865
+        }
+    },
+    {
+        "id": 410,
+        "event_type": "ARRIVE",
+        "stop_id": "FD",
+        "time": 14731.27428895795,
+        "coordinates": {
+            "lat": 47.907061,
+            "lng": -122.321531
         }
     },
     {
         "id": 411,
         "event_type": "SERVICE_START",
-        "stop_id": "FF",
-        "time": 13954.07428895795,
+        "stop_id": "FD",
+        "time": 14731.27428895795,
         "coordinates": {
-            "lat": 47.901412,
-            "lng": -122.307906
+            "lat": 47.907061,
+            "lng": -122.321531
         }
     },
     {
         "id": 412,
         "event_type": "SERVICE_END",
-        "stop_id": "FF",
-        "time": 14024.57428895795,
+        "stop_id": "FD",
+        "time": 14756.27428895795,
         "coordinates": {
-            "lat": 47.901412,
-            "lng": -122.307906
+            "lat": 47.907061,
+            "lng": -122.321531
         }
     },
     {
         "id": 413,
         "event_type": "DEPART",
-        "stop_id": "FF",
-        "time": 14024.57428895795,
+        "stop_id": "FD",
+        "time": 14756.27428895795,
         "coordinates": {
-            "lat": 47.901412,
-            "lng": -122.307906
+            "lat": 47.907061,
+            "lng": -122.321531
         }
     },
     {
         "id": 414,
         "event_type": "ARRIVE",
-        "stop_id": "VT",
-        "time": 14221.774288957951,
+        "stop_id": "OT",
+        "time": 14777.47428895795,
         "coordinates": {
-            "lat": 47.901422,
-            "lng": -122.321095
+            "lat": 47.908212,
+            "lng": -122.320817
         }
     },
     {
         "id": 415,
         "event_type": "SERVICE_START",
-        "stop_id": "VT",
-        "time": 14221.774288957951,
+        "stop_id": "OT",
+        "time": 14777.47428895795,
         "coordinates": {
-            "lat": 47.901422,
-            "lng": -122.321095
+            "lat": 47.908212,
+            "lng": -122.320817
         }
     },
     {
         "id": 416,
         "event_type": "SERVICE_END",
-        "stop_id": "VT",
-        "time": 14358.774288957951,
+        "stop_id": "OT",
+        "time": 14842.47428895795,
         "coordinates": {
-            "lat": 47.901422,
-            "lng": -122.321095
+            "lat": 47.908212,
+            "lng": -122.320817
         }
     },
     {
         "id": 417,
         "event_type": "DEPART",
-        "stop_id": "VT",
-        "time": 14358.774288957951,
+        "stop_id": "OT",
+        "time": 14842.47428895795,
         "coordinates": {
-            "lat": 47.901422,
-            "lng": -122.321095
+            "lat": 47.908212,
+            "lng": -122.320817
         }
     },
     {
         "id": 418,
         "event_type": "ARRIVE",
-        "stop_id": "VL",
-        "time": 14435.174288957951,
+        "stop_id": "ZS",
+        "time": 14930.87428895795,
         "coordinates": {
-            "lat": 47.901703,
-            "lng": -122.323671
+            "lat": 47.904285,
+            "lng": -122.321969
         }
     },
     {
         "id": 419,
         "event_type": "SERVICE_START",
-        "stop_id": "VL",
-        "time": 14435.174288957951,
+        "stop_id": "ZS",
+        "time": 14930.87428895795,
         "coordinates": {
-            "lat": 47.901703,
-            "lng": -122.323671
+            "lat": 47.904285,
+            "lng": -122.321969
         }
     },
     {
         "id": 420,
         "event_type": "SERVICE_END",
-        "stop_id": "VL",
-        "time": 14536.174288957951,
+        "stop_id": "ZS",
+        "time": 14980.37428895795,
         "coordinates": {
-            "lat": 47.901703,
-            "lng": -122.323671
+            "lat": 47.904285,
+            "lng": -122.321969
         }
     },
     {
         "id": 421,
         "event_type": "DEPART",
-        "stop_id": "VL",
-        "time": 14536.174288957951,
+        "stop_id": "ZS",
+        "time": 14980.37428895795,
         "coordinates": {
-            "lat": 47.901703,
-            "lng": -122.323671
+            "lat": 47.904285,
+            "lng": -122.321969
         }
     },
     {
         "id": 422,
         "event_type": "ARRIVE",
-        "stop_id": "KM",
-        "time": 14585.07428895795,
+        "stop_id": "YB",
+        "time": 15010.47428895795,
         "coordinates": {
-            "lat": 47.904382,
-            "lng": -122.323276
+            "lat": 47.902563,
+            "lng": -122.321275
         }
     },
     {
         "id": 423,
         "event_type": "SERVICE_START",
-        "stop_id": "KM",
-        "time": 14585.07428895795,
+        "stop_id": "YB",
+        "time": 15010.47428895795,
         "coordinates": {
-            "lat": 47.904382,
-            "lng": -122.323276
+            "lat": 47.902563,
+            "lng": -122.321275
         }
     },
     {
         "id": 424,
         "event_type": "SERVICE_END",
-        "stop_id": "KM",
-        "time": 14640.07428895795,
+        "stop_id": "YB",
+        "time": 15068.47428895795,
         "coordinates": {
-            "lat": 47.904382,
-            "lng": -122.323276
+            "lat": 47.902563,
+            "lng": -122.321275
         }
     },
     {
         "id": 425,
         "event_type": "DEPART",
-        "stop_id": "KM",
-        "time": 14640.07428895795,
+        "stop_id": "YB",
+        "time": 15068.47428895795,
         "coordinates": {
-            "lat": 47.904382,
-            "lng": -122.323276
+            "lat": 47.902563,
+            "lng": -122.321275
         }
     },
     {
         "id": 426,
         "event_type": "ARRIVE",
-        "stop_id": "QE",
-        "time": 14681.87428895795,
+        "stop_id": "FC",
+        "time": 15094.37428895795,
         "coordinates": {
-            "lat": 47.906566,
-            "lng": -122.321865
+            "lat": 47.901712,
+            "lng": -122.32091
         }
     },
     {
         "id": 427,
         "event_type": "SERVICE_START",
-        "stop_id": "QE",
-        "time": 14681.87428895795,
+        "stop_id": "FC",
+        "time": 15094.37428895795,
         "coordinates": {
-            "lat": 47.906566,
-            "lng": -122.321865
+            "lat": 47.901712,
+            "lng": -122.32091
         }
     },
     {
         "id": 428,
         "event_type": "SERVICE_END",
-        "stop_id": "QE",
-        "time": 14722.87428895795,
+        "stop_id": "FC",
+        "time": 15186.37428895795,
         "coordinates": {
-            "lat": 47.906566,
-            "lng": -122.321865
+            "lat": 47.901712,
+            "lng": -122.32091
         }
     },
     {
         "id": 429,
         "event_type": "DEPART",
-        "stop_id": "QE",
-        "time": 14722.87428895795,
+        "stop_id": "FC",
+        "time": 15186.37428895795,
         "coordinates": {
-            "lat": 47.906566,
-            "lng": -122.321865
+            "lat": 47.901712,
+            "lng": -122.32091
         }
     },
     {
         "id": 430,
         "event_type": "ARRIVE",
-        "stop_id": "FD",
-        "time": 14731.27428895795,
+        "stop_id": "GR",
+        "time": 15211.77428895795,
         "coordinates": {
-            "lat": 47.907061,
-            "lng": -122.321531
+            "lat": 47.903188,
+            "lng": -122.320484
         }
     },
     {
         "id": 431,
         "event_type": "SERVICE_START",
-        "stop_id": "FD",
-        "time": 14731.27428895795,
+        "stop_id": "GR",
+        "time": 15211.77428895795,
         "coordinates": {
-            "lat": 47.907061,
-            "lng": -122.321531
+            "lat": 47.903188,
+            "lng": -122.320484
         }
     },
     {
         "id": 432,
         "event_type": "SERVICE_END",
-        "stop_id": "FD",
-        "time": 14756.27428895795,
+        "stop_id": "GR",
+        "time": 15282.27428895795,
         "coordinates": {
-            "lat": 47.907061,
-            "lng": -122.321531
+            "lat": 47.903188,
+            "lng": -122.320484
         }
     },
     {
         "id": 433,
-        "event_type": "DEPART",
-        "stop_id": "FD",
-        "time": 14756.27428895795,
+        "event_type": "LOAD_START",
+        "stop_id": "GR",
+        "time": 15282.27428895795,
         "coordinates": {
-            "lat": 47.907061,
-            "lng": -122.321531
+            "lat": 47.903188,
+            "lng": -122.320484
         }
     },
     {
         "id": 434,
-        "event_type": "ARRIVE",
-        "stop_id": "OT",
-        "time": 14777.47428895795,
-        "coordinates": {
-            "lat": 47.908212,
-            "lng": -122.320817
-        }
-    },
-    {
-        "id": 435,
-        "event_type": "SERVICE_START",
-        "stop_id": "OT",
-        "time": 14777.47428895795,
-        "coordinates": {
-            "lat": 47.908212,
-            "lng": -122.320817
-        }
-    },
-    {
-        "id": 436,
-        "event_type": "SERVICE_END",
-        "stop_id": "OT",
-        "time": 14842.47428895795,
-        "coordinates": {
-            "lat": 47.908212,
-            "lng": -122.320817
-        }
-    },
-    {
-        "id": 437,
-        "event_type": "DEPART",
-        "stop_id": "OT",
-        "time": 14842.47428895795,
-        "coordinates": {
-            "lat": 47.908212,
-            "lng": -122.320817
-        }
-    },
-    {
-        "id": 438,
-        "event_type": "ARRIVE",
-        "stop_id": "ZS",
-        "time": 14930.87428895795,
-        "coordinates": {
-            "lat": 47.904285,
-            "lng": -122.321969
-        }
-    },
-    {
-        "id": 439,
-        "event_type": "SERVICE_START",
-        "stop_id": "ZS",
-        "time": 14930.87428895795,
-        "coordinates": {
-            "lat": 47.904285,
-            "lng": -122.321969
-        }
-    },
-    {
-        "id": 440,
-        "event_type": "SERVICE_END",
-        "stop_id": "ZS",
-        "time": 14980.37428895795,
-        "coordinates": {
-            "lat": 47.904285,
-            "lng": -122.321969
-        }
-    },
-    {
-        "id": 441,
-        "event_type": "DEPART",
-        "stop_id": "ZS",
-        "time": 14980.37428895795,
-        "coordinates": {
-            "lat": 47.904285,
-            "lng": -122.321969
-        }
-    },
-    {
-        "id": 442,
-        "event_type": "ARRIVE",
-        "stop_id": "YB",
-        "time": 15010.47428895795,
-        "coordinates": {
-            "lat": 47.902563,
-            "lng": -122.321275
-        }
-    },
-    {
-        "id": 443,
-        "event_type": "SERVICE_START",
-        "stop_id": "YB",
-        "time": 15010.47428895795,
-        "coordinates": {
-            "lat": 47.902563,
-            "lng": -122.321275
-        }
-    },
-    {
-        "id": 444,
-        "event_type": "SERVICE_END",
-        "stop_id": "YB",
-        "time": 15068.47428895795,
-        "coordinates": {
-            "lat": 47.902563,
-            "lng": -122.321275
-        }
-    },
-    {
-        "id": 445,
-        "event_type": "DEPART",
-        "stop_id": "YB",
-        "time": 15068.47428895795,
-        "coordinates": {
-            "lat": 47.902563,
-            "lng": -122.321275
-        }
-    },
-    {
-        "id": 446,
-        "event_type": "ARRIVE",
-        "stop_id": "FC",
-        "time": 15094.37428895795,
-        "coordinates": {
-            "lat": 47.901712,
-            "lng": -122.32091
-        }
-    },
-    {
-        "id": 447,
-        "event_type": "SERVICE_START",
-        "stop_id": "FC",
-        "time": 15094.37428895795,
-        "coordinates": {
-            "lat": 47.901712,
-            "lng": -122.32091
-        }
-    },
-    {
-        "id": 448,
-        "event_type": "SERVICE_END",
-        "stop_id": "FC",
-        "time": 15186.37428895795,
-        "coordinates": {
-            "lat": 47.901712,
-            "lng": -122.32091
-        }
-    },
-    {
-        "id": 449,
-        "event_type": "DEPART",
-        "stop_id": "FC",
-        "time": 15186.37428895795,
-        "coordinates": {
-            "lat": 47.901712,
-            "lng": -122.32091
-        }
-    },
-    {
-        "id": 450,
-        "event_type": "ARRIVE",
-        "stop_id": "GR",
-        "time": 15211.77428895795,
-        "coordinates": {
-            "lat": 47.903188,
-            "lng": -122.320484
-        }
-    },
-    {
-        "id": 451,
-        "event_type": "SERVICE_START",
-        "stop_id": "GR",
-        "time": 15211.77428895795,
-        "coordinates": {
-            "lat": 47.903188,
-            "lng": -122.320484
-        }
-    },
-    {
-        "id": 452,
-        "event_type": "SERVICE_END",
-        "stop_id": "GR",
-        "time": 15282.27428895795,
-        "coordinates": {
-            "lat": 47.903188,
-            "lng": -122.320484
-        }
-    },
-    {
-        "id": 453,
-        "event_type": "LOAD_START",
-        "stop_id": "GR",
-        "time": 15282.27428895795,
-        "coordinates": {
-            "lat": 47.903188,
-            "lng": -122.320484
-        }
-    },
-    {
-        "id": 454,
-        "event_type": "LOAD_START",
-        "stop_id": "GR",
-        "time": 15282.27428895795,
-        "coordinates": {
-            "lat": 47.903188,
-            "lng": -122.320484
-        }
-    },
-    {
-        "id": 455,
         "event_type": "LOAD_END",
         "stop_id": "GR",
         "time": 15297.27428895795,
@@ -4550,7 +4340,7 @@
         }
     },
     {
-        "id": 456,
+        "id": 435,
         "event_type": "ARRIVE",
         "stop_id": "YM",
         "time": 15389.77428895795,
@@ -4560,7 +4350,7 @@
         }
     },
     {
-        "id": 457,
+        "id": 436,
         "event_type": "SERVICE_START",
         "stop_id": "YM",
         "time": 15389.77428895795,
@@ -4570,7 +4360,7 @@
         }
     },
     {
-        "id": 458,
+        "id": 437,
         "event_type": "SERVICE_END",
         "stop_id": "YM",
         "time": 15439.77428895795,
@@ -4580,7 +4370,7 @@
         }
     },
     {
-        "id": 459,
+        "id": 438,
         "event_type": "DEPART",
         "stop_id": "YM",
         "time": 15439.77428895795,
@@ -4590,7 +4380,7 @@
         }
     },
     {
-        "id": 460,
+        "id": 439,
         "event_type": "ARRIVE",
         "stop_id": "QF",
         "time": 15533.27428895795,
@@ -4600,7 +4390,7 @@
         }
     },
     {
-        "id": 461,
+        "id": 440,
         "event_type": "SERVICE_START",
         "stop_id": "QF",
         "time": 15533.27428895795,
@@ -4610,7 +4400,7 @@
         }
     },
     {
-        "id": 462,
+        "id": 441,
         "event_type": "SERVICE_END",
         "stop_id": "QF",
         "time": 15580.27428895795,
@@ -4620,7 +4410,7 @@
         }
     },
     {
-        "id": 463,
+        "id": 442,
         "event_type": "LOAD_START",
         "stop_id": "QF",
         "time": 15580.27428895795,
@@ -4630,17 +4420,7 @@
         }
     },
     {
-        "id": 464,
-        "event_type": "LOAD_START",
-        "stop_id": "QF",
-        "time": 15580.27428895795,
-        "coordinates": {
-            "lat": 47.905482,
-            "lng": -122.31671
-        }
-    },
-    {
-        "id": 465,
+        "id": 443,
         "event_type": "LOAD_END",
         "stop_id": "QF",
         "time": 15595.27428895795,
@@ -4650,7 +4430,7 @@
         }
     },
     {
-        "id": 466,
+        "id": 444,
         "event_type": "ARRIVE",
         "stop_id": "AW",
         "time": 15664.97428895795,
@@ -4660,7 +4440,7 @@
         }
     },
     {
-        "id": 467,
+        "id": 445,
         "event_type": "SERVICE_START",
         "stop_id": "AW",
         "time": 15664.97428895795,
@@ -4670,7 +4450,7 @@
         }
     },
     {
-        "id": 468,
+        "id": 446,
         "event_type": "SERVICE_END",
         "stop_id": "AW",
         "time": 15732.57428895795,
@@ -4680,7 +4460,7 @@
         }
     },
     {
-        "id": 469,
+        "id": 447,
         "event_type": "DEPART",
         "stop_id": "AW",
         "time": 15732.57428895795,
@@ -4690,7 +4470,7 @@
         }
     },
     {
-        "id": 470,
+        "id": 448,
         "event_type": "ARRIVE",
         "stop_id": "AZ",
         "time": 15787.274288957951,
@@ -4700,7 +4480,7 @@
         }
     },
     {
-        "id": 471,
+        "id": 449,
         "event_type": "SERVICE_START",
         "stop_id": "AZ",
         "time": 15787.274288957951,
@@ -4710,7 +4490,7 @@
         }
     },
     {
-        "id": 472,
+        "id": 450,
         "event_type": "SERVICE_END",
         "stop_id": "AZ",
         "time": 15859.274288957951,
@@ -4720,7 +4500,7 @@
         }
     },
     {
-        "id": 473,
+        "id": 451,
         "event_type": "LOAD_START",
         "stop_id": "AZ",
         "time": 15859.274288957951,
@@ -4730,17 +4510,7 @@
         }
     },
     {
-        "id": 474,
-        "event_type": "LOAD_START",
-        "stop_id": "AZ",
-        "time": 15859.274288957951,
-        "coordinates": {
-            "lat": 47.901432,
-            "lng": -122.316419
-        }
-    },
-    {
-        "id": 475,
+        "id": 452,
         "event_type": "LOAD_END",
         "stop_id": "AZ",
         "time": 15874.274288957951,
@@ -4750,7 +4520,7 @@
         }
     },
     {
-        "id": 476,
+        "id": 453,
         "event_type": "ARRIVE",
         "stop_id": "ZX",
         "time": 15924.874288957952,
@@ -4760,7 +4530,7 @@
         }
     },
     {
-        "id": 477,
+        "id": 454,
         "event_type": "SERVICE_START",
         "stop_id": "ZX",
         "time": 15924.874288957952,
@@ -4770,7 +4540,7 @@
         }
     },
     {
-        "id": 478,
+        "id": 455,
         "event_type": "SERVICE_END",
         "stop_id": "ZX",
         "time": 16004.874288957952,
@@ -4780,7 +4550,7 @@
         }
     },
     {
-        "id": 479,
+        "id": 456,
         "event_type": "DEPART",
         "stop_id": "ZX",
         "time": 16004.874288957952,
@@ -4790,7 +4560,7 @@
         }
     },
     {
-        "id": 480,
+        "id": 457,
         "event_type": "ARRIVE",
         "stop_id": "SU",
         "time": 16049.374288957952,
@@ -4800,7 +4570,7 @@
         }
     },
     {
-        "id": 481,
+        "id": 458,
         "event_type": "SERVICE_START",
         "stop_id": "SU",
         "time": 16049.374288957952,
@@ -4810,7 +4580,7 @@
         }
     },
     {
-        "id": 482,
+        "id": 459,
         "event_type": "SERVICE_END",
         "stop_id": "SU",
         "time": 16113.374288957952,
@@ -4820,7 +4590,7 @@
         }
     },
     {
-        "id": 483,
+        "id": 460,
         "event_type": "LOAD_START",
         "stop_id": "SU",
         "time": 16113.374288957952,
@@ -4830,17 +4600,7 @@
         }
     },
     {
-        "id": 484,
-        "event_type": "LOAD_START",
-        "stop_id": "SU",
-        "time": 16113.374288957952,
-        "coordinates": {
-            "lat": 47.902491,
-            "lng": -122.312458
-        }
-    },
-    {
-        "id": 485,
+        "id": 461,
         "event_type": "LOAD_END",
         "stop_id": "SU",
         "time": 16128.374288957952,
@@ -4850,7 +4610,7 @@
         }
     },
     {
-        "id": 486,
+        "id": 462,
         "event_type": "ARRIVE",
         "stop_id": "UE",
         "time": 16237.374288957952,
@@ -4860,7 +4620,7 @@
         }
     },
     {
-        "id": 487,
+        "id": 463,
         "event_type": "SERVICE_START",
         "stop_id": "UE",
         "time": 16237.374288957952,
@@ -4870,7 +4630,7 @@
         }
     },
     {
-        "id": 488,
+        "id": 464,
         "event_type": "SERVICE_END",
         "stop_id": "UE",
         "time": 16290.374288957952,
@@ -4880,7 +4640,7 @@
         }
     },
     {
-        "id": 489,
+        "id": 465,
         "event_type": "DEPART",
         "stop_id": "UE",
         "time": 16290.374288957952,
@@ -4890,7 +4650,7 @@
         }
     },
     {
-        "id": 490,
+        "id": 466,
         "event_type": "ARRIVE",
         "stop_id": "NK",
         "time": 16305.274288957951,
@@ -4900,7 +4660,7 @@
         }
     },
     {
-        "id": 491,
+        "id": 467,
         "event_type": "SERVICE_START",
         "stop_id": "NK",
         "time": 16305.274288957951,
@@ -4910,7 +4670,7 @@
         }
     },
     {
-        "id": 492,
+        "id": 468,
         "event_type": "SERVICE_END",
         "stop_id": "NK",
         "time": 16392.274288957953,
@@ -4920,7 +4680,7 @@
         }
     },
     {
-        "id": 493,
+        "id": 469,
         "event_type": "DEPART",
         "stop_id": "NK",
         "time": 16392.274288957953,
@@ -4930,7 +4690,7 @@
         }
     },
     {
-        "id": 494,
+        "id": 470,
         "event_type": "ARRIVE",
         "stop_id": "XF",
         "time": 16414.074288957952,
@@ -4940,7 +4700,7 @@
         }
     },
     {
-        "id": 495,
+        "id": 471,
         "event_type": "SERVICE_START",
         "stop_id": "XF",
         "time": 16414.074288957952,
@@ -4950,7 +4710,7 @@
         }
     },
     {
-        "id": 496,
+        "id": 472,
         "event_type": "SERVICE_END",
         "stop_id": "XF",
         "time": 16529.074288957952,
@@ -4960,7 +4720,7 @@
         }
     },
     {
-        "id": 497,
+        "id": 473,
         "event_type": "DEPART",
         "stop_id": "XF",
         "time": 16529.074288957952,
@@ -4970,7 +4730,7 @@
         }
     },
     {
-        "id": 498,
+        "id": 474,
         "event_type": "ARRIVE",
         "stop_id": "LT",
         "time": 16536.774288957953,
@@ -4980,7 +4740,7 @@
         }
     },
     {
-        "id": 499,
+        "id": 475,
         "event_type": "SERVICE_START",
         "stop_id": "LT",
         "time": 16536.774288957953,
@@ -4990,7 +4750,7 @@
         }
     },
     {
-        "id": 500,
+        "id": 476,
         "event_type": "SERVICE_END",
         "stop_id": "LT",
         "time": 16763.774288957953,
@@ -5000,7 +4760,7 @@
         }
     },
     {
-        "id": 501,
+        "id": 477,
         "event_type": "LOAD_START",
         "stop_id": "LT",
         "time": 16763.774288957953,
@@ -5010,17 +4770,7 @@
         }
     },
     {
-        "id": 502,
-        "event_type": "LOAD_START",
-        "stop_id": "LT",
-        "time": 16763.774288957953,
-        "coordinates": {
-            "lat": 47.903637,
-            "lng": -122.312589
-        }
-    },
-    {
-        "id": 503,
+        "id": 478,
         "event_type": "LOAD_END",
         "stop_id": "LT",
         "time": 16778.774288957953,
@@ -5030,7 +4780,7 @@
         }
     },
     {
-        "id": 504,
+        "id": 479,
         "event_type": "ARRIVE",
         "stop_id": "TD",
         "time": 16996.274288957953,
@@ -5040,7 +4790,7 @@
         }
     },
     {
-        "id": 505,
+        "id": 480,
         "event_type": "SERVICE_START",
         "stop_id": "TD",
         "time": 16996.274288957953,
@@ -5050,7 +4800,7 @@
         }
     },
     {
-        "id": 506,
+        "id": 481,
         "event_type": "SERVICE_END",
         "stop_id": "TD",
         "time": 17030.774288957953,
@@ -5060,7 +4810,7 @@
         }
     },
     {
-        "id": 507,
+        "id": 482,
         "event_type": "DEPART",
         "stop_id": "TD",
         "time": 17030.774288957953,
@@ -5070,7 +4820,7 @@
         }
     },
     {
-        "id": 508,
+        "id": 483,
         "event_type": "ARRIVE",
         "stop_id": "QO",
         "time": 17116.474288957954,
@@ -5080,7 +4830,7 @@
         }
     },
     {
-        "id": 509,
+        "id": 484,
         "event_type": "SERVICE_START",
         "stop_id": "QO",
         "time": 17116.474288957954,
@@ -5090,7 +4840,7 @@
         }
     },
     {
-        "id": 510,
+        "id": 485,
         "event_type": "SERVICE_END",
         "stop_id": "QO",
         "time": 17158.474288957954,
@@ -5100,7 +4850,7 @@
         }
     },
     {
-        "id": 511,
+        "id": 486,
         "event_type": "LOAD_START",
         "stop_id": "QO",
         "time": 17158.474288957954,
@@ -5110,17 +4860,7 @@
         }
     },
     {
-        "id": 512,
-        "event_type": "LOAD_START",
-        "stop_id": "QO",
-        "time": 17158.474288957954,
-        "coordinates": {
-            "lat": 47.894134,
-            "lng": -122.309869
-        }
-    },
-    {
-        "id": 513,
+        "id": 487,
         "event_type": "LOAD_END",
         "stop_id": "QO",
         "time": 17173.474288957954,
@@ -5130,7 +4870,7 @@
         }
     },
     {
-        "id": 514,
+        "id": 488,
         "event_type": "ARRIVE",
         "stop_id": "KR",
         "time": 17237.574288957952,
@@ -5140,7 +4880,7 @@
         }
     },
     {
-        "id": 515,
+        "id": 489,
         "event_type": "SERVICE_START",
         "stop_id": "KR",
         "time": 17237.574288957952,
@@ -5150,7 +4890,7 @@
         }
     },
     {
-        "id": 516,
+        "id": 490,
         "event_type": "SERVICE_END",
         "stop_id": "KR",
         "time": 17296.574288957952,
@@ -5160,7 +4900,7 @@
         }
     },
     {
-        "id": 517,
+        "id": 491,
         "event_type": "DEPART",
         "stop_id": "KR",
         "time": 17296.574288957952,
@@ -5170,7 +4910,7 @@
         }
     },
     {
-        "id": 518,
+        "id": 492,
         "event_type": "ARRIVE",
         "stop_id": "RA",
         "time": 17327.17428895795,
@@ -5180,7 +4920,7 @@
         }
     },
     {
-        "id": 519,
+        "id": 493,
         "event_type": "SERVICE_START",
         "stop_id": "RA",
         "time": 17327.17428895795,
@@ -5190,7 +4930,7 @@
         }
     },
     {
-        "id": 520,
+        "id": 494,
         "event_type": "SERVICE_END",
         "stop_id": "RA",
         "time": 17398.17428895795,
@@ -5200,7 +4940,7 @@
         }
     },
     {
-        "id": 521,
+        "id": 495,
         "event_type": "LOAD_START",
         "stop_id": "RA",
         "time": 17398.17428895795,
@@ -5210,17 +4950,7 @@
         }
     },
     {
-        "id": 522,
-        "event_type": "LOAD_START",
-        "stop_id": "RA",
-        "time": 17398.17428895795,
-        "coordinates": {
-            "lat": 47.894701,
-            "lng": -122.307782
-        }
-    },
-    {
-        "id": 523,
+        "id": 496,
         "event_type": "LOAD_END",
         "stop_id": "RA",
         "time": 17413.17428895795,
@@ -5230,7 +4960,7 @@
         }
     },
     {
-        "id": 524,
+        "id": 497,
         "event_type": "ARRIVE",
         "stop_id": "NG",
         "time": 17493.77428895795,
@@ -5240,7 +4970,7 @@
         }
     },
     {
-        "id": 525,
+        "id": 498,
         "event_type": "SERVICE_START",
         "stop_id": "NG",
         "time": 17493.77428895795,
@@ -5250,7 +4980,7 @@
         }
     },
     {
-        "id": 526,
+        "id": 499,
         "event_type": "SERVICE_END",
         "stop_id": "NG",
         "time": 17574.77428895795,
@@ -5260,7 +4990,7 @@
         }
     },
     {
-        "id": 527,
+        "id": 500,
         "event_type": "LOAD_START",
         "stop_id": "NG",
         "time": 17574.77428895795,
@@ -5270,17 +5000,7 @@
         }
     },
     {
-        "id": 528,
-        "event_type": "LOAD_START",
-        "stop_id": "NG",
-        "time": 17574.77428895795,
-        "coordinates": {
-            "lat": 47.895599,
-            "lng": -122.306845
-        }
-    },
-    {
-        "id": 529,
+        "id": 501,
         "event_type": "LOAD_END",
         "stop_id": "NG",
         "time": 17589.77428895795,
@@ -5290,7 +5010,7 @@
         }
     },
     {
-        "id": 530,
+        "id": 502,
         "event_type": "ARRIVE",
         "stop_id": "NJ",
         "time": 17715.374288957948,
@@ -5300,7 +5020,7 @@
         }
     },
     {
-        "id": 531,
+        "id": 503,
         "event_type": "SERVICE_START",
         "stop_id": "NJ",
         "time": 17715.374288957948,
@@ -5310,7 +5030,7 @@
         }
     },
     {
-        "id": 532,
+        "id": 504,
         "event_type": "SERVICE_END",
         "stop_id": "NJ",
         "time": 17746.374288957948,
@@ -5320,7 +5040,7 @@
         }
     },
     {
-        "id": 533,
+        "id": 505,
         "event_type": "DEPART",
         "stop_id": "NJ",
         "time": 17746.374288957948,
@@ -5330,7 +5050,7 @@
         }
     },
     {
-        "id": 534,
+        "id": 506,
         "event_type": "ARRIVE",
         "stop_id": "ZQ",
         "time": 17782.474288957947,
@@ -5340,7 +5060,7 @@
         }
     },
     {
-        "id": 535,
+        "id": 507,
         "event_type": "SERVICE_START",
         "stop_id": "ZQ",
         "time": 17782.474288957947,
@@ -5350,7 +5070,7 @@
         }
     },
     {
-        "id": 536,
+        "id": 508,
         "event_type": "SERVICE_END",
         "stop_id": "ZQ",
         "time": 17834.974288957947,
@@ -5360,7 +5080,7 @@
         }
     },
     {
-        "id": 537,
+        "id": 509,
         "event_type": "DEPART",
         "stop_id": "ZQ",
         "time": 17834.974288957947,
@@ -5370,7 +5090,7 @@
         }
     },
     {
-        "id": 538,
+        "id": 510,
         "event_type": "ARRIVE",
         "stop_id": "BS",
         "time": 17941.074288957945,
@@ -5380,7 +5100,7 @@
         }
     },
     {
-        "id": 539,
+        "id": 511,
         "event_type": "SERVICE_START",
         "stop_id": "BS",
         "time": 17941.074288957945,
@@ -5390,7 +5110,7 @@
         }
     },
     {
-        "id": 540,
+        "id": 512,
         "event_type": "SERVICE_END",
         "stop_id": "BS",
         "time": 17993.074288957945,
@@ -5400,7 +5120,7 @@
         }
     },
     {
-        "id": 541,
+        "id": 513,
         "event_type": "LOAD_START",
         "stop_id": "BS",
         "time": 17993.074288957945,
@@ -5410,17 +5130,7 @@
         }
     },
     {
-        "id": 542,
-        "event_type": "LOAD_START",
-        "stop_id": "BS",
-        "time": 17993.074288957945,
-        "coordinates": {
-            "lat": 47.897468,
-            "lng": -122.307867
-        }
-    },
-    {
-        "id": 543,
+        "id": 514,
         "event_type": "LOAD_END",
         "stop_id": "BS",
         "time": 18008.074288957945,
@@ -5430,7 +5140,7 @@
         }
     },
     {
-        "id": 544,
+        "id": 515,
         "event_type": "ARRIVE",
         "stop_id": "MX",
         "time": 18154.974288957947,
@@ -5440,7 +5150,7 @@
         }
     },
     {
-        "id": 545,
+        "id": 516,
         "event_type": "SERVICE_START",
         "stop_id": "MX",
         "time": 18154.974288957947,
@@ -5450,7 +5160,7 @@
         }
     },
     {
-        "id": 546,
+        "id": 517,
         "event_type": "SERVICE_END",
         "stop_id": "MX",
         "time": 18224.974288957947,
@@ -5460,7 +5170,7 @@
         }
     },
     {
-        "id": 547,
+        "id": 518,
         "event_type": "LOAD_START",
         "stop_id": "MX",
         "time": 18224.974288957947,
@@ -5470,17 +5180,7 @@
         }
     },
     {
-        "id": 548,
-        "event_type": "LOAD_START",
-        "stop_id": "MX",
-        "time": 18224.974288957947,
-        "coordinates": {
-            "lat": 47.897018,
-            "lng": -122.316386
-        }
-    },
-    {
-        "id": 549,
+        "id": 519,
         "event_type": "LOAD_END",
         "stop_id": "MX",
         "time": 18239.974288957947,
@@ -5490,7 +5190,7 @@
         }
     },
     {
-        "id": 550,
+        "id": 520,
         "event_type": "ARRIVE",
         "stop_id": "DY",
         "time": 18346.174288957947,
@@ -5500,7 +5200,7 @@
         }
     },
     {
-        "id": 551,
+        "id": 521,
         "event_type": "SERVICE_START",
         "stop_id": "DY",
         "time": 18346.174288957947,
@@ -5510,7 +5210,7 @@
         }
     },
     {
-        "id": 552,
+        "id": 522,
         "event_type": "SERVICE_END",
         "stop_id": "DY",
         "time": 18388.174288957947,
@@ -5520,7 +5220,7 @@
         }
     },
     {
-        "id": 553,
+        "id": 523,
         "event_type": "DEPART",
         "stop_id": "DY",
         "time": 18388.174288957947,
@@ -5530,7 +5230,7 @@
         }
     },
     {
-        "id": 554,
+        "id": 524,
         "event_type": "ARRIVE",
         "stop_id": "SQ",
         "time": 18430.674288957947,
@@ -5540,7 +5240,7 @@
         }
     },
     {
-        "id": 555,
+        "id": 525,
         "event_type": "SERVICE_START",
         "stop_id": "SQ",
         "time": 18430.674288957947,
@@ -5550,7 +5250,7 @@
         }
     },
     {
-        "id": 556,
+        "id": 526,
         "event_type": "SERVICE_END",
         "stop_id": "SQ",
         "time": 18490.674288957947,
@@ -5560,7 +5260,7 @@
         }
     },
     {
-        "id": 557,
+        "id": 527,
         "event_type": "DEPART",
         "stop_id": "SQ",
         "time": 18490.674288957947,
@@ -5570,7 +5270,7 @@
         }
     },
     {
-        "id": 558,
+        "id": 528,
         "event_type": "ARRIVE",
         "stop_id": "EC",
         "time": 18536.07428895795,
@@ -5580,7 +5280,7 @@
         }
     },
     {
-        "id": 559,
+        "id": 529,
         "event_type": "SERVICE_START",
         "stop_id": "EC",
         "time": 18536.07428895795,
@@ -5590,7 +5290,7 @@
         }
     },
     {
-        "id": 560,
+        "id": 530,
         "event_type": "SERVICE_END",
         "stop_id": "EC",
         "time": 18573.07428895795,
@@ -5600,7 +5300,7 @@
         }
     },
     {
-        "id": 561,
+        "id": 531,
         "event_type": "DEPART",
         "stop_id": "EC",
         "time": 18573.07428895795,
@@ -5610,7 +5310,7 @@
         }
     },
     {
-        "id": 562,
+        "id": 532,
         "event_type": "ARRIVE",
         "stop_id": "TK",
         "time": 18583.674288957947,
@@ -5620,7 +5320,7 @@
         }
     },
     {
-        "id": 563,
+        "id": 533,
         "event_type": "SERVICE_START",
         "stop_id": "TK",
         "time": 18583.674288957947,
@@ -5630,7 +5330,7 @@
         }
     },
     {
-        "id": 564,
+        "id": 534,
         "event_type": "SERVICE_END",
         "stop_id": "TK",
         "time": 18638.674288957947,
@@ -5640,7 +5340,7 @@
         }
     },
     {
-        "id": 565,
+        "id": 535,
         "event_type": "DEPART",
         "stop_id": "TK",
         "time": 18638.674288957947,
@@ -5650,7 +5350,7 @@
         }
     },
     {
-        "id": 566,
+        "id": 536,
         "event_type": "ARRIVE",
         "stop_id": "OC",
         "time": 18777.174288957947,
@@ -5660,7 +5360,7 @@
         }
     },
     {
-        "id": 567,
+        "id": 537,
         "event_type": "SERVICE_START",
         "stop_id": "OC",
         "time": 18777.174288957947,
@@ -5670,7 +5370,7 @@
         }
     },
     {
-        "id": 568,
+        "id": 538,
         "event_type": "SERVICE_END",
         "stop_id": "OC",
         "time": 18824.174288957947,
@@ -5680,7 +5380,7 @@
         }
     },
     {
-        "id": 569,
+        "id": 539,
         "event_type": "DEPART",
         "stop_id": "OC",
         "time": 18824.174288957947,
@@ -5690,7 +5390,7 @@
         }
     },
     {
-        "id": 570,
+        "id": 540,
         "event_type": "ARRIVE",
         "stop_id": "LA",
         "time": 18964.974288957947,
@@ -5700,7 +5400,7 @@
         }
     },
     {
-        "id": 571,
+        "id": 541,
         "event_type": "SERVICE_START",
         "stop_id": "LA",
         "time": 18964.974288957947,
@@ -5710,7 +5410,7 @@
         }
     },
     {
-        "id": 572,
+        "id": 542,
         "event_type": "SERVICE_END",
         "stop_id": "LA",
         "time": 19064.474288957947,
@@ -5720,7 +5420,7 @@
         }
     },
     {
-        "id": 573,
+        "id": 543,
         "event_type": "LOAD_START",
         "stop_id": "LA",
         "time": 19064.474288957947,
@@ -5730,17 +5430,7 @@
         }
     },
     {
-        "id": 574,
-        "event_type": "LOAD_START",
-        "stop_id": "LA",
-        "time": 19064.474288957947,
-        "coordinates": {
-            "lat": 47.898078,
-            "lng": -122.323888
-        }
-    },
-    {
-        "id": 575,
+        "id": 544,
         "event_type": "LOAD_END",
         "stop_id": "LA",
         "time": 19079.474288957947,
@@ -5750,7 +5440,7 @@
         }
     },
     {
-        "id": 576,
+        "id": 545,
         "event_type": "ARRIVE",
         "stop_id": "NV",
         "time": 19304.874288957948,
@@ -5760,7 +5450,7 @@
         }
     },
     {
-        "id": 577,
+        "id": 546,
         "event_type": "SERVICE_START",
         "stop_id": "NV",
         "time": 19304.874288957948,
@@ -5770,7 +5460,7 @@
         }
     },
     {
-        "id": 578,
+        "id": 547,
         "event_type": "SERVICE_END",
         "stop_id": "NV",
         "time": 19382.874288957948,
@@ -5780,7 +5470,7 @@
         }
     },
     {
-        "id": 579,
+        "id": 548,
         "event_type": "DEPART",
         "stop_id": "NV",
         "time": 19382.874288957948,
@@ -5790,7 +5480,7 @@
         }
     },
     {
-        "id": 580,
+        "id": 549,
         "event_type": "ARRIVE",
         "stop_id": "PS",
         "time": 19410.27428895795,
@@ -5800,7 +5490,7 @@
         }
     },
     {
-        "id": 581,
+        "id": 550,
         "event_type": "SERVICE_START",
         "stop_id": "PS",
         "time": 19410.27428895795,
@@ -5810,7 +5500,7 @@
         }
     },
     {
-        "id": 582,
+        "id": 551,
         "event_type": "SERVICE_END",
         "stop_id": "PS",
         "time": 19457.77428895795,
@@ -5820,7 +5510,7 @@
         }
     },
     {
-        "id": 583,
+        "id": 552,
         "event_type": "DEPART",
         "stop_id": "PS",
         "time": 19457.77428895795,
@@ -5830,7 +5520,7 @@
         }
     },
     {
-        "id": 584,
+        "id": 553,
         "event_type": "ARRIVE",
         "stop_id": "RM",
         "time": 19469.57428895795,
@@ -5840,7 +5530,7 @@
         }
     },
     {
-        "id": 585,
+        "id": 554,
         "event_type": "SERVICE_START",
         "stop_id": "RM",
         "time": 19469.57428895795,
@@ -5850,7 +5540,7 @@
         }
     },
     {
-        "id": 586,
+        "id": 555,
         "event_type": "SERVICE_END",
         "stop_id": "RM",
         "time": 19501.57428895795,
@@ -5860,7 +5550,7 @@
         }
     },
     {
-        "id": 587,
+        "id": 556,
         "event_type": "DEPART",
         "stop_id": "RM",
         "time": 19501.57428895795,
@@ -5870,7 +5560,7 @@
         }
     },
     {
-        "id": 588,
+        "id": 557,
         "event_type": "ARRIVE",
         "stop_id": "EI",
         "time": 19546.374288957948,
@@ -5880,7 +5570,7 @@
         }
     },
     {
-        "id": 589,
+        "id": 558,
         "event_type": "SERVICE_START",
         "stop_id": "EI",
         "time": 19546.374288957948,
@@ -5890,7 +5580,7 @@
         }
     },
     {
-        "id": 590,
+        "id": 559,
         "event_type": "SERVICE_END",
         "stop_id": "EI",
         "time": 19624.374288957948,
@@ -5900,7 +5590,7 @@
         }
     },
     {
-        "id": 591,
+        "id": 560,
         "event_type": "DEPART",
         "stop_id": "EI",
         "time": 19624.374288957948,
@@ -5910,7 +5600,7 @@
         }
     },
     {
-        "id": 592,
+        "id": 561,
         "event_type": "ARRIVE",
         "stop_id": "BZ",
         "time": 19690.374288957948,
@@ -5920,7 +5610,7 @@
         }
     },
     {
-        "id": 593,
+        "id": 562,
         "event_type": "SERVICE_START",
         "stop_id": "BZ",
         "time": 19690.374288957948,
@@ -5930,7 +5620,7 @@
         }
     },
     {
-        "id": 594,
+        "id": 563,
         "event_type": "SERVICE_END",
         "stop_id": "BZ",
         "time": 19748.374288957948,
@@ -5940,7 +5630,7 @@
         }
     },
     {
-        "id": 595,
+        "id": 564,
         "event_type": "LOAD_START",
         "stop_id": "BZ",
         "time": 19748.374288957948,
@@ -5950,17 +5640,7 @@
         }
     },
     {
-        "id": 596,
-        "event_type": "LOAD_START",
-        "stop_id": "BZ",
-        "time": 19748.374288957948,
-        "coordinates": {
-            "lat": 47.89832,
-            "lng": -122.31627
-        }
-    },
-    {
-        "id": 597,
+        "id": 565,
         "event_type": "LOAD_END",
         "stop_id": "BZ",
         "time": 19763.374288957948,
@@ -5970,7 +5650,7 @@
         }
     },
     {
-        "id": 598,
+        "id": 566,
         "event_type": "ARRIVE",
         "stop_id": "TT",
         "time": 19835.57428895795,
@@ -5980,7 +5660,7 @@
         }
     },
     {
-        "id": 599,
+        "id": 567,
         "event_type": "SERVICE_START",
         "stop_id": "TT",
         "time": 19835.57428895795,
@@ -5990,7 +5670,7 @@
         }
     },
     {
-        "id": 600,
+        "id": 568,
         "event_type": "SERVICE_END",
         "stop_id": "TT",
         "time": 19896.57428895795,
@@ -6000,7 +5680,7 @@
         }
     },
     {
-        "id": 601,
+        "id": 569,
         "event_type": "DEPART",
         "stop_id": "TT",
         "time": 19896.57428895795,
@@ -6010,7 +5690,7 @@
         }
     },
     {
-        "id": 602,
+        "id": 570,
         "event_type": "ARRIVE",
         "stop_id": "YT",
         "time": 19911.97428895795,
@@ -6020,7 +5700,7 @@
         }
     },
     {
-        "id": 603,
+        "id": 571,
         "event_type": "SERVICE_START",
         "stop_id": "YT",
         "time": 19911.97428895795,
@@ -6030,7 +5710,7 @@
         }
     },
     {
-        "id": 604,
+        "id": 572,
         "event_type": "SERVICE_END",
         "stop_id": "YT",
         "time": 20096.97428895795,
@@ -6040,7 +5720,7 @@
         }
     },
     {
-        "id": 605,
+        "id": 573,
         "event_type": "LOAD_START",
         "stop_id": "YT",
         "time": 20096.97428895795,
@@ -6050,17 +5730,7 @@
         }
     },
     {
-        "id": 606,
-        "event_type": "LOAD_START",
-        "stop_id": "YT",
-        "time": 20096.97428895795,
-        "coordinates": {
-            "lat": 47.897118,
-            "lng": -122.312663
-        }
-    },
-    {
-        "id": 607,
+        "id": 574,
         "event_type": "LOAD_END",
         "stop_id": "YT",
         "time": 20111.97428895795,
@@ -6070,7 +5740,7 @@
         }
     },
     {
-        "id": 608,
+        "id": 575,
         "event_type": "ARRIVE",
         "stop_id": "GC",
         "time": 20289.47428895795,
@@ -6080,7 +5750,7 @@
         }
     },
     {
-        "id": 609,
+        "id": 576,
         "event_type": "SERVICE_START",
         "stop_id": "GC",
         "time": 20289.47428895795,
@@ -6090,7 +5760,7 @@
         }
     },
     {
-        "id": 610,
+        "id": 577,
         "event_type": "SERVICE_END",
         "stop_id": "GC",
         "time": 20376.47428895795,
@@ -6100,7 +5770,7 @@
         }
     },
     {
-        "id": 611,
+        "id": 578,
         "event_type": "LOAD_START",
         "stop_id": "GC",
         "time": 20376.47428895795,
@@ -6110,17 +5780,7 @@
         }
     },
     {
-        "id": 612,
-        "event_type": "LOAD_START",
-        "stop_id": "GC",
-        "time": 20376.47428895795,
-        "coordinates": {
-            "lat": 47.898881,
-            "lng": -122.306293
-        }
-    },
-    {
-        "id": 613,
+        "id": 579,
         "event_type": "LOAD_END",
         "stop_id": "GC",
         "time": 20391.47428895795,
@@ -6130,7 +5790,7 @@
         }
     },
     {
-        "id": 614,
+        "id": 580,
         "event_type": "ARRIVE",
         "stop_id": "WH",
         "time": 20408.77428895795,
@@ -6140,7 +5800,7 @@
         }
     },
     {
-        "id": 615,
+        "id": 581,
         "event_type": "SERVICE_START",
         "stop_id": "WH",
         "time": 20408.77428895795,
@@ -6150,7 +5810,7 @@
         }
     },
     {
-        "id": 616,
+        "id": 582,
         "event_type": "SERVICE_END",
         "stop_id": "WH",
         "time": 20478.77428895795,
@@ -6160,7 +5820,7 @@
         }
     },
     {
-        "id": 617,
+        "id": 583,
         "event_type": "DEPART",
         "stop_id": "WH",
         "time": 20478.77428895795,
@@ -6170,7 +5830,7 @@
         }
     },
     {
-        "id": 618,
+        "id": 584,
         "event_type": "ARRIVE",
         "stop_id": "EP",
         "time": 20635.27428895795,
@@ -6180,7 +5840,7 @@
         }
     },
     {
-        "id": 619,
+        "id": 585,
         "event_type": "SERVICE_START",
         "stop_id": "EP",
         "time": 20635.27428895795,
@@ -6190,7 +5850,7 @@
         }
     },
     {
-        "id": 620,
+        "id": 586,
         "event_type": "SERVICE_END",
         "stop_id": "EP",
         "time": 20736.27428895795,
@@ -6200,7 +5860,7 @@
         }
     },
     {
-        "id": 621,
+        "id": 587,
         "event_type": "DEPART",
         "stop_id": "EP",
         "time": 20736.27428895795,
@@ -6210,7 +5870,7 @@
         }
     },
     {
-        "id": 622,
+        "id": 588,
         "event_type": "ARRIVE",
         "stop_id": "XG",
         "time": 21688.374288957948,

@@ -21,6 +21,16 @@
     },
     {
         "id": 3,
+        "event_type": "DEPART",
+        "stop_id": "GI",
+        "time": 1269.2,
+        "coordinates": {
+            "lat": 42.193734,
+            "lng": -71.209657
+        }
+    },
+    {
+        "id": 4,
         "event_type": "ARRIVE",
         "stop_id": "XR",
         "time": 1273.9,
@@ -30,7 +40,17 @@
         }
     },
     {
-        "id": 4,
+        "id": 5,
+        "event_type": "DEPART",
+        "stop_id": "XR",
+        "time": 1324.9,
+        "coordinates": {
+            "lat": 42.193759,
+            "lng": -71.210123
+        }
+    },
+    {
+        "id": 6,
         "event_type": "ARRIVE",
         "stop_id": "FO",
         "time": 1344.8000000000002,
@@ -40,7 +60,17 @@
         }
     },
     {
-        "id": 5,
+        "id": 7,
+        "event_type": "DEPART",
+        "stop_id": "FO",
+        "time": 1375.3000000000002,
+        "coordinates": {
+            "lat": 42.194372,
+            "lng": -71.210828
+        }
+    },
+    {
+        "id": 8,
         "event_type": "ARRIVE",
         "stop_id": "VZ",
         "time": 1381.1000000000001,
@@ -50,7 +80,17 @@
         }
     },
     {
-        "id": 6,
+        "id": 9,
+        "event_type": "DEPART",
+        "stop_id": "VZ",
+        "time": 1416.1000000000001,
+        "coordinates": {
+            "lat": 42.194624,
+            "lng": -71.210968
+        }
+    },
+    {
+        "id": 10,
         "event_type": "ARRIVE",
         "stop_id": "PM",
         "time": 1447.2,
@@ -60,7 +100,17 @@
         }
     },
     {
-        "id": 7,
+        "id": 11,
+        "event_type": "LOAD_START",
+        "stop_id": "PM",
+        "time": 1493.2,
+        "coordinates": {
+            "lat": 42.195938,
+            "lng": -71.210994
+        }
+    },
+    {
+        "id": 12,
         "event_type": "LOAD_END",
         "stop_id": "PM",
         "time": 1508.2,
@@ -70,7 +120,7 @@
         }
     },
     {
-        "id": 8,
+        "id": 13,
         "event_type": "LAUNCH",
         "stop_id": "PM",
         "time": 1508.2,
@@ -80,7 +130,7 @@
         }
     },
     {
-        "id": 9,
+        "id": 14,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "AH",
         "time": 1535.068622377381,
@@ -90,7 +140,7 @@
         }
     },
     {
-        "id": 10,
+        "id": 15,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "AH",
         "time": 1545.068622377381,
@@ -100,7 +150,7 @@
         }
     },
     {
-        "id": 11,
+        "id": 16,
         "event_type": "LAND",
         "stop_id": "TN",
         "time": 1587.5907260372715,
@@ -110,7 +160,17 @@
         }
     },
     {
-        "id": 12,
+        "id": 17,
+        "event_type": "DEPART",
+        "stop_id": "TN",
+        "time": 1642.7,
+        "coordinates": {
+            "lat": 42.194808,
+            "lng": -71.212441
+        }
+    },
+    {
+        "id": 18,
         "event_type": "ARRIVE",
         "stop_id": "BO",
         "time": 1732.6000000000001,
@@ -120,7 +180,17 @@
         }
     },
     {
-        "id": 13,
+        "id": 19,
+        "event_type": "DEPART",
+        "stop_id": "BO",
+        "time": 1785.1000000000001,
+        "coordinates": {
+            "lat": 42.197452,
+            "lng": -71.212606
+        }
+    },
+    {
+        "id": 20,
         "event_type": "ARRIVE",
         "stop_id": "ZA",
         "time": 1793.8000000000002,
@@ -130,7 +200,17 @@
         }
     },
     {
-        "id": 14,
+        "id": 21,
+        "event_type": "DEPART",
+        "stop_id": "ZA",
+        "time": 1866.3000000000002,
+        "coordinates": {
+            "lat": 42.197789,
+            "lng": -71.212049
+        }
+    },
+    {
+        "id": 22,
         "event_type": "ARRIVE",
         "stop_id": "DN",
         "time": 1931.3000000000002,
@@ -140,7 +220,17 @@
         }
     },
     {
-        "id": 15,
+        "id": 23,
+        "event_type": "LOAD_START",
+        "stop_id": "DN",
+        "time": 2035.3000000000002,
+        "coordinates": {
+            "lat": 42.197562,
+            "lng": -71.214111
+        }
+    },
+    {
+        "id": 24,
         "event_type": "LOAD_END",
         "stop_id": "DN",
         "time": 2050.3,
@@ -150,7 +240,7 @@
         }
     },
     {
-        "id": 16,
+        "id": 25,
         "event_type": "LAUNCH",
         "stop_id": "DN",
         "time": 2050.3,
@@ -160,7 +250,7 @@
         }
     },
     {
-        "id": 17,
+        "id": 26,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "XI",
         "time": 2076.0929406342443,
@@ -170,7 +260,7 @@
         }
     },
     {
-        "id": 18,
+        "id": 27,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "XI",
         "time": 2086.0929406342443,
@@ -180,7 +270,7 @@
         }
     },
     {
-        "id": 19,
+        "id": 28,
         "event_type": "LAND",
         "stop_id": "RX",
         "time": 2109.1000000000004,
@@ -190,7 +280,17 @@
         }
     },
     {
-        "id": 20,
+        "id": 29,
+        "event_type": "DEPART",
+        "stop_id": "RX",
+        "time": 2166.6000000000004,
+        "coordinates": {
+            "lat": 42.198074,
+            "lng": -71.21601
+        }
+    },
+    {
+        "id": 30,
         "event_type": "ARRIVE",
         "stop_id": "XC",
         "time": 2329.7000000000003,
@@ -200,7 +300,17 @@
         }
     },
     {
-        "id": 21,
+        "id": 31,
+        "event_type": "LOAD_START",
+        "stop_id": "XC",
+        "time": 2398.7000000000003,
+        "coordinates": {
+            "lat": 42.206729,
+            "lng": -71.218622
+        }
+    },
+    {
+        "id": 32,
         "event_type": "LOAD_END",
         "stop_id": "XC",
         "time": 2413.7000000000003,
@@ -210,7 +320,7 @@
         }
     },
     {
-        "id": 22,
+        "id": 33,
         "event_type": "LAUNCH",
         "stop_id": "XC",
         "time": 2413.7000000000003,
@@ -220,7 +330,7 @@
         }
     },
     {
-        "id": 23,
+        "id": 34,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "UA",
         "time": 2437.715926499591,
@@ -230,7 +340,7 @@
         }
     },
     {
-        "id": 24,
+        "id": 35,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "UA",
         "time": 2447.715926499591,
@@ -240,7 +350,7 @@
         }
     },
     {
-        "id": 25,
+        "id": 36,
         "event_type": "LAND",
         "stop_id": "VS",
         "time": 2482.8,
@@ -250,7 +360,17 @@
         }
     },
     {
-        "id": 26,
+        "id": 37,
+        "event_type": "DEPART",
+        "stop_id": "VS",
+        "time": 2579.8,
+        "coordinates": {
+            "lat": 42.207328,
+            "lng": -71.22044
+        }
+    },
+    {
+        "id": 38,
         "event_type": "ARRIVE",
         "stop_id": "LY",
         "time": 2642.0,
@@ -260,7 +380,17 @@
         }
     },
     {
-        "id": 27,
+        "id": 39,
+        "event_type": "DEPART",
+        "stop_id": "LY",
+        "time": 2677.0,
+        "coordinates": {
+            "lat": 42.206458,
+            "lng": -71.218831
+        }
+    },
+    {
+        "id": 40,
         "event_type": "ARRIVE",
         "stop_id": "IZ",
         "time": 2773.7,
@@ -270,7 +400,17 @@
         }
     },
     {
-        "id": 28,
+        "id": 41,
+        "event_type": "DEPART",
+        "stop_id": "IZ",
+        "time": 2857.7,
+        "coordinates": {
+            "lat": 42.204486,
+            "lng": -71.224639
+        }
+    },
+    {
+        "id": 42,
         "event_type": "ARRIVE",
         "stop_id": "CO",
         "time": 2865.5,
@@ -280,7 +420,17 @@
         }
     },
     {
-        "id": 29,
+        "id": 43,
+        "event_type": "DEPART",
+        "stop_id": "CO",
+        "time": 2940.5,
+        "coordinates": {
+            "lat": 42.204248,
+            "lng": -71.225166
+        }
+    },
+    {
+        "id": 44,
         "event_type": "ARRIVE",
         "stop_id": "XA",
         "time": 3040.5,
@@ -290,7 +440,17 @@
         }
     },
     {
-        "id": 30,
+        "id": 45,
+        "event_type": "DEPART",
+        "stop_id": "XA",
+        "time": 3125.5,
+        "coordinates": {
+            "lat": 42.202806,
+            "lng": -71.223107
+        }
+    },
+    {
+        "id": 46,
         "event_type": "ARRIVE",
         "stop_id": "WN",
         "time": 3232.3,
@@ -300,7 +460,17 @@
         }
     },
     {
-        "id": 31,
+        "id": 47,
+        "event_type": "DEPART",
+        "stop_id": "WN",
+        "time": 3293.3,
+        "coordinates": {
+            "lat": 42.204635,
+            "lng": -71.225233
+        }
+    },
+    {
+        "id": 48,
         "event_type": "ARRIVE",
         "stop_id": "GN",
         "time": 3310.7000000000003,
@@ -310,7 +480,17 @@
         }
     },
     {
-        "id": 32,
+        "id": 49,
+        "event_type": "DEPART",
+        "stop_id": "GN",
+        "time": 3386.2000000000003,
+        "coordinates": {
+            "lat": 42.205817,
+            "lng": -71.225668
+        }
+    },
+    {
+        "id": 50,
         "event_type": "ARRIVE",
         "stop_id": "XT",
         "time": 3404.8,
@@ -320,7 +500,17 @@
         }
     },
     {
-        "id": 33,
+        "id": 51,
+        "event_type": "LOAD_START",
+        "stop_id": "XT",
+        "time": 3465.8,
+        "coordinates": {
+            "lat": 42.206877,
+            "lng": -71.226171
+        }
+    },
+    {
+        "id": 52,
         "event_type": "LOAD_END",
         "stop_id": "XT",
         "time": 3480.8,
@@ -330,7 +520,7 @@
         }
     },
     {
-        "id": 34,
+        "id": 53,
         "event_type": "LAUNCH",
         "stop_id": "XT",
         "time": 3480.8,
@@ -340,7 +530,7 @@
         }
     },
     {
-        "id": 35,
+        "id": 54,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "QR",
         "time": 3495.910787430436,
@@ -350,7 +540,7 @@
         }
     },
     {
-        "id": 36,
+        "id": 55,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "QR",
         "time": 3505.910787430436,
@@ -360,7 +550,7 @@
         }
     },
     {
-        "id": 37,
+        "id": 56,
         "event_type": "LAND",
         "stop_id": "NE",
         "time": 3543.6000000000004,
@@ -370,7 +560,17 @@
         }
     },
     {
-        "id": 38,
+        "id": 57,
+        "event_type": "LOAD_START",
+        "stop_id": "NE",
+        "time": 3605.6000000000004,
+        "coordinates": {
+            "lat": 42.204705,
+            "lng": -71.226225
+        }
+    },
+    {
+        "id": 58,
         "event_type": "LOAD_END",
         "stop_id": "NE",
         "time": 3620.6000000000004,
@@ -380,7 +580,7 @@
         }
     },
     {
-        "id": 39,
+        "id": 59,
         "event_type": "LAUNCH",
         "stop_id": "NE",
         "time": 3620.6000000000004,
@@ -390,7 +590,7 @@
         }
     },
     {
-        "id": 40,
+        "id": 60,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "CH",
         "time": 3649.3045106851923,
@@ -400,7 +600,7 @@
         }
     },
     {
-        "id": 41,
+        "id": 61,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "CH",
         "time": 3659.3045106851923,
@@ -410,7 +610,7 @@
         }
     },
     {
-        "id": 42,
+        "id": 62,
         "event_type": "LAND",
         "stop_id": "DA",
         "time": 3682.86121543422,
@@ -420,7 +620,17 @@
         }
     },
     {
-        "id": 43,
+        "id": 63,
+        "event_type": "LOAD_START",
+        "stop_id": "DA",
+        "time": 3750.0000000000005,
+        "coordinates": {
+            "lat": 42.204754,
+            "lng": -71.223957
+        }
+    },
+    {
+        "id": 64,
         "event_type": "LOAD_END",
         "stop_id": "DA",
         "time": 3765.0000000000005,
@@ -430,7 +640,7 @@
         }
     },
     {
-        "id": 44,
+        "id": 65,
         "event_type": "LAUNCH",
         "stop_id": "DA",
         "time": 3765.0000000000005,
@@ -440,7 +650,7 @@
         }
     },
     {
-        "id": 45,
+        "id": 66,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "GL",
         "time": 3799.435265278606,
@@ -450,7 +660,7 @@
         }
     },
     {
-        "id": 46,
+        "id": 67,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "GL",
         "time": 3809.435265278606,
@@ -460,7 +670,7 @@
         }
     },
     {
-        "id": 47,
+        "id": 68,
         "event_type": "LAND",
         "stop_id": "QG",
         "time": 3901.2000000000003,
@@ -470,7 +680,17 @@
         }
     },
     {
-        "id": 48,
+        "id": 69,
+        "event_type": "LOAD_START",
+        "stop_id": "QG",
+        "time": 3982.5000000000005,
+        "coordinates": {
+            "lat": 42.210038,
+            "lng": -71.221967
+        }
+    },
+    {
+        "id": 70,
         "event_type": "LOAD_END",
         "stop_id": "QG",
         "time": 3997.5000000000005,
@@ -480,7 +700,7 @@
         }
     },
     {
-        "id": 49,
+        "id": 71,
         "event_type": "LAUNCH",
         "stop_id": "QG",
         "time": 3997.5000000000005,
@@ -490,7 +710,7 @@
         }
     },
     {
-        "id": 50,
+        "id": 72,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "FA",
         "time": 4040.7159821158743,
@@ -500,7 +720,7 @@
         }
     },
     {
-        "id": 51,
+        "id": 73,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "FA",
         "time": 4050.7159821158743,
@@ -510,7 +730,7 @@
         }
     },
     {
-        "id": 52,
+        "id": 74,
         "event_type": "LAND",
         "stop_id": "VN",
         "time": 4154.0,
@@ -520,7 +740,17 @@
         }
     },
     {
-        "id": 53,
+        "id": 75,
+        "event_type": "DEPART",
+        "stop_id": "VN",
+        "time": 4565.0,
+        "coordinates": {
+            "lat": 42.212225,
+            "lng": -71.222173
+        }
+    },
+    {
+        "id": 76,
         "event_type": "ARRIVE",
         "stop_id": "ET",
         "time": 4591.4,
@@ -530,7 +760,17 @@
         }
     },
     {
-        "id": 54,
+        "id": 77,
+        "event_type": "DEPART",
+        "stop_id": "ET",
+        "time": 4735.4,
+        "coordinates": {
+            "lat": 42.213265,
+            "lng": -71.221427
+        }
+    },
+    {
+        "id": 78,
         "event_type": "ARRIVE",
         "stop_id": "CZ",
         "time": 4760.0,
@@ -540,7 +780,17 @@
         }
     },
     {
-        "id": 55,
+        "id": 79,
+        "event_type": "DEPART",
+        "stop_id": "CZ",
+        "time": 4835.5,
+        "coordinates": {
+            "lat": 42.213746,
+            "lng": -71.22147
+        }
+    },
+    {
+        "id": 80,
         "event_type": "ARRIVE",
         "stop_id": "QN",
         "time": 4892.4,
@@ -550,7 +800,17 @@
         }
     },
     {
-        "id": 56,
+        "id": 81,
+        "event_type": "DEPART",
+        "stop_id": "QN",
+        "time": 4973.4,
+        "coordinates": {
+            "lat": 42.213584,
+            "lng": -71.217276
+        }
+    },
+    {
+        "id": 82,
         "event_type": "ARRIVE",
         "stop_id": "SO",
         "time": 5029.299999999999,
@@ -560,7 +820,17 @@
         }
     },
     {
-        "id": 57,
+        "id": 83,
+        "event_type": "DEPART",
+        "stop_id": "SO",
+        "time": 5139.299999999999,
+        "coordinates": {
+            "lat": 42.215775,
+            "lng": -71.217575
+        }
+    },
+    {
+        "id": 84,
         "event_type": "ARRIVE",
         "stop_id": "UZ",
         "time": 5215.999999999999,
@@ -570,7 +840,17 @@
         }
     },
     {
-        "id": 58,
+        "id": 85,
+        "event_type": "DEPART",
+        "stop_id": "UZ",
+        "time": 5307.999999999999,
+        "coordinates": {
+            "lat": 42.216265,
+            "lng": -71.220704
+        }
+    },
+    {
+        "id": 86,
         "event_type": "ARRIVE",
         "stop_id": "OV",
         "time": 5361.599999999999,
@@ -580,7 +860,17 @@
         }
     },
     {
-        "id": 59,
+        "id": 87,
+        "event_type": "LOAD_START",
+        "stop_id": "OV",
+        "time": 5408.9,
+        "coordinates": {
+            "lat": 42.215047,
+            "lng": -71.219443
+        }
+    },
+    {
+        "id": 88,
         "event_type": "LOAD_END",
         "stop_id": "OV",
         "time": 5423.9,
@@ -590,7 +880,7 @@
         }
     },
     {
-        "id": 60,
+        "id": 89,
         "event_type": "LAUNCH",
         "stop_id": "OV",
         "time": 5423.9,
@@ -600,7 +890,7 @@
         }
     },
     {
-        "id": 61,
+        "id": 90,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "VB",
         "time": 5444.74342386898,
@@ -610,7 +900,7 @@
         }
     },
     {
-        "id": 62,
+        "id": 91,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "VB",
         "time": 5454.74342386898,
@@ -620,7 +910,7 @@
         }
     },
     {
-        "id": 63,
+        "id": 92,
         "event_type": "LAND",
         "stop_id": "BU",
         "time": 5479.4,
@@ -630,7 +920,17 @@
         }
     },
     {
-        "id": 64,
+        "id": 93,
+        "event_type": "DEPART",
+        "stop_id": "BU",
+        "time": 5540.4,
+        "coordinates": {
+            "lat": 42.215001,
+            "lng": -71.221232
+        }
+    },
+    {
+        "id": 94,
         "event_type": "ARRIVE",
         "stop_id": "MP",
         "time": 5578.5,
@@ -640,7 +940,17 @@
         }
     },
     {
-        "id": 65,
+        "id": 95,
+        "event_type": "DEPART",
+        "stop_id": "MP",
+        "time": 5655.5,
+        "coordinates": {
+            "lat": 42.214257,
+            "lng": -71.221047
+        }
+    },
+    {
+        "id": 96,
         "event_type": "ARRIVE",
         "stop_id": "CA",
         "time": 5716.2,
@@ -650,7 +960,17 @@
         }
     },
     {
-        "id": 66,
+        "id": 97,
+        "event_type": "DEPART",
+        "stop_id": "CA",
+        "time": 5811.2,
+        "coordinates": {
+            "lat": 42.215557,
+            "lng": -71.222763
+        }
+    },
+    {
+        "id": 98,
         "event_type": "ARRIVE",
         "stop_id": "GG",
         "time": 5850.099999999999,
@@ -660,7 +980,17 @@
         }
     },
     {
-        "id": 67,
+        "id": 99,
+        "event_type": "DEPART",
+        "stop_id": "GG",
+        "time": 5909.099999999999,
+        "coordinates": {
+            "lat": 42.216361,
+            "lng": -71.223316
+        }
+    },
+    {
+        "id": 100,
         "event_type": "ARRIVE",
         "stop_id": "JZ",
         "time": 5981.099999999999,
@@ -670,7 +1000,17 @@
         }
     },
     {
-        "id": 68,
+        "id": 101,
+        "event_type": "DEPART",
+        "stop_id": "JZ",
+        "time": 6063.099999999999,
+        "coordinates": {
+            "lat": 42.21592,
+            "lng": -71.225523
+        }
+    },
+    {
+        "id": 102,
         "event_type": "ARRIVE",
         "stop_id": "TV",
         "time": 6098.9,
@@ -680,7 +1020,17 @@
         }
     },
     {
-        "id": 69,
+        "id": 103,
+        "event_type": "DEPART",
+        "stop_id": "TV",
+        "time": 6164.9,
+        "coordinates": {
+            "lat": 42.214805,
+            "lng": -71.224963
+        }
+    },
+    {
+        "id": 104,
         "event_type": "ARRIVE",
         "stop_id": "LX",
         "time": 6197.9,
@@ -690,7 +1040,17 @@
         }
     },
     {
-        "id": 70,
+        "id": 105,
+        "event_type": "DEPART",
+        "stop_id": "LX",
+        "time": 6303.599999999999,
+        "coordinates": {
+            "lat": 42.212062,
+            "lng": -71.225565
+        }
+    },
+    {
+        "id": 106,
         "event_type": "ARRIVE",
         "stop_id": "CT",
         "time": 6368.7,
@@ -700,7 +1060,17 @@
         }
     },
     {
-        "id": 71,
+        "id": 107,
+        "event_type": "DEPART",
+        "stop_id": "CT",
+        "time": 6433.7,
+        "coordinates": {
+            "lat": 42.210663,
+            "lng": -71.2249
+        }
+    },
+    {
+        "id": 108,
         "event_type": "ARRIVE",
         "stop_id": "GV",
         "time": 6461.8,
@@ -710,7 +1080,17 @@
         }
     },
     {
-        "id": 72,
+        "id": 109,
+        "event_type": "LOAD_START",
+        "stop_id": "GV",
+        "time": 6517.8,
+        "coordinates": {
+            "lat": 42.211574,
+            "lng": -71.224522
+        }
+    },
+    {
+        "id": 110,
         "event_type": "LOAD_END",
         "stop_id": "GV",
         "time": 6532.8,
@@ -720,7 +1100,7 @@
         }
     },
     {
-        "id": 73,
+        "id": 111,
         "event_type": "LAUNCH",
         "stop_id": "GV",
         "time": 6532.8,
@@ -730,7 +1110,7 @@
         }
     },
     {
-        "id": 74,
+        "id": 112,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "WB",
         "time": 6563.387651099725,
@@ -740,7 +1120,7 @@
         }
     },
     {
-        "id": 75,
+        "id": 113,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "WB",
         "time": 6573.387651099725,
@@ -750,7 +1130,7 @@
         }
     },
     {
-        "id": 76,
+        "id": 114,
         "event_type": "LAND",
         "stop_id": "UH",
         "time": 6595.91282463292,
@@ -760,7 +1140,17 @@
         }
     },
     {
-        "id": 77,
+        "id": 115,
+        "event_type": "LOAD_START",
+        "stop_id": "UH",
+        "time": 6711.2,
+        "coordinates": {
+            "lat": 42.212837,
+            "lng": -71.225764
+        }
+    },
+    {
+        "id": 116,
         "event_type": "LOAD_END",
         "stop_id": "UH",
         "time": 6726.2,
@@ -770,7 +1160,7 @@
         }
     },
     {
-        "id": 78,
+        "id": 117,
         "event_type": "LAUNCH",
         "stop_id": "UH",
         "time": 6726.2,
@@ -780,7 +1170,7 @@
         }
     },
     {
-        "id": 79,
+        "id": 118,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "NK",
         "time": 6759.034834973019,
@@ -790,7 +1180,7 @@
         }
     },
     {
-        "id": 80,
+        "id": 119,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "NK",
         "time": 6769.034834973019,
@@ -800,7 +1190,7 @@
         }
     },
     {
-        "id": 81,
+        "id": 120,
         "event_type": "LAND",
         "stop_id": "ZQ",
         "time": 6796.0,
@@ -810,7 +1200,17 @@
         }
     },
     {
-        "id": 82,
+        "id": 121,
+        "event_type": "DEPART",
+        "stop_id": "ZQ",
+        "time": 6832.0,
+        "coordinates": {
+            "lat": 42.211193,
+            "lng": -71.227694
+        }
+    },
+    {
+        "id": 122,
         "event_type": "ARRIVE",
         "stop_id": "IC",
         "time": 6851.4,
@@ -820,7 +1220,17 @@
         }
     },
     {
-        "id": 83,
+        "id": 123,
+        "event_type": "DEPART",
+        "stop_id": "IC",
+        "time": 6934.4,
+        "coordinates": {
+            "lat": 42.210355,
+            "lng": -71.228287
+        }
+    },
+    {
+        "id": 124,
         "event_type": "ARRIVE",
         "stop_id": "MJ",
         "time": 7011.799999999999,
@@ -830,7 +1240,17 @@
         }
     },
     {
-        "id": 84,
+        "id": 125,
+        "event_type": "DEPART",
+        "stop_id": "MJ",
+        "time": 7061.299999999999,
+        "coordinates": {
+            "lat": 42.21293,
+            "lng": -71.228504
+        }
+    },
+    {
+        "id": 126,
         "event_type": "ARRIVE",
         "stop_id": "RG",
         "time": 7102.199999999999,
@@ -840,7 +1260,17 @@
         }
     },
     {
-        "id": 85,
+        "id": 127,
+        "event_type": "DEPART",
+        "stop_id": "RG",
+        "time": 7144.199999999999,
+        "coordinates": {
+            "lat": 42.210566,
+            "lng": -71.229484
+        }
+    },
+    {
+        "id": 128,
         "event_type": "ARRIVE",
         "stop_id": "OM",
         "time": 7173.399999999999,
@@ -850,7 +1280,17 @@
         }
     },
     {
-        "id": 86,
+        "id": 129,
+        "event_type": "DEPART",
+        "stop_id": "OM",
+        "time": 7224.399999999999,
+        "coordinates": {
+            "lat": 42.209211,
+            "lng": -71.228221
+        }
+    },
+    {
+        "id": 130,
         "event_type": "ARRIVE",
         "stop_id": "EJ",
         "time": 7251.699999999999,
@@ -860,7 +1300,17 @@
         }
     },
     {
-        "id": 87,
+        "id": 131,
+        "event_type": "LOAD_START",
+        "stop_id": "EJ",
+        "time": 7374.699999999999,
+        "coordinates": {
+            "lat": 42.208169,
+            "lng": -71.227524
+        }
+    },
+    {
+        "id": 132,
         "event_type": "LOAD_END",
         "stop_id": "EJ",
         "time": 7389.699999999999,
@@ -870,7 +1320,7 @@
         }
     },
     {
-        "id": 88,
+        "id": 133,
         "event_type": "LAUNCH",
         "stop_id": "EJ",
         "time": 7389.699999999999,
@@ -880,7 +1330,7 @@
         }
     },
     {
-        "id": 89,
+        "id": 134,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "FW",
         "time": 7444.36222831204,
@@ -890,7 +1340,7 @@
         }
     },
     {
-        "id": 90,
+        "id": 135,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "FW",
         "time": 7454.36222831204,
@@ -900,7 +1350,7 @@
         }
     },
     {
-        "id": 91,
+        "id": 136,
         "event_type": "LAND",
         "stop_id": "ZD",
         "time": 7483.957431997303,
@@ -910,7 +1360,17 @@
         }
     },
     {
-        "id": 92,
+        "id": 137,
+        "event_type": "DEPART",
+        "stop_id": "ZD",
+        "time": 7483.957431997303,
+        "coordinates": {
+            "lat": 42.209044,
+            "lng": -71.226182
+        }
+    },
+    {
+        "id": 138,
         "event_type": "ARRIVE",
         "stop_id": "JE",
         "time": 7553.257431997303,
@@ -920,7 +1380,17 @@
         }
     },
     {
-        "id": 93,
+        "id": 139,
+        "event_type": "DEPART",
+        "stop_id": "JE",
+        "time": 7692.257431997303,
+        "coordinates": {
+            "lat": 42.210041,
+            "lng": -71.226451
+        }
+    },
+    {
+        "id": 140,
         "event_type": "ARRIVE",
         "stop_id": "LR",
         "time": 7879.857431997303,
@@ -930,7 +1400,17 @@
         }
     },
     {
-        "id": 94,
+        "id": 141,
+        "event_type": "DEPART",
+        "stop_id": "LR",
+        "time": 7920.857431997303,
+        "coordinates": {
+            "lat": 42.204487,
+            "lng": -71.227511
+        }
+    },
+    {
+        "id": 142,
         "event_type": "ARRIVE",
         "stop_id": "ED",
         "time": 7981.9574319973035,
@@ -940,7 +1420,17 @@
         }
     },
     {
-        "id": 95,
+        "id": 143,
+        "event_type": "DEPART",
+        "stop_id": "ED",
+        "time": 8098.9574319973035,
+        "coordinates": {
+            "lat": 42.203809,
+            "lng": -71.228173
+        }
+    },
+    {
+        "id": 144,
         "event_type": "ARRIVE",
         "stop_id": "CW",
         "time": 8196.357431997303,
@@ -950,7 +1440,17 @@
         }
     },
     {
-        "id": 96,
+        "id": 145,
+        "event_type": "DEPART",
+        "stop_id": "CW",
+        "time": 8238.857431997303,
+        "coordinates": {
+            "lat": 42.202684,
+            "lng": -71.231486
+        }
+    },
+    {
+        "id": 146,
         "event_type": "ARRIVE",
         "stop_id": "GY",
         "time": 8243.257431997303,
@@ -960,7 +1460,17 @@
         }
     },
     {
-        "id": 97,
+        "id": 147,
+        "event_type": "DEPART",
+        "stop_id": "GY",
+        "time": 8324.257431997303,
+        "coordinates": {
+            "lat": 42.20217,
+            "lng": -71.231401
+        }
+    },
+    {
+        "id": 148,
         "event_type": "ARRIVE",
         "stop_id": "XB",
         "time": 8334.057431997302,
@@ -970,7 +1480,17 @@
         }
     },
     {
-        "id": 98,
+        "id": 149,
+        "event_type": "LOAD_START",
+        "stop_id": "XB",
+        "time": 8437.057431997302,
+        "coordinates": {
+            "lat": 42.203296,
+            "lng": -71.231494
+        }
+    },
+    {
+        "id": 150,
         "event_type": "LOAD_END",
         "stop_id": "XB",
         "time": 8452.057431997302,
@@ -980,7 +1500,7 @@
         }
     },
     {
-        "id": 99,
+        "id": 151,
         "event_type": "LAUNCH",
         "stop_id": "XB",
         "time": 8452.057431997302,
@@ -990,7 +1510,7 @@
         }
     },
     {
-        "id": 100,
+        "id": 152,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "VF",
         "time": 8506.638051208278,
@@ -1000,7 +1520,7 @@
         }
     },
     {
-        "id": 101,
+        "id": 153,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "VF",
         "time": 8516.638051208278,
@@ -1010,7 +1530,7 @@
         }
     },
     {
-        "id": 102,
+        "id": 154,
         "event_type": "LAND",
         "stop_id": "NO",
         "time": 8590.457431997302,
@@ -1020,7 +1540,17 @@
         }
     },
     {
-        "id": 103,
+        "id": 155,
+        "event_type": "DEPART",
+        "stop_id": "NO",
+        "time": 8665.457431997302,
+        "coordinates": {
+            "lat": 42.204326,
+            "lng": -71.235367
+        }
+    },
+    {
+        "id": 156,
         "event_type": "ARRIVE",
         "stop_id": "AL",
         "time": 8759.057431997302,
@@ -1030,7 +1560,17 @@
         }
     },
     {
-        "id": 104,
+        "id": 157,
+        "event_type": "DEPART",
+        "stop_id": "AL",
+        "time": 8787.557431997302,
+        "coordinates": {
+            "lat": 42.202264,
+            "lng": -71.235926
+        }
+    },
+    {
+        "id": 158,
         "event_type": "ARRIVE",
         "stop_id": "UC",
         "time": 8833.457431997302,
@@ -1040,7 +1580,17 @@
         }
     },
     {
-        "id": 105,
+        "id": 159,
+        "event_type": "DEPART",
+        "stop_id": "UC",
+        "time": 8894.457431997302,
+        "coordinates": {
+            "lat": 42.202568,
+            "lng": -71.237004
+        }
+    },
+    {
+        "id": 160,
         "event_type": "ARRIVE",
         "stop_id": "SU",
         "time": 9011.657431997302,
@@ -1050,7 +1600,17 @@
         }
     },
     {
-        "id": 106,
+        "id": 161,
+        "event_type": "DEPART",
+        "stop_id": "SU",
+        "time": 9059.157431997302,
+        "coordinates": {
+            "lat": 42.204535,
+            "lng": -71.236861
+        }
+    },
+    {
+        "id": 162,
         "event_type": "ARRIVE",
         "stop_id": "QB",
         "time": 9074.857431997303,
@@ -1060,7 +1620,17 @@
         }
     },
     {
-        "id": 107,
+        "id": 163,
+        "event_type": "DEPART",
+        "stop_id": "QB",
+        "time": 9166.857431997303,
+        "coordinates": {
+            "lat": 42.204765,
+            "lng": -71.237981
+        }
+    },
+    {
+        "id": 164,
         "event_type": "ARRIVE",
         "stop_id": "FR",
         "time": 9223.957431997304,
@@ -1070,7 +1640,17 @@
         }
     },
     {
-        "id": 108,
+        "id": 165,
+        "event_type": "DEPART",
+        "stop_id": "FR",
+        "time": 9311.957431997304,
+        "coordinates": {
+            "lat": 42.206999,
+            "lng": -71.23836
+        }
+    },
+    {
+        "id": 166,
         "event_type": "ARRIVE",
         "stop_id": "LO",
         "time": 9367.857431997303,
@@ -1080,7 +1660,17 @@
         }
     },
     {
-        "id": 109,
+        "id": 167,
+        "event_type": "DEPART",
+        "stop_id": "LO",
+        "time": 9400.557431997304,
+        "coordinates": {
+            "lat": 42.207559,
+            "lng": -71.241939
+        }
+    },
+    {
+        "id": 168,
         "event_type": "ARRIVE",
         "stop_id": "HH",
         "time": 9545.257431997305,
@@ -1090,7 +1680,17 @@
         }
     },
     {
-        "id": 110,
+        "id": 169,
+        "event_type": "LOAD_START",
+        "stop_id": "HH",
+        "time": 9863.257431997305,
+        "coordinates": {
+            "lat": 42.205457,
+            "lng": -71.234752
+        }
+    },
+    {
+        "id": 170,
         "event_type": "LOAD_END",
         "stop_id": "HH",
         "time": 9878.257431997305,
@@ -1100,7 +1700,7 @@
         }
     },
     {
-        "id": 111,
+        "id": 171,
         "event_type": "LAUNCH",
         "stop_id": "HH",
         "time": 9878.257431997305,
@@ -1110,7 +1710,7 @@
         }
     },
     {
-        "id": 112,
+        "id": 172,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "FM",
         "time": 9930.461088402084,
@@ -1120,7 +1720,7 @@
         }
     },
     {
-        "id": 113,
+        "id": 173,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "FM",
         "time": 9940.461088402084,
@@ -1130,7 +1730,7 @@
         }
     },
     {
-        "id": 114,
+        "id": 174,
         "event_type": "LAND",
         "stop_id": "GH",
         "time": 10006.417039726024,
@@ -1140,7 +1740,17 @@
         }
     },
     {
-        "id": 115,
+        "id": 175,
+        "event_type": "DEPART",
+        "stop_id": "GH",
+        "time": 10055.657431997304,
+        "coordinates": {
+            "lat": 42.210355,
+            "lng": -71.234074
+        }
+    },
+    {
+        "id": 176,
         "event_type": "ARRIVE",
         "stop_id": "JY",
         "time": 10215.257431997305,
@@ -1150,7 +1760,17 @@
         }
     },
     {
-        "id": 116,
+        "id": 177,
+        "event_type": "DEPART",
+        "stop_id": "JY",
+        "time": 10250.257431997305,
+        "coordinates": {
+            "lat": 42.216549,
+            "lng": -71.2216
+        }
+    },
+    {
+        "id": 178,
         "event_type": "ARRIVE",
         "stop_id": "GU",
         "time": 10359.457431997305,
@@ -1160,7 +1780,17 @@
         }
     },
     {
-        "id": 117,
+        "id": 179,
+        "event_type": "LOAD_START",
+        "stop_id": "GU",
+        "time": 10444.457431997305,
+        "coordinates": {
+            "lat": 42.214967,
+            "lng": -71.227993
+        }
+    },
+    {
+        "id": 180,
         "event_type": "LOAD_END",
         "stop_id": "GU",
         "time": 10459.457431997305,
@@ -1170,7 +1800,7 @@
         }
     },
     {
-        "id": 118,
+        "id": 181,
         "event_type": "LAUNCH",
         "stop_id": "GU",
         "time": 10459.457431997305,
@@ -1180,7 +1810,7 @@
         }
     },
     {
-        "id": 119,
+        "id": 182,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "MI",
         "time": 10480.517418519532,
@@ -1190,7 +1820,7 @@
         }
     },
     {
-        "id": 120,
+        "id": 183,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "MI",
         "time": 10490.517418519532,
@@ -1200,7 +1830,7 @@
         }
     },
     {
-        "id": 121,
+        "id": 184,
         "event_type": "LAND",
         "stop_id": "NA",
         "time": 10508.156876441873,
@@ -1210,7 +1840,17 @@
         }
     },
     {
-        "id": 122,
+        "id": 185,
+        "event_type": "DEPART",
+        "stop_id": "NA",
+        "time": 10582.257431997305,
+        "coordinates": {
+            "lat": 42.216292,
+            "lng": -71.228748
+        }
+    },
+    {
+        "id": 186,
         "event_type": "ARRIVE",
         "stop_id": "YO",
         "time": 10626.057431997304,
@@ -1220,7 +1860,17 @@
         }
     },
     {
-        "id": 123,
+        "id": 187,
+        "event_type": "DEPART",
+        "stop_id": "YO",
+        "time": 10697.557431997304,
+        "coordinates": {
+            "lat": 42.21774,
+            "lng": -71.23183
+        }
+    },
+    {
+        "id": 188,
         "event_type": "ARRIVE",
         "stop_id": "RM",
         "time": 10746.357431997303,
@@ -1230,7 +1880,17 @@
         }
     },
     {
-        "id": 124,
+        "id": 189,
+        "event_type": "DEPART",
+        "stop_id": "RM",
+        "time": 10792.557431997304,
+        "coordinates": {
+            "lat": 42.218805,
+            "lng": -71.231363
+        }
+    },
+    {
+        "id": 190,
         "event_type": "ARRIVE",
         "stop_id": "RJ",
         "time": 10865.057431997304,
@@ -1240,7 +1900,17 @@
         }
     },
     {
-        "id": 125,
+        "id": 191,
+        "event_type": "LOAD_START",
+        "stop_id": "RJ",
+        "time": 10973.057431997304,
+        "coordinates": {
+            "lat": 42.220963,
+            "lng": -71.230811
+        }
+    },
+    {
+        "id": 192,
         "event_type": "LOAD_END",
         "stop_id": "RJ",
         "time": 10988.057431997304,
@@ -1250,7 +1920,7 @@
         }
     },
     {
-        "id": 126,
+        "id": 193,
         "event_type": "LAUNCH",
         "stop_id": "RJ",
         "time": 10988.057431997304,
@@ -1260,7 +1930,7 @@
         }
     },
     {
-        "id": 127,
+        "id": 194,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "FE",
         "time": 11017.767367172815,
@@ -1270,7 +1940,7 @@
         }
     },
     {
-        "id": 128,
+        "id": 195,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "FE",
         "time": 11027.767367172815,
@@ -1280,7 +1950,7 @@
         }
     },
     {
-        "id": 129,
+        "id": 196,
         "event_type": "LAND",
         "stop_id": "XL",
         "time": 11137.957431997304,
@@ -1290,7 +1960,17 @@
         }
     },
     {
-        "id": 130,
+        "id": 197,
+        "event_type": "DEPART",
+        "stop_id": "XL",
+        "time": 11246.957431997304,
+        "coordinates": {
+            "lat": 42.218701,
+            "lng": -71.234758
+        }
+    },
+    {
+        "id": 198,
         "event_type": "ARRIVE",
         "stop_id": "BL",
         "time": 11365.257431997303,
@@ -1300,7 +1980,17 @@
         }
     },
     {
-        "id": 131,
+        "id": 199,
+        "event_type": "DEPART",
+        "stop_id": "BL",
+        "time": 11416.257431997303,
+        "coordinates": {
+            "lat": 42.220845,
+            "lng": -71.233925
+        }
+    },
+    {
+        "id": 200,
         "event_type": "ARRIVE",
         "stop_id": "HP",
         "time": 11478.057431997302,
@@ -1310,7 +2000,17 @@
         }
     },
     {
-        "id": 132,
+        "id": 201,
+        "event_type": "LOAD_START",
+        "stop_id": "HP",
+        "time": 11645.057431997302,
+        "coordinates": {
+            "lat": 42.21847,
+            "lng": -71.233935
+        }
+    },
+    {
+        "id": 202,
         "event_type": "LOAD_END",
         "stop_id": "HP",
         "time": 11660.057431997302,
@@ -1320,7 +2020,7 @@
         }
     },
     {
-        "id": 133,
+        "id": 203,
         "event_type": "LAUNCH",
         "stop_id": "HP",
         "time": 11660.057431997302,
@@ -1330,7 +2030,7 @@
         }
     },
     {
-        "id": 134,
+        "id": 204,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "NS",
         "time": 11699.802011285885,
@@ -1340,7 +2040,7 @@
         }
     },
     {
-        "id": 135,
+        "id": 205,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "NS",
         "time": 11709.802011285885,
@@ -1350,7 +2050,7 @@
         }
     },
     {
-        "id": 136,
+        "id": 206,
         "event_type": "LAND",
         "stop_id": "BZ",
         "time": 11756.157431997302,
@@ -1360,7 +2060,17 @@
         }
     },
     {
-        "id": 137,
+        "id": 207,
+        "event_type": "DEPART",
+        "stop_id": "BZ",
+        "time": 11874.157431997302,
+        "coordinates": {
+            "lat": 42.21756,
+            "lng": -71.240489
+        }
+    },
+    {
+        "id": 208,
         "event_type": "ARRIVE",
         "stop_id": "NI",
         "time": 12005.357431997303,
@@ -1370,7 +2080,17 @@
         }
     },
     {
-        "id": 138,
+        "id": 209,
+        "event_type": "DEPART",
+        "stop_id": "NI",
+        "time": 12104.357431997303,
+        "coordinates": {
+            "lat": 42.210543,
+            "lng": -71.23867
+        }
+    },
+    {
+        "id": 210,
         "event_type": "ARRIVE",
         "stop_id": "AO",
         "time": 12115.157431997302,
@@ -1380,7 +2100,17 @@
         }
     },
     {
-        "id": 139,
+        "id": 211,
+        "event_type": "DEPART",
+        "stop_id": "AO",
+        "time": 12170.657431997302,
+        "coordinates": {
+            "lat": 42.211204,
+            "lng": -71.239248
+        }
+    },
+    {
+        "id": 212,
         "event_type": "ARRIVE",
         "stop_id": "SG",
         "time": 12208.457431997302,
@@ -1390,7 +2120,17 @@
         }
     },
     {
-        "id": 140,
+        "id": 213,
+        "event_type": "LOAD_START",
+        "stop_id": "SG",
+        "time": 12233.457431997302,
+        "coordinates": {
+            "lat": 42.213652,
+            "lng": -71.240034
+        }
+    },
+    {
+        "id": 214,
         "event_type": "LOAD_END",
         "stop_id": "SG",
         "time": 12248.457431997302,
@@ -1400,7 +2140,7 @@
         }
     },
     {
-        "id": 141,
+        "id": 215,
         "event_type": "LAUNCH",
         "stop_id": "SG",
         "time": 12248.457431997302,
@@ -1410,7 +2150,7 @@
         }
     },
     {
-        "id": 142,
+        "id": 216,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "CL",
         "time": 12284.808855103298,
@@ -1420,7 +2160,7 @@
         }
     },
     {
-        "id": 143,
+        "id": 217,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "CL",
         "time": 12294.808855103298,
@@ -1430,7 +2170,7 @@
         }
     },
     {
-        "id": 144,
+        "id": 218,
         "event_type": "LAND",
         "stop_id": "OK",
         "time": 12320.657431997302,
@@ -1440,7 +2180,17 @@
         }
     },
     {
-        "id": 145,
+        "id": 219,
+        "event_type": "LOAD_START",
+        "stop_id": "OK",
+        "time": 12365.157431997302,
+        "coordinates": {
+            "lat": 42.214778,
+            "lng": -71.242886
+        }
+    },
+    {
+        "id": 220,
         "event_type": "LOAD_END",
         "stop_id": "OK",
         "time": 12380.157431997302,
@@ -1450,7 +2200,7 @@
         }
     },
     {
-        "id": 146,
+        "id": 221,
         "event_type": "LAUNCH",
         "stop_id": "OK",
         "time": 12380.157431997302,
@@ -1460,7 +2210,7 @@
         }
     },
     {
-        "id": 147,
+        "id": 222,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "GR",
         "time": 12485.321746547505,
@@ -1470,7 +2220,7 @@
         }
     },
     {
-        "id": 148,
+        "id": 223,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "GR",
         "time": 12495.321746547505,
@@ -1480,7 +2230,7 @@
         }
     },
     {
-        "id": 149,
+        "id": 224,
         "event_type": "LAND",
         "stop_id": "OP",
         "time": 12536.021957354993,
@@ -1490,7 +2240,17 @@
         }
     },
     {
-        "id": 150,
+        "id": 225,
+        "event_type": "DEPART",
+        "stop_id": "OP",
+        "time": 12566.857431997301,
+        "coordinates": {
+            "lat": 42.214383,
+            "lng": -71.254197
+        }
+    },
+    {
+        "id": 226,
         "event_type": "ARRIVE",
         "stop_id": "XS",
         "time": 12664.357431997301,
@@ -1500,7 +2260,17 @@
         }
     },
     {
-        "id": 151,
+        "id": 227,
+        "event_type": "DEPART",
+        "stop_id": "XS",
+        "time": 12721.357431997301,
+        "coordinates": {
+            "lat": 42.219138,
+            "lng": -71.256941
+        }
+    },
+    {
+        "id": 228,
         "event_type": "ARRIVE",
         "stop_id": "UG",
         "time": 12766.057431997302,
@@ -1510,7 +2280,17 @@
         }
     },
     {
-        "id": 152,
+        "id": 229,
+        "event_type": "DEPART",
+        "stop_id": "UG",
+        "time": 12829.057431997302,
+        "coordinates": {
+            "lat": 42.219097,
+            "lng": -71.25419
+        }
+    },
+    {
+        "id": 230,
         "event_type": "ARRIVE",
         "stop_id": "RZ",
         "time": 13007.557431997302,
@@ -1520,7 +2300,17 @@
         }
     },
     {
-        "id": 153,
+        "id": 231,
+        "event_type": "DEPART",
+        "stop_id": "RZ",
+        "time": 13086.557431997302,
+        "coordinates": {
+            "lat": 42.213888,
+            "lng": -71.259757
+        }
+    },
+    {
+        "id": 232,
         "event_type": "ARRIVE",
         "stop_id": "AR",
         "time": 13286.457431997302,
@@ -1530,7 +2320,17 @@
         }
     },
     {
-        "id": 154,
+        "id": 233,
+        "event_type": "DEPART",
+        "stop_id": "AR",
+        "time": 13362.457431997302,
+        "coordinates": {
+            "lat": 42.213792,
+            "lng": -71.249321
+        }
+    },
+    {
+        "id": 234,
         "event_type": "ARRIVE",
         "stop_id": "IG",
         "time": 13381.457431997302,
@@ -1540,7 +2340,17 @@
         }
     },
     {
-        "id": 155,
+        "id": 235,
+        "event_type": "DEPART",
+        "stop_id": "IG",
+        "time": 13492.457431997302,
+        "coordinates": {
+            "lat": 42.21438,
+            "lng": -71.247206
+        }
+    },
+    {
+        "id": 236,
         "event_type": "ARRIVE",
         "stop_id": "PH",
         "time": 13532.957431997302,
@@ -1550,7 +2360,17 @@
         }
     },
     {
-        "id": 156,
+        "id": 237,
+        "event_type": "LOAD_START",
+        "stop_id": "PH",
+        "time": 13603.457431997302,
+        "coordinates": {
+            "lat": 42.213041,
+            "lng": -71.245524
+        }
+    },
+    {
+        "id": 238,
         "event_type": "LOAD_END",
         "stop_id": "PH",
         "time": 13618.457431997302,
@@ -1560,7 +2380,7 @@
         }
     },
     {
-        "id": 157,
+        "id": 239,
         "event_type": "LAUNCH",
         "stop_id": "PH",
         "time": 13618.457431997302,
@@ -1570,7 +2390,7 @@
         }
     },
     {
-        "id": 158,
+        "id": 240,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "XN",
         "time": 13653.0156575177,
@@ -1580,7 +2400,7 @@
         }
     },
     {
-        "id": 159,
+        "id": 241,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "XN",
         "time": 13663.0156575177,
@@ -1590,7 +2410,7 @@
         }
     },
     {
-        "id": 160,
+        "id": 242,
         "event_type": "LAND",
         "stop_id": "FF",
         "time": 13715.891386040697,
@@ -1600,7 +2420,17 @@
         }
     },
     {
-        "id": 161,
+        "id": 243,
+        "event_type": "LOAD_START",
+        "stop_id": "FF",
+        "time": 13776.157431997302,
+        "coordinates": {
+            "lat": 42.20797,
+            "lng": -71.244579
+        }
+    },
+    {
+        "id": 244,
         "event_type": "LOAD_END",
         "stop_id": "FF",
         "time": 13791.157431997302,
@@ -1610,7 +2440,7 @@
         }
     },
     {
-        "id": 162,
+        "id": 245,
         "event_type": "LAUNCH",
         "stop_id": "FF",
         "time": 13791.157431997302,
@@ -1620,7 +2450,7 @@
         }
     },
     {
-        "id": 163,
+        "id": 246,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "YS",
         "time": 13815.564028599509,
@@ -1630,7 +2460,7 @@
         }
     },
     {
-        "id": 164,
+        "id": 247,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "YS",
         "time": 13825.564028599509,
@@ -1640,7 +2470,7 @@
         }
     },
     {
-        "id": 165,
+        "id": 248,
         "event_type": "LAND",
         "stop_id": "DK",
         "time": 13850.857431997303,
@@ -1650,7 +2480,17 @@
         }
     },
     {
-        "id": 166,
+        "id": 249,
+        "event_type": "DEPART",
+        "stop_id": "DK",
+        "time": 13961.857431997303,
+        "coordinates": {
+            "lat": 42.20576,
+            "lng": -71.243013
+        }
+    },
+    {
+        "id": 250,
         "event_type": "ARRIVE",
         "stop_id": "EZ",
         "time": 13968.257431997303,
@@ -1660,7 +2500,17 @@
         }
     },
     {
-        "id": 167,
+        "id": 251,
+        "event_type": "DEPART",
+        "stop_id": "EZ",
+        "time": 13999.257431997303,
+        "coordinates": {
+            "lat": 42.205379,
+            "lng": -71.242794
+        }
+    },
+    {
+        "id": 252,
         "event_type": "ARRIVE",
         "stop_id": "JB",
         "time": 14031.757431997303,
@@ -1670,7 +2520,17 @@
         }
     },
     {
-        "id": 168,
+        "id": 253,
+        "event_type": "DEPART",
+        "stop_id": "JB",
+        "time": 14091.257431997303,
+        "coordinates": {
+            "lat": 42.203788,
+            "lng": -71.240827
+        }
+    },
+    {
+        "id": 254,
         "event_type": "ARRIVE",
         "stop_id": "YC",
         "time": 14127.557431997302,
@@ -1680,7 +2540,17 @@
         }
     },
     {
-        "id": 169,
+        "id": 255,
+        "event_type": "DEPART",
+        "stop_id": "YC",
+        "time": 14171.557431997302,
+        "coordinates": {
+            "lat": 42.202224,
+            "lng": -71.239166
+        }
+    },
+    {
+        "id": 256,
         "event_type": "ARRIVE",
         "stop_id": "YL",
         "time": 14206.557431997302,
@@ -1690,7 +2560,17 @@
         }
     },
     {
-        "id": 170,
+        "id": 257,
+        "event_type": "DEPART",
+        "stop_id": "YL",
+        "time": 14291.057431997302,
+        "coordinates": {
+            "lat": 42.200336,
+            "lng": -71.239934
+        }
+    },
+    {
+        "id": 258,
         "event_type": "ARRIVE",
         "stop_id": "ZM",
         "time": 14308.657431997302,
@@ -1700,7 +2580,17 @@
         }
     },
     {
-        "id": 171,
+        "id": 259,
+        "event_type": "DEPART",
+        "stop_id": "ZM",
+        "time": 14355.657431997302,
+        "coordinates": {
+            "lat": 42.199497,
+            "lng": -71.240009
+        }
+    },
+    {
+        "id": 260,
         "event_type": "ARRIVE",
         "stop_id": "SW",
         "time": 14421.757431997303,
@@ -1710,7 +2600,17 @@
         }
     },
     {
-        "id": 172,
+        "id": 261,
+        "event_type": "LOAD_START",
+        "stop_id": "SW",
+        "time": 14471.757431997303,
+        "coordinates": {
+            "lat": 42.198241,
+            "lng": -71.241903
+        }
+    },
+    {
+        "id": 262,
         "event_type": "LOAD_END",
         "stop_id": "SW",
         "time": 14486.757431997303,
@@ -1720,7 +2620,7 @@
         }
     },
     {
-        "id": 173,
+        "id": 263,
         "event_type": "LAUNCH",
         "stop_id": "SW",
         "time": 14486.757431997303,
@@ -1730,7 +2630,7 @@
         }
     },
     {
-        "id": 174,
+        "id": 264,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "UK",
         "time": 14512.95594245363,
@@ -1740,7 +2640,7 @@
         }
     },
     {
-        "id": 175,
+        "id": 265,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "UK",
         "time": 14522.95594245363,
@@ -1750,7 +2650,7 @@
         }
     },
     {
-        "id": 176,
+        "id": 266,
         "event_type": "LAND",
         "stop_id": "DD",
         "time": 14537.338975344264,
@@ -1760,7 +2660,17 @@
         }
     },
     {
-        "id": 177,
+        "id": 267,
+        "event_type": "LOAD_START",
+        "stop_id": "DD",
+        "time": 14583.557431997302,
+        "coordinates": {
+            "lat": 42.200416,
+            "lng": -71.24117
+        }
+    },
+    {
+        "id": 268,
         "event_type": "LOAD_END",
         "stop_id": "DD",
         "time": 14598.557431997302,
@@ -1770,7 +2680,7 @@
         }
     },
     {
-        "id": 178,
+        "id": 269,
         "event_type": "LAUNCH",
         "stop_id": "DD",
         "time": 14598.557431997302,
@@ -1780,7 +2690,7 @@
         }
     },
     {
-        "id": 179,
+        "id": 270,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "BT",
         "time": 14639.660936832914,
@@ -1790,7 +2700,7 @@
         }
     },
     {
-        "id": 180,
+        "id": 271,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "BT",
         "time": 14649.660936832914,
@@ -1800,7 +2710,7 @@
         }
     },
     {
-        "id": 181,
+        "id": 272,
         "event_type": "LAND",
         "stop_id": "AM",
         "time": 14764.157431997302,
@@ -1810,7 +2720,17 @@
         }
     },
     {
-        "id": 182,
+        "id": 273,
+        "event_type": "DEPART",
+        "stop_id": "AM",
+        "time": 14815.157431997302,
+        "coordinates": {
+            "lat": 42.203285,
+            "lng": -71.241937
+        }
+    },
+    {
+        "id": 274,
         "event_type": "ARRIVE",
         "stop_id": "OB",
         "time": 14867.057431997302,
@@ -1820,7 +2740,17 @@
         }
     },
     {
-        "id": 183,
+        "id": 275,
+        "event_type": "DEPART",
+        "stop_id": "OB",
+        "time": 14937.057431997302,
+        "coordinates": {
+            "lat": 42.204874,
+            "lng": -71.241535
+        }
+    },
+    {
+        "id": 276,
         "event_type": "ARRIVE",
         "stop_id": "WJ",
         "time": 15016.157431997302,
@@ -1830,7 +2760,17 @@
         }
     },
     {
-        "id": 184,
+        "id": 277,
+        "event_type": "LOAD_START",
+        "stop_id": "WJ",
+        "time": 15124.157431997302,
+        "coordinates": {
+            "lat": 42.2057,
+            "lng": -71.245858
+        }
+    },
+    {
+        "id": 278,
         "event_type": "LOAD_END",
         "stop_id": "WJ",
         "time": 15139.157431997302,
@@ -1840,7 +2780,7 @@
         }
     },
     {
-        "id": 185,
+        "id": 279,
         "event_type": "LAUNCH",
         "stop_id": "WJ",
         "time": 15139.157431997302,
@@ -1850,7 +2790,7 @@
         }
     },
     {
-        "id": 186,
+        "id": 280,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "QL",
         "time": 15171.367735950143,
@@ -1860,7 +2800,7 @@
         }
     },
     {
-        "id": 187,
+        "id": 281,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "QL",
         "time": 15181.367735950143,
@@ -1870,7 +2810,7 @@
         }
     },
     {
-        "id": 188,
+        "id": 282,
         "event_type": "LAND",
         "stop_id": "DE",
         "time": 15212.657431997302,
@@ -1880,7 +2820,17 @@
         }
     },
     {
-        "id": 189,
+        "id": 283,
+        "event_type": "DEPART",
+        "stop_id": "DE",
+        "time": 15253.657431997302,
+        "coordinates": {
+            "lat": 42.20683,
+            "lng": -71.247466
+        }
+    },
+    {
+        "id": 284,
         "event_type": "ARRIVE",
         "stop_id": "TI",
         "time": 15282.257431997303,
@@ -1890,7 +2840,17 @@
         }
     },
     {
-        "id": 190,
+        "id": 285,
+        "event_type": "DEPART",
+        "stop_id": "TI",
+        "time": 15324.257431997303,
+        "coordinates": {
+            "lat": 42.206164,
+            "lng": -71.24646
+        }
+    },
+    {
+        "id": 286,
         "event_type": "ARRIVE",
         "stop_id": "AK",
         "time": 15411.357431997303,
@@ -1900,7 +2860,17 @@
         }
     },
     {
-        "id": 191,
+        "id": 287,
+        "event_type": "DEPART",
+        "stop_id": "AK",
+        "time": 15508.357431997303,
+        "coordinates": {
+            "lat": 42.203874,
+            "lng": -71.247096
+        }
+    },
+    {
+        "id": 288,
         "event_type": "ARRIVE",
         "stop_id": "BS",
         "time": 15558.457431997304,
@@ -1910,7 +2880,17 @@
         }
     },
     {
-        "id": 192,
+        "id": 289,
+        "event_type": "DEPART",
+        "stop_id": "BS",
+        "time": 15585.757431997303,
+        "coordinates": {
+            "lat": 42.202862,
+            "lng": -71.248815
+        }
+    },
+    {
+        "id": 290,
         "event_type": "ARRIVE",
         "stop_id": "WG",
         "time": 15663.457431997304,
@@ -1920,7 +2900,17 @@
         }
     },
     {
-        "id": 193,
+        "id": 291,
+        "event_type": "DEPART",
+        "stop_id": "WG",
+        "time": 15741.457431997304,
+        "coordinates": {
+            "lat": 42.201803,
+            "lng": -71.245752
+        }
+    },
+    {
+        "id": 292,
         "event_type": "ARRIVE",
         "stop_id": "LV",
         "time": 15804.157431997304,
@@ -1930,7 +2920,17 @@
         }
     },
     {
-        "id": 194,
+        "id": 293,
+        "event_type": "DEPART",
+        "stop_id": "LV",
+        "time": 15841.657431997304,
+        "coordinates": {
+            "lat": 42.199737,
+            "lng": -71.246174
+        }
+    },
+    {
+        "id": 294,
         "event_type": "ARRIVE",
         "stop_id": "AB",
         "time": 15867.257431997305,
@@ -1940,7 +2940,17 @@
         }
     },
     {
-        "id": 195,
+        "id": 295,
+        "event_type": "LOAD_START",
+        "stop_id": "AB",
+        "time": 15989.257431997305,
+        "coordinates": {
+            "lat": 42.198721,
+            "lng": -71.24547
+        }
+    },
+    {
+        "id": 296,
         "event_type": "LOAD_END",
         "stop_id": "AB",
         "time": 16004.257431997305,
@@ -1950,7 +2960,7 @@
         }
     },
     {
-        "id": 196,
+        "id": 297,
         "event_type": "LAUNCH",
         "stop_id": "AB",
         "time": 16004.257431997305,
@@ -1960,7 +2970,7 @@
         }
     },
     {
-        "id": 197,
+        "id": 298,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "DM",
         "time": 16063.743187860708,
@@ -1970,7 +2980,7 @@
         }
     },
     {
-        "id": 198,
+        "id": 299,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "DM",
         "time": 16073.743187860708,
@@ -1980,7 +2990,7 @@
         }
     },
     {
-        "id": 199,
+        "id": 300,
         "event_type": "LAND",
         "stop_id": "RN",
         "time": 16136.508367209,
@@ -1990,7 +3000,17 @@
         }
     },
     {
-        "id": 200,
+        "id": 301,
+        "event_type": "DEPART",
+        "stop_id": "RN",
+        "time": 16233.357431997305,
+        "coordinates": {
+            "lat": 42.202216,
+            "lng": -71.250443
+        }
+    },
+    {
+        "id": 302,
         "event_type": "ARRIVE",
         "stop_id": "OD",
         "time": 16281.357431997305,
@@ -2000,7 +3020,17 @@
         }
     },
     {
-        "id": 201,
+        "id": 303,
+        "event_type": "LOAD_START",
+        "stop_id": "OD",
+        "time": 16329.857431997305,
+        "coordinates": {
+            "lat": 42.204828,
+            "lng": -71.250724
+        }
+    },
+    {
+        "id": 304,
         "event_type": "LOAD_END",
         "stop_id": "OD",
         "time": 16344.857431997305,
@@ -2010,7 +3040,7 @@
         }
     },
     {
-        "id": 202,
+        "id": 305,
         "event_type": "LAUNCH",
         "stop_id": "OD",
         "time": 16344.857431997305,
@@ -2020,7 +3050,7 @@
         }
     },
     {
-        "id": 203,
+        "id": 306,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "QH",
         "time": 16362.364947151254,
@@ -2030,7 +3060,7 @@
         }
     },
     {
-        "id": 204,
+        "id": 307,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "QH",
         "time": 16372.364947151254,
@@ -2040,7 +3070,7 @@
         }
     },
     {
-        "id": 205,
+        "id": 308,
         "event_type": "LAND",
         "stop_id": "NX",
         "time": 16563.357431997305,
@@ -2050,7 +3080,17 @@
         }
     },
     {
-        "id": 206,
+        "id": 309,
+        "event_type": "DEPART",
+        "stop_id": "NX",
+        "time": 16593.857431997305,
+        "coordinates": {
+            "lat": 42.20762,
+            "lng": -71.25868
+        }
+    },
+    {
+        "id": 310,
         "event_type": "ARRIVE",
         "stop_id": "TW",
         "time": 16699.257431997306,
@@ -2060,7 +3100,17 @@
         }
     },
     {
-        "id": 207,
+        "id": 311,
+        "event_type": "DEPART",
+        "stop_id": "TW",
+        "time": 16722.757431997306,
+        "coordinates": {
+            "lat": 42.211581,
+            "lng": -71.258324
+        }
+    },
+    {
+        "id": 312,
         "event_type": "ARRIVE",
         "stop_id": "JL",
         "time": 16806.257431997306,
@@ -2070,7 +3120,17 @@
         }
     },
     {
-        "id": 208,
+        "id": 313,
+        "event_type": "LOAD_START",
+        "stop_id": "JL",
+        "time": 16972.257431997306,
+        "coordinates": {
+            "lat": 42.210328,
+            "lng": -71.260521
+        }
+    },
+    {
+        "id": 314,
         "event_type": "LOAD_END",
         "stop_id": "JL",
         "time": 16987.257431997306,
@@ -2080,7 +3140,7 @@
         }
     },
     {
-        "id": 209,
+        "id": 315,
         "event_type": "LAUNCH",
         "stop_id": "JL",
         "time": 16987.257431997306,
@@ -2090,7 +3150,7 @@
         }
     },
     {
-        "id": 210,
+        "id": 316,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "CP",
         "time": 17019.81690734272,
@@ -2100,7 +3160,7 @@
         }
     },
     {
-        "id": 211,
+        "id": 317,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "CP",
         "time": 17029.81690734272,
@@ -2110,7 +3170,7 @@
         }
     },
     {
-        "id": 212,
+        "id": 318,
         "event_type": "LAND",
         "stop_id": "UB",
         "time": 17043.076552807313,
@@ -2120,7 +3180,17 @@
         }
     },
     {
-        "id": 213,
+        "id": 319,
+        "event_type": "DEPART",
+        "stop_id": "UB",
+        "time": 17072.957431997307,
+        "coordinates": {
+            "lat": 42.207759,
+            "lng": -71.260696
+        }
+    },
+    {
+        "id": 320,
         "event_type": "ARRIVE",
         "stop_id": "PI",
         "time": 17238.35743199731,
@@ -2130,7 +3200,17 @@
         }
     },
     {
-        "id": 214,
+        "id": 321,
+        "event_type": "LOAD_START",
+        "stop_id": "PI",
+        "time": 17312.35743199731,
+        "coordinates": {
+            "lat": 42.203884,
+            "lng": -71.266554
+        }
+    },
+    {
+        "id": 322,
         "event_type": "LOAD_END",
         "stop_id": "PI",
         "time": 17327.35743199731,
@@ -2140,7 +3220,7 @@
         }
     },
     {
-        "id": 215,
+        "id": 323,
         "event_type": "LAUNCH",
         "stop_id": "PI",
         "time": 17327.35743199731,
@@ -2150,7 +3230,7 @@
         }
     },
     {
-        "id": 216,
+        "id": 324,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "FZ",
         "time": 17368.241354938902,
@@ -2160,7 +3240,7 @@
         }
     },
     {
-        "id": 217,
+        "id": 325,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "FZ",
         "time": 17378.241354938902,
@@ -2170,7 +3250,7 @@
         }
     },
     {
-        "id": 218,
+        "id": 326,
         "event_type": "LAND",
         "stop_id": "DY",
         "time": 17533.75743199731,
@@ -2180,7 +3260,17 @@
         }
     },
     {
-        "id": 219,
+        "id": 327,
+        "event_type": "LOAD_START",
+        "stop_id": "DY",
+        "time": 17658.75743199731,
+        "coordinates": {
+            "lat": 42.206331,
+            "lng": -71.265313
+        }
+    },
+    {
+        "id": 328,
         "event_type": "LOAD_END",
         "stop_id": "DY",
         "time": 17673.75743199731,
@@ -2190,7 +3280,7 @@
         }
     },
     {
-        "id": 220,
+        "id": 329,
         "event_type": "LAUNCH",
         "stop_id": "DY",
         "time": 17673.75743199731,
@@ -2200,7 +3290,7 @@
         }
     },
     {
-        "id": 221,
+        "id": 330,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "ZK",
         "time": 17711.063892926944,
@@ -2210,7 +3300,7 @@
         }
     },
     {
-        "id": 222,
+        "id": 331,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "ZK",
         "time": 17721.063892926944,
@@ -2220,7 +3310,7 @@
         }
     },
     {
-        "id": 223,
+        "id": 332,
         "event_type": "LAND",
         "stop_id": "XD",
         "time": 18037.85743199731,
@@ -2230,7 +3320,17 @@
         }
     },
     {
-        "id": 224,
+        "id": 333,
+        "event_type": "DEPART",
+        "stop_id": "XD",
+        "time": 18096.85743199731,
+        "coordinates": {
+            "lat": 42.213669,
+            "lng": -71.266195
+        }
+    },
+    {
+        "id": 334,
         "event_type": "ARRIVE",
         "stop_id": "HD",
         "time": 18288.75743199731,
@@ -2240,7 +3340,17 @@
         }
     },
     {
-        "id": 225,
+        "id": 335,
+        "event_type": "LOAD_START",
+        "stop_id": "HD",
+        "time": 18358.05743199731,
+        "coordinates": {
+            "lat": 42.222221,
+            "lng": -71.266373
+        }
+    },
+    {
+        "id": 336,
         "event_type": "LOAD_END",
         "stop_id": "HD",
         "time": 18373.05743199731,
@@ -2250,7 +3360,7 @@
         }
     },
     {
-        "id": 226,
+        "id": 337,
         "event_type": "LAUNCH",
         "stop_id": "HD",
         "time": 18373.05743199731,
@@ -2260,7 +3370,7 @@
         }
     },
     {
-        "id": 227,
+        "id": 338,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "AP",
         "time": 18464.124923562173,
@@ -2270,7 +3380,7 @@
         }
     },
     {
-        "id": 228,
+        "id": 339,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "AP",
         "time": 18474.124923562173,
@@ -2280,7 +3390,7 @@
         }
     },
     {
-        "id": 229,
+        "id": 340,
         "event_type": "LAND",
         "stop_id": "UP",
         "time": 18734.394132690453,
@@ -2290,7 +3400,17 @@
         }
     },
     {
-        "id": 230,
+        "id": 341,
+        "event_type": "DEPART",
+        "stop_id": "UP",
+        "time": 18763.657431997308,
+        "coordinates": {
+            "lat": 42.223728,
+            "lng": -71.238658
+        }
+    },
+    {
+        "id": 342,
         "event_type": "ARRIVE",
         "stop_id": "HV",
         "time": 18831.457431997307,
@@ -2300,7 +3420,17 @@
         }
     },
     {
-        "id": 231,
+        "id": 343,
+        "event_type": "DEPART",
+        "stop_id": "HV",
+        "time": 18864.457431997307,
+        "coordinates": {
+            "lat": 42.224918,
+            "lng": -71.2362
+        }
+    },
+    {
+        "id": 344,
         "event_type": "ARRIVE",
         "stop_id": "FQ",
         "time": 18979.457431997307,
@@ -2310,7 +3440,17 @@
         }
     },
     {
-        "id": 232,
+        "id": 345,
+        "event_type": "LOAD_START",
+        "stop_id": "FQ",
+        "time": 19118.957431997307,
+        "coordinates": {
+            "lat": 42.225416,
+            "lng": -71.233978
+        }
+    },
+    {
+        "id": 346,
         "event_type": "LOAD_END",
         "stop_id": "FQ",
         "time": 19133.957431997307,
@@ -2320,7 +3460,7 @@
         }
     },
     {
-        "id": 233,
+        "id": 347,
         "event_type": "LAUNCH",
         "stop_id": "FQ",
         "time": 19133.957431997307,
@@ -2330,7 +3470,7 @@
         }
     },
     {
-        "id": 234,
+        "id": 348,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "JS",
         "time": 19233.99057819002,
@@ -2340,7 +3480,7 @@
         }
     },
     {
-        "id": 235,
+        "id": 349,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "JS",
         "time": 19243.99057819002,
@@ -2350,7 +3490,7 @@
         }
     },
     {
-        "id": 236,
+        "id": 350,
         "event_type": "LAND",
         "stop_id": "MD",
         "time": 19286.157431997308,
@@ -2360,7 +3500,17 @@
         }
     },
     {
-        "id": 237,
+        "id": 351,
+        "event_type": "DEPART",
+        "stop_id": "MD",
+        "time": 19357.157431997308,
+        "coordinates": {
+            "lat": 42.230989,
+            "lng": -71.234053
+        }
+    },
+    {
+        "id": 352,
         "event_type": "ARRIVE",
         "stop_id": "ZE",
         "time": 19530.85743199731,
@@ -2370,7 +3520,17 @@
         }
     },
     {
-        "id": 238,
+        "id": 353,
+        "event_type": "DEPART",
+        "stop_id": "ZE",
+        "time": 19609.85743199731,
+        "coordinates": {
+            "lat": 42.230806,
+            "lng": -71.231546
+        }
+    },
+    {
+        "id": 354,
         "event_type": "ARRIVE",
         "stop_id": "BW",
         "time": 19743.957431997307,
@@ -2380,7 +3540,17 @@
         }
     },
     {
-        "id": 239,
+        "id": 355,
+        "event_type": "DEPART",
+        "stop_id": "BW",
+        "time": 19841.957431997307,
+        "coordinates": {
+            "lat": 42.226202,
+            "lng": -71.232204
+        }
+    },
+    {
+        "id": 356,
         "event_type": "ARRIVE",
         "stop_id": "JV",
         "time": 19879.85743199731,
@@ -2390,7 +3560,17 @@
         }
     },
     {
-        "id": 240,
+        "id": 357,
+        "event_type": "LOAD_START",
+        "stop_id": "JV",
+        "time": 19914.85743199731,
+        "coordinates": {
+            "lat": 42.225408,
+            "lng": -71.229614
+        }
+    },
+    {
+        "id": 358,
         "event_type": "LOAD_END",
         "stop_id": "JV",
         "time": 19929.85743199731,
@@ -2400,7 +3580,7 @@
         }
     },
     {
-        "id": 241,
+        "id": 359,
         "event_type": "LAUNCH",
         "stop_id": "JV",
         "time": 19929.85743199731,
@@ -2410,7 +3590,7 @@
         }
     },
     {
-        "id": 242,
+        "id": 360,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "OC",
         "time": 19990.651050385866,
@@ -2420,7 +3600,7 @@
         }
     },
     {
-        "id": 243,
+        "id": 361,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "OC",
         "time": 20000.651050385866,
@@ -2430,7 +3610,7 @@
         }
     },
     {
-        "id": 244,
+        "id": 362,
         "event_type": "LAND",
         "stop_id": "XV",
         "time": 20034.580222863387,
@@ -2440,7 +3620,17 @@
         }
     },
     {
-        "id": 245,
+        "id": 363,
+        "event_type": "DEPART",
+        "stop_id": "XV",
+        "time": 20034.580222863387,
+        "coordinates": {
+            "lat": 42.223532,
+            "lng": -71.230261
+        }
+    },
+    {
+        "id": 364,
         "event_type": "ARRIVE",
         "stop_id": "JO",
         "time": 20129.080222863387,
@@ -2450,7 +3640,17 @@
         }
     },
     {
-        "id": 246,
+        "id": 365,
+        "event_type": "DEPART",
+        "stop_id": "JO",
+        "time": 20159.580222863387,
+        "coordinates": {
+            "lat": 42.221317,
+            "lng": -71.224221
+        }
+    },
+    {
+        "id": 366,
         "event_type": "ARRIVE",
         "stop_id": "MM",
         "time": 20276.28022286339,
@@ -2460,7 +3660,17 @@
         }
     },
     {
-        "id": 247,
+        "id": 367,
+        "event_type": "DEPART",
+        "stop_id": "MM",
+        "time": 20386.78022286339,
+        "coordinates": {
+            "lat": 42.226293,
+            "lng": -71.222162
+        }
+    },
+    {
+        "id": 368,
         "event_type": "ARRIVE",
         "stop_id": "MN",
         "time": 20442.080222863387,
@@ -2470,7 +3680,17 @@
         }
     },
     {
-        "id": 248,
+        "id": 369,
+        "event_type": "LOAD_START",
+        "stop_id": "MN",
+        "time": 20481.080222863387,
+        "coordinates": {
+            "lat": 42.226914,
+            "lng": -71.223282
+        }
+    },
+    {
+        "id": 370,
         "event_type": "LOAD_END",
         "stop_id": "MN",
         "time": 20496.080222863387,
@@ -2480,7 +3700,7 @@
         }
     },
     {
-        "id": 249,
+        "id": 371,
         "event_type": "LAUNCH",
         "stop_id": "MN",
         "time": 20496.080222863387,
@@ -2490,7 +3710,7 @@
         }
     },
     {
-        "id": 250,
+        "id": 372,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "IB",
         "time": 20559.385994726526,
@@ -2500,7 +3720,7 @@
         }
     },
     {
-        "id": 251,
+        "id": 373,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "IB",
         "time": 20569.385994726526,
@@ -2510,7 +3730,7 @@
         }
     },
     {
-        "id": 252,
+        "id": 374,
         "event_type": "LAND",
         "stop_id": "KJ",
         "time": 20650.080222863387,
@@ -2520,7 +3740,17 @@
         }
     },
     {
-        "id": 253,
+        "id": 375,
+        "event_type": "DEPART",
+        "stop_id": "KJ",
+        "time": 20709.080222863387,
+        "coordinates": {
+            "lat": 42.229205,
+            "lng": -71.217953
+        }
+    },
+    {
+        "id": 376,
         "event_type": "ARRIVE",
         "stop_id": "TG",
         "time": 20769.48022286339,
@@ -2530,7 +3760,17 @@
         }
     },
     {
-        "id": 254,
+        "id": 377,
+        "event_type": "LOAD_START",
+        "stop_id": "TG",
+        "time": 20851.48022286339,
+        "coordinates": {
+            "lat": 42.228703,
+            "lng": -71.220845
+        }
+    },
+    {
+        "id": 378,
         "event_type": "LOAD_END",
         "stop_id": "TG",
         "time": 20866.48022286339,
@@ -2540,7 +3780,7 @@
         }
     },
     {
-        "id": 255,
+        "id": 379,
         "event_type": "LAUNCH",
         "stop_id": "TG",
         "time": 20866.48022286339,
@@ -2550,7 +3790,7 @@
         }
     },
     {
-        "id": 256,
+        "id": 380,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "AJ",
         "time": 20908.931898754003,
@@ -2560,7 +3800,7 @@
         }
     },
     {
-        "id": 257,
+        "id": 381,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "AJ",
         "time": 20918.931898754003,
@@ -2570,7 +3810,7 @@
         }
     },
     {
-        "id": 258,
+        "id": 382,
         "event_type": "LAND",
         "stop_id": "VW",
         "time": 20984.68022286339,
@@ -2580,7 +3820,17 @@
         }
     },
     {
-        "id": 259,
+        "id": 383,
+        "event_type": "LOAD_START",
+        "stop_id": "VW",
+        "time": 21045.68022286339,
+        "coordinates": {
+            "lat": 42.224514,
+            "lng": -71.220526
+        }
+    },
+    {
+        "id": 384,
         "event_type": "LOAD_END",
         "stop_id": "VW",
         "time": 21060.68022286339,
@@ -2590,7 +3840,7 @@
         }
     },
     {
-        "id": 260,
+        "id": 385,
         "event_type": "LAUNCH",
         "stop_id": "VW",
         "time": 21060.68022286339,
@@ -2600,7 +3850,7 @@
         }
     },
     {
-        "id": 261,
+        "id": 386,
         "event_type": "DRONE_DELIVERY_START",
         "stop_id": "VH",
         "time": 21162.161648684938,
@@ -2610,7 +3860,7 @@
         }
     },
     {
-        "id": 262,
+        "id": 387,
         "event_type": "DRONE_DELIVERY_END",
         "stop_id": "VH",
         "time": 21172.161648684938,
@@ -2620,7 +3870,7 @@
         }
     },
     {
-        "id": 263,
+        "id": 388,
         "event_type": "LAND",
         "stop_id": "YK",
         "time": 21214.38022286339,
@@ -2630,7 +3880,17 @@
         }
     },
     {
-        "id": 264,
+        "id": 389,
+        "event_type": "DEPART",
+        "stop_id": "YK",
+        "time": 21278.38022286339,
+        "coordinates": {
+            "lat": 42.223908,
+            "lng": -71.21203
+        }
+    },
+    {
+        "id": 390,
         "event_type": "ARRIVE",
         "stop_id": "AA",
         "time": 21295.280222863392,
@@ -2640,7 +3900,17 @@
         }
     },
     {
-        "id": 265,
+        "id": 391,
+        "event_type": "DEPART",
+        "stop_id": "AA",
+        "time": 21456.280222863392,
+        "coordinates": {
+            "lat": 42.223667,
+            "lng": -71.210712
+        }
+    },
+    {
+        "id": 392,
         "event_type": "ARRIVE",
         "stop_id": "DH",
         "time": 21678.680222863393,
@@ -2650,7 +3920,17 @@
         }
     },
     {
-        "id": 266,
+        "id": 393,
+        "event_type": "DEPART",
+        "stop_id": "DH",
+        "time": 21729.180222863393,
+        "coordinates": {
+            "lat": 42.231995,
+            "lng": -71.213931
+        }
+    },
+    {
+        "id": 394,
         "event_type": "ARRIVE",
         "stop_id": "QW",
         "time": 21799.480222863393,
@@ -2660,7 +3940,17 @@
         }
     },
     {
-        "id": 267,
+        "id": 395,
+        "event_type": "DEPART",
+        "stop_id": "QW",
+        "time": 21932.480222863393,
+        "coordinates": {
+            "lat": 42.230655,
+            "lng": -71.212921
+        }
+    },
+    {
+        "id": 396,
         "event_type": "ARRIVE",
         "stop_id": "WA",
         "time": 22921.880222863394,
