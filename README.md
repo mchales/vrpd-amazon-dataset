@@ -77,5 +77,17 @@ pip install pandas plotly geopy numpy
 ### Execution
 Running this code should be simple as we only have Jupyter Notebooks. Cells must be run sequentially, and ensure each cell's output matches the exisiting output.
 
+# Visualization Instructions
 
+## Description
+In order to visualize the results of our algorithm, we are using a Javascript webpage and an embedded Jupyter notebook (visualization.ipynb). In the notebook, we use a Python package called VeRoViz (vehicle routing visualization) that has support for storing vehicle routing data and visualization it. Specifically, we can create vehicle routes with Pandas dataframes and plug them into VeRoViz methods that can create Leaflet maps or Cesium animations.  In our webpage, we embed this Cesium animation to allow users to interact with the results of the algorithm and test them against the naive algorithm. 
 
+## Installation
+Install veroviz and other necessary packages such as polyline (which is used for representing the vehicle routes).
+
+```
+pip install veroviz polyline
+```
+
+## Execution
+Open the index.html file using a browser to see the webpage.
