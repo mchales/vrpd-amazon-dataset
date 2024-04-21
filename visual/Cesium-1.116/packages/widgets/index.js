@@ -19,10 +19,10 @@ export { default as CesiumInspector } from './Source/CesiumInspector/CesiumInspe
 export { default as CesiumInspectorViewModel } from './Source/CesiumInspector/CesiumInspectorViewModel.js';
 export { default as FullscreenButton } from './Source/FullscreenButton/FullscreenButton.js';
 export { default as FullscreenButtonViewModel } from './Source/FullscreenButton/FullscreenButtonViewModel.js';
-export { default as HomeButton } from './Source/HomeButton/HomeButton.js';
-export { default as HomeButtonViewModel } from './Source/HomeButton/HomeButtonViewModel.js';
 export { default as Geocoder } from './Source/Geocoder/Geocoder.js';
 export { default as GeocoderViewModel } from './Source/Geocoder/GeocoderViewModel.js';
+export { default as HomeButton } from './Source/HomeButton/HomeButton.js';
+export { default as HomeButtonViewModel } from './Source/HomeButton/HomeButtonViewModel.js';
 export { default as I3SBuildingSceneLayerExplorer } from './Source/I3SBuildingSceneLayerExplorer/I3SBuildingSceneLayerExplorer.js';
 export { default as I3SBuildingSceneLayerExplorerViewModel } from './Source/I3SBuildingSceneLayerExplorer/I3SBuildingSceneLayerExplorerViewModel.js';
 export { default as InfoBox } from './Source/InfoBox/InfoBox.js';
