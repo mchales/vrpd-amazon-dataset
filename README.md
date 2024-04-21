@@ -80,14 +80,11 @@ Running this code should be simple as we only have Jupyter Notebooks. Cells must
 # Visualization Instructions
 
 ## Description
-In order to visualize the results of our algorithm, we are using a Javascript webpage and an embedded Jupyter notebook (visualization.ipynb). In the notebook, we use a Python package called VeRoViz (vehicle routing visualization) that has support for storing vehicle routing data and visualization it. Specifically, we can create vehicle routes with Pandas dataframes and plug them into VeRoViz methods that can create Leaflet maps or Cesium animations.  In our webpage, we embed this Cesium animation to allow users to interact with the results of the algorithm and test them against the naive algorithm. 
+In order to visualize the results of our algorithm, we are using a Jupyter notebook (visualization.ipynb) with a Python package called VeRoViz (vehicle routing visualization) that has support for storing vehicle routing data and visualization it. Specifically, we can create vehicle routes with Pandas dataframes and plug them into VeRoViz methods that can create Leaflet maps or Cesium animations. Therefore, using our notebook, we generate a Cesium file that animates our results from the algorithm. Additionally, users can compare different routes on the webpage.
 
 ## Installation
-Install veroviz and other necessary packages such as polyline (which is used for representing the vehicle routes).
-
-```
-pip install veroviz polyline
-```
+Run ```npm install```.
 
 ## Execution
-Open the index.html file using a browser to see the webpage.
+Inside the Cesium folder, run command ```node server.js``` to run the Cesium animation on a webpage.
+
