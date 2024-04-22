@@ -5,7 +5,7 @@ function setConfigs() {
     viewer.camera.flyTo({
         destination: Cesium.Rectangle.fromDegrees(-122.338220, 30.189900, -71.475780, 47.617230) 
     });
-    viewer.clock.currentTime = Cesium.JulianDate.addSeconds('2024-04-21T08:00:00Z', 0, new Cesium.JulianDate());
+    viewer.clock.currentTime = Cesium.JulianDate.addSeconds('2024-04-22T08:00:00Z', 0, new Cesium.JulianDate());
     allIDs = [
         'o-Boston-/veroviz/models/ub_truck.gltf-stationary', 
         'o-Chicago-/veroviz/models/ub_truck.gltf-stationary', 
