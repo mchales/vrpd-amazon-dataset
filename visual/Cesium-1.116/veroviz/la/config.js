@@ -3,28 +3,30 @@
 
 function setConfigs() {
     viewer.camera.flyTo({
-        destination: Cesium.Rectangle.fromDegrees(-118.304127, 33.987600, -118.131430, 34.112251) 
+        destination: Cesium.Rectangle.fromDegrees(-118.417690, 33.736470, -118.314843, 33.931300) 
     });
     viewer.clock.currentTime = Cesium.JulianDate.addSeconds('2024-04-21T08:00:00Z', 0, new Cesium.JulianDate());
     allIDs = [
-        'o-drone-/veroviz/models/drone.gltf-stationary', 
-        'o-truck-/veroviz/models/ub_truck.gltf-stationary', 
-        'o-truck-/veroviz/models/ub_truck.gltf-move'    
+        'o-LA-/veroviz/models/ub_truck.gltf-stationary', 
+        'o-LA-/veroviz/models/drone.gltf-stationary', 
+        'o-LA-/veroviz/models/drone.gltf-move', 
+        'o-LA-/veroviz/models/ub_truck.gltf-move'    
     ];
     orientationIDs = [
-        'o-truck-/veroviz/models/ub_truck.gltf-move'    
+        'o-LA-/veroviz/models/drone.gltf-move', 
+        'o-LA-/veroviz/models/ub_truck.gltf-move'    
     ];
     czmlRouteFile = '/veroviz/la/routes.czml';
     runRoutes(czmlRouteFile, allIDs, orientationIDs);
-objectInfo['drone-/veroviz/models/drone.gltf'] = {
-    label : 'drone (/veroviz/models/drone.gltf)', 
-    childModels : ['o-drone-/veroviz/models/drone.gltf-stationary'],
+objectInfo['LA-/veroviz/models/ub_truck.gltf'] = {
+    label : 'LA (/veroviz/models/ub_truck.gltf)', 
+    childModels : ['o-LA-/veroviz/models/ub_truck.gltf-stationary', 'o-LA-/veroviz/models/ub_truck.gltf-move'],
     scale : 100, 
     minPxSize : 75 
 }; 
-objectInfo['truck-/veroviz/models/ub_truck.gltf'] = {
-    label : 'truck (/veroviz/models/ub_truck.gltf)', 
-    childModels : ['o-truck-/veroviz/models/ub_truck.gltf-stationary', 'o-truck-/veroviz/models/ub_truck.gltf-move'],
+objectInfo['LA-/veroviz/models/drone.gltf'] = {
+    label : 'LA (/veroviz/models/drone.gltf)', 
+    childModels : ['o-LA-/veroviz/models/drone.gltf-stationary', 'o-LA-/veroviz/models/drone.gltf-move'],
     scale : 100, 
     minPxSize : 75 
 }; 

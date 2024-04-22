@@ -6,8 +6,8 @@ function displayNodes() {
     pin[0] = viewer.entities.add({
         name : '1',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 0.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.143927, 34.007369),
+        description : '1 Event: DEPART<br>Time: 0.0',
+        position : Cesium.Cartesian3.fromDegrees(-118.324843, 33.918699),
         billboard : {
             image : pinBuilder.fromText('1', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
@@ -15,7822 +15,7206 @@ function displayNodes() {
     });
 
     pin[1] = viewer.entities.add({
-        name : '1',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 0.0<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.143927, 34.007369),
-        billboard : {
-            image : pinBuilder.fromText('1', Cesium.Color.RED, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[2] = viewer.entities.add({
         name : '2',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1509.7<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284521, 34.088467),
+        description : '2 Event: ARRIVE<br>Time: 2288.5',
+        position : Cesium.Cartesian3.fromDegrees(-118.375247, 33.762769),
         billboard : {
             image : pinBuilder.fromText('2', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[3] = viewer.entities.add({
-        name : '2',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1509.7<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284521, 34.088467),
-        billboard : {
-            image : pinBuilder.fromText('2', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[4] = viewer.entities.add({
+    pin[2] = viewer.entities.add({
         name : '3',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1509.7<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284521, 34.088467),
+        description : '3 Event: DEPART<br>Time: 2356.0',
+        position : Cesium.Cartesian3.fromDegrees(-118.375247, 33.762769),
         billboard : {
             image : pinBuilder.fromText('3', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[5] = viewer.entities.add({
-        name : '3',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1536.1000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284521, 34.088467),
-        billboard : {
-            image : pinBuilder.fromText('3', Cesium.Color.RED, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[6] = viewer.entities.add({
+    pin[3] = viewer.entities.add({
         name : '4',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1536.1000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284521, 34.088467),
-        billboard : {
-            image : pinBuilder.fromText('4', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[7] = viewer.entities.add({
-        name : '5',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1536.1000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284521, 34.088467),
-        billboard : {
-            image : pinBuilder.fromText('5', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[8] = viewer.entities.add({
-        name : '6',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1561.5000000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284839, 34.088709),
-        billboard : {
-            image : pinBuilder.fromText('6', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[9] = viewer.entities.add({
-        name : '4',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1561.5000000000002<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284839, 34.088709),
+        description : '4 Event: ARRIVE<br>Time: 2369.7',
+        position : Cesium.Cartesian3.fromDegrees(-118.375584, 33.763597),
         billboard : {
             image : pinBuilder.fromText('4', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[10] = viewer.entities.add({
-        name : '7',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1561.5000000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284839, 34.088709),
-        billboard : {
-            image : pinBuilder.fromText('7', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[11] = viewer.entities.add({
-        name : '9',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1595.5000000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284839, 34.088709),
-        billboard : {
-            image : pinBuilder.fromText('9', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[12] = viewer.entities.add({
-        name : '8',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1595.5000000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284839, 34.088709),
-        billboard : {
-            image : pinBuilder.fromText('8', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[13] = viewer.entities.add({
+    pin[4] = viewer.entities.add({
         name : '5',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1595.5000000000002<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284839, 34.088709),
+        description : '5 Event: DEPART<br>Time: 2475.7',
+        position : Cesium.Cartesian3.fromDegrees(-118.375584, 33.763597),
         billboard : {
-            image : pinBuilder.fromText('5', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('5', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[14] = viewer.entities.add({
-        name : '11',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1632.9000000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286484, 34.088717),
-        billboard : {
-            image : pinBuilder.fromText('11', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[15] = viewer.entities.add({
-        name : '10',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1632.9000000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286484, 34.088717),
-        billboard : {
-            image : pinBuilder.fromText('10', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[16] = viewer.entities.add({
+    pin[5] = viewer.entities.add({
         name : '6',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1632.9000000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286484, 34.088717),
+        description : '6 Event: ARRIVE<br>Time: 2492.2',
+        position : Cesium.Cartesian3.fromDegrees(-118.376411, 33.764475),
         billboard : {
             image : pinBuilder.fromText('6', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[17] = viewer.entities.add({
-        name : '12',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1705.4000000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286484, 34.088717),
-        billboard : {
-            image : pinBuilder.fromText('12', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[18] = viewer.entities.add({
-        name : '13',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1705.4000000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286484, 34.088717),
-        billboard : {
-            image : pinBuilder.fromText('13', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[19] = viewer.entities.add({
+    pin[6] = viewer.entities.add({
         name : '7',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1705.4000000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286484, 34.088717),
+        description : '7 Event: DEPART<br>Time: 2577.8999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.376411, 33.764475),
         billboard : {
-            image : pinBuilder.fromText('7', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('7', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[20] = viewer.entities.add({
-        name : '15',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1767.6000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28553, 34.089727),
-        billboard : {
-            image : pinBuilder.fromText('15', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[21] = viewer.entities.add({
-        name : '14',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1767.6000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28553, 34.089727),
-        billboard : {
-            image : pinBuilder.fromText('14', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[22] = viewer.entities.add({
+    pin[7] = viewer.entities.add({
         name : '8',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1767.6000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28553, 34.089727),
+        description : '8 Event: ARRIVE<br>Time: 2644.3999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.37662, 33.764621),
         billboard : {
             image : pinBuilder.fromText('8', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[23] = viewer.entities.add({
+    pin[8] = viewer.entities.add({
         name : '9',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1812.6000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28553, 34.089727),
+        description : '9 Event: LOAD_START<br>Time: 2705.8999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.37662, 33.764621),
         billboard : {
-            image : pinBuilder.fromText('9', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('9', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[24] = viewer.entities.add({
-        name : '17',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1812.6000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28553, 34.089727),
-        billboard : {
-            image : pinBuilder.fromText('17', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[25] = viewer.entities.add({
-        name : '16',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1812.6000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28553, 34.089727),
-        billboard : {
-            image : pinBuilder.fromText('16', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[26] = viewer.entities.add({
-        name : '19',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1887.5000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284257, 34.090901),
-        billboard : {
-            image : pinBuilder.fromText('19', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[27] = viewer.entities.add({
-        name : '18',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1887.5000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284257, 34.090901),
-        billboard : {
-            image : pinBuilder.fromText('18', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[28] = viewer.entities.add({
+    pin[9] = viewer.entities.add({
         name : '10',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1887.5000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284257, 34.090901),
+        description : '10 Event: LOAD_END<br>Time: 2720.8999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.37662, 33.764621),
         billboard : {
             image : pinBuilder.fromText('10', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[29] = viewer.entities.add({
+    pin[10] = viewer.entities.add({
         name : '11',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1972.2000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284257, 34.090901),
+        description : '11 Event: LAUNCH<br>Time: 2720.8999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.37662, 33.764621),
         billboard : {
-            image : pinBuilder.fromText('11', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('11', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[30] = viewer.entities.add({
-        name : '21',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1972.2000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284257, 34.090901),
-        billboard : {
-            image : pinBuilder.fromText('21', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[31] = viewer.entities.add({
-        name : '20',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 1972.2000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284257, 34.090901),
-        billboard : {
-            image : pinBuilder.fromText('20', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[32] = viewer.entities.add({
-        name : '23',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2015.7000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284539, 34.091721),
-        billboard : {
-            image : pinBuilder.fromText('23', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[33] = viewer.entities.add({
+    pin[11] = viewer.entities.add({
         name : '12',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2015.7000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284539, 34.091721),
+        description : '12 Event: DRONE_DELIVERY_START<br>Time: 2763.9357294480333',
+        position : Cesium.Cartesian3.fromDegrees(-118.375609, 33.762374),
         billboard : {
             image : pinBuilder.fromText('12', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[34] = viewer.entities.add({
-        name : '22',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2015.7000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284539, 34.091721),
-        billboard : {
-            image : pinBuilder.fromText('22', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[35] = viewer.entities.add({
-        name : '24',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2046.7000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284539, 34.091721),
-        billboard : {
-            image : pinBuilder.fromText('24', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[36] = viewer.entities.add({
+    pin[12] = viewer.entities.add({
         name : '13',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2046.7000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284539, 34.091721),
+        description : '13 Event: DRONE_DELIVERY_END<br>Time: 2773.9357294480333',
+        position : Cesium.Cartesian3.fromDegrees(-118.375609, 33.762374),
         billboard : {
-            image : pinBuilder.fromText('13', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('13', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[37] = viewer.entities.add({
-        name : '25',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2046.7000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284539, 34.091721),
-        billboard : {
-            image : pinBuilder.fromText('25', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[38] = viewer.entities.add({
-        name : '26',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2119.4000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283236, 34.092285),
-        billboard : {
-            image : pinBuilder.fromText('26', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[39] = viewer.entities.add({
+    pin[13] = viewer.entities.add({
         name : '14',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2119.4000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283236, 34.092285),
+        description : '14 Event: LAND<br>Time: 2779.850590855954',
+        position : Cesium.Cartesian3.fromDegrees(-118.376048, 33.762304),
         billboard : {
             image : pinBuilder.fromText('14', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[40] = viewer.entities.add({
-        name : '27',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2119.4000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283236, 34.092285),
-        billboard : {
-            image : pinBuilder.fromText('27', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[41] = viewer.entities.add({
-        name : '28',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2153.4000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283236, 34.092285),
-        billboard : {
-            image : pinBuilder.fromText('28', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[42] = viewer.entities.add({
-        name : '29',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2153.4000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283236, 34.092285),
-        billboard : {
-            image : pinBuilder.fromText('29', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[43] = viewer.entities.add({
+    pin[14] = viewer.entities.add({
         name : '15',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2153.4000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283236, 34.092285),
+        description : '15 Event: DEPART<br>Time: 2854.3999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.376048, 33.762304),
         billboard : {
-            image : pinBuilder.fromText('15', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('15', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[44] = viewer.entities.add({
-        name : '30',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2190.4000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282396, 34.09289),
-        billboard : {
-            image : pinBuilder.fromText('30', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[45] = viewer.entities.add({
-        name : '31',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2190.4000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282396, 34.09289),
-        billboard : {
-            image : pinBuilder.fromText('31', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[46] = viewer.entities.add({
+    pin[15] = viewer.entities.add({
         name : '16',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2190.4000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282396, 34.09289),
+        description : '16 Event: ARRIVE<br>Time: 2887.5999999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.376728, 33.763464),
         billboard : {
             image : pinBuilder.fromText('16', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[47] = viewer.entities.add({
-        name : '32',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2227.4000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282396, 34.09289),
-        billboard : {
-            image : pinBuilder.fromText('32', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[48] = viewer.entities.add({
+    pin[16] = viewer.entities.add({
         name : '17',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2227.4000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282396, 34.09289),
+        description : '17 Event: LOAD_START<br>Time: 2979.0999999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.376728, 33.763464),
         billboard : {
-            image : pinBuilder.fromText('17', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('17', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[49] = viewer.entities.add({
-        name : '33',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2227.4000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282396, 34.09289),
-        billboard : {
-            image : pinBuilder.fromText('33', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[50] = viewer.entities.add({
-        name : '34',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2250.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282542, 34.093152),
-        billboard : {
-            image : pinBuilder.fromText('34', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[51] = viewer.entities.add({
+    pin[17] = viewer.entities.add({
         name : '18',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2250.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282542, 34.093152),
+        description : '18 Event: LOAD_END<br>Time: 2994.0999999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.376728, 33.763464),
         billboard : {
             image : pinBuilder.fromText('18', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[52] = viewer.entities.add({
-        name : '35',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2250.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282542, 34.093152),
-        billboard : {
-            image : pinBuilder.fromText('35', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[53] = viewer.entities.add({
+    pin[18] = viewer.entities.add({
         name : '19',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2313.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282542, 34.093152),
+        description : '19 Event: LAUNCH<br>Time: 2994.0999999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.376728, 33.763464),
         billboard : {
-            image : pinBuilder.fromText('19', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('19', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[54] = viewer.entities.add({
-        name : '36',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2313.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282542, 34.093152),
-        billboard : {
-            image : pinBuilder.fromText('36', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[55] = viewer.entities.add({
-        name : '37',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2313.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282542, 34.093152),
-        billboard : {
-            image : pinBuilder.fromText('37', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[56] = viewer.entities.add({
-        name : '38',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2338.9000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283305, 34.093868),
-        billboard : {
-            image : pinBuilder.fromText('38', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[57] = viewer.entities.add({
-        name : '39',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2338.9000000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283305, 34.093868),
-        billboard : {
-            image : pinBuilder.fromText('39', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[58] = viewer.entities.add({
+    pin[19] = viewer.entities.add({
         name : '20',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2338.9000000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283305, 34.093868),
+        description : '20 Event: DRONE_DELIVERY_START<br>Time: 3008.1933977301146',
+        position : Cesium.Cartesian3.fromDegrees(-118.377216, 33.763868),
         billboard : {
             image : pinBuilder.fromText('20', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[59] = viewer.entities.add({
+    pin[20] = viewer.entities.add({
         name : '21',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2402.2000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283305, 34.093868),
+        description : '21 Event: DRONE_DELIVERY_END<br>Time: 3018.1933977301146',
+        position : Cesium.Cartesian3.fromDegrees(-118.377216, 33.763868),
         billboard : {
-            image : pinBuilder.fromText('21', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('21', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[60] = viewer.entities.add({
-        name : '41',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2402.2000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283305, 34.093868),
-        billboard : {
-            image : pinBuilder.fromText('41', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[61] = viewer.entities.add({
-        name : '40',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2402.2000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283305, 34.093868),
-        billboard : {
-            image : pinBuilder.fromText('40', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[62] = viewer.entities.add({
+    pin[21] = viewer.entities.add({
         name : '22',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2471.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
+        description : '22 Event: LAND<br>Time: 3037.540406304093',
+        position : Cesium.Cartesian3.fromDegrees(-118.378505, 33.764444),
         billboard : {
             image : pinBuilder.fromText('22', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[63] = viewer.entities.add({
-        name : '42',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2471.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
-        billboard : {
-            image : pinBuilder.fromText('42', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[64] = viewer.entities.add({
-        name : '43',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2471.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
-        billboard : {
-            image : pinBuilder.fromText('43', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[65] = viewer.entities.add({
-        name : '45',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2601.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
-        billboard : {
-            image : pinBuilder.fromText('45', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[66] = viewer.entities.add({
-        name : '44',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2601.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
-        billboard : {
-            image : pinBuilder.fromText('44', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[67] = viewer.entities.add({
+    pin[22] = viewer.entities.add({
         name : '23',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2601.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
+        description : '23 Event: DEPART<br>Time: 3087.2999999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.378505, 33.764444),
         billboard : {
-            image : pinBuilder.fromText('23', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('23', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[68] = viewer.entities.add({
-        name : '46',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2616.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
-        billboard : {
-            image : pinBuilder.fromText('46', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[69] = viewer.entities.add({
-        name : '47',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2616.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
-        billboard : {
-            image : pinBuilder.fromText('47', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[70] = viewer.entities.add({
-        name : '25',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2616.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
-        billboard : {
-            image : pinBuilder.fromText('25', Cesium.Color.RED, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[71] = viewer.entities.add({
+    pin[23] = viewer.entities.add({
         name : '24',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2616.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283726, 34.094262),
+        description : '24 Event: ARRIVE<br>Time: 3167.999999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379196, 33.764515),
         billboard : {
             image : pinBuilder.fromText('24', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[72] = viewer.entities.add({
+    pin[24] = viewer.entities.add({
+        name : '25',
+        parent : nodePins,
+        description : '25 Event: LOAD_START<br>Time: 3243.999999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379196, 33.764515),
+        billboard : {
+            image : pinBuilder.fromText('25', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[25] = viewer.entities.add({
         name : '26',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2626.9287300597252<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283993, 34.094506),
+        description : '26 Event: LOAD_END<br>Time: 3258.999999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379196, 33.764515),
         billboard : {
             image : pinBuilder.fromText('26', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[73] = viewer.entities.add({
+    pin[26] = viewer.entities.add({
         name : '27',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2636.9287300597252<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283993, 34.094506),
+        description : '27 Event: LAUNCH<br>Time: 3258.999999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379196, 33.764515),
         billboard : {
-            image : pinBuilder.fromText('27', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('27', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[74] = viewer.entities.add({
-        name : '49',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2665.100000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284798, 34.093458),
-        billboard : {
-            image : pinBuilder.fromText('49', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[75] = viewer.entities.add({
+    pin[27] = viewer.entities.add({
         name : '28',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2665.100000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284798, 34.093458),
+        description : '28 Event: DRONE_DELIVERY_START<br>Time: 3277.6136591950913',
+        position : Cesium.Cartesian3.fromDegrees(-118.38009, 33.76409),
         billboard : {
             image : pinBuilder.fromText('28', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[76] = viewer.entities.add({
-        name : '48',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2665.100000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284798, 34.093458),
-        billboard : {
-            image : pinBuilder.fromText('48', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[77] = viewer.entities.add({
-        name : '51',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2694.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284798, 34.093458),
-        billboard : {
-            image : pinBuilder.fromText('51', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[78] = viewer.entities.add({
-        name : '50',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2694.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284798, 34.093458),
-        billboard : {
-            image : pinBuilder.fromText('50', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[79] = viewer.entities.add({
+    pin[28] = viewer.entities.add({
         name : '29',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2694.600000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284798, 34.093458),
+        description : '29 Event: DRONE_DELIVERY_END<br>Time: 3287.6136591950913',
+        position : Cesium.Cartesian3.fromDegrees(-118.38009, 33.76409),
         billboard : {
-            image : pinBuilder.fromText('29', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('29', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[80] = viewer.entities.add({
+    pin[29] = viewer.entities.add({
         name : '30',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2721.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283405, 34.093177),
+        description : '30 Event: LAND<br>Time: 3339.599999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.378864, 33.763647),
         billboard : {
             image : pinBuilder.fromText('30', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[81] = viewer.entities.add({
-        name : '53',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2721.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283405, 34.093177),
-        billboard : {
-            image : pinBuilder.fromText('53', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[82] = viewer.entities.add({
-        name : '52',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2721.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283405, 34.093177),
-        billboard : {
-            image : pinBuilder.fromText('52', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[83] = viewer.entities.add({
-        name : '54',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2736.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283405, 34.093177),
-        billboard : {
-            image : pinBuilder.fromText('54', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[84] = viewer.entities.add({
+    pin[30] = viewer.entities.add({
         name : '31',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2736.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283405, 34.093177),
+        description : '31 Event: DEPART<br>Time: 3479.599999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.378864, 33.763647),
         billboard : {
-            image : pinBuilder.fromText('31', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('31', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[85] = viewer.entities.add({
-        name : '55',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2736.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283405, 34.093177),
-        billboard : {
-            image : pinBuilder.fromText('55', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[86] = viewer.entities.add({
-        name : '57',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2790.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281417, 34.094442),
-        billboard : {
-            image : pinBuilder.fromText('57', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[87] = viewer.entities.add({
+    pin[31] = viewer.entities.add({
         name : '32',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2790.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281417, 34.094442),
+        description : '32 Event: ARRIVE<br>Time: 3559.699999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.377023, 33.761388),
         billboard : {
             image : pinBuilder.fromText('32', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[88] = viewer.entities.add({
-        name : '56',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2790.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281417, 34.094442),
-        billboard : {
-            image : pinBuilder.fromText('56', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[89] = viewer.entities.add({
-        name : '59',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2863.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281417, 34.094442),
-        billboard : {
-            image : pinBuilder.fromText('59', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[90] = viewer.entities.add({
-        name : '58',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2863.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281417, 34.094442),
-        billboard : {
-            image : pinBuilder.fromText('58', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[91] = viewer.entities.add({
+    pin[32] = viewer.entities.add({
         name : '33',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2863.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281417, 34.094442),
+        description : '33 Event: DEPART<br>Time: 3620.499999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.377023, 33.761388),
         billboard : {
-            image : pinBuilder.fromText('33', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('33', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[92] = viewer.entities.add({
-        name : '60',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2874.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281013, 34.095091),
-        billboard : {
-            image : pinBuilder.fromText('60', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[93] = viewer.entities.add({
-        name : '61',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2874.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281013, 34.095091),
-        billboard : {
-            image : pinBuilder.fromText('61', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[94] = viewer.entities.add({
+    pin[33] = viewer.entities.add({
         name : '34',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2874.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281013, 34.095091),
+        description : '34 Event: ARRIVE<br>Time: 3665.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.376356, 33.759956),
         billboard : {
             image : pinBuilder.fromText('34', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[95] = viewer.entities.add({
+    pin[34] = viewer.entities.add({
         name : '35',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2908.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281013, 34.095091),
+        description : '35 Event: DEPART<br>Time: 3893.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.376356, 33.759956),
         billboard : {
-            image : pinBuilder.fromText('35', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('35', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[96] = viewer.entities.add({
-        name : '62',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2908.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281013, 34.095091),
-        billboard : {
-            image : pinBuilder.fromText('62', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[97] = viewer.entities.add({
-        name : '63',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2908.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281013, 34.095091),
-        billboard : {
-            image : pinBuilder.fromText('63', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[98] = viewer.entities.add({
-        name : '65',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2946.1000000000013<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28179, 34.095585),
-        billboard : {
-            image : pinBuilder.fromText('65', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[99] = viewer.entities.add({
+    pin[35] = viewer.entities.add({
         name : '36',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2946.1000000000013<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28179, 34.095585),
+        description : '36 Event: ARRIVE<br>Time: 4000.599999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.378448, 33.762662),
         billboard : {
             image : pinBuilder.fromText('36', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[100] = viewer.entities.add({
-        name : '64',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2946.1000000000013<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28179, 34.095585),
-        billboard : {
-            image : pinBuilder.fromText('64', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[101] = viewer.entities.add({
-        name : '67',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2988.1000000000013<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28179, 34.095585),
-        billboard : {
-            image : pinBuilder.fromText('67', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[102] = viewer.entities.add({
-        name : '66',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2988.1000000000013<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28179, 34.095585),
-        billboard : {
-            image : pinBuilder.fromText('66', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[103] = viewer.entities.add({
+    pin[36] = viewer.entities.add({
         name : '37',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 2988.1000000000013<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28179, 34.095585),
+        description : '37 Event: LOAD_START<br>Time: 4105.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.378448, 33.762662),
         billboard : {
-            image : pinBuilder.fromText('37', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('37', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[104] = viewer.entities.add({
-        name : '68',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3096.6000000000013<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
-        billboard : {
-            image : pinBuilder.fromText('68', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[105] = viewer.entities.add({
-        name : '69',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3096.6000000000013<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
-        billboard : {
-            image : pinBuilder.fromText('69', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[106] = viewer.entities.add({
+    pin[37] = viewer.entities.add({
         name : '38',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3096.6000000000013<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
+        description : '38 Event: LOAD_END<br>Time: 4120.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.378448, 33.762662),
         billboard : {
             image : pinBuilder.fromText('38', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[107] = viewer.entities.add({
+    pin[38] = viewer.entities.add({
         name : '39',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3144.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
+        description : '39 Event: LAUNCH<br>Time: 4120.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.378448, 33.762662),
         billboard : {
-            image : pinBuilder.fromText('39', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('39', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[108] = viewer.entities.add({
-        name : '71',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3144.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
-        billboard : {
-            image : pinBuilder.fromText('71', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[109] = viewer.entities.add({
-        name : '70',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3144.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
-        billboard : {
-            image : pinBuilder.fromText('70', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[110] = viewer.entities.add({
-        name : '73',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3159.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
-        billboard : {
-            image : pinBuilder.fromText('73', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[111] = viewer.entities.add({
-        name : '72',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3159.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
-        billboard : {
-            image : pinBuilder.fromText('72', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[112] = viewer.entities.add({
-        name : '41',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3159.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
-        billboard : {
-            image : pinBuilder.fromText('41', Cesium.Color.RED, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[113] = viewer.entities.add({
+    pin[39] = viewer.entities.add({
         name : '40',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3159.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282442, 34.09491),
+        description : '40 Event: DRONE_DELIVERY_START<br>Time: 4139.981861063016',
+        position : Cesium.Cartesian3.fromDegrees(-118.379342, 33.762146),
         billboard : {
             image : pinBuilder.fromText('40', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[114] = viewer.entities.add({
+    pin[40] = viewer.entities.add({
+        name : '41',
+        parent : nodePins,
+        description : '41 Event: DRONE_DELIVERY_END<br>Time: 4149.981861063016',
+        position : Cesium.Cartesian3.fromDegrees(-118.379342, 33.762146),
+        billboard : {
+            image : pinBuilder.fromText('41', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[41] = viewer.entities.add({
         name : '42',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3203.3064926550187<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279795, 34.096024),
+        description : '42 Event: LAND<br>Time: 4217.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379734, 33.763048),
         billboard : {
             image : pinBuilder.fromText('42', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[115] = viewer.entities.add({
+    pin[42] = viewer.entities.add({
         name : '43',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3213.3064926550187<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279795, 34.096024),
+        description : '43 Event: DEPART<br>Time: 4289.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.379734, 33.763048),
         billboard : {
-            image : pinBuilder.fromText('43', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('43', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[116] = viewer.entities.add({
+    pin[43] = viewer.entities.add({
         name : '44',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3267.5000000000014<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279776, 34.097596),
+        description : '44 Event: ARRIVE<br>Time: 4356.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379485, 33.761347),
         billboard : {
             image : pinBuilder.fromText('44', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[117] = viewer.entities.add({
-        name : '75',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3267.5000000000014<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279776, 34.097596),
-        billboard : {
-            image : pinBuilder.fromText('75', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[118] = viewer.entities.add({
-        name : '74',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3267.5000000000014<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279776, 34.097596),
-        billboard : {
-            image : pinBuilder.fromText('74', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[119] = viewer.entities.add({
-        name : '77',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3318.5000000000014<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279776, 34.097596),
-        billboard : {
-            image : pinBuilder.fromText('77', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[120] = viewer.entities.add({
+    pin[44] = viewer.entities.add({
         name : '45',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3318.5000000000014<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279776, 34.097596),
+        description : '45 Event: DEPART<br>Time: 4427.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379485, 33.761347),
         billboard : {
-            image : pinBuilder.fromText('45', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('45', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[121] = viewer.entities.add({
-        name : '76',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3318.5000000000014<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279776, 34.097596),
-        billboard : {
-            image : pinBuilder.fromText('76', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[122] = viewer.entities.add({
+    pin[45] = viewer.entities.add({
         name : '46',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3346.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279915, 34.098182),
+        description : '46 Event: ARRIVE<br>Time: 4508.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379341, 33.760726),
         billboard : {
             image : pinBuilder.fromText('46', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[123] = viewer.entities.add({
-        name : '78',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3346.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279915, 34.098182),
-        billboard : {
-            image : pinBuilder.fromText('78', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[124] = viewer.entities.add({
-        name : '79',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3346.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279915, 34.098182),
-        billboard : {
-            image : pinBuilder.fromText('79', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[125] = viewer.entities.add({
-        name : '80',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3421.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279915, 34.098182),
-        billboard : {
-            image : pinBuilder.fromText('80', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[126] = viewer.entities.add({
-        name : '81',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3421.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279915, 34.098182),
-        billboard : {
-            image : pinBuilder.fromText('81', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[127] = viewer.entities.add({
+    pin[46] = viewer.entities.add({
         name : '47',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3421.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279915, 34.098182),
+        description : '47 Event: LOAD_START<br>Time: 4659.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379341, 33.760726),
         billboard : {
-            image : pinBuilder.fromText('47', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('47', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[128] = viewer.entities.add({
+    pin[47] = viewer.entities.add({
         name : '48',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3466.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
+        description : '48 Event: LOAD_END<br>Time: 4674.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379341, 33.760726),
         billboard : {
             image : pinBuilder.fromText('48', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[129] = viewer.entities.add({
-        name : '82',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3466.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
-        billboard : {
-            image : pinBuilder.fromText('82', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[130] = viewer.entities.add({
-        name : '83',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3466.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
-        billboard : {
-            image : pinBuilder.fromText('83', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[131] = viewer.entities.add({
-        name : '84',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3534.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
-        billboard : {
-            image : pinBuilder.fromText('84', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[132] = viewer.entities.add({
+    pin[48] = viewer.entities.add({
         name : '49',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3534.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
+        description : '49 Event: LAUNCH<br>Time: 4674.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379341, 33.760726),
         billboard : {
-            image : pinBuilder.fromText('49', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('49', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[133] = viewer.entities.add({
-        name : '85',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3534.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
-        billboard : {
-            image : pinBuilder.fromText('85', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[134] = viewer.entities.add({
-        name : '87',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3549.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
-        billboard : {
-            image : pinBuilder.fromText('87', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[135] = viewer.entities.add({
+    pin[49] = viewer.entities.add({
         name : '50',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3549.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
+        description : '50 Event: DRONE_DELIVERY_START<br>Time: 4689.278430411939',
+        position : Cesium.Cartesian3.fromDegrees(-118.379036, 33.760157),
         billboard : {
             image : pinBuilder.fromText('50', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[136] = viewer.entities.add({
+    pin[50] = viewer.entities.add({
         name : '51',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3549.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
+        description : '51 Event: DRONE_DELIVERY_END<br>Time: 4699.278430411939',
+        position : Cesium.Cartesian3.fromDegrees(-118.379036, 33.760157),
         billboard : {
-            image : pinBuilder.fromText('51', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('51', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[137] = viewer.entities.add({
-        name : '86',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3549.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278424, 34.099043),
-        billboard : {
-            image : pinBuilder.fromText('86', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[138] = viewer.entities.add({
+    pin[51] = viewer.entities.add({
         name : '52',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3571.914386718219<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277802, 34.098095),
+        description : '52 Event: LAND<br>Time: 4750.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.380513, 33.762528),
         billboard : {
             image : pinBuilder.fromText('52', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[139] = viewer.entities.add({
+    pin[52] = viewer.entities.add({
         name : '53',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3581.914386718219<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277802, 34.098095),
+        description : '53 Event: DEPART<br>Time: 4799.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.380513, 33.762528),
         billboard : {
-            image : pinBuilder.fromText('53', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('53', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[140] = viewer.entities.add({
-        name : '88',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3590.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278658, 34.099485),
-        billboard : {
-            image : pinBuilder.fromText('88', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[141] = viewer.entities.add({
-        name : '89',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3590.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278658, 34.099485),
-        billboard : {
-            image : pinBuilder.fromText('89', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[142] = viewer.entities.add({
+    pin[53] = viewer.entities.add({
         name : '54',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3606.663027183905<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278658, 34.099485),
+        description : '54 Event: ARRIVE<br>Time: 4869.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383583, 33.762694),
         billboard : {
             image : pinBuilder.fromText('54', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[143] = viewer.entities.add({
-        name : '90',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3608.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278658, 34.099485),
-        billboard : {
-            image : pinBuilder.fromText('90', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[144] = viewer.entities.add({
-        name : '91',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3608.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278658, 34.099485),
-        billboard : {
-            image : pinBuilder.fromText('91', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[145] = viewer.entities.add({
+    pin[54] = viewer.entities.add({
         name : '55',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3608.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278658, 34.099485),
+        description : '55 Event: DEPART<br>Time: 4972.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383583, 33.762694),
         billboard : {
-            image : pinBuilder.fromText('55', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('55', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[146] = viewer.entities.add({
-        name : '92',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3682.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278668, 34.096966),
-        billboard : {
-            image : pinBuilder.fromText('92', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[147] = viewer.entities.add({
-        name : '93',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3682.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278668, 34.096966),
-        billboard : {
-            image : pinBuilder.fromText('93', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[148] = viewer.entities.add({
+    pin[55] = viewer.entities.add({
         name : '56',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3682.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278668, 34.096966),
+        description : '56 Event: ARRIVE<br>Time: 5010.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384846, 33.760854),
         billboard : {
             image : pinBuilder.fromText('56', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[149] = viewer.entities.add({
-        name : '95',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3769.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278668, 34.096966),
-        billboard : {
-            image : pinBuilder.fromText('95', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[150] = viewer.entities.add({
-        name : '94',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3769.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278668, 34.096966),
-        billboard : {
-            image : pinBuilder.fromText('94', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[151] = viewer.entities.add({
+    pin[56] = viewer.entities.add({
         name : '57',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3769.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278668, 34.096966),
+        description : '57 Event: DEPART<br>Time: 5047.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.384846, 33.760854),
         billboard : {
-            image : pinBuilder.fromText('57', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('57', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[152] = viewer.entities.add({
-        name : '97',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3779.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278688, 34.096383),
-        billboard : {
-            image : pinBuilder.fromText('97', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[153] = viewer.entities.add({
-        name : '96',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3779.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278688, 34.096383),
-        billboard : {
-            image : pinBuilder.fromText('96', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[154] = viewer.entities.add({
+    pin[57] = viewer.entities.add({
         name : '58',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3779.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278688, 34.096383),
+        description : '58 Event: ARRIVE<br>Time: 5052.199999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.384956, 33.760573),
         billboard : {
             image : pinBuilder.fromText('58', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[155] = viewer.entities.add({
-        name : '99',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3834.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278688, 34.096383),
-        billboard : {
-            image : pinBuilder.fromText('99', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[156] = viewer.entities.add({
-        name : '98',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3834.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278688, 34.096383),
-        billboard : {
-            image : pinBuilder.fromText('98', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[157] = viewer.entities.add({
+    pin[58] = viewer.entities.add({
         name : '59',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3834.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278688, 34.096383),
+        description : '59 Event: DEPART<br>Time: 5094.699999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.384956, 33.760573),
         billboard : {
-            image : pinBuilder.fromText('59', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('59', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[158] = viewer.entities.add({
+    pin[59] = viewer.entities.add({
         name : '60',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3853.100000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277801, 34.09637),
+        description : '60 Event: ARRIVE<br>Time: 5121.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.385354, 33.759379),
         billboard : {
             image : pinBuilder.fromText('60', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[159] = viewer.entities.add({
-        name : '101',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3853.100000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277801, 34.09637),
-        billboard : {
-            image : pinBuilder.fromText('101', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[160] = viewer.entities.add({
-        name : '100',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3853.100000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277801, 34.09637),
-        billboard : {
-            image : pinBuilder.fromText('100', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[161] = viewer.entities.add({
-        name : '102',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3880.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277801, 34.09637),
-        billboard : {
-            image : pinBuilder.fromText('102', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[162] = viewer.entities.add({
+    pin[60] = viewer.entities.add({
         name : '61',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3880.600000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277801, 34.09637),
+        description : '61 Event: DEPART<br>Time: 5193.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.385354, 33.759379),
         billboard : {
-            image : pinBuilder.fromText('61', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('61', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[163] = viewer.entities.add({
-        name : '103',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3880.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277801, 34.09637),
-        billboard : {
-            image : pinBuilder.fromText('103', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[164] = viewer.entities.add({
-        name : '105',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3972.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
-        billboard : {
-            image : pinBuilder.fromText('105', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[165] = viewer.entities.add({
-        name : '104',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3972.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
-        billboard : {
-            image : pinBuilder.fromText('104', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[166] = viewer.entities.add({
+    pin[61] = viewer.entities.add({
         name : '62',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 3972.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
+        description : '62 Event: ARRIVE<br>Time: 5313.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386038, 33.760712),
         billboard : {
             image : pinBuilder.fromText('62', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[167] = viewer.entities.add({
+    pin[62] = viewer.entities.add({
         name : '63',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4012.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
+        description : '63 Event: LOAD_START<br>Time: 5348.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386038, 33.760712),
         billboard : {
-            image : pinBuilder.fromText('63', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('63', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[168] = viewer.entities.add({
-        name : '106',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4012.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
-        billboard : {
-            image : pinBuilder.fromText('106', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[169] = viewer.entities.add({
-        name : '107',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4012.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
-        billboard : {
-            image : pinBuilder.fromText('107', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[170] = viewer.entities.add({
+    pin[63] = viewer.entities.add({
         name : '64',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4027.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
+        description : '64 Event: LOAD_END<br>Time: 5363.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386038, 33.760712),
         billboard : {
             image : pinBuilder.fromText('64', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[171] = viewer.entities.add({
-        name : '108',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4027.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
-        billboard : {
-            image : pinBuilder.fromText('108', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[172] = viewer.entities.add({
-        name : '109',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4027.7000000000007<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
-        billboard : {
-            image : pinBuilder.fromText('109', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[173] = viewer.entities.add({
+    pin[64] = viewer.entities.add({
         name : '65',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4027.7000000000007<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277216, 34.096363),
+        description : '65 Event: LAUNCH<br>Time: 5363.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386038, 33.760712),
         billboard : {
-            image : pinBuilder.fromText('65', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('65', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[174] = viewer.entities.add({
+    pin[65] = viewer.entities.add({
         name : '66',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4058.9492833771124<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279086, 34.095794),
+        description : '66 Event: DRONE_DELIVERY_START<br>Time: 5374.868086819953',
+        position : Cesium.Cartesian3.fromDegrees(-118.386344, 33.76098),
         billboard : {
             image : pinBuilder.fromText('66', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[175] = viewer.entities.add({
+    pin[66] = viewer.entities.add({
         name : '67',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4068.9492833771124<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279086, 34.095794),
+        description : '67 Event: DRONE_DELIVERY_END<br>Time: 5384.868086819953',
+        position : Cesium.Cartesian3.fromDegrees(-118.386344, 33.76098),
         billboard : {
-            image : pinBuilder.fromText('67', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('67', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[176] = viewer.entities.add({
-        name : '111',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4122.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279716, 34.095318),
-        billboard : {
-            image : pinBuilder.fromText('111', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[177] = viewer.entities.add({
-        name : '110',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4122.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279716, 34.095318),
-        billboard : {
-            image : pinBuilder.fromText('110', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[178] = viewer.entities.add({
+    pin[67] = viewer.entities.add({
         name : '68',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4122.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279716, 34.095318),
+        description : '68 Event: LAND<br>Time: 5500.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383451, 33.760468),
         billboard : {
             image : pinBuilder.fromText('68', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[179] = viewer.entities.add({
-        name : '113',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4212.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279716, 34.095318),
-        billboard : {
-            image : pinBuilder.fromText('113', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[180] = viewer.entities.add({
+    pin[68] = viewer.entities.add({
         name : '69',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4212.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.279716, 34.095318),
+        description : '69 Event: DEPART<br>Time: 5562.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383451, 33.760468),
         billboard : {
-            image : pinBuilder.fromText('69', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('69', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[181] = viewer.entities.add({
-        name : '112',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4212.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.279716, 34.095318),
-        billboard : {
-            image : pinBuilder.fromText('112', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[182] = viewer.entities.add({
-        name : '114',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4250.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280816, 34.09483),
-        billboard : {
-            image : pinBuilder.fromText('114', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[183] = viewer.entities.add({
+    pin[69] = viewer.entities.add({
         name : '70',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4250.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.280816, 34.09483),
+        description : '70 Event: ARRIVE<br>Time: 5631.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.382147, 33.760687),
         billboard : {
             image : pinBuilder.fromText('70', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[184] = viewer.entities.add({
-        name : '115',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4250.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280816, 34.09483),
-        billboard : {
-            image : pinBuilder.fromText('115', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[185] = viewer.entities.add({
-        name : '116',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4284.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280816, 34.09483),
-        billboard : {
-            image : pinBuilder.fromText('116', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[186] = viewer.entities.add({
-        name : '117',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4284.800000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280816, 34.09483),
-        billboard : {
-            image : pinBuilder.fromText('117', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[187] = viewer.entities.add({
+    pin[70] = viewer.entities.add({
         name : '71',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4284.800000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.280816, 34.09483),
+        description : '71 Event: DEPART<br>Time: 5727.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.382147, 33.760687),
         billboard : {
-            image : pinBuilder.fromText('71', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('71', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[188] = viewer.entities.add({
+    pin[71] = viewer.entities.add({
         name : '72',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4346.500000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278862, 34.094895),
+        description : '72 Event: ARRIVE<br>Time: 5963.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.380914, 33.760136),
         billboard : {
             image : pinBuilder.fromText('72', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[189] = viewer.entities.add({
-        name : '118',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4346.500000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278862, 34.094895),
-        billboard : {
-            image : pinBuilder.fromText('118', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[190] = viewer.entities.add({
-        name : '119',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4346.500000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278862, 34.094895),
-        billboard : {
-            image : pinBuilder.fromText('119', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[191] = viewer.entities.add({
-        name : '120',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4381.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278862, 34.094895),
-        billboard : {
-            image : pinBuilder.fromText('120', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[192] = viewer.entities.add({
-        name : '121',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4381.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278862, 34.094895),
-        billboard : {
-            image : pinBuilder.fromText('121', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[193] = viewer.entities.add({
+    pin[72] = viewer.entities.add({
         name : '73',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4381.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278862, 34.094895),
+        description : '73 Event: LOAD_START<br>Time: 6019.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.380914, 33.760136),
         billboard : {
-            image : pinBuilder.fromText('73', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('73', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[194] = viewer.entities.add({
-        name : '123',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4406.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.27956, 34.093749),
-        billboard : {
-            image : pinBuilder.fromText('123', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[195] = viewer.entities.add({
+    pin[73] = viewer.entities.add({
         name : '74',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4406.400000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.27956, 34.093749),
+        description : '74 Event: LOAD_END<br>Time: 6034.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.380914, 33.760136),
         billboard : {
             image : pinBuilder.fromText('74', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[196] = viewer.entities.add({
-        name : '122',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4406.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.27956, 34.093749),
-        billboard : {
-            image : pinBuilder.fromText('122', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[197] = viewer.entities.add({
-        name : '125',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4454.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.27956, 34.093749),
-        billboard : {
-            image : pinBuilder.fromText('125', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[198] = viewer.entities.add({
-        name : '124',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4454.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.27956, 34.093749),
-        billboard : {
-            image : pinBuilder.fromText('124', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[199] = viewer.entities.add({
+    pin[74] = viewer.entities.add({
         name : '75',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4454.400000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.27956, 34.093749),
+        description : '75 Event: LAUNCH<br>Time: 6034.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.380914, 33.760136),
         billboard : {
-            image : pinBuilder.fromText('75', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('75', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[200] = viewer.entities.add({
-        name : '126',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4502.700000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280876, 34.091681),
-        billboard : {
-            image : pinBuilder.fromText('126', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[201] = viewer.entities.add({
-        name : '127',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4502.700000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280876, 34.091681),
-        billboard : {
-            image : pinBuilder.fromText('127', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[202] = viewer.entities.add({
+    pin[75] = viewer.entities.add({
         name : '76',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4502.700000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.280876, 34.091681),
+        description : '76 Event: DRONE_DELIVERY_START<br>Time: 6056.2198419116185',
+        position : Cesium.Cartesian3.fromDegrees(-118.380989, 33.761183),
         billboard : {
             image : pinBuilder.fromText('76', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[203] = viewer.entities.add({
+    pin[76] = viewer.entities.add({
         name : '77',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4581.900000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.280876, 34.091681),
+        description : '77 Event: DRONE_DELIVERY_END<br>Time: 6066.2198419116185',
+        position : Cesium.Cartesian3.fromDegrees(-118.380989, 33.761183),
         billboard : {
-            image : pinBuilder.fromText('77', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('77', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[204] = viewer.entities.add({
-        name : '128',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4581.900000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280876, 34.091681),
-        billboard : {
-            image : pinBuilder.fromText('128', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[205] = viewer.entities.add({
-        name : '129',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4581.900000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280876, 34.091681),
-        billboard : {
-            image : pinBuilder.fromText('129', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[206] = viewer.entities.add({
+    pin[77] = viewer.entities.add({
         name : '78',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4592.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281142, 34.091259),
+        description : '78 Event: LAND<br>Time: 6222.499999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.380729, 33.756671),
         billboard : {
             image : pinBuilder.fromText('78', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[207] = viewer.entities.add({
-        name : '130',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4592.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281142, 34.091259),
-        billboard : {
-            image : pinBuilder.fromText('130', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[208] = viewer.entities.add({
-        name : '131',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4592.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281142, 34.091259),
-        billboard : {
-            image : pinBuilder.fromText('131', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[209] = viewer.entities.add({
-        name : '132',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4656.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281142, 34.091259),
-        billboard : {
-            image : pinBuilder.fromText('132', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[210] = viewer.entities.add({
-        name : '133',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4656.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281142, 34.091259),
-        billboard : {
-            image : pinBuilder.fromText('133', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[211] = viewer.entities.add({
+    pin[78] = viewer.entities.add({
         name : '79',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4656.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281142, 34.091259),
+        description : '79 Event: DEPART<br>Time: 6322.499999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.380729, 33.756671),
         billboard : {
-            image : pinBuilder.fromText('79', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('79', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[212] = viewer.entities.add({
-        name : '134',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4662.500000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281325, 34.090961),
-        billboard : {
-            image : pinBuilder.fromText('134', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[213] = viewer.entities.add({
+    pin[79] = viewer.entities.add({
         name : '80',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4662.500000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281325, 34.090961),
+        description : '80 Event: ARRIVE<br>Time: 6332.399999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.381303, 33.756162),
         billboard : {
             image : pinBuilder.fromText('80', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[214] = viewer.entities.add({
-        name : '135',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4662.500000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281325, 34.090961),
-        billboard : {
-            image : pinBuilder.fromText('135', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[215] = viewer.entities.add({
+    pin[80] = viewer.entities.add({
         name : '81',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4754.500000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281325, 34.090961),
+        description : '81 Event: DEPART<br>Time: 6429.399999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.381303, 33.756162),
         billboard : {
-            image : pinBuilder.fromText('81', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('81', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[216] = viewer.entities.add({
-        name : '136',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4754.500000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281325, 34.090961),
-        billboard : {
-            image : pinBuilder.fromText('136', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[217] = viewer.entities.add({
-        name : '137',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4754.500000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281325, 34.090961),
-        billboard : {
-            image : pinBuilder.fromText('137', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[218] = viewer.entities.add({
-        name : '139',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4817.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282842, 34.088782),
-        billboard : {
-            image : pinBuilder.fromText('139', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[219] = viewer.entities.add({
+    pin[81] = viewer.entities.add({
         name : '82',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4817.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282842, 34.088782),
+        description : '82 Event: ARRIVE<br>Time: 6483.699999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.381522, 33.754607),
         billboard : {
             image : pinBuilder.fromText('82', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[220] = viewer.entities.add({
-        name : '138',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4817.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282842, 34.088782),
-        billboard : {
-            image : pinBuilder.fromText('138', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[221] = viewer.entities.add({
-        name : '141',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4850.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282842, 34.088782),
-        billboard : {
-            image : pinBuilder.fromText('141', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[222] = viewer.entities.add({
-        name : '140',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4850.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282842, 34.088782),
-        billboard : {
-            image : pinBuilder.fromText('140', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[223] = viewer.entities.add({
+    pin[82] = viewer.entities.add({
         name : '83',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4850.600000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282842, 34.088782),
+        description : '83 Event: DEPART<br>Time: 6535.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.381522, 33.754607),
         billboard : {
-            image : pinBuilder.fromText('83', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('83', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[224] = viewer.entities.add({
-        name : '143',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4969.9000000000015<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28258, 34.090795),
-        billboard : {
-            image : pinBuilder.fromText('143', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[225] = viewer.entities.add({
+    pin[83] = viewer.entities.add({
         name : '84',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4969.9000000000015<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28258, 34.090795),
+        description : '84 Event: ARRIVE<br>Time: 6628.399999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383649, 33.75486),
         billboard : {
             image : pinBuilder.fromText('84', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[226] = viewer.entities.add({
-        name : '142',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 4969.9000000000015<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28258, 34.090795),
-        billboard : {
-            image : pinBuilder.fromText('142', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[227] = viewer.entities.add({
-        name : '144',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5001.4000000000015<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28258, 34.090795),
-        billboard : {
-            image : pinBuilder.fromText('144', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[228] = viewer.entities.add({
-        name : '145',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5001.4000000000015<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28258, 34.090795),
-        billboard : {
-            image : pinBuilder.fromText('145', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[229] = viewer.entities.add({
+    pin[84] = viewer.entities.add({
         name : '85',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5001.4000000000015<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28258, 34.090795),
+        description : '85 Event: DEPART<br>Time: 6711.399999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383649, 33.75486),
         billboard : {
-            image : pinBuilder.fromText('85', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('85', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[230] = viewer.entities.add({
-        name : '146',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5012.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282857, 34.090347),
-        billboard : {
-            image : pinBuilder.fromText('146', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[231] = viewer.entities.add({
+    pin[85] = viewer.entities.add({
         name : '86',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5012.600000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282857, 34.090347),
+        description : '86 Event: ARRIVE<br>Time: 6725.799999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.38332, 33.754401),
         billboard : {
             image : pinBuilder.fromText('86', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[232] = viewer.entities.add({
-        name : '147',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5012.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282857, 34.090347),
-        billboard : {
-            image : pinBuilder.fromText('147', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[233] = viewer.entities.add({
-        name : '149',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5051.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282857, 34.090347),
-        billboard : {
-            image : pinBuilder.fromText('149', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[234] = viewer.entities.add({
-        name : '148',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5051.600000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282857, 34.090347),
-        billboard : {
-            image : pinBuilder.fromText('148', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[235] = viewer.entities.add({
+    pin[86] = viewer.entities.add({
         name : '87',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5051.600000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282857, 34.090347),
+        description : '87 Event: DEPART<br>Time: 6760.499999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.38332, 33.754401),
         billboard : {
-            image : pinBuilder.fromText('87', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('87', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[236] = viewer.entities.add({
+    pin[87] = viewer.entities.add({
         name : '88',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5100.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
+        description : '88 Event: ARRIVE<br>Time: 6832.599999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.385752, 33.75546),
         billboard : {
             image : pinBuilder.fromText('88', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[237] = viewer.entities.add({
-        name : '151',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5100.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
-        billboard : {
-            image : pinBuilder.fromText('151', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[238] = viewer.entities.add({
-        name : '150',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5100.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
-        billboard : {
-            image : pinBuilder.fromText('150', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[239] = viewer.entities.add({
+    pin[88] = viewer.entities.add({
         name : '89',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5117.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
+        description : '89 Event: DEPART<br>Time: 6952.099999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.385752, 33.75546),
         billboard : {
-            image : pinBuilder.fromText('89', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('89', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[240] = viewer.entities.add({
-        name : '153',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5117.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
-        billboard : {
-            image : pinBuilder.fromText('153', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[241] = viewer.entities.add({
-        name : '152',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5117.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
-        billboard : {
-            image : pinBuilder.fromText('152', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[242] = viewer.entities.add({
-        name : '155',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5132.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
-        billboard : {
-            image : pinBuilder.fromText('155', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[243] = viewer.entities.add({
-        name : '154',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5132.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
-        billboard : {
-            image : pinBuilder.fromText('154', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[244] = viewer.entities.add({
-        name : '91',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5132.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
-        billboard : {
-            image : pinBuilder.fromText('91', Cesium.Color.RED, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[245] = viewer.entities.add({
+    pin[89] = viewer.entities.add({
         name : '90',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5132.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283433, 34.089433),
+        description : '90 Event: ARRIVE<br>Time: 7190.199999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.384736, 33.757955),
         billboard : {
             image : pinBuilder.fromText('90', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[246] = viewer.entities.add({
+    pin[90] = viewer.entities.add({
+        name : '91',
+        parent : nodePins,
+        description : '91 Event: DEPART<br>Time: 7231.199999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.384736, 33.757955),
+        billboard : {
+            image : pinBuilder.fromText('91', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[91] = viewer.entities.add({
         name : '92',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5142.992720212357<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283641, 34.089111),
+        description : '92 Event: ARRIVE<br>Time: 7295.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383975, 33.758038),
         billboard : {
             image : pinBuilder.fromText('92', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[247] = viewer.entities.add({
+    pin[92] = viewer.entities.add({
         name : '93',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5152.992720212357<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283641, 34.089111),
+        description : '93 Event: LOAD_START<br>Time: 7382.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383975, 33.758038),
         billboard : {
-            image : pinBuilder.fromText('93', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('93', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[248] = viewer.entities.add({
-        name : '156',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5178.900000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282166, 34.091462),
-        billboard : {
-            image : pinBuilder.fromText('156', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[249] = viewer.entities.add({
-        name : '157',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5178.900000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282166, 34.091462),
-        billboard : {
-            image : pinBuilder.fromText('157', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[250] = viewer.entities.add({
+    pin[93] = viewer.entities.add({
         name : '94',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5195.017245020919<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282166, 34.091462),
+        description : '94 Event: LOAD_END<br>Time: 7397.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383975, 33.758038),
         billboard : {
             image : pinBuilder.fromText('94', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[251] = viewer.entities.add({
-        name : '159',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5216.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282166, 34.091462),
-        billboard : {
-            image : pinBuilder.fromText('159', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[252] = viewer.entities.add({
+    pin[94] = viewer.entities.add({
         name : '95',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5216.3<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282166, 34.091462),
+        description : '95 Event: LAUNCH<br>Time: 7397.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383975, 33.758038),
         billboard : {
-            image : pinBuilder.fromText('95', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('95', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[253] = viewer.entities.add({
-        name : '158',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5216.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282166, 34.091462),
-        billboard : {
-            image : pinBuilder.fromText('158', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[254] = viewer.entities.add({
-        name : '161',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5276.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281442, 34.093403),
-        billboard : {
-            image : pinBuilder.fromText('161', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[255] = viewer.entities.add({
-        name : '160',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5276.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281442, 34.093403),
-        billboard : {
-            image : pinBuilder.fromText('160', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[256] = viewer.entities.add({
+    pin[95] = viewer.entities.add({
         name : '96',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5276.400000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281442, 34.093403),
+        description : '96 Event: DRONE_DELIVERY_START<br>Time: 7418.008838561375',
+        position : Cesium.Cartesian3.fromDegrees(-118.382893, 33.758342),
         billboard : {
             image : pinBuilder.fromText('96', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[257] = viewer.entities.add({
-        name : '163',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5426.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281442, 34.093403),
-        billboard : {
-            image : pinBuilder.fromText('163', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[258] = viewer.entities.add({
+    pin[96] = viewer.entities.add({
         name : '97',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5426.400000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281442, 34.093403),
+        description : '97 Event: DRONE_DELIVERY_END<br>Time: 7428.008838561375',
+        position : Cesium.Cartesian3.fromDegrees(-118.382893, 33.758342),
         billboard : {
-            image : pinBuilder.fromText('97', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('97', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[259] = viewer.entities.add({
-        name : '162',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5426.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281442, 34.093403),
-        billboard : {
-            image : pinBuilder.fromText('162', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[260] = viewer.entities.add({
-        name : '164',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5490.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284572, 34.096205),
-        billboard : {
-            image : pinBuilder.fromText('164', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[261] = viewer.entities.add({
+    pin[97] = viewer.entities.add({
         name : '98',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5490.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284572, 34.096205),
+        description : '98 Event: LAND<br>Time: 7449.462594735681',
+        position : Cesium.Cartesian3.fromDegrees(-118.383264, 33.757024),
         billboard : {
             image : pinBuilder.fromText('98', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[262] = viewer.entities.add({
-        name : '165',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5490.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284572, 34.096205),
-        billboard : {
-            image : pinBuilder.fromText('165', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[263] = viewer.entities.add({
+    pin[98] = viewer.entities.add({
         name : '99',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5554.200000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284572, 34.096205),
+        description : '99 Event: DEPART<br>Time: 7486.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383264, 33.757024),
         billboard : {
-            image : pinBuilder.fromText('99', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('99', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[264] = viewer.entities.add({
-        name : '167',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5554.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284572, 34.096205),
-        billboard : {
-            image : pinBuilder.fromText('167', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[265] = viewer.entities.add({
-        name : '166',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5554.200000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284572, 34.096205),
-        billboard : {
-            image : pinBuilder.fromText('166', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[266] = viewer.entities.add({
-        name : '168',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5567.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285385, 34.096917),
-        billboard : {
-            image : pinBuilder.fromText('168', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[267] = viewer.entities.add({
+    pin[99] = viewer.entities.add({
         name : '100',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5567.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285385, 34.096917),
+        description : '100 Event: ARRIVE<br>Time: 7595.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.381923, 33.757446),
         billboard : {
             image : pinBuilder.fromText('100', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[268] = viewer.entities.add({
-        name : '169',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5567.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285385, 34.096917),
-        billboard : {
-            image : pinBuilder.fromText('169', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[269] = viewer.entities.add({
-        name : '170',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5666.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285385, 34.096917),
-        billboard : {
-            image : pinBuilder.fromText('170', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[270] = viewer.entities.add({
-        name : '171',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5666.000000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285385, 34.096917),
-        billboard : {
-            image : pinBuilder.fromText('171', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[271] = viewer.entities.add({
+    pin[100] = viewer.entities.add({
         name : '101',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5666.000000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285385, 34.096917),
+        description : '101 Event: LOAD_START<br>Time: 7808.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.381923, 33.757446),
         billboard : {
-            image : pinBuilder.fromText('101', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('101', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[272] = viewer.entities.add({
+    pin[101] = viewer.entities.add({
         name : '102',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5732.400000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.287399, 34.099902),
+        description : '102 Event: LOAD_END<br>Time: 7823.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.381923, 33.757446),
         billboard : {
             image : pinBuilder.fromText('102', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[273] = viewer.entities.add({
-        name : '172',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5732.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287399, 34.099902),
-        billboard : {
-            image : pinBuilder.fromText('172', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[274] = viewer.entities.add({
-        name : '173',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5732.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287399, 34.099902),
-        billboard : {
-            image : pinBuilder.fromText('173', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[275] = viewer.entities.add({
-        name : '174',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5763.1<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287399, 34.099902),
-        billboard : {
-            image : pinBuilder.fromText('174', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[276] = viewer.entities.add({
+    pin[102] = viewer.entities.add({
         name : '103',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5763.1<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.287399, 34.099902),
+        description : '103 Event: LAUNCH<br>Time: 7823.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.381923, 33.757446),
         billboard : {
-            image : pinBuilder.fromText('103', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('103', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[277] = viewer.entities.add({
-        name : '175',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5763.1<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287399, 34.099902),
-        billboard : {
-            image : pinBuilder.fromText('175', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[278] = viewer.entities.add({
+    pin[103] = viewer.entities.add({
         name : '104',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5780.5<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.2874, 34.101133),
+        description : '104 Event: DRONE_DELIVERY_START<br>Time: 7865.472462146599',
+        position : Cesium.Cartesian3.fromDegrees(-118.38467, 33.7569),
         billboard : {
             image : pinBuilder.fromText('104', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[279] = viewer.entities.add({
-        name : '177',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5780.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2874, 34.101133),
-        billboard : {
-            image : pinBuilder.fromText('177', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[280] = viewer.entities.add({
-        name : '176',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5780.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2874, 34.101133),
-        billboard : {
-            image : pinBuilder.fromText('176', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[281] = viewer.entities.add({
+    pin[104] = viewer.entities.add({
         name : '105',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5869.5<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.2874, 34.101133),
+        description : '105 Event: DRONE_DELIVERY_END<br>Time: 7875.472462146599',
+        position : Cesium.Cartesian3.fromDegrees(-118.38467, 33.7569),
         billboard : {
-            image : pinBuilder.fromText('105', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('105', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[282] = viewer.entities.add({
-        name : '178',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5869.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2874, 34.101133),
-        billboard : {
-            image : pinBuilder.fromText('178', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[283] = viewer.entities.add({
-        name : '179',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5869.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2874, 34.101133),
-        billboard : {
-            image : pinBuilder.fromText('179', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[284] = viewer.entities.add({
+    pin[105] = viewer.entities.add({
         name : '106',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5890.0<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.287403, 34.102251),
+        description : '106 Event: LAND<br>Time: 7940.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386927, 33.756995),
         billboard : {
             image : pinBuilder.fromText('106', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[285] = viewer.entities.add({
-        name : '181',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5890.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287403, 34.102251),
-        billboard : {
-            image : pinBuilder.fromText('181', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[286] = viewer.entities.add({
-        name : '180',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5890.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287403, 34.102251),
-        billboard : {
-            image : pinBuilder.fromText('180', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[287] = viewer.entities.add({
-        name : '183',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5944.7<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287403, 34.102251),
-        billboard : {
-            image : pinBuilder.fromText('183', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[288] = viewer.entities.add({
+    pin[106] = viewer.entities.add({
         name : '107',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5944.7<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.287403, 34.102251),
+        description : '107 Event: DEPART<br>Time: 8025.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386927, 33.756995),
         billboard : {
-            image : pinBuilder.fromText('107', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('107', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[289] = viewer.entities.add({
-        name : '182',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5944.7<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287403, 34.102251),
-        billboard : {
-            image : pinBuilder.fromText('182', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[290] = viewer.entities.add({
-        name : '184',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5981.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286716, 34.1018),
-        billboard : {
-            image : pinBuilder.fromText('184', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[291] = viewer.entities.add({
+    pin[107] = viewer.entities.add({
         name : '108',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5981.3<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286716, 34.1018),
+        description : '108 Event: ARRIVE<br>Time: 8050.799999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.388113, 33.756472),
         billboard : {
             image : pinBuilder.fromText('108', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[292] = viewer.entities.add({
-        name : '185',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 5981.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286716, 34.1018),
-        billboard : {
-            image : pinBuilder.fromText('185', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[293] = viewer.entities.add({
-        name : '187',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6025.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286716, 34.1018),
-        billboard : {
-            image : pinBuilder.fromText('187', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[294] = viewer.entities.add({
-        name : '186',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6025.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286716, 34.1018),
-        billboard : {
-            image : pinBuilder.fromText('186', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[295] = viewer.entities.add({
+    pin[108] = viewer.entities.add({
         name : '109',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6025.3<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286716, 34.1018),
+        description : '109 Event: DEPART<br>Time: 8103.799999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.388113, 33.756472),
         billboard : {
-            image : pinBuilder.fromText('109', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('109', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[296] = viewer.entities.add({
-        name : '188',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6105.2<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.288505, 34.100535),
-        billboard : {
-            image : pinBuilder.fromText('188', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[297] = viewer.entities.add({
+    pin[109] = viewer.entities.add({
         name : '110',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6105.2<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.288505, 34.100535),
+        description : '110 Event: ARRIVE<br>Time: 8135.299999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.387307, 33.760072),
         billboard : {
             image : pinBuilder.fromText('110', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[298] = viewer.entities.add({
-        name : '189',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6105.2<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.288505, 34.100535),
-        billboard : {
-            image : pinBuilder.fromText('189', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[299] = viewer.entities.add({
+    pin[110] = viewer.entities.add({
         name : '111',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6145.5<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.288505, 34.100535),
+        description : '111 Event: LOAD_START<br>Time: 8182.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.387307, 33.760072),
         billboard : {
-            image : pinBuilder.fromText('111', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('111', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[300] = viewer.entities.add({
-        name : '191',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6145.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.288505, 34.100535),
-        billboard : {
-            image : pinBuilder.fromText('191', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[301] = viewer.entities.add({
-        name : '190',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6145.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.288505, 34.100535),
-        billboard : {
-            image : pinBuilder.fromText('190', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[302] = viewer.entities.add({
+    pin[111] = viewer.entities.add({
         name : '112',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6158.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.288518, 34.101063),
+        description : '112 Event: LOAD_END<br>Time: 8197.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.387307, 33.760072),
         billboard : {
             image : pinBuilder.fromText('112', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[303] = viewer.entities.add({
-        name : '192',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6158.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.288518, 34.101063),
-        billboard : {
-            image : pinBuilder.fromText('192', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[304] = viewer.entities.add({
-        name : '193',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6158.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.288518, 34.101063),
-        billboard : {
-            image : pinBuilder.fromText('193', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[305] = viewer.entities.add({
-        name : '194',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6197.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.288518, 34.101063),
-        billboard : {
-            image : pinBuilder.fromText('194', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[306] = viewer.entities.add({
-        name : '195',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6197.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.288518, 34.101063),
-        billboard : {
-            image : pinBuilder.fromText('195', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[307] = viewer.entities.add({
+    pin[112] = viewer.entities.add({
         name : '113',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6197.5<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.288518, 34.101063),
+        description : '113 Event: LAUNCH<br>Time: 8197.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.387307, 33.760072),
         billboard : {
-            image : pinBuilder.fromText('113', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('113', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[308] = viewer.entities.add({
-        name : '196',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6264.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290697, 34.101797),
-        billboard : {
-            image : pinBuilder.fromText('196', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[309] = viewer.entities.add({
+    pin[113] = viewer.entities.add({
         name : '114',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6264.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.290697, 34.101797),
+        description : '114 Event: DRONE_DELIVERY_START<br>Time: 8214.366612717702',
+        position : Cesium.Cartesian3.fromDegrees(-118.387924, 33.760571),
         billboard : {
             image : pinBuilder.fromText('114', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[310] = viewer.entities.add({
-        name : '197',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6264.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290697, 34.101797),
-        billboard : {
-            image : pinBuilder.fromText('197', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[311] = viewer.entities.add({
-        name : '199',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6304.9<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290697, 34.101797),
-        billboard : {
-            image : pinBuilder.fromText('199', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[312] = viewer.entities.add({
-        name : '198',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6304.9<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290697, 34.101797),
-        billboard : {
-            image : pinBuilder.fromText('198', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[313] = viewer.entities.add({
+    pin[114] = viewer.entities.add({
         name : '115',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6304.9<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.290697, 34.101797),
+        description : '115 Event: DRONE_DELIVERY_END<br>Time: 8224.366612717702',
+        position : Cesium.Cartesian3.fromDegrees(-118.387924, 33.760571),
         billboard : {
-            image : pinBuilder.fromText('115', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('115', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[314] = viewer.entities.add({
+    pin[115] = viewer.entities.add({
         name : '116',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6339.7<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.289609, 34.101474),
+        description : '116 Event: LAND<br>Time: 8238.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.388466, 33.760443),
         billboard : {
             image : pinBuilder.fromText('116', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[315] = viewer.entities.add({
-        name : '201',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6339.7<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289609, 34.101474),
-        billboard : {
-            image : pinBuilder.fromText('201', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[316] = viewer.entities.add({
-        name : '200',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6339.7<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289609, 34.101474),
-        billboard : {
-            image : pinBuilder.fromText('200', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[317] = viewer.entities.add({
-        name : '202',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6399.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289609, 34.101474),
-        billboard : {
-            image : pinBuilder.fromText('202', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[318] = viewer.entities.add({
+    pin[116] = viewer.entities.add({
         name : '117',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6399.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.289609, 34.101474),
+        description : '117 Event: DEPART<br>Time: 8306.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.388466, 33.760443),
         billboard : {
-            image : pinBuilder.fromText('117', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('117', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[319] = viewer.entities.add({
-        name : '203',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6399.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289609, 34.101474),
-        billboard : {
-            image : pinBuilder.fromText('203', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[320] = viewer.entities.add({
+    pin[117] = viewer.entities.add({
         name : '118',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6458.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.290796, 34.100562),
+        description : '118 Event: ARRIVE<br>Time: 8318.799999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.388614, 33.760013),
         billboard : {
             image : pinBuilder.fromText('118', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[321] = viewer.entities.add({
-        name : '205',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6458.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290796, 34.100562),
-        billboard : {
-            image : pinBuilder.fromText('205', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[322] = viewer.entities.add({
-        name : '204',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6458.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290796, 34.100562),
-        billboard : {
-            image : pinBuilder.fromText('204', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[323] = viewer.entities.add({
-        name : '206',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6505.9<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290796, 34.100562),
-        billboard : {
-            image : pinBuilder.fromText('206', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[324] = viewer.entities.add({
+    pin[118] = viewer.entities.add({
         name : '119',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6505.9<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.290796, 34.100562),
+        description : '119 Event: DEPART<br>Time: 8392.799999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.388614, 33.760013),
         billboard : {
-            image : pinBuilder.fromText('119', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('119', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[325] = viewer.entities.add({
-        name : '207',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6505.9<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290796, 34.100562),
-        billboard : {
-            image : pinBuilder.fromText('207', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[326] = viewer.entities.add({
-        name : '208',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6510.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291027, 34.100716),
-        billboard : {
-            image : pinBuilder.fromText('208', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[327] = viewer.entities.add({
+    pin[119] = viewer.entities.add({
         name : '120',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6510.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291027, 34.100716),
+        description : '120 Event: ARRIVE<br>Time: 8476.199999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.38715, 33.758954),
         billboard : {
             image : pinBuilder.fromText('120', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[328] = viewer.entities.add({
-        name : '209',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6510.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291027, 34.100716),
-        billboard : {
-            image : pinBuilder.fromText('209', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[329] = viewer.entities.add({
-        name : '210',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6616.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291027, 34.100716),
-        billboard : {
-            image : pinBuilder.fromText('210', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[330] = viewer.entities.add({
-        name : '211',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6616.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291027, 34.100716),
-        billboard : {
-            image : pinBuilder.fromText('211', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[331] = viewer.entities.add({
+    pin[120] = viewer.entities.add({
         name : '121',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6616.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291027, 34.100716),
+        description : '121 Event: DEPART<br>Time: 8518.999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.38715, 33.758954),
         billboard : {
-            image : pinBuilder.fromText('121', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('121', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[332] = viewer.entities.add({
-        name : '213',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6641.099999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289397, 34.099634),
-        billboard : {
-            image : pinBuilder.fromText('213', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[333] = viewer.entities.add({
-        name : '212',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6641.099999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289397, 34.099634),
-        billboard : {
-            image : pinBuilder.fromText('212', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[334] = viewer.entities.add({
+    pin[121] = viewer.entities.add({
         name : '122',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6641.099999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.289397, 34.099634),
+        description : '122 Event: ARRIVE<br>Time: 8664.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.390196, 33.757063),
         billboard : {
             image : pinBuilder.fromText('122', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[335] = viewer.entities.add({
-        name : '214',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6695.099999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289397, 34.099634),
-        billboard : {
-            image : pinBuilder.fromText('214', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[336] = viewer.entities.add({
-        name : '215',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6695.099999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289397, 34.099634),
-        billboard : {
-            image : pinBuilder.fromText('215', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[337] = viewer.entities.add({
+    pin[122] = viewer.entities.add({
         name : '123',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6695.099999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.289397, 34.099634),
+        description : '123 Event: DEPART<br>Time: 9032.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.390196, 33.757063),
         billboard : {
-            image : pinBuilder.fromText('123', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('123', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[338] = viewer.entities.add({
+    pin[123] = viewer.entities.add({
         name : '124',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6727.599999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28993, 34.099091),
+        description : '124 Event: ARRIVE<br>Time: 9037.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.389938, 33.756864),
         billboard : {
             image : pinBuilder.fromText('124', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[339] = viewer.entities.add({
-        name : '217',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6727.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28993, 34.099091),
-        billboard : {
-            image : pinBuilder.fromText('217', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[340] = viewer.entities.add({
-        name : '216',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6727.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28993, 34.099091),
-        billboard : {
-            image : pinBuilder.fromText('216', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[341] = viewer.entities.add({
-        name : '218',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6749.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28993, 34.099091),
-        billboard : {
-            image : pinBuilder.fromText('218', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[342] = viewer.entities.add({
-        name : '219',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6749.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28993, 34.099091),
-        billboard : {
-            image : pinBuilder.fromText('219', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[343] = viewer.entities.add({
+    pin[124] = viewer.entities.add({
         name : '125',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6749.599999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28993, 34.099091),
+        description : '125 Event: DEPART<br>Time: 9098.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.389938, 33.756864),
         billboard : {
-            image : pinBuilder.fromText('125', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('125', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[344] = viewer.entities.add({
+    pin[125] = viewer.entities.add({
         name : '126',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6844.299999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
+        description : '126 Event: ARRIVE<br>Time: 9116.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.389045, 33.756489),
         billboard : {
             image : pinBuilder.fromText('126', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[345] = viewer.entities.add({
-        name : '220',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6844.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
-        billboard : {
-            image : pinBuilder.fromText('220', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[346] = viewer.entities.add({
-        name : '221',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 6844.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
-        billboard : {
-            image : pinBuilder.fromText('221', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[347] = viewer.entities.add({
-        name : '223',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7007.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
-        billboard : {
-            image : pinBuilder.fromText('223', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[348] = viewer.entities.add({
+    pin[126] = viewer.entities.add({
         name : '127',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7007.299999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
+        description : '127 Event: DEPART<br>Time: 9205.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.389045, 33.756489),
         billboard : {
-            image : pinBuilder.fromText('127', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('127', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[349] = viewer.entities.add({
-        name : '222',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7007.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
-        billboard : {
-            image : pinBuilder.fromText('222', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[350] = viewer.entities.add({
+    pin[127] = viewer.entities.add({
         name : '128',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7022.299999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
+        description : '128 Event: ARRIVE<br>Time: 9255.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.39088, 33.758019),
         billboard : {
             image : pinBuilder.fromText('128', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[351] = viewer.entities.add({
+    pin[128] = viewer.entities.add({
         name : '129',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7022.299999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
+        description : '129 Event: LOAD_START<br>Time: 9342.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.39088, 33.758019),
         billboard : {
-            image : pinBuilder.fromText('129', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('129', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[352] = viewer.entities.add({
-        name : '225',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7022.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
-        billboard : {
-            image : pinBuilder.fromText('225', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[353] = viewer.entities.add({
-        name : '224',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7022.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291764, 34.099557),
-        billboard : {
-            image : pinBuilder.fromText('224', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[354] = viewer.entities.add({
+    pin[129] = viewer.entities.add({
         name : '130',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7046.043152625924<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.29239, 34.100619),
+        description : '130 Event: LOAD_END<br>Time: 9357.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.39088, 33.758019),
         billboard : {
             image : pinBuilder.fromText('130', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[355] = viewer.entities.add({
+    pin[130] = viewer.entities.add({
         name : '131',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7056.043152625924<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.29239, 34.100619),
+        description : '131 Event: LAUNCH<br>Time: 9357.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.39088, 33.758019),
         billboard : {
-            image : pinBuilder.fromText('131', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('131', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[356] = viewer.entities.add({
-        name : '226',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7103.999999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291125, 34.101587),
-        billboard : {
-            image : pinBuilder.fromText('226', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[357] = viewer.entities.add({
-        name : '227',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7103.999999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291125, 34.101587),
-        billboard : {
-            image : pinBuilder.fromText('227', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[358] = viewer.entities.add({
+    pin[131] = viewer.entities.add({
         name : '132',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7103.999999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291125, 34.101587),
+        description : '132 Event: DRONE_DELIVERY_START<br>Time: 9392.766826242505',
+        position : Cesium.Cartesian3.fromDegrees(-118.392474, 33.759371),
         billboard : {
             image : pinBuilder.fromText('132', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[359] = viewer.entities.add({
+    pin[132] = viewer.entities.add({
         name : '133',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7130.999999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291125, 34.101587),
+        description : '133 Event: DRONE_DELIVERY_END<br>Time: 9402.766826242505',
+        position : Cesium.Cartesian3.fromDegrees(-118.392474, 33.759371),
         billboard : {
-            image : pinBuilder.fromText('133', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('133', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[360] = viewer.entities.add({
-        name : '228',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7130.999999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291125, 34.101587),
-        billboard : {
-            image : pinBuilder.fromText('228', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[361] = viewer.entities.add({
-        name : '229',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7130.999999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291125, 34.101587),
-        billboard : {
-            image : pinBuilder.fromText('229', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[362] = viewer.entities.add({
-        name : '231',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7278.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28602, 34.100883),
-        billboard : {
-            image : pinBuilder.fromText('231', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[363] = viewer.entities.add({
-        name : '230',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7278.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28602, 34.100883),
-        billboard : {
-            image : pinBuilder.fromText('230', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[364] = viewer.entities.add({
+    pin[133] = viewer.entities.add({
         name : '134',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7278.299999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28602, 34.100883),
+        description : '134 Event: LAND<br>Time: 9422.450147720489',
+        position : Cesium.Cartesian3.fromDegrees(-118.393837, 33.758874),
         billboard : {
             image : pinBuilder.fromText('134', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[365] = viewer.entities.add({
-        name : '233',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7292.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28602, 34.100883),
-        billboard : {
-            image : pinBuilder.fromText('233', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[366] = viewer.entities.add({
+    pin[134] = viewer.entities.add({
         name : '135',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7292.599999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28602, 34.100883),
+        description : '135 Event: DEPART<br>Time: 9492.499999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393837, 33.758874),
         billboard : {
-            image : pinBuilder.fromText('135', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('135', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[367] = viewer.entities.add({
-        name : '232',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7292.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28602, 34.100883),
-        billboard : {
-            image : pinBuilder.fromText('232', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[368] = viewer.entities.add({
-        name : '234',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7298.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285704, 34.100902),
-        billboard : {
-            image : pinBuilder.fromText('234', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[369] = viewer.entities.add({
-        name : '235',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7298.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285704, 34.100902),
-        billboard : {
-            image : pinBuilder.fromText('235', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[370] = viewer.entities.add({
+    pin[135] = viewer.entities.add({
         name : '136',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7298.599999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285704, 34.100902),
+        description : '136 Event: ARRIVE<br>Time: 9558.099999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393819, 33.757218),
         billboard : {
             image : pinBuilder.fromText('136', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[371] = viewer.entities.add({
+    pin[136] = viewer.entities.add({
         name : '137',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7319.599999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285704, 34.100902),
+        description : '137 Event: LOAD_START<br>Time: 9607.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393819, 33.757218),
         billboard : {
-            image : pinBuilder.fromText('137', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('137', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[372] = viewer.entities.add({
-        name : '236',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7319.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285704, 34.100902),
-        billboard : {
-            image : pinBuilder.fromText('236', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[373] = viewer.entities.add({
-        name : '237',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7319.599999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285704, 34.100902),
-        billboard : {
-            image : pinBuilder.fromText('237', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[374] = viewer.entities.add({
-        name : '238',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7352.499999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283959, 34.10082),
-        billboard : {
-            image : pinBuilder.fromText('238', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[375] = viewer.entities.add({
-        name : '239',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7352.499999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283959, 34.10082),
-        billboard : {
-            image : pinBuilder.fromText('239', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[376] = viewer.entities.add({
+    pin[137] = viewer.entities.add({
         name : '138',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7352.499999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283959, 34.10082),
+        description : '138 Event: LOAD_END<br>Time: 9622.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393819, 33.757218),
         billboard : {
             image : pinBuilder.fromText('138', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[377] = viewer.entities.add({
-        name : '241',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7398.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283959, 34.10082),
-        billboard : {
-            image : pinBuilder.fromText('241', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[378] = viewer.entities.add({
-        name : '240',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7398.299999999999<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283959, 34.10082),
-        billboard : {
-            image : pinBuilder.fromText('240', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[379] = viewer.entities.add({
+    pin[138] = viewer.entities.add({
         name : '139',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7398.299999999999<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283959, 34.10082),
+        description : '139 Event: LAUNCH<br>Time: 9622.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393819, 33.757218),
         billboard : {
-            image : pinBuilder.fromText('139', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('139', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[380] = viewer.entities.add({
-        name : '242',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7461.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
-        billboard : {
-            image : pinBuilder.fromText('242', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[381] = viewer.entities.add({
-        name : '243',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7461.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
-        billboard : {
-            image : pinBuilder.fromText('243', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[382] = viewer.entities.add({
+    pin[139] = viewer.entities.add({
         name : '140',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7461.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
+        description : '140 Event: DRONE_DELIVERY_START<br>Time: 9656.423060115312',
+        position : Cesium.Cartesian3.fromDegrees(-118.393264, 33.755446),
         billboard : {
             image : pinBuilder.fromText('140', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[383] = viewer.entities.add({
-        name : '244',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7541.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
-        billboard : {
-            image : pinBuilder.fromText('244', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[384] = viewer.entities.add({
-        name : '245',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7541.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
-        billboard : {
-            image : pinBuilder.fromText('245', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[385] = viewer.entities.add({
+    pin[140] = viewer.entities.add({
         name : '141',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7541.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
+        description : '141 Event: DRONE_DELIVERY_END<br>Time: 9666.423060115312',
+        position : Cesium.Cartesian3.fromDegrees(-118.393264, 33.755446),
         billboard : {
-            image : pinBuilder.fromText('141', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('141', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[386] = viewer.entities.add({
-        name : '246',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7556.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
-        billboard : {
-            image : pinBuilder.fromText('246', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[387] = viewer.entities.add({
-        name : '143',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7556.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
-        billboard : {
-            image : pinBuilder.fromText('143', Cesium.Color.RED, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[388] = viewer.entities.add({
-        name : '247',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7556.4<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
-        billboard : {
-            image : pinBuilder.fromText('247', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[389] = viewer.entities.add({
+    pin[141] = viewer.entities.add({
         name : '142',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7556.4<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283957, 34.101004),
+        description : '142 Event: LAND<br>Time: 9686.88795616713',
+        position : Cesium.Cartesian3.fromDegrees(-118.394722, 33.755876),
         billboard : {
             image : pinBuilder.fromText('142', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[390] = viewer.entities.add({
+    pin[142] = viewer.entities.add({
+        name : '143',
+        parent : nodePins,
+        description : '143 Event: DEPART<br>Time: 9825.499999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.394722, 33.755876),
+        billboard : {
+            image : pinBuilder.fromText('143', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[143] = viewer.entities.add({
         name : '144',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7578.165635883961<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284328, 34.099992),
+        description : '144 Event: ARRIVE<br>Time: 9920.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395001, 33.756615),
         billboard : {
             image : pinBuilder.fromText('144', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[391] = viewer.entities.add({
+    pin[144] = viewer.entities.add({
         name : '145',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7588.165635883961<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284328, 34.099992),
+        description : '145 Event: LOAD_START<br>Time: 9978.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395001, 33.756615),
         billboard : {
-            image : pinBuilder.fromText('145', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('145', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[392] = viewer.entities.add({
-        name : '249',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7623.9<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283062, 34.099611),
-        billboard : {
-            image : pinBuilder.fromText('249', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[393] = viewer.entities.add({
-        name : '248',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7623.9<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283062, 34.099611),
-        billboard : {
-            image : pinBuilder.fromText('248', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[394] = viewer.entities.add({
+    pin[145] = viewer.entities.add({
         name : '146',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7623.9<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283062, 34.099611),
+        description : '146 Event: LOAD_END<br>Time: 9993.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395001, 33.756615),
         billboard : {
             image : pinBuilder.fromText('146', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[395] = viewer.entities.add({
+    pin[146] = viewer.entities.add({
         name : '147',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7683.2<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283062, 34.099611),
+        description : '147 Event: LAUNCH<br>Time: 9993.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395001, 33.756615),
         billboard : {
-            image : pinBuilder.fromText('147', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('147', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[396] = viewer.entities.add({
-        name : '250',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7683.2<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283062, 34.099611),
-        billboard : {
-            image : pinBuilder.fromText('250', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[397] = viewer.entities.add({
-        name : '251',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7683.2<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283062, 34.099611),
-        billboard : {
-            image : pinBuilder.fromText('251', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[398] = viewer.entities.add({
-        name : '252',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7705.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282101, 34.100006),
-        billboard : {
-            image : pinBuilder.fromText('252', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[399] = viewer.entities.add({
+    pin[147] = viewer.entities.add({
         name : '148',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7705.0<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282101, 34.100006),
+        description : '148 Event: DRONE_DELIVERY_START<br>Time: 10035.035116438716',
+        position : Cesium.Cartesian3.fromDegrees(-118.395696, 33.754364),
         billboard : {
             image : pinBuilder.fromText('148', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[400] = viewer.entities.add({
-        name : '253',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7705.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282101, 34.100006),
-        billboard : {
-            image : pinBuilder.fromText('253', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[401] = viewer.entities.add({
-        name : '255',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7729.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282101, 34.100006),
-        billboard : {
-            image : pinBuilder.fromText('255', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[402] = viewer.entities.add({
-        name : '254',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7729.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282101, 34.100006),
-        billboard : {
-            image : pinBuilder.fromText('254', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[403] = viewer.entities.add({
+    pin[148] = viewer.entities.add({
         name : '149',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7729.5<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282101, 34.100006),
+        description : '149 Event: DRONE_DELIVERY_END<br>Time: 10045.035116438716',
+        position : Cesium.Cartesian3.fromDegrees(-118.395696, 33.754364),
         billboard : {
-            image : pinBuilder.fromText('149', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('149', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[404] = viewer.entities.add({
+    pin[149] = viewer.entities.add({
         name : '150',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7740.5<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281338, 34.100003),
+        description : '150 Event: LAND<br>Time: 10104.228005173349',
+        position : Cesium.Cartesian3.fromDegrees(-118.391331, 33.753551),
         billboard : {
             image : pinBuilder.fromText('150', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[405] = viewer.entities.add({
-        name : '256',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7740.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281338, 34.100003),
-        billboard : {
-            image : pinBuilder.fromText('256', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[406] = viewer.entities.add({
-        name : '257',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7740.5<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281338, 34.100003),
-        billboard : {
-            image : pinBuilder.fromText('257', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[407] = viewer.entities.add({
+    pin[150] = viewer.entities.add({
         name : '151',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7761.0<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281338, 34.100003),
+        description : '151 Event: DEPART<br>Time: 10129.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.391331, 33.753551),
         billboard : {
-            image : pinBuilder.fromText('151', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('151', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[408] = viewer.entities.add({
-        name : '259',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7761.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281338, 34.100003),
-        billboard : {
-            image : pinBuilder.fromText('259', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[409] = viewer.entities.add({
-        name : '258',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7761.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281338, 34.100003),
-        billboard : {
-            image : pinBuilder.fromText('258', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[410] = viewer.entities.add({
-        name : '261',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7778.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280658, 34.099871),
-        billboard : {
-            image : pinBuilder.fromText('261', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[411] = viewer.entities.add({
-        name : '260',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7778.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280658, 34.099871),
-        billboard : {
-            image : pinBuilder.fromText('260', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[412] = viewer.entities.add({
+    pin[151] = viewer.entities.add({
         name : '152',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7778.0<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.280658, 34.099871),
+        description : '152 Event: ARRIVE<br>Time: 10297.999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.391444, 33.755528),
         billboard : {
             image : pinBuilder.fromText('152', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[413] = viewer.entities.add({
-        name : '262',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7797.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280658, 34.099871),
-        billboard : {
-            image : pinBuilder.fromText('262', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[414] = viewer.entities.add({
+    pin[152] = viewer.entities.add({
         name : '153',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7797.0<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.280658, 34.099871),
+        description : '153 Event: DEPART<br>Time: 10333.999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.391444, 33.755528),
         billboard : {
-            image : pinBuilder.fromText('153', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('153', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[415] = viewer.entities.add({
-        name : '263',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7797.0<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280658, 34.099871),
-        billboard : {
-            image : pinBuilder.fromText('263', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[416] = viewer.entities.add({
+    pin[153] = viewer.entities.add({
         name : '154',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7814.9<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.280668, 34.098948),
+        description : '154 Event: ARRIVE<br>Time: 10407.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.392718, 33.757435),
         billboard : {
             image : pinBuilder.fromText('154', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[417] = viewer.entities.add({
-        name : '264',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7814.9<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280668, 34.098948),
-        billboard : {
-            image : pinBuilder.fromText('264', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[418] = viewer.entities.add({
-        name : '265',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7814.9<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280668, 34.098948),
-        billboard : {
-            image : pinBuilder.fromText('265', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[419] = viewer.entities.add({
-        name : '267',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7890.2<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280668, 34.098948),
-        billboard : {
-            image : pinBuilder.fromText('267', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[420] = viewer.entities.add({
+    pin[154] = viewer.entities.add({
         name : '155',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7890.2<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.280668, 34.098948),
+        description : '155 Event: DEPART<br>Time: 10444.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.392718, 33.757435),
         billboard : {
-            image : pinBuilder.fromText('155', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('155', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[421] = viewer.entities.add({
-        name : '266',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7890.2<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.280668, 34.098948),
-        billboard : {
-            image : pinBuilder.fromText('266', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[422] = viewer.entities.add({
-        name : '269',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7920.8<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28142, 34.099138),
-        billboard : {
-            image : pinBuilder.fromText('269', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[423] = viewer.entities.add({
+    pin[155] = viewer.entities.add({
         name : '156',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7920.8<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28142, 34.099138),
+        description : '156 Event: ARRIVE<br>Time: 10493.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.392244, 33.75846),
         billboard : {
             image : pinBuilder.fromText('156', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[424] = viewer.entities.add({
-        name : '268',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7920.8<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28142, 34.099138),
-        billboard : {
-            image : pinBuilder.fromText('268', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[425] = viewer.entities.add({
+    pin[156] = viewer.entities.add({
         name : '157',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7956.400000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28142, 34.099138),
+        description : '157 Event: DEPART<br>Time: 10610.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.392244, 33.75846),
         billboard : {
-            image : pinBuilder.fromText('157', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('157', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[426] = viewer.entities.add({
-        name : '270',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7956.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28142, 34.099138),
-        billboard : {
-            image : pinBuilder.fromText('270', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[427] = viewer.entities.add({
-        name : '271',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7956.400000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28142, 34.099138),
-        billboard : {
-            image : pinBuilder.fromText('271', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[428] = viewer.entities.add({
+    pin[157] = viewer.entities.add({
         name : '158',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7974.8<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282492, 34.09914),
+        description : '158 Event: ARRIVE<br>Time: 10703.599999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393721, 33.759525),
         billboard : {
             image : pinBuilder.fromText('158', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[429] = viewer.entities.add({
-        name : '272',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7974.8<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282492, 34.09914),
-        billboard : {
-            image : pinBuilder.fromText('272', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[430] = viewer.entities.add({
-        name : '273',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7974.8<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282492, 34.09914),
-        billboard : {
-            image : pinBuilder.fromText('273', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[431] = viewer.entities.add({
-        name : '274',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7993.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282492, 34.09914),
-        billboard : {
-            image : pinBuilder.fromText('274', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[432] = viewer.entities.add({
-        name : '275',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7993.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282492, 34.09914),
-        billboard : {
-            image : pinBuilder.fromText('275', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[433] = viewer.entities.add({
+    pin[158] = viewer.entities.add({
         name : '159',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 7993.3<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282492, 34.09914),
+        description : '159 Event: DEPART<br>Time: 10757.599999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393721, 33.759525),
         billboard : {
-            image : pinBuilder.fromText('159', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('159', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[434] = viewer.entities.add({
+    pin[159] = viewer.entities.add({
         name : '160',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8020.6<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28306, 34.099046),
+        description : '160 Event: ARRIVE<br>Time: 10942.599999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393208, 33.760091),
         billboard : {
             image : pinBuilder.fromText('160', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[435] = viewer.entities.add({
-        name : '276',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8020.6<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28306, 34.099046),
-        billboard : {
-            image : pinBuilder.fromText('276', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[436] = viewer.entities.add({
-        name : '277',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8020.6<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28306, 34.099046),
-        billboard : {
-            image : pinBuilder.fromText('277', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[437] = viewer.entities.add({
-        name : '279',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8042.1<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28306, 34.099046),
-        billboard : {
-            image : pinBuilder.fromText('279', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[438] = viewer.entities.add({
+    pin[160] = viewer.entities.add({
         name : '161',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8042.1<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28306, 34.099046),
+        description : '161 Event: LOAD_START<br>Time: 11013.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393208, 33.760091),
         billboard : {
-            image : pinBuilder.fromText('161', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('161', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[439] = viewer.entities.add({
-        name : '278',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8042.1<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28306, 34.099046),
-        billboard : {
-            image : pinBuilder.fromText('278', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[440] = viewer.entities.add({
+    pin[161] = viewer.entities.add({
         name : '162',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8075.3<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282761, 34.098179),
+        description : '162 Event: LOAD_END<br>Time: 11028.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393208, 33.760091),
         billboard : {
             image : pinBuilder.fromText('162', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[441] = viewer.entities.add({
-        name : '281',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8075.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282761, 34.098179),
-        billboard : {
-            image : pinBuilder.fromText('281', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[442] = viewer.entities.add({
-        name : '280',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8075.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282761, 34.098179),
-        billboard : {
-            image : pinBuilder.fromText('280', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[443] = viewer.entities.add({
+    pin[162] = viewer.entities.add({
         name : '163',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8122.3<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282761, 34.098179),
+        description : '163 Event: LAUNCH<br>Time: 11028.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393208, 33.760091),
         billboard : {
-            image : pinBuilder.fromText('163', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('163', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[444] = viewer.entities.add({
-        name : '282',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8122.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282761, 34.098179),
-        billboard : {
-            image : pinBuilder.fromText('282', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[445] = viewer.entities.add({
-        name : '283',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8122.3<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282761, 34.098179),
-        billboard : {
-            image : pinBuilder.fromText('283', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[446] = viewer.entities.add({
-        name : '285',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8148.1<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281075, 34.098179),
-        billboard : {
-            image : pinBuilder.fromText('285', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[447] = viewer.entities.add({
+    pin[163] = viewer.entities.add({
         name : '164',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8148.1<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281075, 34.098179),
+        description : '164 Event: DRONE_DELIVERY_START<br>Time: 11102.216171794287',
+        position : Cesium.Cartesian3.fromDegrees(-118.390754, 33.756298),
         billboard : {
             image : pinBuilder.fromText('164', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[448] = viewer.entities.add({
-        name : '284',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8148.1<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281075, 34.098179),
-        billboard : {
-            image : pinBuilder.fromText('284', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[449] = viewer.entities.add({
-        name : '286',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8193.1<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281075, 34.098179),
-        billboard : {
-            image : pinBuilder.fromText('286', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[450] = viewer.entities.add({
+    pin[164] = viewer.entities.add({
         name : '165',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8193.1<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281075, 34.098179),
+        description : '165 Event: DRONE_DELIVERY_END<br>Time: 11112.216171794287',
+        position : Cesium.Cartesian3.fromDegrees(-118.390754, 33.756298),
         billboard : {
-            image : pinBuilder.fromText('165', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('165', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[451] = viewer.entities.add({
-        name : '287',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8193.1<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281075, 34.098179),
-        billboard : {
-            image : pinBuilder.fromText('287', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[452] = viewer.entities.add({
-        name : '289',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8244.2<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281945, 34.09701),
-        billboard : {
-            image : pinBuilder.fromText('289', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[453] = viewer.entities.add({
+    pin[165] = viewer.entities.add({
         name : '166',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8244.2<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281945, 34.09701),
+        description : '166 Event: LAND<br>Time: 11193.48273444768',
+        position : Cesium.Cartesian3.fromDegrees(-118.395493, 33.753037),
         billboard : {
             image : pinBuilder.fromText('166', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[454] = viewer.entities.add({
-        name : '288',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8244.2<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281945, 34.09701),
-        billboard : {
-            image : pinBuilder.fromText('288', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[455] = viewer.entities.add({
-        name : '291',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8274.900000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281945, 34.09701),
-        billboard : {
-            image : pinBuilder.fromText('291', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[456] = viewer.entities.add({
-        name : '290',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8274.900000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.281945, 34.09701),
-        billboard : {
-            image : pinBuilder.fromText('290', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[457] = viewer.entities.add({
+    pin[166] = viewer.entities.add({
         name : '167',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8274.900000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.281945, 34.09701),
+        description : '167 Event: DEPART<br>Time: 11253.499999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395493, 33.753037),
         billboard : {
-            image : pinBuilder.fromText('167', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('167', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[458] = viewer.entities.add({
+    pin[167] = viewer.entities.add({
         name : '168',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8352.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
+        description : '168 Event: ARRIVE<br>Time: 11287.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.39389, 33.752509),
         billboard : {
             image : pinBuilder.fromText('168', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[459] = viewer.entities.add({
-        name : '293',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8352.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
-        billboard : {
-            image : pinBuilder.fromText('293', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[460] = viewer.entities.add({
-        name : '292',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8352.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
-        billboard : {
-            image : pinBuilder.fromText('292', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[461] = viewer.entities.add({
-        name : '294',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8404.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
-        billboard : {
-            image : pinBuilder.fromText('294', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[462] = viewer.entities.add({
+    pin[168] = viewer.entities.add({
         name : '169',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8404.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
+        description : '169 Event: DEPART<br>Time: 11332.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.39389, 33.752509),
         billboard : {
-            image : pinBuilder.fromText('169', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('169', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[463] = viewer.entities.add({
-        name : '295',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8404.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
-        billboard : {
-            image : pinBuilder.fromText('295', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[464] = viewer.entities.add({
+    pin[169] = viewer.entities.add({
         name : '170',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8419.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
+        description : '170 Event: ARRIVE<br>Time: 11378.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.391523, 33.752549),
         billboard : {
             image : pinBuilder.fromText('170', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[465] = viewer.entities.add({
-        name : '297',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8419.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
-        billboard : {
-            image : pinBuilder.fromText('297', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[466] = viewer.entities.add({
+    pin[170] = viewer.entities.add({
         name : '171',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8419.300000000001<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
+        description : '171 Event: DEPART<br>Time: 11462.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.391523, 33.752549),
         billboard : {
-            image : pinBuilder.fromText('171', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('171', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[467] = viewer.entities.add({
-        name : '296',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8419.300000000001<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.282443, 34.095811),
-        billboard : {
-            image : pinBuilder.fromText('296', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[468] = viewer.entities.add({
+    pin[171] = viewer.entities.add({
         name : '172',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8438.423940552417<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283056, 34.096542),
+        description : '172 Event: ARRIVE<br>Time: 11678.699999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.394421, 33.753682),
         billboard : {
             image : pinBuilder.fromText('172', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[469] = viewer.entities.add({
+    pin[172] = viewer.entities.add({
         name : '173',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8448.423940552417<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283056, 34.096542),
+        description : '173 Event: LOAD_START<br>Time: 11769.699999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.394421, 33.753682),
         billboard : {
-            image : pinBuilder.fromText('173', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('173', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[470] = viewer.entities.add({
-        name : '299',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8454.000000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283054, 34.096958),
-        billboard : {
-            image : pinBuilder.fromText('299', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[471] = viewer.entities.add({
-        name : '298',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8454.000000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283054, 34.096958),
-        billboard : {
-            image : pinBuilder.fromText('298', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[472] = viewer.entities.add({
+    pin[173] = viewer.entities.add({
         name : '174',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8455.01605614261<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283054, 34.096958),
+        description : '174 Event: LOAD_END<br>Time: 11784.699999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.394421, 33.753682),
         billboard : {
             image : pinBuilder.fromText('174', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[473] = viewer.entities.add({
-        name : '300',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8494.500000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283054, 34.096958),
-        billboard : {
-            image : pinBuilder.fromText('300', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[474] = viewer.entities.add({
+    pin[174] = viewer.entities.add({
         name : '175',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8494.500000000002<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.283054, 34.096958),
+        description : '175 Event: LAUNCH<br>Time: 11784.699999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.394421, 33.753682),
         billboard : {
-            image : pinBuilder.fromText('175', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('175', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[475] = viewer.entities.add({
-        name : '301',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8494.500000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.283054, 34.096958),
-        billboard : {
-            image : pinBuilder.fromText('301', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[476] = viewer.entities.add({
+    pin[175] = viewer.entities.add({
         name : '176',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8576.200000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284074, 34.097061),
+        description : '176 Event: DRONE_DELIVERY_START<br>Time: 11824.113877552638',
+        position : Cesium.Cartesian3.fromDegrees(-118.39702, 33.75362),
         billboard : {
             image : pinBuilder.fromText('176', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[477] = viewer.entities.add({
-        name : '302',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8576.200000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284074, 34.097061),
-        billboard : {
-            image : pinBuilder.fromText('302', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[478] = viewer.entities.add({
-        name : '303',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8576.200000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284074, 34.097061),
-        billboard : {
-            image : pinBuilder.fromText('303', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[479] = viewer.entities.add({
-        name : '304',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8624.200000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284074, 34.097061),
-        billboard : {
-            image : pinBuilder.fromText('304', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[480] = viewer.entities.add({
-        name : '305',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8624.200000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284074, 34.097061),
-        billboard : {
-            image : pinBuilder.fromText('305', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[481] = viewer.entities.add({
+    pin[176] = viewer.entities.add({
         name : '177',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8624.200000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284074, 34.097061),
+        description : '177 Event: DRONE_DELIVERY_END<br>Time: 11834.113877552638',
+        position : Cesium.Cartesian3.fromDegrees(-118.39702, 33.75362),
         billboard : {
-            image : pinBuilder.fromText('177', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('177', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[482] = viewer.entities.add({
+    pin[177] = viewer.entities.add({
         name : '178',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8669.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284534, 34.09581),
+        description : '178 Event: LAND<br>Time: 12015.599999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.397106, 33.75187),
         billboard : {
             image : pinBuilder.fromText('178', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[483] = viewer.entities.add({
-        name : '306',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8669.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284534, 34.09581),
-        billboard : {
-            image : pinBuilder.fromText('306', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[484] = viewer.entities.add({
-        name : '307',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8669.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284534, 34.09581),
-        billboard : {
-            image : pinBuilder.fromText('307', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[485] = viewer.entities.add({
-        name : '308',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8816.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284534, 34.09581),
-        billboard : {
-            image : pinBuilder.fromText('308', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[486] = viewer.entities.add({
-        name : '309',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8816.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.284534, 34.09581),
-        billboard : {
-            image : pinBuilder.fromText('309', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[487] = viewer.entities.add({
+    pin[178] = viewer.entities.add({
         name : '179',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8816.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.284534, 34.09581),
+        description : '179 Event: DEPART<br>Time: 12064.099999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.397106, 33.75187),
         billboard : {
-            image : pinBuilder.fromText('179', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('179', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[488] = viewer.entities.add({
-        name : '310',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8863.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285564, 34.094347),
-        billboard : {
-            image : pinBuilder.fromText('310', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[489] = viewer.entities.add({
-        name : '311',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8863.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285564, 34.094347),
-        billboard : {
-            image : pinBuilder.fromText('311', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[490] = viewer.entities.add({
+    pin[179] = viewer.entities.add({
         name : '180',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8863.800000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285564, 34.094347),
+        description : '180 Event: ARRIVE<br>Time: 12082.899999999992',
+        position : Cesium.Cartesian3.fromDegrees(-118.397688, 33.751576),
         billboard : {
             image : pinBuilder.fromText('180', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[491] = viewer.entities.add({
-        name : '312',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8909.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285564, 34.094347),
-        billboard : {
-            image : pinBuilder.fromText('312', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[492] = viewer.entities.add({
-        name : '313',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8909.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285564, 34.094347),
-        billboard : {
-            image : pinBuilder.fromText('313', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[493] = viewer.entities.add({
+    pin[180] = viewer.entities.add({
         name : '181',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8909.800000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285564, 34.094347),
+        description : '181 Event: DEPART<br>Time: 12269.899999999992',
+        position : Cesium.Cartesian3.fromDegrees(-118.397688, 33.751576),
         billboard : {
-            image : pinBuilder.fromText('181', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('181', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[494] = viewer.entities.add({
-        name : '315',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8960.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
-        billboard : {
-            image : pinBuilder.fromText('315', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[495] = viewer.entities.add({
+    pin[181] = viewer.entities.add({
         name : '182',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8960.400000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
+        description : '182 Event: ARRIVE<br>Time: 12458.299999999992',
+        position : Cesium.Cartesian3.fromDegrees(-118.397244, 33.755975),
         billboard : {
             image : pinBuilder.fromText('182', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[496] = viewer.entities.add({
-        name : '314',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 8960.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
-        billboard : {
-            image : pinBuilder.fromText('314', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[497] = viewer.entities.add({
-        name : '317',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9008.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
-        billboard : {
-            image : pinBuilder.fromText('317', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[498] = viewer.entities.add({
+    pin[182] = viewer.entities.add({
         name : '183',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9008.400000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
+        description : '183 Event: DEPART<br>Time: 12568.599999999991',
+        position : Cesium.Cartesian3.fromDegrees(-118.397244, 33.755975),
         billboard : {
-            image : pinBuilder.fromText('183', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('183', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[499] = viewer.entities.add({
-        name : '316',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9008.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
-        billboard : {
-            image : pinBuilder.fromText('316', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[500] = viewer.entities.add({
-        name : '318',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9023.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
-        billboard : {
-            image : pinBuilder.fromText('318', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[501] = viewer.entities.add({
-        name : '319',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9023.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
-        billboard : {
-            image : pinBuilder.fromText('319', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[502] = viewer.entities.add({
-        name : '185',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9023.400000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
-        billboard : {
-            image : pinBuilder.fromText('185', Cesium.Color.RED, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[503] = viewer.entities.add({
+    pin[183] = viewer.entities.add({
         name : '184',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9023.400000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286891, 34.09346),
+        description : '184 Event: ARRIVE<br>Time: 12608.599999999991',
+        position : Cesium.Cartesian3.fromDegrees(-118.397185, 33.756681),
         billboard : {
             image : pinBuilder.fromText('184', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[504] = viewer.entities.add({
+    pin[184] = viewer.entities.add({
+        name : '185',
+        parent : nodePins,
+        description : '185 Event: DEPART<br>Time: 12811.599999999991',
+        position : Cesium.Cartesian3.fromDegrees(-118.397185, 33.756681),
+        billboard : {
+            image : pinBuilder.fromText('185', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[185] = viewer.entities.add({
         name : '186',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9035.007149031664<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286591, 34.093126),
+        description : '186 Event: ARRIVE<br>Time: 12874.99999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397638, 33.755121),
         billboard : {
             image : pinBuilder.fromText('186', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[505] = viewer.entities.add({
+    pin[186] = viewer.entities.add({
         name : '187',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9045.007149031664<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286591, 34.093126),
+        description : '187 Event: DEPART<br>Time: 12961.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397638, 33.755121),
         billboard : {
-            image : pinBuilder.fromText('187', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('187', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[506] = viewer.entities.add({
-        name : '320',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9066.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286608, 34.0915),
-        billboard : {
-            image : pinBuilder.fromText('320', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[507] = viewer.entities.add({
-        name : '321',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9066.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286608, 34.0915),
-        billboard : {
-            image : pinBuilder.fromText('321', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[508] = viewer.entities.add({
+    pin[187] = viewer.entities.add({
         name : '188',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9070.774196967173<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286608, 34.0915),
+        description : '188 Event: ARRIVE<br>Time: 13003.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398289, 33.754699),
         billboard : {
             image : pinBuilder.fromText('188', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[509] = viewer.entities.add({
+    pin[188] = viewer.entities.add({
         name : '189',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9137.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286608, 34.0915),
+        description : '189 Event: DEPART<br>Time: 13064.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.398289, 33.754699),
         billboard : {
-            image : pinBuilder.fromText('189', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('189', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[510] = viewer.entities.add({
-        name : '322',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9137.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286608, 34.0915),
-        billboard : {
-            image : pinBuilder.fromText('322', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[511] = viewer.entities.add({
-        name : '323',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9137.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286608, 34.0915),
-        billboard : {
-            image : pinBuilder.fromText('323', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[512] = viewer.entities.add({
-        name : '325',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9200.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286601, 34.095431),
-        billboard : {
-            image : pinBuilder.fromText('325', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[513] = viewer.entities.add({
+    pin[189] = viewer.entities.add({
         name : '190',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9200.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286601, 34.095431),
+        description : '190 Event: ARRIVE<br>Time: 13110.09999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396963, 33.754211),
         billboard : {
             image : pinBuilder.fromText('190', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[514] = viewer.entities.add({
-        name : '324',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9200.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286601, 34.095431),
-        billboard : {
-            image : pinBuilder.fromText('324', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[515] = viewer.entities.add({
+    pin[190] = viewer.entities.add({
         name : '191',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9269.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286601, 34.095431),
+        description : '191 Event: DEPART<br>Time: 13220.19999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396963, 33.754211),
         billboard : {
-            image : pinBuilder.fromText('191', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('191', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[516] = viewer.entities.add({
-        name : '327',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9269.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286601, 34.095431),
-        billboard : {
-            image : pinBuilder.fromText('327', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[517] = viewer.entities.add({
-        name : '326',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9269.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286601, 34.095431),
-        billboard : {
-            image : pinBuilder.fromText('326', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[518] = viewer.entities.add({
-        name : '329',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9382.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285547, 34.092186),
-        billboard : {
-            image : pinBuilder.fromText('329', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[519] = viewer.entities.add({
-        name : '328',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9382.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285547, 34.092186),
-        billboard : {
-            image : pinBuilder.fromText('328', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[520] = viewer.entities.add({
+    pin[191] = viewer.entities.add({
         name : '192',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9382.900000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285547, 34.092186),
+        description : '192 Event: ARRIVE<br>Time: 13273.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397162, 33.756875),
         billboard : {
             image : pinBuilder.fromText('192', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[521] = viewer.entities.add({
+    pin[192] = viewer.entities.add({
         name : '193',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9443.900000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285547, 34.092186),
+        description : '193 Event: LOAD_START<br>Time: 13379.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397162, 33.756875),
         billboard : {
-            image : pinBuilder.fromText('193', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('193', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[522] = viewer.entities.add({
-        name : '331',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9443.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285547, 34.092186),
-        billboard : {
-            image : pinBuilder.fromText('331', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[523] = viewer.entities.add({
-        name : '330',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9443.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285547, 34.092186),
-        billboard : {
-            image : pinBuilder.fromText('330', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[524] = viewer.entities.add({
+    pin[193] = viewer.entities.add({
         name : '194',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9552.200000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
+        description : '194 Event: LOAD_END<br>Time: 13394.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397162, 33.756875),
         billboard : {
             image : pinBuilder.fromText('194', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[525] = viewer.entities.add({
-        name : '332',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9552.200000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
-        billboard : {
-            image : pinBuilder.fromText('332', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[526] = viewer.entities.add({
-        name : '333',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9552.200000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
-        billboard : {
-            image : pinBuilder.fromText('333', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[527] = viewer.entities.add({
+    pin[194] = viewer.entities.add({
         name : '195',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9610.800000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
+        description : '195 Event: LAUNCH<br>Time: 13394.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397162, 33.756875),
         billboard : {
-            image : pinBuilder.fromText('195', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('195', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[528] = viewer.entities.add({
-        name : '335',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9610.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
-        billboard : {
-            image : pinBuilder.fromText('335', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[529] = viewer.entities.add({
-        name : '334',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9610.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
-        billboard : {
-            image : pinBuilder.fromText('334', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[530] = viewer.entities.add({
+    pin[195] = viewer.entities.add({
         name : '196',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9625.800000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
+        description : '196 Event: DRONE_DELIVERY_START<br>Time: 13412.388968787474',
+        position : Cesium.Cartesian3.fromDegrees(-118.396455, 33.757397),
         billboard : {
             image : pinBuilder.fromText('196', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[531] = viewer.entities.add({
-        name : '336',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9625.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
-        billboard : {
-            image : pinBuilder.fromText('336', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[532] = viewer.entities.add({
-        name : '337',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9625.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
-        billboard : {
-            image : pinBuilder.fromText('337', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[533] = viewer.entities.add({
+    pin[196] = viewer.entities.add({
         name : '197',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9625.800000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.2878, 34.092428),
+        description : '197 Event: DRONE_DELIVERY_END<br>Time: 13422.388968787474',
+        position : Cesium.Cartesian3.fromDegrees(-118.396455, 33.757397),
         billboard : {
-            image : pinBuilder.fromText('197', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('197', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[534] = viewer.entities.add({
+    pin[197] = viewer.entities.add({
         name : '198',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9667.108717044708<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28895, 34.09451),
+        description : '198 Event: LAND<br>Time: 13442.643153648147',
+        position : Cesium.Cartesian3.fromDegrees(-118.3969, 33.75862),
         billboard : {
             image : pinBuilder.fromText('198', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[535] = viewer.entities.add({
+    pin[198] = viewer.entities.add({
         name : '199',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9677.108717044708<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28895, 34.09451),
+        description : '199 Event: DEPART<br>Time: 13530.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.3969, 33.75862),
         billboard : {
-            image : pinBuilder.fromText('199', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('199', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[536] = viewer.entities.add({
-        name : '338',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9735.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287525, 34.095705),
-        billboard : {
-            image : pinBuilder.fromText('338', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[537] = viewer.entities.add({
-        name : '339',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9735.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287525, 34.095705),
-        billboard : {
-            image : pinBuilder.fromText('339', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[538] = viewer.entities.add({
+    pin[199] = viewer.entities.add({
         name : '200',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9735.500000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.287525, 34.095705),
+        description : '200 Event: ARRIVE<br>Time: 13548.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398119, 33.760429),
         billboard : {
             image : pinBuilder.fromText('200', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[539] = viewer.entities.add({
+    pin[200] = viewer.entities.add({
         name : '201',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9769.200000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.287525, 34.095705),
+        description : '201 Event: LOAD_START<br>Time: 13603.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398119, 33.760429),
         billboard : {
-            image : pinBuilder.fromText('201', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('201', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[540] = viewer.entities.add({
-        name : '340',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9769.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287525, 34.095705),
-        billboard : {
-            image : pinBuilder.fromText('340', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[541] = viewer.entities.add({
-        name : '341',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9769.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.287525, 34.095705),
-        billboard : {
-            image : pinBuilder.fromText('341', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[542] = viewer.entities.add({
-        name : '342',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9798.700000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289226, 34.095641),
-        billboard : {
-            image : pinBuilder.fromText('342', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[543] = viewer.entities.add({
+    pin[201] = viewer.entities.add({
         name : '202',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9798.700000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.289226, 34.095641),
+        description : '202 Event: LOAD_END<br>Time: 13618.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398119, 33.760429),
         billboard : {
             image : pinBuilder.fromText('202', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[544] = viewer.entities.add({
-        name : '343',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9798.700000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289226, 34.095641),
-        billboard : {
-            image : pinBuilder.fromText('343', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[545] = viewer.entities.add({
-        name : '345',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9832.700000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289226, 34.095641),
-        billboard : {
-            image : pinBuilder.fromText('345', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[546] = viewer.entities.add({
+    pin[202] = viewer.entities.add({
         name : '203',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9832.700000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.289226, 34.095641),
+        description : '203 Event: LAUNCH<br>Time: 13618.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398119, 33.760429),
         billboard : {
-            image : pinBuilder.fromText('203', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('203', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[547] = viewer.entities.add({
-        name : '344',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9832.700000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289226, 34.095641),
-        billboard : {
-            image : pinBuilder.fromText('344', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[548] = viewer.entities.add({
-        name : '346',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9928.400000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
-        billboard : {
-            image : pinBuilder.fromText('346', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[549] = viewer.entities.add({
+    pin[203] = viewer.entities.add({
         name : '204',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9928.400000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
+        description : '204 Event: DRONE_DELIVERY_START<br>Time: 13629.43088763152',
+        position : Cesium.Cartesian3.fromDegrees(-118.398221, 33.760774),
         billboard : {
             image : pinBuilder.fromText('204', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[550] = viewer.entities.add({
-        name : '347',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9928.400000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
-        billboard : {
-            image : pinBuilder.fromText('347', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[551] = viewer.entities.add({
+    pin[204] = viewer.entities.add({
         name : '205',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9980.900000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
+        description : '205 Event: DRONE_DELIVERY_END<br>Time: 13639.43088763152',
+        position : Cesium.Cartesian3.fromDegrees(-118.398221, 33.760774),
         billboard : {
-            image : pinBuilder.fromText('205', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('205', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[552] = viewer.entities.add({
-        name : '349',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9980.900000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
-        billboard : {
-            image : pinBuilder.fromText('349', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[553] = viewer.entities.add({
-        name : '348',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9980.900000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
-        billboard : {
-            image : pinBuilder.fromText('348', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[554] = viewer.entities.add({
+    pin[205] = viewer.entities.add({
         name : '206',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9995.900000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
+        description : '206 Event: LAND<br>Time: 13650.000127572066',
+        position : Cesium.Cartesian3.fromDegrees(-118.397988, 33.761412),
         billboard : {
             image : pinBuilder.fromText('206', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[555] = viewer.entities.add({
-        name : '350',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9995.900000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
-        billboard : {
-            image : pinBuilder.fromText('350', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[556] = viewer.entities.add({
-        name : '351',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9995.900000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
-        billboard : {
-            image : pinBuilder.fromText('351', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[557] = viewer.entities.add({
+    pin[206] = viewer.entities.add({
         name : '207',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 9995.900000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.29115, 34.0954),
+        description : '207 Event: DEPART<br>Time: 13707.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397988, 33.761412),
         billboard : {
-            image : pinBuilder.fromText('207', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('207', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[558] = viewer.entities.add({
+    pin[207] = viewer.entities.add({
         name : '208',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10026.35771256219<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.292869, 34.096132),
+        description : '208 Event: ARRIVE<br>Time: 13730.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396193, 33.761341),
         billboard : {
             image : pinBuilder.fromText('208', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[559] = viewer.entities.add({
+    pin[208] = viewer.entities.add({
         name : '209',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10036.35771256219<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.292869, 34.096132),
+        description : '209 Event: DEPART<br>Time: 13801.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396193, 33.761341),
         billboard : {
-            image : pinBuilder.fromText('209', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('209', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[560] = viewer.entities.add({
+    pin[209] = viewer.entities.add({
         name : '210',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10090.200000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.292869, 34.097287),
+        description : '210 Event: ARRIVE<br>Time: 13827.29999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39604, 33.760048),
         billboard : {
             image : pinBuilder.fromText('210', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[561] = viewer.entities.add({
-        name : '353',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10090.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292869, 34.097287),
-        billboard : {
-            image : pinBuilder.fromText('353', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[562] = viewer.entities.add({
-        name : '352',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10090.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292869, 34.097287),
-        billboard : {
-            image : pinBuilder.fromText('352', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[563] = viewer.entities.add({
+    pin[210] = viewer.entities.add({
         name : '211',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10114.200000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.292869, 34.097287),
+        description : '211 Event: DEPART<br>Time: 13872.29999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39604, 33.760048),
         billboard : {
-            image : pinBuilder.fromText('211', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('211', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[564] = viewer.entities.add({
-        name : '354',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10114.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292869, 34.097287),
-        billboard : {
-            image : pinBuilder.fromText('354', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[565] = viewer.entities.add({
-        name : '355',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10114.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292869, 34.097287),
-        billboard : {
-            image : pinBuilder.fromText('355', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[566] = viewer.entities.add({
+    pin[211] = viewer.entities.add({
         name : '212',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10193.000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
+        description : '212 Event: ARRIVE<br>Time: 13903.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39697, 33.760431),
         billboard : {
             image : pinBuilder.fromText('212', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[567] = viewer.entities.add({
-        name : '356',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10193.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
-        billboard : {
-            image : pinBuilder.fromText('356', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[568] = viewer.entities.add({
-        name : '357',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10193.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
-        billboard : {
-            image : pinBuilder.fromText('357', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[569] = viewer.entities.add({
-        name : '359',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10224.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
-        billboard : {
-            image : pinBuilder.fromText('359', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[570] = viewer.entities.add({
+    pin[212] = viewer.entities.add({
         name : '213',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10224.000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
+        description : '213 Event: DEPART<br>Time: 13992.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39697, 33.760431),
         billboard : {
-            image : pinBuilder.fromText('213', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('213', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[571] = viewer.entities.add({
-        name : '358',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10224.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
-        billboard : {
-            image : pinBuilder.fromText('358', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[572] = viewer.entities.add({
-        name : '360',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10239.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
-        billboard : {
-            image : pinBuilder.fromText('360', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[573] = viewer.entities.add({
+    pin[213] = viewer.entities.add({
         name : '214',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10239.000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
+        description : '214 Event: ARRIVE<br>Time: 14039.09999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.395681, 33.758781),
         billboard : {
             image : pinBuilder.fromText('214', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[574] = viewer.entities.add({
-        name : '361',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10239.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
-        billboard : {
-            image : pinBuilder.fromText('361', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[575] = viewer.entities.add({
+    pin[214] = viewer.entities.add({
         name : '215',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10239.000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291886, 34.097468),
+        description : '215 Event: DEPART<br>Time: 14075.19999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.395681, 33.758781),
         billboard : {
-            image : pinBuilder.fromText('215', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('215', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[576] = viewer.entities.add({
+    pin[215] = viewer.entities.add({
         name : '216',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10266.803466470126<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.290254, 34.096991),
+        description : '216 Event: ARRIVE<br>Time: 14171.19999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39796, 33.7584),
         billboard : {
             image : pinBuilder.fromText('216', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[577] = viewer.entities.add({
+    pin[216] = viewer.entities.add({
         name : '217',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10276.803466470126<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.290254, 34.096991),
+        description : '217 Event: DEPART<br>Time: 14361.19999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39796, 33.7584),
         billboard : {
-            image : pinBuilder.fromText('217', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('217', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[578] = viewer.entities.add({
-        name : '362',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10326.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290254, 34.096991),
-        billboard : {
-            image : pinBuilder.fromText('362', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[579] = viewer.entities.add({
-        name : '363',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10326.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290254, 34.096991),
-        billboard : {
-            image : pinBuilder.fromText('363', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[580] = viewer.entities.add({
+    pin[217] = viewer.entities.add({
         name : '218',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10326.600000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.290254, 34.096991),
+        description : '218 Event: ARRIVE<br>Time: 14417.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398256, 33.757316),
         billboard : {
             image : pinBuilder.fromText('218', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[581] = viewer.entities.add({
-        name : '365',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10557.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290254, 34.096991),
-        billboard : {
-            image : pinBuilder.fromText('365', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[582] = viewer.entities.add({
-        name : '364',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10557.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.290254, 34.096991),
-        billboard : {
-            image : pinBuilder.fromText('364', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[583] = viewer.entities.add({
+    pin[218] = viewer.entities.add({
         name : '219',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10557.600000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.290254, 34.096991),
+        description : '219 Event: DEPART<br>Time: 14691.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398256, 33.757316),
         billboard : {
-            image : pinBuilder.fromText('219', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('219', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[584] = viewer.entities.add({
-        name : '366',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10678.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289765, 34.098157),
-        billboard : {
-            image : pinBuilder.fromText('366', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[585] = viewer.entities.add({
+    pin[219] = viewer.entities.add({
         name : '220',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10678.200000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.289765, 34.098157),
+        description : '220 Event: ARRIVE<br>Time: 14836.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396609, 33.755981),
         billboard : {
             image : pinBuilder.fromText('220', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[586] = viewer.entities.add({
-        name : '367',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10678.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289765, 34.098157),
-        billboard : {
-            image : pinBuilder.fromText('367', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[587] = viewer.entities.add({
-        name : '369',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10766.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289765, 34.098157),
-        billboard : {
-            image : pinBuilder.fromText('369', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[588] = viewer.entities.add({
-        name : '368',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10766.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.289765, 34.098157),
-        billboard : {
-            image : pinBuilder.fromText('368', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[589] = viewer.entities.add({
+    pin[220] = viewer.entities.add({
         name : '221',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10766.200000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.289765, 34.098157),
+        description : '221 Event: DEPART<br>Time: 14947.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396609, 33.755981),
         billboard : {
-            image : pinBuilder.fromText('221', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('221', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[590] = viewer.entities.add({
+    pin[221] = viewer.entities.add({
         name : '222',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10825.500000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286795, 34.097948),
+        description : '222 Event: ARRIVE<br>Time: 15106.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.40035, 33.76302),
         billboard : {
             image : pinBuilder.fromText('222', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[591] = viewer.entities.add({
-        name : '370',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10825.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286795, 34.097948),
-        billboard : {
-            image : pinBuilder.fromText('370', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[592] = viewer.entities.add({
-        name : '371',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10825.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286795, 34.097948),
-        billboard : {
-            image : pinBuilder.fromText('371', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[593] = viewer.entities.add({
-        name : '373',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10904.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286795, 34.097948),
-        billboard : {
-            image : pinBuilder.fromText('373', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[594] = viewer.entities.add({
+    pin[222] = viewer.entities.add({
         name : '223',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10904.500000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286795, 34.097948),
+        description : '223 Event: DEPART<br>Time: 15206.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.40035, 33.76302),
         billboard : {
-            image : pinBuilder.fromText('223', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('223', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[595] = viewer.entities.add({
-        name : '372',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10904.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286795, 34.097948),
-        billboard : {
-            image : pinBuilder.fromText('372', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[596] = viewer.entities.add({
-        name : '374',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10956.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286243, 34.098482),
-        billboard : {
-            image : pinBuilder.fromText('374', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[597] = viewer.entities.add({
+    pin[223] = viewer.entities.add({
         name : '224',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10956.800000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286243, 34.098482),
+        description : '224 Event: ARRIVE<br>Time: 15233.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.402146, 33.763759),
         billboard : {
             image : pinBuilder.fromText('224', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[598] = viewer.entities.add({
-        name : '375',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10956.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286243, 34.098482),
-        billboard : {
-            image : pinBuilder.fromText('375', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[599] = viewer.entities.add({
-        name : '376',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10998.600000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286243, 34.098482),
-        billboard : {
-            image : pinBuilder.fromText('376', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[600] = viewer.entities.add({
-        name : '377',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10998.600000000002<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286243, 34.098482),
-        billboard : {
-            image : pinBuilder.fromText('377', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[601] = viewer.entities.add({
+    pin[224] = viewer.entities.add({
         name : '225',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 10998.600000000002<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286243, 34.098482),
+        description : '225 Event: LOAD_START<br>Time: 15288.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.402146, 33.763759),
         billboard : {
-            image : pinBuilder.fromText('225', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('225', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[602] = viewer.entities.add({
-        name : '378',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11021.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28625, 34.099181),
-        billboard : {
-            image : pinBuilder.fromText('378', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[603] = viewer.entities.add({
-        name : '379',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11021.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28625, 34.099181),
-        billboard : {
-            image : pinBuilder.fromText('379', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[604] = viewer.entities.add({
+    pin[225] = viewer.entities.add({
         name : '226',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11021.800000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28625, 34.099181),
+        description : '226 Event: LOAD_END<br>Time: 15303.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.402146, 33.763759),
         billboard : {
             image : pinBuilder.fromText('226', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[605] = viewer.entities.add({
-        name : '380',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11053.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28625, 34.099181),
-        billboard : {
-            image : pinBuilder.fromText('380', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[606] = viewer.entities.add({
+    pin[226] = viewer.entities.add({
         name : '227',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11053.800000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.28625, 34.099181),
+        description : '227 Event: LAUNCH<br>Time: 15303.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.402146, 33.763759),
         billboard : {
-            image : pinBuilder.fromText('227', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('227', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[607] = viewer.entities.add({
-        name : '381',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11053.800000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.28625, 34.099181),
-        billboard : {
-            image : pinBuilder.fromText('381', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[608] = viewer.entities.add({
-        name : '382',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11067.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286258, 34.09959),
-        billboard : {
-            image : pinBuilder.fromText('382', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[609] = viewer.entities.add({
-        name : '383',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11067.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286258, 34.09959),
-        billboard : {
-            image : pinBuilder.fromText('383', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[610] = viewer.entities.add({
+    pin[227] = viewer.entities.add({
         name : '228',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11067.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286258, 34.09959),
+        description : '228 Event: DRONE_DELIVERY_START<br>Time: 15322.752392233891',
+        position : Cesium.Cartesian3.fromDegrees(-118.401373, 33.763151),
         billboard : {
             image : pinBuilder.fromText('228', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[611] = viewer.entities.add({
-        name : '384',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11084.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286258, 34.09959),
-        billboard : {
-            image : pinBuilder.fromText('384', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[612] = viewer.entities.add({
+    pin[228] = viewer.entities.add({
         name : '229',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11084.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.286258, 34.09959),
+        description : '229 Event: DRONE_DELIVERY_END<br>Time: 15332.752392233891',
+        position : Cesium.Cartesian3.fromDegrees(-118.401373, 33.763151),
         billboard : {
-            image : pinBuilder.fromText('229', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('229', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[613] = viewer.entities.add({
-        name : '385',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11084.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.286258, 34.09959),
-        billboard : {
-            image : pinBuilder.fromText('385', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[614] = viewer.entities.add({
-        name : '387',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11282.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
-        billboard : {
-            image : pinBuilder.fromText('387', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[615] = viewer.entities.add({
+    pin[229] = viewer.entities.add({
         name : '230',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11282.900000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
+        description : '230 Event: LAND<br>Time: 15375.949644260698',
+        position : Cesium.Cartesian3.fromDegrees(-118.404583, 33.763645),
         billboard : {
             image : pinBuilder.fromText('230', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[616] = viewer.entities.add({
-        name : '386',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11282.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
-        billboard : {
-            image : pinBuilder.fromText('386', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[617] = viewer.entities.add({
-        name : '389',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11324.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
-        billboard : {
-            image : pinBuilder.fromText('389', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[618] = viewer.entities.add({
+    pin[230] = viewer.entities.add({
         name : '231',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11324.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
+        description : '231 Event: DEPART<br>Time: 15413.999999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.404583, 33.763645),
         billboard : {
-            image : pinBuilder.fromText('231', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('231', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[619] = viewer.entities.add({
-        name : '388',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11324.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
-        billboard : {
-            image : pinBuilder.fromText('388', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[620] = viewer.entities.add({
-        name : '391',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11339.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
-        billboard : {
-            image : pinBuilder.fromText('391', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[621] = viewer.entities.add({
-        name : '390',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11339.300000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
-        billboard : {
-            image : pinBuilder.fromText('390', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[622] = viewer.entities.add({
+    pin[231] = viewer.entities.add({
         name : '232',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11339.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
+        description : '232 Event: ARRIVE<br>Time: 15425.09999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.405381, 33.76343),
         billboard : {
             image : pinBuilder.fromText('232', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[623] = viewer.entities.add({
+    pin[232] = viewer.entities.add({
         name : '233',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11339.300000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.285183, 34.098661),
+        description : '233 Event: DEPART<br>Time: 15473.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.405381, 33.76343),
         billboard : {
-            image : pinBuilder.fromText('233', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('233', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[624] = viewer.entities.add({
+    pin[233] = viewer.entities.add({
         name : '234',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11443.004665960943<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277969, 34.096993),
+        description : '234 Event: ARRIVE<br>Time: 15481.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.405906, 33.762988),
         billboard : {
             image : pinBuilder.fromText('234', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[625] = viewer.entities.add({
+    pin[234] = viewer.entities.add({
         name : '235',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11453.004665960943<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277969, 34.096993),
+        description : '235 Event: DEPART<br>Time: 15676.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.405906, 33.762988),
         billboard : {
-            image : pinBuilder.fromText('235', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('235', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[626] = viewer.entities.add({
-        name : '393',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11547.700000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277191, 34.096955),
-        billboard : {
-            image : pinBuilder.fromText('393', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[627] = viewer.entities.add({
-        name : '392',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11547.700000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277191, 34.096955),
-        billboard : {
-            image : pinBuilder.fromText('392', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[628] = viewer.entities.add({
+    pin[235] = viewer.entities.add({
         name : '236',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11547.700000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277191, 34.096955),
+        description : '236 Event: ARRIVE<br>Time: 15746.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.406439, 33.76343),
         billboard : {
             image : pinBuilder.fromText('236', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[629] = viewer.entities.add({
+    pin[236] = viewer.entities.add({
         name : '237',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11573.700000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.277191, 34.096955),
+        description : '237 Event: LOAD_START<br>Time: 15794.899999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.406439, 33.76343),
         billboard : {
-            image : pinBuilder.fromText('237', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('237', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[630] = viewer.entities.add({
-        name : '395',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11573.700000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277191, 34.096955),
-        billboard : {
-            image : pinBuilder.fromText('395', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[631] = viewer.entities.add({
-        name : '394',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11573.700000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.277191, 34.096955),
-        billboard : {
-            image : pinBuilder.fromText('394', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[632] = viewer.entities.add({
-        name : '397',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11605.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.276636, 34.097235),
-        billboard : {
-            image : pinBuilder.fromText('397', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[633] = viewer.entities.add({
-        name : '396',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11605.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.276636, 34.097235),
-        billboard : {
-            image : pinBuilder.fromText('396', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[634] = viewer.entities.add({
+    pin[237] = viewer.entities.add({
         name : '238',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11605.900000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.276636, 34.097235),
+        description : '238 Event: LOAD_END<br>Time: 15809.899999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.406439, 33.76343),
         billboard : {
             image : pinBuilder.fromText('238', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[635] = viewer.entities.add({
+    pin[238] = viewer.entities.add({
         name : '239',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11627.900000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.276636, 34.097235),
+        description : '239 Event: LAUNCH<br>Time: 15809.899999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.406439, 33.76343),
         billboard : {
-            image : pinBuilder.fromText('239', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('239', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[636] = viewer.entities.add({
-        name : '399',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11627.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.276636, 34.097235),
-        billboard : {
-            image : pinBuilder.fromText('399', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[637] = viewer.entities.add({
-        name : '398',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11627.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.276636, 34.097235),
-        billboard : {
-            image : pinBuilder.fromText('398', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[638] = viewer.entities.add({
-        name : '401',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11733.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278111, 34.097631),
-        billboard : {
-            image : pinBuilder.fromText('401', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[639] = viewer.entities.add({
+    pin[239] = viewer.entities.add({
         name : '240',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11733.500000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278111, 34.097631),
+        description : '240 Event: DRONE_DELIVERY_START<br>Time: 15846.497669721717',
+        position : Cesium.Cartesian3.fromDegrees(-118.407687, 33.76173),
         billboard : {
             image : pinBuilder.fromText('240', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[640] = viewer.entities.add({
-        name : '400',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11733.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278111, 34.097631),
-        billboard : {
-            image : pinBuilder.fromText('400', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[641] = viewer.entities.add({
+    pin[240] = viewer.entities.add({
         name : '241',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11776.500000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.278111, 34.097631),
+        description : '241 Event: DRONE_DELIVERY_END<br>Time: 15856.497669721717',
+        position : Cesium.Cartesian3.fromDegrees(-118.407687, 33.76173),
         billboard : {
-            image : pinBuilder.fromText('241', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('241', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[642] = viewer.entities.add({
-        name : '402',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11776.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278111, 34.097631),
-        billboard : {
-            image : pinBuilder.fromText('402', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[643] = viewer.entities.add({
-        name : '403',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 11776.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.278111, 34.097631),
-        billboard : {
-            image : pinBuilder.fromText('403', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[644] = viewer.entities.add({
-        name : '404',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12039.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.275631, 34.097272),
-        billboard : {
-            image : pinBuilder.fromText('404', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[645] = viewer.entities.add({
+    pin[241] = viewer.entities.add({
         name : '242',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12039.100000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.275631, 34.097272),
+        description : '242 Event: LAND<br>Time: 15917.65501878912',
+        position : Cesium.Cartesian3.fromDegrees(-118.403271, 33.762867),
         billboard : {
             image : pinBuilder.fromText('242', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[646] = viewer.entities.add({
-        name : '405',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12039.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.275631, 34.097272),
-        billboard : {
-            image : pinBuilder.fromText('405', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[647] = viewer.entities.add({
-        name : '406',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12104.800000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.275631, 34.097272),
-        billboard : {
-            image : pinBuilder.fromText('406', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[648] = viewer.entities.add({
+    pin[242] = viewer.entities.add({
         name : '243',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12104.800000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.275631, 34.097272),
+        description : '243 Event: DEPART<br>Time: 15975.09999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.403271, 33.762867),
         billboard : {
-            image : pinBuilder.fromText('243', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('243', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[649] = viewer.entities.add({
-        name : '407',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12104.800000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.275631, 34.097272),
-        billboard : {
-            image : pinBuilder.fromText('407', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[650] = viewer.entities.add({
-        name : '409',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12178.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.276077, 34.098539),
-        billboard : {
-            image : pinBuilder.fromText('409', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[651] = viewer.entities.add({
+    pin[243] = viewer.entities.add({
         name : '244',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12178.600000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.276077, 34.098539),
+        description : '244 Event: ARRIVE<br>Time: 16100.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.402397, 33.764528),
         billboard : {
             image : pinBuilder.fromText('244', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[652] = viewer.entities.add({
-        name : '408',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12178.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.276077, 34.098539),
-        billboard : {
-            image : pinBuilder.fromText('408', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[653] = viewer.entities.add({
-        name : '410',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12209.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.276077, 34.098539),
-        billboard : {
-            image : pinBuilder.fromText('410', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[654] = viewer.entities.add({
-        name : '411',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12209.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.276077, 34.098539),
-        billboard : {
-            image : pinBuilder.fromText('411', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[655] = viewer.entities.add({
+    pin[244] = viewer.entities.add({
         name : '245',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12209.600000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.276077, 34.098539),
+        description : '245 Event: LOAD_START<br>Time: 16176.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.402397, 33.764528),
         billboard : {
-            image : pinBuilder.fromText('245', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('245', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[656] = viewer.entities.add({
-        name : '413',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12369.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.273982, 34.101021),
-        billboard : {
-            image : pinBuilder.fromText('413', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[657] = viewer.entities.add({
+    pin[245] = viewer.entities.add({
         name : '246',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12369.900000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.273982, 34.101021),
+        description : '246 Event: LOAD_END<br>Time: 16191.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.402397, 33.764528),
         billboard : {
             image : pinBuilder.fromText('246', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[658] = viewer.entities.add({
-        name : '412',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12369.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.273982, 34.101021),
-        billboard : {
-            image : pinBuilder.fromText('412', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[659] = viewer.entities.add({
+    pin[246] = viewer.entities.add({
         name : '247',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12402.100000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.273982, 34.101021),
+        description : '247 Event: LAUNCH<br>Time: 16191.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.402397, 33.764528),
         billboard : {
-            image : pinBuilder.fromText('247', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('247', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[660] = viewer.entities.add({
-        name : '415',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12402.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.273982, 34.101021),
-        billboard : {
-            image : pinBuilder.fromText('415', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[661] = viewer.entities.add({
-        name : '414',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12402.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.273982, 34.101021),
-        billboard : {
-            image : pinBuilder.fromText('414', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[662] = viewer.entities.add({
-        name : '417',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12811.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291761, 34.093119),
-        billboard : {
-            image : pinBuilder.fromText('417', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[663] = viewer.entities.add({
+    pin[247] = viewer.entities.add({
         name : '248',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12811.600000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291761, 34.093119),
+        description : '248 Event: DRONE_DELIVERY_START<br>Time: 16268.896078420581',
+        position : Cesium.Cartesian3.fromDegrees(-118.406627, 33.761621),
         billboard : {
             image : pinBuilder.fromText('248', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[664] = viewer.entities.add({
-        name : '416',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12811.600000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291761, 34.093119),
-        billboard : {
-            image : pinBuilder.fromText('416', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[665] = viewer.entities.add({
-        name : '419',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12836.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291761, 34.093119),
-        billboard : {
-            image : pinBuilder.fromText('419', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[666] = viewer.entities.add({
-        name : '418',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12836.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.291761, 34.093119),
-        billboard : {
-            image : pinBuilder.fromText('418', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[667] = viewer.entities.add({
+    pin[248] = viewer.entities.add({
         name : '249',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12836.100000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.291761, 34.093119),
+        description : '249 Event: DRONE_DELIVERY_END<br>Time: 16278.896078420581',
+        position : Cesium.Cartesian3.fromDegrees(-118.406627, 33.761621),
         billboard : {
-            image : pinBuilder.fromText('249', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('249', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[668] = viewer.entities.add({
+    pin[249] = viewer.entities.add({
         name : '250',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12864.200000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.29175, 34.091648),
+        description : '250 Event: LAND<br>Time: 16323.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.406119, 33.760725),
         billboard : {
             image : pinBuilder.fromText('250', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[669] = viewer.entities.add({
-        name : '421',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12864.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29175, 34.091648),
-        billboard : {
-            image : pinBuilder.fromText('421', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[670] = viewer.entities.add({
-        name : '420',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12864.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29175, 34.091648),
-        billboard : {
-            image : pinBuilder.fromText('420', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[671] = viewer.entities.add({
+    pin[250] = viewer.entities.add({
         name : '251',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12943.200000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.29175, 34.091648),
+        description : '251 Event: DEPART<br>Time: 16383.899999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.406119, 33.760725),
         billboard : {
-            image : pinBuilder.fromText('251', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('251', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[672] = viewer.entities.add({
-        name : '422',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12943.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29175, 34.091648),
-        billboard : {
-            image : pinBuilder.fromText('422', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[673] = viewer.entities.add({
-        name : '423',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 12943.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.29175, 34.091648),
-        billboard : {
-            image : pinBuilder.fromText('423', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[674] = viewer.entities.add({
-        name : '425',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13012.900000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292792, 34.091408),
-        billboard : {
-            image : pinBuilder.fromText('425', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[675] = viewer.entities.add({
-        name : '424',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13012.900000000005<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292792, 34.091408),
-        billboard : {
-            image : pinBuilder.fromText('424', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[676] = viewer.entities.add({
+    pin[251] = viewer.entities.add({
         name : '252',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13012.900000000005<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.292792, 34.091408),
+        description : '252 Event: ARRIVE<br>Time: 16432.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403904, 33.760231),
         billboard : {
             image : pinBuilder.fromText('252', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[677] = viewer.entities.add({
+    pin[252] = viewer.entities.add({
         name : '253',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13045.200000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.292792, 34.091408),
+        description : '253 Event: LOAD_START<br>Time: 16593.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403904, 33.760231),
         billboard : {
-            image : pinBuilder.fromText('253', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('253', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[678] = viewer.entities.add({
-        name : '426',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13045.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292792, 34.091408),
-        billboard : {
-            image : pinBuilder.fromText('426', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[679] = viewer.entities.add({
-        name : '427',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13045.200000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292792, 34.091408),
-        billboard : {
-            image : pinBuilder.fromText('427', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[680] = viewer.entities.add({
-        name : '428',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13096.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292799, 34.093294),
-        billboard : {
-            image : pinBuilder.fromText('428', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[681] = viewer.entities.add({
+    pin[253] = viewer.entities.add({
         name : '254',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13096.000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.292799, 34.093294),
+        description : '254 Event: LOAD_END<br>Time: 16608.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403904, 33.760231),
         billboard : {
             image : pinBuilder.fromText('254', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[682] = viewer.entities.add({
-        name : '429',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13096.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292799, 34.093294),
-        billboard : {
-            image : pinBuilder.fromText('429', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[683] = viewer.entities.add({
+    pin[254] = viewer.entities.add({
         name : '255',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13184.000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.292799, 34.093294),
+        description : '255 Event: LAUNCH<br>Time: 16608.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403904, 33.760231),
         billboard : {
-            image : pinBuilder.fromText('255', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('255', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[684] = viewer.entities.add({
-        name : '430',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13184.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292799, 34.093294),
-        billboard : {
-            image : pinBuilder.fromText('430', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[685] = viewer.entities.add({
-        name : '431',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13184.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.292799, 34.093294),
-        billboard : {
-            image : pinBuilder.fromText('431', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[686] = viewer.entities.add({
-        name : '433',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13234.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293212, 34.094216),
-        billboard : {
-            image : pinBuilder.fromText('433', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[687] = viewer.entities.add({
-        name : '432',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13234.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293212, 34.094216),
-        billboard : {
-            image : pinBuilder.fromText('432', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[688] = viewer.entities.add({
+    pin[255] = viewer.entities.add({
         name : '256',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13234.400000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.293212, 34.094216),
+        description : '256 Event: DRONE_DELIVERY_START<br>Time: 16644.309549331076',
+        position : Cesium.Cartesian3.fromDegrees(-118.403532, 33.758318),
         billboard : {
             image : pinBuilder.fromText('256', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[689] = viewer.entities.add({
-        name : '434',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13310.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293212, 34.094216),
-        billboard : {
-            image : pinBuilder.fromText('434', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[690] = viewer.entities.add({
-        name : '435',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13310.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293212, 34.094216),
-        billboard : {
-            image : pinBuilder.fromText('435', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[691] = viewer.entities.add({
+    pin[256] = viewer.entities.add({
         name : '257',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13310.400000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.293212, 34.094216),
+        description : '257 Event: DRONE_DELIVERY_END<br>Time: 16654.309549331076',
+        position : Cesium.Cartesian3.fromDegrees(-118.403532, 33.758318),
         billboard : {
-            image : pinBuilder.fromText('257', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('257', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[692] = viewer.entities.add({
+    pin[257] = viewer.entities.add({
         name : '258',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13418.100000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.293884, 34.091351),
+        description : '258 Event: LAND<br>Time: 16679.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403255, 33.759621),
         billboard : {
             image : pinBuilder.fromText('258', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[693] = viewer.entities.add({
-        name : '437',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13418.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293884, 34.091351),
-        billboard : {
-            image : pinBuilder.fromText('437', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[694] = viewer.entities.add({
-        name : '436',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13418.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293884, 34.091351),
-        billboard : {
-            image : pinBuilder.fromText('436', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[695] = viewer.entities.add({
+    pin[258] = viewer.entities.add({
         name : '259',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13457.100000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.293884, 34.091351),
+        description : '259 Event: DEPART<br>Time: 16780.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403255, 33.759621),
         billboard : {
-            image : pinBuilder.fromText('259', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('259', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[696] = viewer.entities.add({
-        name : '439',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13457.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293884, 34.091351),
-        billboard : {
-            image : pinBuilder.fromText('439', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[697] = viewer.entities.add({
-        name : '438',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13457.100000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293884, 34.091351),
-        billboard : {
-            image : pinBuilder.fromText('438', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[698] = viewer.entities.add({
-        name : '441',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13493.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293879, 34.09039),
-        billboard : {
-            image : pinBuilder.fromText('441', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[699] = viewer.entities.add({
-        name : '440',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13493.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293879, 34.09039),
-        billboard : {
-            image : pinBuilder.fromText('440', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[700] = viewer.entities.add({
+    pin[259] = viewer.entities.add({
         name : '260',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13493.900000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.293879, 34.09039),
+        description : '260 Event: ARRIVE<br>Time: 17356.899999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.402162, 33.758292),
         billboard : {
             image : pinBuilder.fromText('260', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[701] = viewer.entities.add({
+    pin[260] = viewer.entities.add({
         name : '261',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13551.400000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.293879, 34.09039),
+        description : '261 Event: LOAD_START<br>Time: 17463.399999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.402162, 33.758292),
         billboard : {
-            image : pinBuilder.fromText('261', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('261', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[702] = viewer.entities.add({
-        name : '442',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13551.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293879, 34.09039),
-        billboard : {
-            image : pinBuilder.fromText('442', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[703] = viewer.entities.add({
-        name : '443',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13551.400000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.293879, 34.09039),
-        billboard : {
-            image : pinBuilder.fromText('443', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[704] = viewer.entities.add({
-        name : '444',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13810.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.294127, 34.096583),
-        billboard : {
-            image : pinBuilder.fromText('444', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[705] = viewer.entities.add({
+    pin[261] = viewer.entities.add({
         name : '262',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13810.500000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.294127, 34.096583),
+        description : '262 Event: LOAD_END<br>Time: 17478.399999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.402162, 33.758292),
         billboard : {
             image : pinBuilder.fromText('262', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[706] = viewer.entities.add({
-        name : '445',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13810.500000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.294127, 34.096583),
-        billboard : {
-            image : pinBuilder.fromText('445', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[707] = viewer.entities.add({
+    pin[262] = viewer.entities.add({
         name : '263',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13863.000000000004<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.294127, 34.096583),
+        description : '263 Event: LAUNCH<br>Time: 17478.399999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.402162, 33.758292),
         billboard : {
-            image : pinBuilder.fromText('263', Cesium.Color.RED, 40).toDataURL(),
+            image : pinBuilder.fromText('263', Cesium.Color.YELLOW, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
 
-    pin[708] = viewer.entities.add({
-        name : '446',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13863.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.294127, 34.096583),
-        billboard : {
-            image : pinBuilder.fromText('446', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[709] = viewer.entities.add({
-        name : '447',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 13863.000000000004<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.294127, 34.096583),
-        billboard : {
-            image : pinBuilder.fromText('447', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[710] = viewer.entities.add({
-        name : '448',
-        parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 15808.900000000003<br>Object ID: truck',
-        position : Cesium.Cartesian3.fromDegrees(-118.143927, 34.007369),
-        billboard : {
-            image : pinBuilder.fromText('448', Cesium.Color.YELLOW, 40).toDataURL(),
-            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
-        }
-    });
-
-    pin[711] = viewer.entities.add({
+    pin[263] = viewer.entities.add({
         name : '264',
         parent : nodePins,
-        description : '<b>Segment Start</b><br>Time: 15808.900000000003<br>Object ID: drone',
-        position : Cesium.Cartesian3.fromDegrees(-118.143927, 34.007369),
+        description : '264 Event: DRONE_DELIVERY_START<br>Time: 17662.857116521394',
+        position : Cesium.Cartesian3.fromDegrees(-118.393718, 33.749431),
         billboard : {
             image : pinBuilder.fromText('264', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[264] = viewer.entities.add({
+        name : '265',
+        parent : nodePins,
+        description : '265 Event: DRONE_DELIVERY_END<br>Time: 17672.857116521394',
+        position : Cesium.Cartesian3.fromDegrees(-118.393718, 33.749431),
+        billboard : {
+            image : pinBuilder.fromText('265', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[265] = viewer.entities.add({
+        name : '266',
+        parent : nodePins,
+        description : '266 Event: LAND<br>Time: 18016.099999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.39685, 33.74736),
+        billboard : {
+            image : pinBuilder.fromText('266', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[266] = viewer.entities.add({
+        name : '267',
+        parent : nodePins,
+        description : '267 Event: DEPART<br>Time: 18103.099999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.39685, 33.74736),
+        billboard : {
+            image : pinBuilder.fromText('267', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[267] = viewer.entities.add({
+        name : '268',
+        parent : nodePins,
+        description : '268 Event: ARRIVE<br>Time: 18108.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397324, 33.747235),
+        billboard : {
+            image : pinBuilder.fromText('268', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[268] = viewer.entities.add({
+        name : '269',
+        parent : nodePins,
+        description : '269 Event: DEPART<br>Time: 18148.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397324, 33.747235),
+        billboard : {
+            image : pinBuilder.fromText('269', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[269] = viewer.entities.add({
+        name : '270',
+        parent : nodePins,
+        description : '270 Event: ARRIVE<br>Time: 18206.899999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.399201, 33.747689),
+        billboard : {
+            image : pinBuilder.fromText('270', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[270] = viewer.entities.add({
+        name : '271',
+        parent : nodePins,
+        description : '271 Event: DEPART<br>Time: 18269.899999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.399201, 33.747689),
+        billboard : {
+            image : pinBuilder.fromText('271', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[271] = viewer.entities.add({
+        name : '272',
+        parent : nodePins,
+        description : '272 Event: ARRIVE<br>Time: 18282.099999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.398403, 33.748054),
+        billboard : {
+            image : pinBuilder.fromText('272', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[272] = viewer.entities.add({
+        name : '273',
+        parent : nodePins,
+        description : '273 Event: DEPART<br>Time: 18348.099999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.398403, 33.748054),
+        billboard : {
+            image : pinBuilder.fromText('273', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[273] = viewer.entities.add({
+        name : '274',
+        parent : nodePins,
+        description : '274 Event: ARRIVE<br>Time: 18779.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397589, 33.74821),
+        billboard : {
+            image : pinBuilder.fromText('274', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[274] = viewer.entities.add({
+        name : '275',
+        parent : nodePins,
+        description : '275 Event: LOAD_START<br>Time: 18813.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397589, 33.74821),
+        billboard : {
+            image : pinBuilder.fromText('275', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[275] = viewer.entities.add({
+        name : '276',
+        parent : nodePins,
+        description : '276 Event: LOAD_END<br>Time: 18828.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397589, 33.74821),
+        billboard : {
+            image : pinBuilder.fromText('276', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[276] = viewer.entities.add({
+        name : '277',
+        parent : nodePins,
+        description : '277 Event: LAUNCH<br>Time: 18828.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397589, 33.74821),
+        billboard : {
+            image : pinBuilder.fromText('277', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[277] = viewer.entities.add({
+        name : '278',
+        parent : nodePins,
+        description : '278 Event: DRONE_DELIVERY_START<br>Time: 19154.2401271735',
+        position : Cesium.Cartesian3.fromDegrees(-118.385391, 33.765686),
+        billboard : {
+            image : pinBuilder.fromText('278', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[278] = viewer.entities.add({
+        name : '279',
+        parent : nodePins,
+        description : '279 Event: DRONE_DELIVERY_END<br>Time: 19164.2401271735',
+        position : Cesium.Cartesian3.fromDegrees(-118.385391, 33.765686),
+        billboard : {
+            image : pinBuilder.fromText('279', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[279] = viewer.entities.add({
+        name : '280',
+        parent : nodePins,
+        description : '280 Event: LAND<br>Time: 19274.499999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384873, 33.765),
+        billboard : {
+            image : pinBuilder.fromText('280', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[280] = viewer.entities.add({
+        name : '281',
+        parent : nodePins,
+        description : '281 Event: DEPART<br>Time: 19305.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384873, 33.765),
+        billboard : {
+            image : pinBuilder.fromText('281', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[281] = viewer.entities.add({
+        name : '282',
+        parent : nodePins,
+        description : '282 Event: ARRIVE<br>Time: 19395.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.384442, 33.76487),
+        billboard : {
+            image : pinBuilder.fromText('282', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[282] = viewer.entities.add({
+        name : '283',
+        parent : nodePins,
+        description : '283 Event: LOAD_START<br>Time: 19434.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.384442, 33.76487),
+        billboard : {
+            image : pinBuilder.fromText('283', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[283] = viewer.entities.add({
+        name : '284',
+        parent : nodePins,
+        description : '284 Event: LOAD_END<br>Time: 19449.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.384442, 33.76487),
+        billboard : {
+            image : pinBuilder.fromText('284', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[284] = viewer.entities.add({
+        name : '285',
+        parent : nodePins,
+        description : '285 Event: LAUNCH<br>Time: 19449.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.384442, 33.76487),
+        billboard : {
+            image : pinBuilder.fromText('285', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[285] = viewer.entities.add({
+        name : '286',
+        parent : nodePins,
+        description : '286 Event: DRONE_DELIVERY_START<br>Time: 19476.143497900557',
+        position : Cesium.Cartesian3.fromDegrees(-118.383003, 33.764182),
+        billboard : {
+            image : pinBuilder.fromText('286', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[286] = viewer.entities.add({
+        name : '287',
+        parent : nodePins,
+        description : '287 Event: DRONE_DELIVERY_END<br>Time: 19486.143497900557',
+        position : Cesium.Cartesian3.fromDegrees(-118.383003, 33.764182),
+        billboard : {
+            image : pinBuilder.fromText('287', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[287] = viewer.entities.add({
+        name : '288',
+        parent : nodePins,
+        description : '288 Event: LAND<br>Time: 19548.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.38147, 33.763688),
+        billboard : {
+            image : pinBuilder.fromText('288', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[288] = viewer.entities.add({
+        name : '289',
+        parent : nodePins,
+        description : '289 Event: DEPART<br>Time: 19608.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.38147, 33.763688),
+        billboard : {
+            image : pinBuilder.fromText('289', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[289] = viewer.entities.add({
+        name : '290',
+        parent : nodePins,
+        description : '290 Event: ARRIVE<br>Time: 19733.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383047, 33.764882),
+        billboard : {
+            image : pinBuilder.fromText('290', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[290] = viewer.entities.add({
+        name : '291',
+        parent : nodePins,
+        description : '291 Event: DEPART<br>Time: 19781.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383047, 33.764882),
+        billboard : {
+            image : pinBuilder.fromText('291', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[291] = viewer.entities.add({
+        name : '292',
+        parent : nodePins,
+        description : '292 Event: ARRIVE<br>Time: 19956.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383073, 33.766262),
+        billboard : {
+            image : pinBuilder.fromText('292', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[292] = viewer.entities.add({
+        name : '293',
+        parent : nodePins,
+        description : '293 Event: DEPART<br>Time: 19985.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383073, 33.766262),
+        billboard : {
+            image : pinBuilder.fromText('293', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[293] = viewer.entities.add({
+        name : '294',
+        parent : nodePins,
+        description : '294 Event: ARRIVE<br>Time: 20026.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.383928, 33.765936),
+        billboard : {
+            image : pinBuilder.fromText('294', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[294] = viewer.entities.add({
+        name : '295',
+        parent : nodePins,
+        description : '295 Event: DEPART<br>Time: 20055.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.383928, 33.765936),
+        billboard : {
+            image : pinBuilder.fromText('295', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[295] = viewer.entities.add({
+        name : '296',
+        parent : nodePins,
+        description : '296 Event: ARRIVE<br>Time: 20253.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384106, 33.766934),
+        billboard : {
+            image : pinBuilder.fromText('296', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[296] = viewer.entities.add({
+        name : '297',
+        parent : nodePins,
+        description : '297 Event: LOAD_START<br>Time: 20316.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384106, 33.766934),
+        billboard : {
+            image : pinBuilder.fromText('297', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[297] = viewer.entities.add({
+        name : '298',
+        parent : nodePins,
+        description : '298 Event: LOAD_END<br>Time: 20331.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384106, 33.766934),
+        billboard : {
+            image : pinBuilder.fromText('298', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[298] = viewer.entities.add({
+        name : '299',
+        parent : nodePins,
+        description : '299 Event: LAUNCH<br>Time: 20331.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384106, 33.766934),
+        billboard : {
+            image : pinBuilder.fromText('299', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[299] = viewer.entities.add({
+        name : '300',
+        parent : nodePins,
+        description : '300 Event: DRONE_DELIVERY_START<br>Time: 20427.78752774615',
+        position : Cesium.Cartesian3.fromDegrees(-118.377257, 33.767437),
+        billboard : {
+            image : pinBuilder.fromText('300', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[300] = viewer.entities.add({
+        name : '301',
+        parent : nodePins,
+        description : '301 Event: DRONE_DELIVERY_END<br>Time: 20437.78752774615',
+        position : Cesium.Cartesian3.fromDegrees(-118.377257, 33.767437),
+        billboard : {
+            image : pinBuilder.fromText('301', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[301] = viewer.entities.add({
+        name : '302',
+        parent : nodePins,
+        description : '302 Event: LAND<br>Time: 20514.099999999984',
+        position : Cesium.Cartesian3.fromDegrees(-118.376532, 33.767217),
+        billboard : {
+            image : pinBuilder.fromText('302', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[302] = viewer.entities.add({
+        name : '303',
+        parent : nodePins,
+        description : '303 Event: DEPART<br>Time: 20565.599999999984',
+        position : Cesium.Cartesian3.fromDegrees(-118.376532, 33.767217),
+        billboard : {
+            image : pinBuilder.fromText('303', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[303] = viewer.entities.add({
+        name : '304',
+        parent : nodePins,
+        description : '304 Event: ARRIVE<br>Time: 20592.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.376206, 33.766479),
+        billboard : {
+            image : pinBuilder.fromText('304', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[304] = viewer.entities.add({
+        name : '305',
+        parent : nodePins,
+        description : '305 Event: DEPART<br>Time: 20725.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.376206, 33.766479),
+        billboard : {
+            image : pinBuilder.fromText('305', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[305] = viewer.entities.add({
+        name : '306',
+        parent : nodePins,
+        description : '306 Event: ARRIVE<br>Time: 20773.599999999984',
+        position : Cesium.Cartesian3.fromDegrees(-118.374164, 33.766104),
+        billboard : {
+            image : pinBuilder.fromText('306', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[306] = viewer.entities.add({
+        name : '307',
+        parent : nodePins,
+        description : '307 Event: DEPART<br>Time: 20810.599999999984',
+        position : Cesium.Cartesian3.fromDegrees(-118.374164, 33.766104),
+        billboard : {
+            image : pinBuilder.fromText('307', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[307] = viewer.entities.add({
+        name : '308',
+        parent : nodePins,
+        description : '308 Event: ARRIVE<br>Time: 20831.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372774, 33.76527),
+        billboard : {
+            image : pinBuilder.fromText('308', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[308] = viewer.entities.add({
+        name : '309',
+        parent : nodePins,
+        description : '309 Event: DEPART<br>Time: 20908.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372774, 33.76527),
+        billboard : {
+            image : pinBuilder.fromText('309', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[309] = viewer.entities.add({
+        name : '310',
+        parent : nodePins,
+        description : '310 Event: ARRIVE<br>Time: 20999.399999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372105, 33.764865),
+        billboard : {
+            image : pinBuilder.fromText('310', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[310] = viewer.entities.add({
+        name : '311',
+        parent : nodePins,
+        description : '311 Event: LOAD_START<br>Time: 21040.899999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372105, 33.764865),
+        billboard : {
+            image : pinBuilder.fromText('311', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[311] = viewer.entities.add({
+        name : '312',
+        parent : nodePins,
+        description : '312 Event: LOAD_END<br>Time: 21055.899999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372105, 33.764865),
+        billboard : {
+            image : pinBuilder.fromText('312', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[312] = viewer.entities.add({
+        name : '313',
+        parent : nodePins,
+        description : '313 Event: LAUNCH<br>Time: 21055.899999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372105, 33.764865),
+        billboard : {
+            image : pinBuilder.fromText('313', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[313] = viewer.entities.add({
+        name : '314',
+        parent : nodePins,
+        description : '314 Event: DRONE_DELIVERY_START<br>Time: 21091.57698376302',
+        position : Cesium.Cartesian3.fromDegrees(-118.373899, 33.763639),
+        billboard : {
+            image : pinBuilder.fromText('314', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[314] = viewer.entities.add({
+        name : '315',
+        parent : nodePins,
+        description : '315 Event: DRONE_DELIVERY_END<br>Time: 21101.57698376302',
+        position : Cesium.Cartesian3.fromDegrees(-118.373899, 33.763639),
+        billboard : {
+            image : pinBuilder.fromText('315', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[315] = viewer.entities.add({
+        name : '316',
+        parent : nodePins,
+        description : '316 Event: LAND<br>Time: 21128.49999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.375015, 33.764231),
+        billboard : {
+            image : pinBuilder.fromText('316', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[316] = viewer.entities.add({
+        name : '317',
+        parent : nodePins,
+        description : '317 Event: DEPART<br>Time: 21216.99999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.375015, 33.764231),
+        billboard : {
+            image : pinBuilder.fromText('317', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[317] = viewer.entities.add({
+        name : '318',
+        parent : nodePins,
+        description : '318 Event: ARRIVE<br>Time: 21266.49999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.374207, 33.764702),
+        billboard : {
+            image : pinBuilder.fromText('318', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[318] = viewer.entities.add({
+        name : '319',
+        parent : nodePins,
+        description : '319 Event: DEPART<br>Time: 21338.99999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.374207, 33.764702),
+        billboard : {
+            image : pinBuilder.fromText('319', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[319] = viewer.entities.add({
+        name : '320',
+        parent : nodePins,
+        description : '320 Event: ARRIVE<br>Time: 21430.199999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.374408, 33.76551),
+        billboard : {
+            image : pinBuilder.fromText('320', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[320] = viewer.entities.add({
+        name : '321',
+        parent : nodePins,
+        description : '321 Event: DEPART<br>Time: 21533.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.374408, 33.76551),
+        billboard : {
+            image : pinBuilder.fromText('321', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[321] = viewer.entities.add({
+        name : '322',
+        parent : nodePins,
+        description : '322 Event: ARRIVE<br>Time: 21559.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.373627, 33.765078),
+        billboard : {
+            image : pinBuilder.fromText('322', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[322] = viewer.entities.add({
+        name : '323',
+        parent : nodePins,
+        description : '323 Event: DEPART<br>Time: 21633.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.373627, 33.765078),
+        billboard : {
+            image : pinBuilder.fromText('323', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[323] = viewer.entities.add({
+        name : '324',
+        parent : nodePins,
+        description : '324 Event: ARRIVE<br>Time: 21802.29999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.375508, 33.7663),
+        billboard : {
+            image : pinBuilder.fromText('324', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[324] = viewer.entities.add({
+        name : '325',
+        parent : nodePins,
+        description : '325 Event: DEPART<br>Time: 21881.29999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.375508, 33.7663),
+        billboard : {
+            image : pinBuilder.fromText('325', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[325] = viewer.entities.add({
+        name : '326',
+        parent : nodePins,
+        description : '326 Event: ARRIVE<br>Time: 21970.89999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.37706, 33.766809),
+        billboard : {
+            image : pinBuilder.fromText('326', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[326] = viewer.entities.add({
+        name : '327',
+        parent : nodePins,
+        description : '327 Event: DEPART<br>Time: 22032.89999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.37706, 33.766809),
+        billboard : {
+            image : pinBuilder.fromText('327', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[327] = viewer.entities.add({
+        name : '328',
+        parent : nodePins,
+        description : '328 Event: ARRIVE<br>Time: 24539.89999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.324843, 33.918699),
+        billboard : {
+            image : pinBuilder.fromText('328', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[328] = viewer.entities.add({
+        name : '1',
+        parent : nodePins,
+        description : '1 Event: DEPART<br>Time: 0.0',
+        position : Cesium.Cartesian3.fromDegrees(-118.324843, 33.918699),
+        billboard : {
+            image : pinBuilder.fromText('1', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[329] = viewer.entities.add({
+        name : '2',
+        parent : nodePins,
+        description : '2 Event: ARRIVE<br>Time: 2288.5',
+        position : Cesium.Cartesian3.fromDegrees(-118.375247, 33.762769),
+        billboard : {
+            image : pinBuilder.fromText('2', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[330] = viewer.entities.add({
+        name : '3',
+        parent : nodePins,
+        description : '3 Event: DEPART<br>Time: 2356.0',
+        position : Cesium.Cartesian3.fromDegrees(-118.375247, 33.762769),
+        billboard : {
+            image : pinBuilder.fromText('3', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[331] = viewer.entities.add({
+        name : '4',
+        parent : nodePins,
+        description : '4 Event: ARRIVE<br>Time: 2369.7',
+        position : Cesium.Cartesian3.fromDegrees(-118.375584, 33.763597),
+        billboard : {
+            image : pinBuilder.fromText('4', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[332] = viewer.entities.add({
+        name : '5',
+        parent : nodePins,
+        description : '5 Event: DEPART<br>Time: 2475.7',
+        position : Cesium.Cartesian3.fromDegrees(-118.375584, 33.763597),
+        billboard : {
+            image : pinBuilder.fromText('5', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[333] = viewer.entities.add({
+        name : '6',
+        parent : nodePins,
+        description : '6 Event: ARRIVE<br>Time: 2492.2',
+        position : Cesium.Cartesian3.fromDegrees(-118.376411, 33.764475),
+        billboard : {
+            image : pinBuilder.fromText('6', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[334] = viewer.entities.add({
+        name : '7',
+        parent : nodePins,
+        description : '7 Event: DEPART<br>Time: 2577.8999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.376411, 33.764475),
+        billboard : {
+            image : pinBuilder.fromText('7', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[335] = viewer.entities.add({
+        name : '8',
+        parent : nodePins,
+        description : '8 Event: ARRIVE<br>Time: 2644.3999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.37662, 33.764621),
+        billboard : {
+            image : pinBuilder.fromText('8', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[336] = viewer.entities.add({
+        name : '9',
+        parent : nodePins,
+        description : '9 Event: LOAD_START<br>Time: 2705.8999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.37662, 33.764621),
+        billboard : {
+            image : pinBuilder.fromText('9', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[337] = viewer.entities.add({
+        name : '10',
+        parent : nodePins,
+        description : '10 Event: LOAD_END<br>Time: 2720.8999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.37662, 33.764621),
+        billboard : {
+            image : pinBuilder.fromText('10', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[338] = viewer.entities.add({
+        name : '11',
+        parent : nodePins,
+        description : '11 Event: LAUNCH<br>Time: 2720.8999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.37662, 33.764621),
+        billboard : {
+            image : pinBuilder.fromText('11', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[339] = viewer.entities.add({
+        name : '12',
+        parent : nodePins,
+        description : '12 Event: DRONE_DELIVERY_START<br>Time: 2763.9357294480333',
+        position : Cesium.Cartesian3.fromDegrees(-118.375609, 33.762374),
+        billboard : {
+            image : pinBuilder.fromText('12', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[340] = viewer.entities.add({
+        name : '13',
+        parent : nodePins,
+        description : '13 Event: DRONE_DELIVERY_END<br>Time: 2773.9357294480333',
+        position : Cesium.Cartesian3.fromDegrees(-118.375609, 33.762374),
+        billboard : {
+            image : pinBuilder.fromText('13', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[341] = viewer.entities.add({
+        name : '14',
+        parent : nodePins,
+        description : '14 Event: LAND<br>Time: 2779.850590855954',
+        position : Cesium.Cartesian3.fromDegrees(-118.376048, 33.762304),
+        billboard : {
+            image : pinBuilder.fromText('14', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[342] = viewer.entities.add({
+        name : '15',
+        parent : nodePins,
+        description : '15 Event: DEPART<br>Time: 2854.3999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.376048, 33.762304),
+        billboard : {
+            image : pinBuilder.fromText('15', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[343] = viewer.entities.add({
+        name : '16',
+        parent : nodePins,
+        description : '16 Event: ARRIVE<br>Time: 2887.5999999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.376728, 33.763464),
+        billboard : {
+            image : pinBuilder.fromText('16', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[344] = viewer.entities.add({
+        name : '17',
+        parent : nodePins,
+        description : '17 Event: LOAD_START<br>Time: 2979.0999999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.376728, 33.763464),
+        billboard : {
+            image : pinBuilder.fromText('17', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[345] = viewer.entities.add({
+        name : '18',
+        parent : nodePins,
+        description : '18 Event: LOAD_END<br>Time: 2994.0999999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.376728, 33.763464),
+        billboard : {
+            image : pinBuilder.fromText('18', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[346] = viewer.entities.add({
+        name : '19',
+        parent : nodePins,
+        description : '19 Event: LAUNCH<br>Time: 2994.0999999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.376728, 33.763464),
+        billboard : {
+            image : pinBuilder.fromText('19', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[347] = viewer.entities.add({
+        name : '20',
+        parent : nodePins,
+        description : '20 Event: DRONE_DELIVERY_START<br>Time: 3008.1933977301146',
+        position : Cesium.Cartesian3.fromDegrees(-118.377216, 33.763868),
+        billboard : {
+            image : pinBuilder.fromText('20', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[348] = viewer.entities.add({
+        name : '21',
+        parent : nodePins,
+        description : '21 Event: DRONE_DELIVERY_END<br>Time: 3018.1933977301146',
+        position : Cesium.Cartesian3.fromDegrees(-118.377216, 33.763868),
+        billboard : {
+            image : pinBuilder.fromText('21', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[349] = viewer.entities.add({
+        name : '22',
+        parent : nodePins,
+        description : '22 Event: LAND<br>Time: 3037.540406304093',
+        position : Cesium.Cartesian3.fromDegrees(-118.378505, 33.764444),
+        billboard : {
+            image : pinBuilder.fromText('22', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[350] = viewer.entities.add({
+        name : '23',
+        parent : nodePins,
+        description : '23 Event: DEPART<br>Time: 3087.2999999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.378505, 33.764444),
+        billboard : {
+            image : pinBuilder.fromText('23', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[351] = viewer.entities.add({
+        name : '24',
+        parent : nodePins,
+        description : '24 Event: ARRIVE<br>Time: 3167.999999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379196, 33.764515),
+        billboard : {
+            image : pinBuilder.fromText('24', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[352] = viewer.entities.add({
+        name : '25',
+        parent : nodePins,
+        description : '25 Event: LOAD_START<br>Time: 3243.999999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379196, 33.764515),
+        billboard : {
+            image : pinBuilder.fromText('25', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[353] = viewer.entities.add({
+        name : '26',
+        parent : nodePins,
+        description : '26 Event: LOAD_END<br>Time: 3258.999999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379196, 33.764515),
+        billboard : {
+            image : pinBuilder.fromText('26', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[354] = viewer.entities.add({
+        name : '27',
+        parent : nodePins,
+        description : '27 Event: LAUNCH<br>Time: 3258.999999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379196, 33.764515),
+        billboard : {
+            image : pinBuilder.fromText('27', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[355] = viewer.entities.add({
+        name : '28',
+        parent : nodePins,
+        description : '28 Event: DRONE_DELIVERY_START<br>Time: 3277.6136591950913',
+        position : Cesium.Cartesian3.fromDegrees(-118.38009, 33.76409),
+        billboard : {
+            image : pinBuilder.fromText('28', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[356] = viewer.entities.add({
+        name : '29',
+        parent : nodePins,
+        description : '29 Event: DRONE_DELIVERY_END<br>Time: 3287.6136591950913',
+        position : Cesium.Cartesian3.fromDegrees(-118.38009, 33.76409),
+        billboard : {
+            image : pinBuilder.fromText('29', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[357] = viewer.entities.add({
+        name : '30',
+        parent : nodePins,
+        description : '30 Event: LAND<br>Time: 3339.599999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.378864, 33.763647),
+        billboard : {
+            image : pinBuilder.fromText('30', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[358] = viewer.entities.add({
+        name : '31',
+        parent : nodePins,
+        description : '31 Event: DEPART<br>Time: 3479.599999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.378864, 33.763647),
+        billboard : {
+            image : pinBuilder.fromText('31', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[359] = viewer.entities.add({
+        name : '32',
+        parent : nodePins,
+        description : '32 Event: ARRIVE<br>Time: 3559.699999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.377023, 33.761388),
+        billboard : {
+            image : pinBuilder.fromText('32', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[360] = viewer.entities.add({
+        name : '33',
+        parent : nodePins,
+        description : '33 Event: DEPART<br>Time: 3620.499999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.377023, 33.761388),
+        billboard : {
+            image : pinBuilder.fromText('33', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[361] = viewer.entities.add({
+        name : '34',
+        parent : nodePins,
+        description : '34 Event: ARRIVE<br>Time: 3665.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.376356, 33.759956),
+        billboard : {
+            image : pinBuilder.fromText('34', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[362] = viewer.entities.add({
+        name : '35',
+        parent : nodePins,
+        description : '35 Event: DEPART<br>Time: 3893.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.376356, 33.759956),
+        billboard : {
+            image : pinBuilder.fromText('35', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[363] = viewer.entities.add({
+        name : '36',
+        parent : nodePins,
+        description : '36 Event: ARRIVE<br>Time: 4000.599999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.378448, 33.762662),
+        billboard : {
+            image : pinBuilder.fromText('36', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[364] = viewer.entities.add({
+        name : '37',
+        parent : nodePins,
+        description : '37 Event: LOAD_START<br>Time: 4105.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.378448, 33.762662),
+        billboard : {
+            image : pinBuilder.fromText('37', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[365] = viewer.entities.add({
+        name : '38',
+        parent : nodePins,
+        description : '38 Event: LOAD_END<br>Time: 4120.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.378448, 33.762662),
+        billboard : {
+            image : pinBuilder.fromText('38', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[366] = viewer.entities.add({
+        name : '39',
+        parent : nodePins,
+        description : '39 Event: LAUNCH<br>Time: 4120.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.378448, 33.762662),
+        billboard : {
+            image : pinBuilder.fromText('39', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[367] = viewer.entities.add({
+        name : '40',
+        parent : nodePins,
+        description : '40 Event: DRONE_DELIVERY_START<br>Time: 4139.981861063016',
+        position : Cesium.Cartesian3.fromDegrees(-118.379342, 33.762146),
+        billboard : {
+            image : pinBuilder.fromText('40', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[368] = viewer.entities.add({
+        name : '41',
+        parent : nodePins,
+        description : '41 Event: DRONE_DELIVERY_END<br>Time: 4149.981861063016',
+        position : Cesium.Cartesian3.fromDegrees(-118.379342, 33.762146),
+        billboard : {
+            image : pinBuilder.fromText('41', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[369] = viewer.entities.add({
+        name : '42',
+        parent : nodePins,
+        description : '42 Event: LAND<br>Time: 4217.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379734, 33.763048),
+        billboard : {
+            image : pinBuilder.fromText('42', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[370] = viewer.entities.add({
+        name : '43',
+        parent : nodePins,
+        description : '43 Event: DEPART<br>Time: 4289.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.379734, 33.763048),
+        billboard : {
+            image : pinBuilder.fromText('43', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[371] = viewer.entities.add({
+        name : '44',
+        parent : nodePins,
+        description : '44 Event: ARRIVE<br>Time: 4356.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379485, 33.761347),
+        billboard : {
+            image : pinBuilder.fromText('44', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[372] = viewer.entities.add({
+        name : '45',
+        parent : nodePins,
+        description : '45 Event: DEPART<br>Time: 4427.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379485, 33.761347),
+        billboard : {
+            image : pinBuilder.fromText('45', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[373] = viewer.entities.add({
+        name : '46',
+        parent : nodePins,
+        description : '46 Event: ARRIVE<br>Time: 4508.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379341, 33.760726),
+        billboard : {
+            image : pinBuilder.fromText('46', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[374] = viewer.entities.add({
+        name : '47',
+        parent : nodePins,
+        description : '47 Event: LOAD_START<br>Time: 4659.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379341, 33.760726),
+        billboard : {
+            image : pinBuilder.fromText('47', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[375] = viewer.entities.add({
+        name : '48',
+        parent : nodePins,
+        description : '48 Event: LOAD_END<br>Time: 4674.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379341, 33.760726),
+        billboard : {
+            image : pinBuilder.fromText('48', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[376] = viewer.entities.add({
+        name : '49',
+        parent : nodePins,
+        description : '49 Event: LAUNCH<br>Time: 4674.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.379341, 33.760726),
+        billboard : {
+            image : pinBuilder.fromText('49', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[377] = viewer.entities.add({
+        name : '50',
+        parent : nodePins,
+        description : '50 Event: DRONE_DELIVERY_START<br>Time: 4689.278430411939',
+        position : Cesium.Cartesian3.fromDegrees(-118.379036, 33.760157),
+        billboard : {
+            image : pinBuilder.fromText('50', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[378] = viewer.entities.add({
+        name : '51',
+        parent : nodePins,
+        description : '51 Event: DRONE_DELIVERY_END<br>Time: 4699.278430411939',
+        position : Cesium.Cartesian3.fromDegrees(-118.379036, 33.760157),
+        billboard : {
+            image : pinBuilder.fromText('51', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[379] = viewer.entities.add({
+        name : '52',
+        parent : nodePins,
+        description : '52 Event: LAND<br>Time: 4750.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.380513, 33.762528),
+        billboard : {
+            image : pinBuilder.fromText('52', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[380] = viewer.entities.add({
+        name : '53',
+        parent : nodePins,
+        description : '53 Event: DEPART<br>Time: 4799.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.380513, 33.762528),
+        billboard : {
+            image : pinBuilder.fromText('53', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[381] = viewer.entities.add({
+        name : '54',
+        parent : nodePins,
+        description : '54 Event: ARRIVE<br>Time: 4869.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383583, 33.762694),
+        billboard : {
+            image : pinBuilder.fromText('54', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[382] = viewer.entities.add({
+        name : '55',
+        parent : nodePins,
+        description : '55 Event: DEPART<br>Time: 4972.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383583, 33.762694),
+        billboard : {
+            image : pinBuilder.fromText('55', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[383] = viewer.entities.add({
+        name : '56',
+        parent : nodePins,
+        description : '56 Event: ARRIVE<br>Time: 5010.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384846, 33.760854),
+        billboard : {
+            image : pinBuilder.fromText('56', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[384] = viewer.entities.add({
+        name : '57',
+        parent : nodePins,
+        description : '57 Event: DEPART<br>Time: 5047.899999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.384846, 33.760854),
+        billboard : {
+            image : pinBuilder.fromText('57', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[385] = viewer.entities.add({
+        name : '58',
+        parent : nodePins,
+        description : '58 Event: ARRIVE<br>Time: 5052.199999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.384956, 33.760573),
+        billboard : {
+            image : pinBuilder.fromText('58', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[386] = viewer.entities.add({
+        name : '59',
+        parent : nodePins,
+        description : '59 Event: DEPART<br>Time: 5094.699999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.384956, 33.760573),
+        billboard : {
+            image : pinBuilder.fromText('59', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[387] = viewer.entities.add({
+        name : '60',
+        parent : nodePins,
+        description : '60 Event: ARRIVE<br>Time: 5121.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.385354, 33.759379),
+        billboard : {
+            image : pinBuilder.fromText('60', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[388] = viewer.entities.add({
+        name : '61',
+        parent : nodePins,
+        description : '61 Event: DEPART<br>Time: 5193.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.385354, 33.759379),
+        billboard : {
+            image : pinBuilder.fromText('61', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[389] = viewer.entities.add({
+        name : '62',
+        parent : nodePins,
+        description : '62 Event: ARRIVE<br>Time: 5313.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386038, 33.760712),
+        billboard : {
+            image : pinBuilder.fromText('62', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[390] = viewer.entities.add({
+        name : '63',
+        parent : nodePins,
+        description : '63 Event: LOAD_START<br>Time: 5348.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386038, 33.760712),
+        billboard : {
+            image : pinBuilder.fromText('63', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[391] = viewer.entities.add({
+        name : '64',
+        parent : nodePins,
+        description : '64 Event: LOAD_END<br>Time: 5363.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386038, 33.760712),
+        billboard : {
+            image : pinBuilder.fromText('64', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[392] = viewer.entities.add({
+        name : '65',
+        parent : nodePins,
+        description : '65 Event: LAUNCH<br>Time: 5363.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386038, 33.760712),
+        billboard : {
+            image : pinBuilder.fromText('65', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[393] = viewer.entities.add({
+        name : '66',
+        parent : nodePins,
+        description : '66 Event: DRONE_DELIVERY_START<br>Time: 5374.868086819953',
+        position : Cesium.Cartesian3.fromDegrees(-118.386344, 33.76098),
+        billboard : {
+            image : pinBuilder.fromText('66', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[394] = viewer.entities.add({
+        name : '67',
+        parent : nodePins,
+        description : '67 Event: DRONE_DELIVERY_END<br>Time: 5384.868086819953',
+        position : Cesium.Cartesian3.fromDegrees(-118.386344, 33.76098),
+        billboard : {
+            image : pinBuilder.fromText('67', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[395] = viewer.entities.add({
+        name : '68',
+        parent : nodePins,
+        description : '68 Event: LAND<br>Time: 5500.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383451, 33.760468),
+        billboard : {
+            image : pinBuilder.fromText('68', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[396] = viewer.entities.add({
+        name : '69',
+        parent : nodePins,
+        description : '69 Event: DEPART<br>Time: 5562.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383451, 33.760468),
+        billboard : {
+            image : pinBuilder.fromText('69', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[397] = viewer.entities.add({
+        name : '70',
+        parent : nodePins,
+        description : '70 Event: ARRIVE<br>Time: 5631.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.382147, 33.760687),
+        billboard : {
+            image : pinBuilder.fromText('70', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[398] = viewer.entities.add({
+        name : '71',
+        parent : nodePins,
+        description : '71 Event: DEPART<br>Time: 5727.399999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.382147, 33.760687),
+        billboard : {
+            image : pinBuilder.fromText('71', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[399] = viewer.entities.add({
+        name : '72',
+        parent : nodePins,
+        description : '72 Event: ARRIVE<br>Time: 5963.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.380914, 33.760136),
+        billboard : {
+            image : pinBuilder.fromText('72', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[400] = viewer.entities.add({
+        name : '73',
+        parent : nodePins,
+        description : '73 Event: LOAD_START<br>Time: 6019.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.380914, 33.760136),
+        billboard : {
+            image : pinBuilder.fromText('73', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[401] = viewer.entities.add({
+        name : '74',
+        parent : nodePins,
+        description : '74 Event: LOAD_END<br>Time: 6034.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.380914, 33.760136),
+        billboard : {
+            image : pinBuilder.fromText('74', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[402] = viewer.entities.add({
+        name : '75',
+        parent : nodePins,
+        description : '75 Event: LAUNCH<br>Time: 6034.5999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.380914, 33.760136),
+        billboard : {
+            image : pinBuilder.fromText('75', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[403] = viewer.entities.add({
+        name : '76',
+        parent : nodePins,
+        description : '76 Event: DRONE_DELIVERY_START<br>Time: 6056.2198419116185',
+        position : Cesium.Cartesian3.fromDegrees(-118.380989, 33.761183),
+        billboard : {
+            image : pinBuilder.fromText('76', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[404] = viewer.entities.add({
+        name : '77',
+        parent : nodePins,
+        description : '77 Event: DRONE_DELIVERY_END<br>Time: 6066.2198419116185',
+        position : Cesium.Cartesian3.fromDegrees(-118.380989, 33.761183),
+        billboard : {
+            image : pinBuilder.fromText('77', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[405] = viewer.entities.add({
+        name : '78',
+        parent : nodePins,
+        description : '78 Event: LAND<br>Time: 6222.499999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.380729, 33.756671),
+        billboard : {
+            image : pinBuilder.fromText('78', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[406] = viewer.entities.add({
+        name : '79',
+        parent : nodePins,
+        description : '79 Event: DEPART<br>Time: 6322.499999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.380729, 33.756671),
+        billboard : {
+            image : pinBuilder.fromText('79', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[407] = viewer.entities.add({
+        name : '80',
+        parent : nodePins,
+        description : '80 Event: ARRIVE<br>Time: 6332.399999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.381303, 33.756162),
+        billboard : {
+            image : pinBuilder.fromText('80', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[408] = viewer.entities.add({
+        name : '81',
+        parent : nodePins,
+        description : '81 Event: DEPART<br>Time: 6429.399999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.381303, 33.756162),
+        billboard : {
+            image : pinBuilder.fromText('81', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[409] = viewer.entities.add({
+        name : '82',
+        parent : nodePins,
+        description : '82 Event: ARRIVE<br>Time: 6483.699999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.381522, 33.754607),
+        billboard : {
+            image : pinBuilder.fromText('82', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[410] = viewer.entities.add({
+        name : '83',
+        parent : nodePins,
+        description : '83 Event: DEPART<br>Time: 6535.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.381522, 33.754607),
+        billboard : {
+            image : pinBuilder.fromText('83', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[411] = viewer.entities.add({
+        name : '84',
+        parent : nodePins,
+        description : '84 Event: ARRIVE<br>Time: 6628.399999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383649, 33.75486),
+        billboard : {
+            image : pinBuilder.fromText('84', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[412] = viewer.entities.add({
+        name : '85',
+        parent : nodePins,
+        description : '85 Event: DEPART<br>Time: 6711.399999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383649, 33.75486),
+        billboard : {
+            image : pinBuilder.fromText('85', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[413] = viewer.entities.add({
+        name : '86',
+        parent : nodePins,
+        description : '86 Event: ARRIVE<br>Time: 6725.799999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.38332, 33.754401),
+        billboard : {
+            image : pinBuilder.fromText('86', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[414] = viewer.entities.add({
+        name : '87',
+        parent : nodePins,
+        description : '87 Event: DEPART<br>Time: 6760.499999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.38332, 33.754401),
+        billboard : {
+            image : pinBuilder.fromText('87', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[415] = viewer.entities.add({
+        name : '88',
+        parent : nodePins,
+        description : '88 Event: ARRIVE<br>Time: 6832.599999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.385752, 33.75546),
+        billboard : {
+            image : pinBuilder.fromText('88', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[416] = viewer.entities.add({
+        name : '89',
+        parent : nodePins,
+        description : '89 Event: DEPART<br>Time: 6952.099999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.385752, 33.75546),
+        billboard : {
+            image : pinBuilder.fromText('89', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[417] = viewer.entities.add({
+        name : '90',
+        parent : nodePins,
+        description : '90 Event: ARRIVE<br>Time: 7190.199999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.384736, 33.757955),
+        billboard : {
+            image : pinBuilder.fromText('90', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[418] = viewer.entities.add({
+        name : '91',
+        parent : nodePins,
+        description : '91 Event: DEPART<br>Time: 7231.199999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.384736, 33.757955),
+        billboard : {
+            image : pinBuilder.fromText('91', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[419] = viewer.entities.add({
+        name : '92',
+        parent : nodePins,
+        description : '92 Event: ARRIVE<br>Time: 7295.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383975, 33.758038),
+        billboard : {
+            image : pinBuilder.fromText('92', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[420] = viewer.entities.add({
+        name : '93',
+        parent : nodePins,
+        description : '93 Event: LOAD_START<br>Time: 7382.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383975, 33.758038),
+        billboard : {
+            image : pinBuilder.fromText('93', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[421] = viewer.entities.add({
+        name : '94',
+        parent : nodePins,
+        description : '94 Event: LOAD_END<br>Time: 7397.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383975, 33.758038),
+        billboard : {
+            image : pinBuilder.fromText('94', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[422] = viewer.entities.add({
+        name : '95',
+        parent : nodePins,
+        description : '95 Event: LAUNCH<br>Time: 7397.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383975, 33.758038),
+        billboard : {
+            image : pinBuilder.fromText('95', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[423] = viewer.entities.add({
+        name : '96',
+        parent : nodePins,
+        description : '96 Event: DRONE_DELIVERY_START<br>Time: 7418.008838561375',
+        position : Cesium.Cartesian3.fromDegrees(-118.382893, 33.758342),
+        billboard : {
+            image : pinBuilder.fromText('96', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[424] = viewer.entities.add({
+        name : '97',
+        parent : nodePins,
+        description : '97 Event: DRONE_DELIVERY_END<br>Time: 7428.008838561375',
+        position : Cesium.Cartesian3.fromDegrees(-118.382893, 33.758342),
+        billboard : {
+            image : pinBuilder.fromText('97', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[425] = viewer.entities.add({
+        name : '98',
+        parent : nodePins,
+        description : '98 Event: LAND<br>Time: 7449.462594735681',
+        position : Cesium.Cartesian3.fromDegrees(-118.383264, 33.757024),
+        billboard : {
+            image : pinBuilder.fromText('98', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[426] = viewer.entities.add({
+        name : '99',
+        parent : nodePins,
+        description : '99 Event: DEPART<br>Time: 7486.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.383264, 33.757024),
+        billboard : {
+            image : pinBuilder.fromText('99', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[427] = viewer.entities.add({
+        name : '100',
+        parent : nodePins,
+        description : '100 Event: ARRIVE<br>Time: 7595.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.381923, 33.757446),
+        billboard : {
+            image : pinBuilder.fromText('100', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[428] = viewer.entities.add({
+        name : '101',
+        parent : nodePins,
+        description : '101 Event: LOAD_START<br>Time: 7808.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.381923, 33.757446),
+        billboard : {
+            image : pinBuilder.fromText('101', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[429] = viewer.entities.add({
+        name : '102',
+        parent : nodePins,
+        description : '102 Event: LOAD_END<br>Time: 7823.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.381923, 33.757446),
+        billboard : {
+            image : pinBuilder.fromText('102', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[430] = viewer.entities.add({
+        name : '103',
+        parent : nodePins,
+        description : '103 Event: LAUNCH<br>Time: 7823.0999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.381923, 33.757446),
+        billboard : {
+            image : pinBuilder.fromText('103', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[431] = viewer.entities.add({
+        name : '104',
+        parent : nodePins,
+        description : '104 Event: DRONE_DELIVERY_START<br>Time: 7865.472462146599',
+        position : Cesium.Cartesian3.fromDegrees(-118.38467, 33.7569),
+        billboard : {
+            image : pinBuilder.fromText('104', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[432] = viewer.entities.add({
+        name : '105',
+        parent : nodePins,
+        description : '105 Event: DRONE_DELIVERY_END<br>Time: 7875.472462146599',
+        position : Cesium.Cartesian3.fromDegrees(-118.38467, 33.7569),
+        billboard : {
+            image : pinBuilder.fromText('105', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[433] = viewer.entities.add({
+        name : '106',
+        parent : nodePins,
+        description : '106 Event: LAND<br>Time: 7940.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386927, 33.756995),
+        billboard : {
+            image : pinBuilder.fromText('106', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[434] = viewer.entities.add({
+        name : '107',
+        parent : nodePins,
+        description : '107 Event: DEPART<br>Time: 8025.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.386927, 33.756995),
+        billboard : {
+            image : pinBuilder.fromText('107', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[435] = viewer.entities.add({
+        name : '108',
+        parent : nodePins,
+        description : '108 Event: ARRIVE<br>Time: 8050.799999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.388113, 33.756472),
+        billboard : {
+            image : pinBuilder.fromText('108', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[436] = viewer.entities.add({
+        name : '109',
+        parent : nodePins,
+        description : '109 Event: DEPART<br>Time: 8103.799999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.388113, 33.756472),
+        billboard : {
+            image : pinBuilder.fromText('109', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[437] = viewer.entities.add({
+        name : '110',
+        parent : nodePins,
+        description : '110 Event: ARRIVE<br>Time: 8135.299999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.387307, 33.760072),
+        billboard : {
+            image : pinBuilder.fromText('110', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[438] = viewer.entities.add({
+        name : '111',
+        parent : nodePins,
+        description : '111 Event: LOAD_START<br>Time: 8182.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.387307, 33.760072),
+        billboard : {
+            image : pinBuilder.fromText('111', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[439] = viewer.entities.add({
+        name : '112',
+        parent : nodePins,
+        description : '112 Event: LOAD_END<br>Time: 8197.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.387307, 33.760072),
+        billboard : {
+            image : pinBuilder.fromText('112', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[440] = viewer.entities.add({
+        name : '113',
+        parent : nodePins,
+        description : '113 Event: LAUNCH<br>Time: 8197.999999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.387307, 33.760072),
+        billboard : {
+            image : pinBuilder.fromText('113', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[441] = viewer.entities.add({
+        name : '114',
+        parent : nodePins,
+        description : '114 Event: DRONE_DELIVERY_START<br>Time: 8214.366612717702',
+        position : Cesium.Cartesian3.fromDegrees(-118.387924, 33.760571),
+        billboard : {
+            image : pinBuilder.fromText('114', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[442] = viewer.entities.add({
+        name : '115',
+        parent : nodePins,
+        description : '115 Event: DRONE_DELIVERY_END<br>Time: 8224.366612717702',
+        position : Cesium.Cartesian3.fromDegrees(-118.387924, 33.760571),
+        billboard : {
+            image : pinBuilder.fromText('115', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[443] = viewer.entities.add({
+        name : '116',
+        parent : nodePins,
+        description : '116 Event: LAND<br>Time: 8238.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.388466, 33.760443),
+        billboard : {
+            image : pinBuilder.fromText('116', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[444] = viewer.entities.add({
+        name : '117',
+        parent : nodePins,
+        description : '117 Event: DEPART<br>Time: 8306.899999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.388466, 33.760443),
+        billboard : {
+            image : pinBuilder.fromText('117', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[445] = viewer.entities.add({
+        name : '118',
+        parent : nodePins,
+        description : '118 Event: ARRIVE<br>Time: 8318.799999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.388614, 33.760013),
+        billboard : {
+            image : pinBuilder.fromText('118', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[446] = viewer.entities.add({
+        name : '119',
+        parent : nodePins,
+        description : '119 Event: DEPART<br>Time: 8392.799999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.388614, 33.760013),
+        billboard : {
+            image : pinBuilder.fromText('119', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[447] = viewer.entities.add({
+        name : '120',
+        parent : nodePins,
+        description : '120 Event: ARRIVE<br>Time: 8476.199999999997',
+        position : Cesium.Cartesian3.fromDegrees(-118.38715, 33.758954),
+        billboard : {
+            image : pinBuilder.fromText('120', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[448] = viewer.entities.add({
+        name : '121',
+        parent : nodePins,
+        description : '121 Event: DEPART<br>Time: 8518.999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.38715, 33.758954),
+        billboard : {
+            image : pinBuilder.fromText('121', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[449] = viewer.entities.add({
+        name : '122',
+        parent : nodePins,
+        description : '122 Event: ARRIVE<br>Time: 8664.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.390196, 33.757063),
+        billboard : {
+            image : pinBuilder.fromText('122', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[450] = viewer.entities.add({
+        name : '123',
+        parent : nodePins,
+        description : '123 Event: DEPART<br>Time: 9032.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.390196, 33.757063),
+        billboard : {
+            image : pinBuilder.fromText('123', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[451] = viewer.entities.add({
+        name : '124',
+        parent : nodePins,
+        description : '124 Event: ARRIVE<br>Time: 9037.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.389938, 33.756864),
+        billboard : {
+            image : pinBuilder.fromText('124', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[452] = viewer.entities.add({
+        name : '125',
+        parent : nodePins,
+        description : '125 Event: DEPART<br>Time: 9098.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.389938, 33.756864),
+        billboard : {
+            image : pinBuilder.fromText('125', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[453] = viewer.entities.add({
+        name : '126',
+        parent : nodePins,
+        description : '126 Event: ARRIVE<br>Time: 9116.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.389045, 33.756489),
+        billboard : {
+            image : pinBuilder.fromText('126', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[454] = viewer.entities.add({
+        name : '127',
+        parent : nodePins,
+        description : '127 Event: DEPART<br>Time: 9205.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.389045, 33.756489),
+        billboard : {
+            image : pinBuilder.fromText('127', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[455] = viewer.entities.add({
+        name : '128',
+        parent : nodePins,
+        description : '128 Event: ARRIVE<br>Time: 9255.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.39088, 33.758019),
+        billboard : {
+            image : pinBuilder.fromText('128', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[456] = viewer.entities.add({
+        name : '129',
+        parent : nodePins,
+        description : '129 Event: LOAD_START<br>Time: 9342.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.39088, 33.758019),
+        billboard : {
+            image : pinBuilder.fromText('129', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[457] = viewer.entities.add({
+        name : '130',
+        parent : nodePins,
+        description : '130 Event: LOAD_END<br>Time: 9357.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.39088, 33.758019),
+        billboard : {
+            image : pinBuilder.fromText('130', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[458] = viewer.entities.add({
+        name : '131',
+        parent : nodePins,
+        description : '131 Event: LAUNCH<br>Time: 9357.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.39088, 33.758019),
+        billboard : {
+            image : pinBuilder.fromText('131', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[459] = viewer.entities.add({
+        name : '132',
+        parent : nodePins,
+        description : '132 Event: DRONE_DELIVERY_START<br>Time: 9392.766826242505',
+        position : Cesium.Cartesian3.fromDegrees(-118.392474, 33.759371),
+        billboard : {
+            image : pinBuilder.fromText('132', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[460] = viewer.entities.add({
+        name : '133',
+        parent : nodePins,
+        description : '133 Event: DRONE_DELIVERY_END<br>Time: 9402.766826242505',
+        position : Cesium.Cartesian3.fromDegrees(-118.392474, 33.759371),
+        billboard : {
+            image : pinBuilder.fromText('133', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[461] = viewer.entities.add({
+        name : '134',
+        parent : nodePins,
+        description : '134 Event: LAND<br>Time: 9422.450147720489',
+        position : Cesium.Cartesian3.fromDegrees(-118.393837, 33.758874),
+        billboard : {
+            image : pinBuilder.fromText('134', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[462] = viewer.entities.add({
+        name : '135',
+        parent : nodePins,
+        description : '135 Event: DEPART<br>Time: 9492.499999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393837, 33.758874),
+        billboard : {
+            image : pinBuilder.fromText('135', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[463] = viewer.entities.add({
+        name : '136',
+        parent : nodePins,
+        description : '136 Event: ARRIVE<br>Time: 9558.099999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393819, 33.757218),
+        billboard : {
+            image : pinBuilder.fromText('136', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[464] = viewer.entities.add({
+        name : '137',
+        parent : nodePins,
+        description : '137 Event: LOAD_START<br>Time: 9607.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393819, 33.757218),
+        billboard : {
+            image : pinBuilder.fromText('137', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[465] = viewer.entities.add({
+        name : '138',
+        parent : nodePins,
+        description : '138 Event: LOAD_END<br>Time: 9622.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393819, 33.757218),
+        billboard : {
+            image : pinBuilder.fromText('138', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[466] = viewer.entities.add({
+        name : '139',
+        parent : nodePins,
+        description : '139 Event: LAUNCH<br>Time: 9622.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393819, 33.757218),
+        billboard : {
+            image : pinBuilder.fromText('139', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[467] = viewer.entities.add({
+        name : '140',
+        parent : nodePins,
+        description : '140 Event: DRONE_DELIVERY_START<br>Time: 9656.423060115312',
+        position : Cesium.Cartesian3.fromDegrees(-118.393264, 33.755446),
+        billboard : {
+            image : pinBuilder.fromText('140', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[468] = viewer.entities.add({
+        name : '141',
+        parent : nodePins,
+        description : '141 Event: DRONE_DELIVERY_END<br>Time: 9666.423060115312',
+        position : Cesium.Cartesian3.fromDegrees(-118.393264, 33.755446),
+        billboard : {
+            image : pinBuilder.fromText('141', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[469] = viewer.entities.add({
+        name : '142',
+        parent : nodePins,
+        description : '142 Event: LAND<br>Time: 9686.88795616713',
+        position : Cesium.Cartesian3.fromDegrees(-118.394722, 33.755876),
+        billboard : {
+            image : pinBuilder.fromText('142', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[470] = viewer.entities.add({
+        name : '143',
+        parent : nodePins,
+        description : '143 Event: DEPART<br>Time: 9825.499999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.394722, 33.755876),
+        billboard : {
+            image : pinBuilder.fromText('143', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[471] = viewer.entities.add({
+        name : '144',
+        parent : nodePins,
+        description : '144 Event: ARRIVE<br>Time: 9920.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395001, 33.756615),
+        billboard : {
+            image : pinBuilder.fromText('144', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[472] = viewer.entities.add({
+        name : '145',
+        parent : nodePins,
+        description : '145 Event: LOAD_START<br>Time: 9978.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395001, 33.756615),
+        billboard : {
+            image : pinBuilder.fromText('145', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[473] = viewer.entities.add({
+        name : '146',
+        parent : nodePins,
+        description : '146 Event: LOAD_END<br>Time: 9993.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395001, 33.756615),
+        billboard : {
+            image : pinBuilder.fromText('146', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[474] = viewer.entities.add({
+        name : '147',
+        parent : nodePins,
+        description : '147 Event: LAUNCH<br>Time: 9993.199999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395001, 33.756615),
+        billboard : {
+            image : pinBuilder.fromText('147', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[475] = viewer.entities.add({
+        name : '148',
+        parent : nodePins,
+        description : '148 Event: DRONE_DELIVERY_START<br>Time: 10035.035116438716',
+        position : Cesium.Cartesian3.fromDegrees(-118.395696, 33.754364),
+        billboard : {
+            image : pinBuilder.fromText('148', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[476] = viewer.entities.add({
+        name : '149',
+        parent : nodePins,
+        description : '149 Event: DRONE_DELIVERY_END<br>Time: 10045.035116438716',
+        position : Cesium.Cartesian3.fromDegrees(-118.395696, 33.754364),
+        billboard : {
+            image : pinBuilder.fromText('149', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[477] = viewer.entities.add({
+        name : '150',
+        parent : nodePins,
+        description : '150 Event: LAND<br>Time: 10104.228005173349',
+        position : Cesium.Cartesian3.fromDegrees(-118.391331, 33.753551),
+        billboard : {
+            image : pinBuilder.fromText('150', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[478] = viewer.entities.add({
+        name : '151',
+        parent : nodePins,
+        description : '151 Event: DEPART<br>Time: 10129.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.391331, 33.753551),
+        billboard : {
+            image : pinBuilder.fromText('151', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[479] = viewer.entities.add({
+        name : '152',
+        parent : nodePins,
+        description : '152 Event: ARRIVE<br>Time: 10297.999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.391444, 33.755528),
+        billboard : {
+            image : pinBuilder.fromText('152', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[480] = viewer.entities.add({
+        name : '153',
+        parent : nodePins,
+        description : '153 Event: DEPART<br>Time: 10333.999999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.391444, 33.755528),
+        billboard : {
+            image : pinBuilder.fromText('153', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[481] = viewer.entities.add({
+        name : '154',
+        parent : nodePins,
+        description : '154 Event: ARRIVE<br>Time: 10407.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.392718, 33.757435),
+        billboard : {
+            image : pinBuilder.fromText('154', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[482] = viewer.entities.add({
+        name : '155',
+        parent : nodePins,
+        description : '155 Event: DEPART<br>Time: 10444.899999999996',
+        position : Cesium.Cartesian3.fromDegrees(-118.392718, 33.757435),
+        billboard : {
+            image : pinBuilder.fromText('155', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[483] = viewer.entities.add({
+        name : '156',
+        parent : nodePins,
+        description : '156 Event: ARRIVE<br>Time: 10493.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.392244, 33.75846),
+        billboard : {
+            image : pinBuilder.fromText('156', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[484] = viewer.entities.add({
+        name : '157',
+        parent : nodePins,
+        description : '157 Event: DEPART<br>Time: 10610.699999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.392244, 33.75846),
+        billboard : {
+            image : pinBuilder.fromText('157', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[485] = viewer.entities.add({
+        name : '158',
+        parent : nodePins,
+        description : '158 Event: ARRIVE<br>Time: 10703.599999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393721, 33.759525),
+        billboard : {
+            image : pinBuilder.fromText('158', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[486] = viewer.entities.add({
+        name : '159',
+        parent : nodePins,
+        description : '159 Event: DEPART<br>Time: 10757.599999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393721, 33.759525),
+        billboard : {
+            image : pinBuilder.fromText('159', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[487] = viewer.entities.add({
+        name : '160',
+        parent : nodePins,
+        description : '160 Event: ARRIVE<br>Time: 10942.599999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.393208, 33.760091),
+        billboard : {
+            image : pinBuilder.fromText('160', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[488] = viewer.entities.add({
+        name : '161',
+        parent : nodePins,
+        description : '161 Event: LOAD_START<br>Time: 11013.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393208, 33.760091),
+        billboard : {
+            image : pinBuilder.fromText('161', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[489] = viewer.entities.add({
+        name : '162',
+        parent : nodePins,
+        description : '162 Event: LOAD_END<br>Time: 11028.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393208, 33.760091),
+        billboard : {
+            image : pinBuilder.fromText('162', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[490] = viewer.entities.add({
+        name : '163',
+        parent : nodePins,
+        description : '163 Event: LAUNCH<br>Time: 11028.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.393208, 33.760091),
+        billboard : {
+            image : pinBuilder.fromText('163', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[491] = viewer.entities.add({
+        name : '164',
+        parent : nodePins,
+        description : '164 Event: DRONE_DELIVERY_START<br>Time: 11102.216171794287',
+        position : Cesium.Cartesian3.fromDegrees(-118.390754, 33.756298),
+        billboard : {
+            image : pinBuilder.fromText('164', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[492] = viewer.entities.add({
+        name : '165',
+        parent : nodePins,
+        description : '165 Event: DRONE_DELIVERY_END<br>Time: 11112.216171794287',
+        position : Cesium.Cartesian3.fromDegrees(-118.390754, 33.756298),
+        billboard : {
+            image : pinBuilder.fromText('165', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[493] = viewer.entities.add({
+        name : '166',
+        parent : nodePins,
+        description : '166 Event: LAND<br>Time: 11193.48273444768',
+        position : Cesium.Cartesian3.fromDegrees(-118.395493, 33.753037),
+        billboard : {
+            image : pinBuilder.fromText('166', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[494] = viewer.entities.add({
+        name : '167',
+        parent : nodePins,
+        description : '167 Event: DEPART<br>Time: 11253.499999999995',
+        position : Cesium.Cartesian3.fromDegrees(-118.395493, 33.753037),
+        billboard : {
+            image : pinBuilder.fromText('167', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[495] = viewer.entities.add({
+        name : '168',
+        parent : nodePins,
+        description : '168 Event: ARRIVE<br>Time: 11287.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.39389, 33.752509),
+        billboard : {
+            image : pinBuilder.fromText('168', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[496] = viewer.entities.add({
+        name : '169',
+        parent : nodePins,
+        description : '169 Event: DEPART<br>Time: 11332.399999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.39389, 33.752509),
+        billboard : {
+            image : pinBuilder.fromText('169', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[497] = viewer.entities.add({
+        name : '170',
+        parent : nodePins,
+        description : '170 Event: ARRIVE<br>Time: 11378.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.391523, 33.752549),
+        billboard : {
+            image : pinBuilder.fromText('170', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[498] = viewer.entities.add({
+        name : '171',
+        parent : nodePins,
+        description : '171 Event: DEPART<br>Time: 11462.899999999994',
+        position : Cesium.Cartesian3.fromDegrees(-118.391523, 33.752549),
+        billboard : {
+            image : pinBuilder.fromText('171', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[499] = viewer.entities.add({
+        name : '172',
+        parent : nodePins,
+        description : '172 Event: ARRIVE<br>Time: 11678.699999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.394421, 33.753682),
+        billboard : {
+            image : pinBuilder.fromText('172', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[500] = viewer.entities.add({
+        name : '173',
+        parent : nodePins,
+        description : '173 Event: LOAD_START<br>Time: 11769.699999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.394421, 33.753682),
+        billboard : {
+            image : pinBuilder.fromText('173', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[501] = viewer.entities.add({
+        name : '174',
+        parent : nodePins,
+        description : '174 Event: LOAD_END<br>Time: 11784.699999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.394421, 33.753682),
+        billboard : {
+            image : pinBuilder.fromText('174', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[502] = viewer.entities.add({
+        name : '175',
+        parent : nodePins,
+        description : '175 Event: LAUNCH<br>Time: 11784.699999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.394421, 33.753682),
+        billboard : {
+            image : pinBuilder.fromText('175', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[503] = viewer.entities.add({
+        name : '176',
+        parent : nodePins,
+        description : '176 Event: DRONE_DELIVERY_START<br>Time: 11824.113877552638',
+        position : Cesium.Cartesian3.fromDegrees(-118.39702, 33.75362),
+        billboard : {
+            image : pinBuilder.fromText('176', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[504] = viewer.entities.add({
+        name : '177',
+        parent : nodePins,
+        description : '177 Event: DRONE_DELIVERY_END<br>Time: 11834.113877552638',
+        position : Cesium.Cartesian3.fromDegrees(-118.39702, 33.75362),
+        billboard : {
+            image : pinBuilder.fromText('177', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[505] = viewer.entities.add({
+        name : '178',
+        parent : nodePins,
+        description : '178 Event: LAND<br>Time: 12015.599999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.397106, 33.75187),
+        billboard : {
+            image : pinBuilder.fromText('178', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[506] = viewer.entities.add({
+        name : '179',
+        parent : nodePins,
+        description : '179 Event: DEPART<br>Time: 12064.099999999993',
+        position : Cesium.Cartesian3.fromDegrees(-118.397106, 33.75187),
+        billboard : {
+            image : pinBuilder.fromText('179', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[507] = viewer.entities.add({
+        name : '180',
+        parent : nodePins,
+        description : '180 Event: ARRIVE<br>Time: 12082.899999999992',
+        position : Cesium.Cartesian3.fromDegrees(-118.397688, 33.751576),
+        billboard : {
+            image : pinBuilder.fromText('180', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[508] = viewer.entities.add({
+        name : '181',
+        parent : nodePins,
+        description : '181 Event: DEPART<br>Time: 12269.899999999992',
+        position : Cesium.Cartesian3.fromDegrees(-118.397688, 33.751576),
+        billboard : {
+            image : pinBuilder.fromText('181', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[509] = viewer.entities.add({
+        name : '182',
+        parent : nodePins,
+        description : '182 Event: ARRIVE<br>Time: 12458.299999999992',
+        position : Cesium.Cartesian3.fromDegrees(-118.397244, 33.755975),
+        billboard : {
+            image : pinBuilder.fromText('182', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[510] = viewer.entities.add({
+        name : '183',
+        parent : nodePins,
+        description : '183 Event: DEPART<br>Time: 12568.599999999991',
+        position : Cesium.Cartesian3.fromDegrees(-118.397244, 33.755975),
+        billboard : {
+            image : pinBuilder.fromText('183', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[511] = viewer.entities.add({
+        name : '184',
+        parent : nodePins,
+        description : '184 Event: ARRIVE<br>Time: 12608.599999999991',
+        position : Cesium.Cartesian3.fromDegrees(-118.397185, 33.756681),
+        billboard : {
+            image : pinBuilder.fromText('184', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[512] = viewer.entities.add({
+        name : '185',
+        parent : nodePins,
+        description : '185 Event: DEPART<br>Time: 12811.599999999991',
+        position : Cesium.Cartesian3.fromDegrees(-118.397185, 33.756681),
+        billboard : {
+            image : pinBuilder.fromText('185', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[513] = viewer.entities.add({
+        name : '186',
+        parent : nodePins,
+        description : '186 Event: ARRIVE<br>Time: 12874.99999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397638, 33.755121),
+        billboard : {
+            image : pinBuilder.fromText('186', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[514] = viewer.entities.add({
+        name : '187',
+        parent : nodePins,
+        description : '187 Event: DEPART<br>Time: 12961.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397638, 33.755121),
+        billboard : {
+            image : pinBuilder.fromText('187', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[515] = viewer.entities.add({
+        name : '188',
+        parent : nodePins,
+        description : '188 Event: ARRIVE<br>Time: 13003.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398289, 33.754699),
+        billboard : {
+            image : pinBuilder.fromText('188', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[516] = viewer.entities.add({
+        name : '189',
+        parent : nodePins,
+        description : '189 Event: DEPART<br>Time: 13064.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.398289, 33.754699),
+        billboard : {
+            image : pinBuilder.fromText('189', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[517] = viewer.entities.add({
+        name : '190',
+        parent : nodePins,
+        description : '190 Event: ARRIVE<br>Time: 13110.09999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396963, 33.754211),
+        billboard : {
+            image : pinBuilder.fromText('190', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[518] = viewer.entities.add({
+        name : '191',
+        parent : nodePins,
+        description : '191 Event: DEPART<br>Time: 13220.19999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396963, 33.754211),
+        billboard : {
+            image : pinBuilder.fromText('191', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[519] = viewer.entities.add({
+        name : '192',
+        parent : nodePins,
+        description : '192 Event: ARRIVE<br>Time: 13273.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397162, 33.756875),
+        billboard : {
+            image : pinBuilder.fromText('192', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[520] = viewer.entities.add({
+        name : '193',
+        parent : nodePins,
+        description : '193 Event: LOAD_START<br>Time: 13379.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397162, 33.756875),
+        billboard : {
+            image : pinBuilder.fromText('193', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[521] = viewer.entities.add({
+        name : '194',
+        parent : nodePins,
+        description : '194 Event: LOAD_END<br>Time: 13394.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397162, 33.756875),
+        billboard : {
+            image : pinBuilder.fromText('194', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[522] = viewer.entities.add({
+        name : '195',
+        parent : nodePins,
+        description : '195 Event: LAUNCH<br>Time: 13394.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397162, 33.756875),
+        billboard : {
+            image : pinBuilder.fromText('195', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[523] = viewer.entities.add({
+        name : '196',
+        parent : nodePins,
+        description : '196 Event: DRONE_DELIVERY_START<br>Time: 13412.388968787474',
+        position : Cesium.Cartesian3.fromDegrees(-118.396455, 33.757397),
+        billboard : {
+            image : pinBuilder.fromText('196', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[524] = viewer.entities.add({
+        name : '197',
+        parent : nodePins,
+        description : '197 Event: DRONE_DELIVERY_END<br>Time: 13422.388968787474',
+        position : Cesium.Cartesian3.fromDegrees(-118.396455, 33.757397),
+        billboard : {
+            image : pinBuilder.fromText('197', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[525] = viewer.entities.add({
+        name : '198',
+        parent : nodePins,
+        description : '198 Event: LAND<br>Time: 13442.643153648147',
+        position : Cesium.Cartesian3.fromDegrees(-118.3969, 33.75862),
+        billboard : {
+            image : pinBuilder.fromText('198', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[526] = viewer.entities.add({
+        name : '199',
+        parent : nodePins,
+        description : '199 Event: DEPART<br>Time: 13530.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.3969, 33.75862),
+        billboard : {
+            image : pinBuilder.fromText('199', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[527] = viewer.entities.add({
+        name : '200',
+        parent : nodePins,
+        description : '200 Event: ARRIVE<br>Time: 13548.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398119, 33.760429),
+        billboard : {
+            image : pinBuilder.fromText('200', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[528] = viewer.entities.add({
+        name : '201',
+        parent : nodePins,
+        description : '201 Event: LOAD_START<br>Time: 13603.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398119, 33.760429),
+        billboard : {
+            image : pinBuilder.fromText('201', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[529] = viewer.entities.add({
+        name : '202',
+        parent : nodePins,
+        description : '202 Event: LOAD_END<br>Time: 13618.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398119, 33.760429),
+        billboard : {
+            image : pinBuilder.fromText('202', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[530] = viewer.entities.add({
+        name : '203',
+        parent : nodePins,
+        description : '203 Event: LAUNCH<br>Time: 13618.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398119, 33.760429),
+        billboard : {
+            image : pinBuilder.fromText('203', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[531] = viewer.entities.add({
+        name : '204',
+        parent : nodePins,
+        description : '204 Event: DRONE_DELIVERY_START<br>Time: 13629.43088763152',
+        position : Cesium.Cartesian3.fromDegrees(-118.398221, 33.760774),
+        billboard : {
+            image : pinBuilder.fromText('204', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[532] = viewer.entities.add({
+        name : '205',
+        parent : nodePins,
+        description : '205 Event: DRONE_DELIVERY_END<br>Time: 13639.43088763152',
+        position : Cesium.Cartesian3.fromDegrees(-118.398221, 33.760774),
+        billboard : {
+            image : pinBuilder.fromText('205', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[533] = viewer.entities.add({
+        name : '206',
+        parent : nodePins,
+        description : '206 Event: LAND<br>Time: 13650.000127572066',
+        position : Cesium.Cartesian3.fromDegrees(-118.397988, 33.761412),
+        billboard : {
+            image : pinBuilder.fromText('206', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[534] = viewer.entities.add({
+        name : '207',
+        parent : nodePins,
+        description : '207 Event: DEPART<br>Time: 13707.79999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.397988, 33.761412),
+        billboard : {
+            image : pinBuilder.fromText('207', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[535] = viewer.entities.add({
+        name : '208',
+        parent : nodePins,
+        description : '208 Event: ARRIVE<br>Time: 13730.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396193, 33.761341),
+        billboard : {
+            image : pinBuilder.fromText('208', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[536] = viewer.entities.add({
+        name : '209',
+        parent : nodePins,
+        description : '209 Event: DEPART<br>Time: 13801.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396193, 33.761341),
+        billboard : {
+            image : pinBuilder.fromText('209', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[537] = viewer.entities.add({
+        name : '210',
+        parent : nodePins,
+        description : '210 Event: ARRIVE<br>Time: 13827.29999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39604, 33.760048),
+        billboard : {
+            image : pinBuilder.fromText('210', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[538] = viewer.entities.add({
+        name : '211',
+        parent : nodePins,
+        description : '211 Event: DEPART<br>Time: 13872.29999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39604, 33.760048),
+        billboard : {
+            image : pinBuilder.fromText('211', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[539] = viewer.entities.add({
+        name : '212',
+        parent : nodePins,
+        description : '212 Event: ARRIVE<br>Time: 13903.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39697, 33.760431),
+        billboard : {
+            image : pinBuilder.fromText('212', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[540] = viewer.entities.add({
+        name : '213',
+        parent : nodePins,
+        description : '213 Event: DEPART<br>Time: 13992.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39697, 33.760431),
+        billboard : {
+            image : pinBuilder.fromText('213', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[541] = viewer.entities.add({
+        name : '214',
+        parent : nodePins,
+        description : '214 Event: ARRIVE<br>Time: 14039.09999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.395681, 33.758781),
+        billboard : {
+            image : pinBuilder.fromText('214', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[542] = viewer.entities.add({
+        name : '215',
+        parent : nodePins,
+        description : '215 Event: DEPART<br>Time: 14075.19999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.395681, 33.758781),
+        billboard : {
+            image : pinBuilder.fromText('215', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[543] = viewer.entities.add({
+        name : '216',
+        parent : nodePins,
+        description : '216 Event: ARRIVE<br>Time: 14171.19999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39796, 33.7584),
+        billboard : {
+            image : pinBuilder.fromText('216', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[544] = viewer.entities.add({
+        name : '217',
+        parent : nodePins,
+        description : '217 Event: DEPART<br>Time: 14361.19999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.39796, 33.7584),
+        billboard : {
+            image : pinBuilder.fromText('217', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[545] = viewer.entities.add({
+        name : '218',
+        parent : nodePins,
+        description : '218 Event: ARRIVE<br>Time: 14417.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398256, 33.757316),
+        billboard : {
+            image : pinBuilder.fromText('218', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[546] = viewer.entities.add({
+        name : '219',
+        parent : nodePins,
+        description : '219 Event: DEPART<br>Time: 14691.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.398256, 33.757316),
+        billboard : {
+            image : pinBuilder.fromText('219', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[547] = viewer.entities.add({
+        name : '220',
+        parent : nodePins,
+        description : '220 Event: ARRIVE<br>Time: 14836.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396609, 33.755981),
+        billboard : {
+            image : pinBuilder.fromText('220', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[548] = viewer.entities.add({
+        name : '221',
+        parent : nodePins,
+        description : '221 Event: DEPART<br>Time: 14947.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.396609, 33.755981),
+        billboard : {
+            image : pinBuilder.fromText('221', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[549] = viewer.entities.add({
+        name : '222',
+        parent : nodePins,
+        description : '222 Event: ARRIVE<br>Time: 15106.89999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.40035, 33.76302),
+        billboard : {
+            image : pinBuilder.fromText('222', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[550] = viewer.entities.add({
+        name : '223',
+        parent : nodePins,
+        description : '223 Event: DEPART<br>Time: 15206.39999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.40035, 33.76302),
+        billboard : {
+            image : pinBuilder.fromText('223', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[551] = viewer.entities.add({
+        name : '224',
+        parent : nodePins,
+        description : '224 Event: ARRIVE<br>Time: 15233.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.402146, 33.763759),
+        billboard : {
+            image : pinBuilder.fromText('224', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[552] = viewer.entities.add({
+        name : '225',
+        parent : nodePins,
+        description : '225 Event: LOAD_START<br>Time: 15288.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.402146, 33.763759),
+        billboard : {
+            image : pinBuilder.fromText('225', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[553] = viewer.entities.add({
+        name : '226',
+        parent : nodePins,
+        description : '226 Event: LOAD_END<br>Time: 15303.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.402146, 33.763759),
+        billboard : {
+            image : pinBuilder.fromText('226', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[554] = viewer.entities.add({
+        name : '227',
+        parent : nodePins,
+        description : '227 Event: LAUNCH<br>Time: 15303.69999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.402146, 33.763759),
+        billboard : {
+            image : pinBuilder.fromText('227', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[555] = viewer.entities.add({
+        name : '228',
+        parent : nodePins,
+        description : '228 Event: DRONE_DELIVERY_START<br>Time: 15322.752392233891',
+        position : Cesium.Cartesian3.fromDegrees(-118.401373, 33.763151),
+        billboard : {
+            image : pinBuilder.fromText('228', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[556] = viewer.entities.add({
+        name : '229',
+        parent : nodePins,
+        description : '229 Event: DRONE_DELIVERY_END<br>Time: 15332.752392233891',
+        position : Cesium.Cartesian3.fromDegrees(-118.401373, 33.763151),
+        billboard : {
+            image : pinBuilder.fromText('229', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[557] = viewer.entities.add({
+        name : '230',
+        parent : nodePins,
+        description : '230 Event: LAND<br>Time: 15375.949644260698',
+        position : Cesium.Cartesian3.fromDegrees(-118.404583, 33.763645),
+        billboard : {
+            image : pinBuilder.fromText('230', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[558] = viewer.entities.add({
+        name : '231',
+        parent : nodePins,
+        description : '231 Event: DEPART<br>Time: 15413.999999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.404583, 33.763645),
+        billboard : {
+            image : pinBuilder.fromText('231', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[559] = viewer.entities.add({
+        name : '232',
+        parent : nodePins,
+        description : '232 Event: ARRIVE<br>Time: 15425.09999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.405381, 33.76343),
+        billboard : {
+            image : pinBuilder.fromText('232', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[560] = viewer.entities.add({
+        name : '233',
+        parent : nodePins,
+        description : '233 Event: DEPART<br>Time: 15473.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.405381, 33.76343),
+        billboard : {
+            image : pinBuilder.fromText('233', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[561] = viewer.entities.add({
+        name : '234',
+        parent : nodePins,
+        description : '234 Event: ARRIVE<br>Time: 15481.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.405906, 33.762988),
+        billboard : {
+            image : pinBuilder.fromText('234', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[562] = viewer.entities.add({
+        name : '235',
+        parent : nodePins,
+        description : '235 Event: DEPART<br>Time: 15676.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.405906, 33.762988),
+        billboard : {
+            image : pinBuilder.fromText('235', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[563] = viewer.entities.add({
+        name : '236',
+        parent : nodePins,
+        description : '236 Event: ARRIVE<br>Time: 15746.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.406439, 33.76343),
+        billboard : {
+            image : pinBuilder.fromText('236', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[564] = viewer.entities.add({
+        name : '237',
+        parent : nodePins,
+        description : '237 Event: LOAD_START<br>Time: 15794.899999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.406439, 33.76343),
+        billboard : {
+            image : pinBuilder.fromText('237', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[565] = viewer.entities.add({
+        name : '238',
+        parent : nodePins,
+        description : '238 Event: LOAD_END<br>Time: 15809.899999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.406439, 33.76343),
+        billboard : {
+            image : pinBuilder.fromText('238', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[566] = viewer.entities.add({
+        name : '239',
+        parent : nodePins,
+        description : '239 Event: LAUNCH<br>Time: 15809.899999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.406439, 33.76343),
+        billboard : {
+            image : pinBuilder.fromText('239', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[567] = viewer.entities.add({
+        name : '240',
+        parent : nodePins,
+        description : '240 Event: DRONE_DELIVERY_START<br>Time: 15846.497669721717',
+        position : Cesium.Cartesian3.fromDegrees(-118.407687, 33.76173),
+        billboard : {
+            image : pinBuilder.fromText('240', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[568] = viewer.entities.add({
+        name : '241',
+        parent : nodePins,
+        description : '241 Event: DRONE_DELIVERY_END<br>Time: 15856.497669721717',
+        position : Cesium.Cartesian3.fromDegrees(-118.407687, 33.76173),
+        billboard : {
+            image : pinBuilder.fromText('241', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[569] = viewer.entities.add({
+        name : '242',
+        parent : nodePins,
+        description : '242 Event: LAND<br>Time: 15917.65501878912',
+        position : Cesium.Cartesian3.fromDegrees(-118.403271, 33.762867),
+        billboard : {
+            image : pinBuilder.fromText('242', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[570] = viewer.entities.add({
+        name : '243',
+        parent : nodePins,
+        description : '243 Event: DEPART<br>Time: 15975.09999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.403271, 33.762867),
+        billboard : {
+            image : pinBuilder.fromText('243', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[571] = viewer.entities.add({
+        name : '244',
+        parent : nodePins,
+        description : '244 Event: ARRIVE<br>Time: 16100.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.402397, 33.764528),
+        billboard : {
+            image : pinBuilder.fromText('244', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[572] = viewer.entities.add({
+        name : '245',
+        parent : nodePins,
+        description : '245 Event: LOAD_START<br>Time: 16176.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.402397, 33.764528),
+        billboard : {
+            image : pinBuilder.fromText('245', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[573] = viewer.entities.add({
+        name : '246',
+        parent : nodePins,
+        description : '246 Event: LOAD_END<br>Time: 16191.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.402397, 33.764528),
+        billboard : {
+            image : pinBuilder.fromText('246', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[574] = viewer.entities.add({
+        name : '247',
+        parent : nodePins,
+        description : '247 Event: LAUNCH<br>Time: 16191.399999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.402397, 33.764528),
+        billboard : {
+            image : pinBuilder.fromText('247', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[575] = viewer.entities.add({
+        name : '248',
+        parent : nodePins,
+        description : '248 Event: DRONE_DELIVERY_START<br>Time: 16268.896078420581',
+        position : Cesium.Cartesian3.fromDegrees(-118.406627, 33.761621),
+        billboard : {
+            image : pinBuilder.fromText('248', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[576] = viewer.entities.add({
+        name : '249',
+        parent : nodePins,
+        description : '249 Event: DRONE_DELIVERY_END<br>Time: 16278.896078420581',
+        position : Cesium.Cartesian3.fromDegrees(-118.406627, 33.761621),
+        billboard : {
+            image : pinBuilder.fromText('249', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[577] = viewer.entities.add({
+        name : '250',
+        parent : nodePins,
+        description : '250 Event: LAND<br>Time: 16323.59999999999',
+        position : Cesium.Cartesian3.fromDegrees(-118.406119, 33.760725),
+        billboard : {
+            image : pinBuilder.fromText('250', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[578] = viewer.entities.add({
+        name : '251',
+        parent : nodePins,
+        description : '251 Event: DEPART<br>Time: 16383.899999999989',
+        position : Cesium.Cartesian3.fromDegrees(-118.406119, 33.760725),
+        billboard : {
+            image : pinBuilder.fromText('251', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[579] = viewer.entities.add({
+        name : '252',
+        parent : nodePins,
+        description : '252 Event: ARRIVE<br>Time: 16432.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403904, 33.760231),
+        billboard : {
+            image : pinBuilder.fromText('252', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[580] = viewer.entities.add({
+        name : '253',
+        parent : nodePins,
+        description : '253 Event: LOAD_START<br>Time: 16593.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403904, 33.760231),
+        billboard : {
+            image : pinBuilder.fromText('253', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[581] = viewer.entities.add({
+        name : '254',
+        parent : nodePins,
+        description : '254 Event: LOAD_END<br>Time: 16608.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403904, 33.760231),
+        billboard : {
+            image : pinBuilder.fromText('254', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[582] = viewer.entities.add({
+        name : '255',
+        parent : nodePins,
+        description : '255 Event: LAUNCH<br>Time: 16608.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403904, 33.760231),
+        billboard : {
+            image : pinBuilder.fromText('255', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[583] = viewer.entities.add({
+        name : '256',
+        parent : nodePins,
+        description : '256 Event: DRONE_DELIVERY_START<br>Time: 16644.309549331076',
+        position : Cesium.Cartesian3.fromDegrees(-118.403532, 33.758318),
+        billboard : {
+            image : pinBuilder.fromText('256', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[584] = viewer.entities.add({
+        name : '257',
+        parent : nodePins,
+        description : '257 Event: DRONE_DELIVERY_END<br>Time: 16654.309549331076',
+        position : Cesium.Cartesian3.fromDegrees(-118.403532, 33.758318),
+        billboard : {
+            image : pinBuilder.fromText('257', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[585] = viewer.entities.add({
+        name : '258',
+        parent : nodePins,
+        description : '258 Event: LAND<br>Time: 16679.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403255, 33.759621),
+        billboard : {
+            image : pinBuilder.fromText('258', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[586] = viewer.entities.add({
+        name : '259',
+        parent : nodePins,
+        description : '259 Event: DEPART<br>Time: 16780.599999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.403255, 33.759621),
+        billboard : {
+            image : pinBuilder.fromText('259', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[587] = viewer.entities.add({
+        name : '260',
+        parent : nodePins,
+        description : '260 Event: ARRIVE<br>Time: 17356.899999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.402162, 33.758292),
+        billboard : {
+            image : pinBuilder.fromText('260', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[588] = viewer.entities.add({
+        name : '261',
+        parent : nodePins,
+        description : '261 Event: LOAD_START<br>Time: 17463.399999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.402162, 33.758292),
+        billboard : {
+            image : pinBuilder.fromText('261', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[589] = viewer.entities.add({
+        name : '262',
+        parent : nodePins,
+        description : '262 Event: LOAD_END<br>Time: 17478.399999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.402162, 33.758292),
+        billboard : {
+            image : pinBuilder.fromText('262', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[590] = viewer.entities.add({
+        name : '263',
+        parent : nodePins,
+        description : '263 Event: LAUNCH<br>Time: 17478.399999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.402162, 33.758292),
+        billboard : {
+            image : pinBuilder.fromText('263', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[591] = viewer.entities.add({
+        name : '264',
+        parent : nodePins,
+        description : '264 Event: DRONE_DELIVERY_START<br>Time: 17662.857116521394',
+        position : Cesium.Cartesian3.fromDegrees(-118.393718, 33.749431),
+        billboard : {
+            image : pinBuilder.fromText('264', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[592] = viewer.entities.add({
+        name : '265',
+        parent : nodePins,
+        description : '265 Event: DRONE_DELIVERY_END<br>Time: 17672.857116521394',
+        position : Cesium.Cartesian3.fromDegrees(-118.393718, 33.749431),
+        billboard : {
+            image : pinBuilder.fromText('265', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[593] = viewer.entities.add({
+        name : '266',
+        parent : nodePins,
+        description : '266 Event: LAND<br>Time: 18016.099999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.39685, 33.74736),
+        billboard : {
+            image : pinBuilder.fromText('266', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[594] = viewer.entities.add({
+        name : '267',
+        parent : nodePins,
+        description : '267 Event: DEPART<br>Time: 18103.099999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.39685, 33.74736),
+        billboard : {
+            image : pinBuilder.fromText('267', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[595] = viewer.entities.add({
+        name : '268',
+        parent : nodePins,
+        description : '268 Event: ARRIVE<br>Time: 18108.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397324, 33.747235),
+        billboard : {
+            image : pinBuilder.fromText('268', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[596] = viewer.entities.add({
+        name : '269',
+        parent : nodePins,
+        description : '269 Event: DEPART<br>Time: 18148.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397324, 33.747235),
+        billboard : {
+            image : pinBuilder.fromText('269', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[597] = viewer.entities.add({
+        name : '270',
+        parent : nodePins,
+        description : '270 Event: ARRIVE<br>Time: 18206.899999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.399201, 33.747689),
+        billboard : {
+            image : pinBuilder.fromText('270', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[598] = viewer.entities.add({
+        name : '271',
+        parent : nodePins,
+        description : '271 Event: DEPART<br>Time: 18269.899999999987',
+        position : Cesium.Cartesian3.fromDegrees(-118.399201, 33.747689),
+        billboard : {
+            image : pinBuilder.fromText('271', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[599] = viewer.entities.add({
+        name : '272',
+        parent : nodePins,
+        description : '272 Event: ARRIVE<br>Time: 18282.099999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.398403, 33.748054),
+        billboard : {
+            image : pinBuilder.fromText('272', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[600] = viewer.entities.add({
+        name : '273',
+        parent : nodePins,
+        description : '273 Event: DEPART<br>Time: 18348.099999999988',
+        position : Cesium.Cartesian3.fromDegrees(-118.398403, 33.748054),
+        billboard : {
+            image : pinBuilder.fromText('273', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[601] = viewer.entities.add({
+        name : '274',
+        parent : nodePins,
+        description : '274 Event: ARRIVE<br>Time: 18779.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397589, 33.74821),
+        billboard : {
+            image : pinBuilder.fromText('274', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[602] = viewer.entities.add({
+        name : '275',
+        parent : nodePins,
+        description : '275 Event: LOAD_START<br>Time: 18813.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397589, 33.74821),
+        billboard : {
+            image : pinBuilder.fromText('275', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[603] = viewer.entities.add({
+        name : '276',
+        parent : nodePins,
+        description : '276 Event: LOAD_END<br>Time: 18828.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397589, 33.74821),
+        billboard : {
+            image : pinBuilder.fromText('276', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[604] = viewer.entities.add({
+        name : '277',
+        parent : nodePins,
+        description : '277 Event: LAUNCH<br>Time: 18828.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.397589, 33.74821),
+        billboard : {
+            image : pinBuilder.fromText('277', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[605] = viewer.entities.add({
+        name : '278',
+        parent : nodePins,
+        description : '278 Event: DRONE_DELIVERY_START<br>Time: 19154.2401271735',
+        position : Cesium.Cartesian3.fromDegrees(-118.385391, 33.765686),
+        billboard : {
+            image : pinBuilder.fromText('278', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[606] = viewer.entities.add({
+        name : '279',
+        parent : nodePins,
+        description : '279 Event: DRONE_DELIVERY_END<br>Time: 19164.2401271735',
+        position : Cesium.Cartesian3.fromDegrees(-118.385391, 33.765686),
+        billboard : {
+            image : pinBuilder.fromText('279', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[607] = viewer.entities.add({
+        name : '280',
+        parent : nodePins,
+        description : '280 Event: LAND<br>Time: 19274.499999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384873, 33.765),
+        billboard : {
+            image : pinBuilder.fromText('280', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[608] = viewer.entities.add({
+        name : '281',
+        parent : nodePins,
+        description : '281 Event: DEPART<br>Time: 19305.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384873, 33.765),
+        billboard : {
+            image : pinBuilder.fromText('281', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[609] = viewer.entities.add({
+        name : '282',
+        parent : nodePins,
+        description : '282 Event: ARRIVE<br>Time: 19395.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.384442, 33.76487),
+        billboard : {
+            image : pinBuilder.fromText('282', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[610] = viewer.entities.add({
+        name : '283',
+        parent : nodePins,
+        description : '283 Event: LOAD_START<br>Time: 19434.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.384442, 33.76487),
+        billboard : {
+            image : pinBuilder.fromText('283', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[611] = viewer.entities.add({
+        name : '284',
+        parent : nodePins,
+        description : '284 Event: LOAD_END<br>Time: 19449.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.384442, 33.76487),
+        billboard : {
+            image : pinBuilder.fromText('284', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[612] = viewer.entities.add({
+        name : '285',
+        parent : nodePins,
+        description : '285 Event: LAUNCH<br>Time: 19449.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.384442, 33.76487),
+        billboard : {
+            image : pinBuilder.fromText('285', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[613] = viewer.entities.add({
+        name : '286',
+        parent : nodePins,
+        description : '286 Event: DRONE_DELIVERY_START<br>Time: 19476.143497900557',
+        position : Cesium.Cartesian3.fromDegrees(-118.383003, 33.764182),
+        billboard : {
+            image : pinBuilder.fromText('286', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[614] = viewer.entities.add({
+        name : '287',
+        parent : nodePins,
+        description : '287 Event: DRONE_DELIVERY_END<br>Time: 19486.143497900557',
+        position : Cesium.Cartesian3.fromDegrees(-118.383003, 33.764182),
+        billboard : {
+            image : pinBuilder.fromText('287', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[615] = viewer.entities.add({
+        name : '288',
+        parent : nodePins,
+        description : '288 Event: LAND<br>Time: 19548.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.38147, 33.763688),
+        billboard : {
+            image : pinBuilder.fromText('288', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[616] = viewer.entities.add({
+        name : '289',
+        parent : nodePins,
+        description : '289 Event: DEPART<br>Time: 19608.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.38147, 33.763688),
+        billboard : {
+            image : pinBuilder.fromText('289', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[617] = viewer.entities.add({
+        name : '290',
+        parent : nodePins,
+        description : '290 Event: ARRIVE<br>Time: 19733.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383047, 33.764882),
+        billboard : {
+            image : pinBuilder.fromText('290', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[618] = viewer.entities.add({
+        name : '291',
+        parent : nodePins,
+        description : '291 Event: DEPART<br>Time: 19781.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383047, 33.764882),
+        billboard : {
+            image : pinBuilder.fromText('291', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[619] = viewer.entities.add({
+        name : '292',
+        parent : nodePins,
+        description : '292 Event: ARRIVE<br>Time: 19956.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383073, 33.766262),
+        billboard : {
+            image : pinBuilder.fromText('292', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[620] = viewer.entities.add({
+        name : '293',
+        parent : nodePins,
+        description : '293 Event: DEPART<br>Time: 19985.999999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.383073, 33.766262),
+        billboard : {
+            image : pinBuilder.fromText('293', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[621] = viewer.entities.add({
+        name : '294',
+        parent : nodePins,
+        description : '294 Event: ARRIVE<br>Time: 20026.199999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.383928, 33.765936),
+        billboard : {
+            image : pinBuilder.fromText('294', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[622] = viewer.entities.add({
+        name : '295',
+        parent : nodePins,
+        description : '295 Event: DEPART<br>Time: 20055.699999999986',
+        position : Cesium.Cartesian3.fromDegrees(-118.383928, 33.765936),
+        billboard : {
+            image : pinBuilder.fromText('295', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[623] = viewer.entities.add({
+        name : '296',
+        parent : nodePins,
+        description : '296 Event: ARRIVE<br>Time: 20253.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384106, 33.766934),
+        billboard : {
+            image : pinBuilder.fromText('296', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[624] = viewer.entities.add({
+        name : '297',
+        parent : nodePins,
+        description : '297 Event: LOAD_START<br>Time: 20316.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384106, 33.766934),
+        billboard : {
+            image : pinBuilder.fromText('297', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[625] = viewer.entities.add({
+        name : '298',
+        parent : nodePins,
+        description : '298 Event: LOAD_END<br>Time: 20331.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384106, 33.766934),
+        billboard : {
+            image : pinBuilder.fromText('298', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[626] = viewer.entities.add({
+        name : '299',
+        parent : nodePins,
+        description : '299 Event: LAUNCH<br>Time: 20331.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.384106, 33.766934),
+        billboard : {
+            image : pinBuilder.fromText('299', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[627] = viewer.entities.add({
+        name : '300',
+        parent : nodePins,
+        description : '300 Event: DRONE_DELIVERY_START<br>Time: 20427.78752774615',
+        position : Cesium.Cartesian3.fromDegrees(-118.377257, 33.767437),
+        billboard : {
+            image : pinBuilder.fromText('300', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[628] = viewer.entities.add({
+        name : '301',
+        parent : nodePins,
+        description : '301 Event: DRONE_DELIVERY_END<br>Time: 20437.78752774615',
+        position : Cesium.Cartesian3.fromDegrees(-118.377257, 33.767437),
+        billboard : {
+            image : pinBuilder.fromText('301', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[629] = viewer.entities.add({
+        name : '302',
+        parent : nodePins,
+        description : '302 Event: LAND<br>Time: 20514.099999999984',
+        position : Cesium.Cartesian3.fromDegrees(-118.376532, 33.767217),
+        billboard : {
+            image : pinBuilder.fromText('302', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[630] = viewer.entities.add({
+        name : '303',
+        parent : nodePins,
+        description : '303 Event: DEPART<br>Time: 20565.599999999984',
+        position : Cesium.Cartesian3.fromDegrees(-118.376532, 33.767217),
+        billboard : {
+            image : pinBuilder.fromText('303', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[631] = viewer.entities.add({
+        name : '304',
+        parent : nodePins,
+        description : '304 Event: ARRIVE<br>Time: 20592.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.376206, 33.766479),
+        billboard : {
+            image : pinBuilder.fromText('304', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[632] = viewer.entities.add({
+        name : '305',
+        parent : nodePins,
+        description : '305 Event: DEPART<br>Time: 20725.799999999985',
+        position : Cesium.Cartesian3.fromDegrees(-118.376206, 33.766479),
+        billboard : {
+            image : pinBuilder.fromText('305', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[633] = viewer.entities.add({
+        name : '306',
+        parent : nodePins,
+        description : '306 Event: ARRIVE<br>Time: 20773.599999999984',
+        position : Cesium.Cartesian3.fromDegrees(-118.374164, 33.766104),
+        billboard : {
+            image : pinBuilder.fromText('306', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[634] = viewer.entities.add({
+        name : '307',
+        parent : nodePins,
+        description : '307 Event: DEPART<br>Time: 20810.599999999984',
+        position : Cesium.Cartesian3.fromDegrees(-118.374164, 33.766104),
+        billboard : {
+            image : pinBuilder.fromText('307', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[635] = viewer.entities.add({
+        name : '308',
+        parent : nodePins,
+        description : '308 Event: ARRIVE<br>Time: 20831.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372774, 33.76527),
+        billboard : {
+            image : pinBuilder.fromText('308', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[636] = viewer.entities.add({
+        name : '309',
+        parent : nodePins,
+        description : '309 Event: DEPART<br>Time: 20908.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372774, 33.76527),
+        billboard : {
+            image : pinBuilder.fromText('309', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[637] = viewer.entities.add({
+        name : '310',
+        parent : nodePins,
+        description : '310 Event: ARRIVE<br>Time: 20999.399999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372105, 33.764865),
+        billboard : {
+            image : pinBuilder.fromText('310', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[638] = viewer.entities.add({
+        name : '311',
+        parent : nodePins,
+        description : '311 Event: LOAD_START<br>Time: 21040.899999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372105, 33.764865),
+        billboard : {
+            image : pinBuilder.fromText('311', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[639] = viewer.entities.add({
+        name : '312',
+        parent : nodePins,
+        description : '312 Event: LOAD_END<br>Time: 21055.899999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372105, 33.764865),
+        billboard : {
+            image : pinBuilder.fromText('312', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[640] = viewer.entities.add({
+        name : '313',
+        parent : nodePins,
+        description : '313 Event: LAUNCH<br>Time: 21055.899999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.372105, 33.764865),
+        billboard : {
+            image : pinBuilder.fromText('313', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[641] = viewer.entities.add({
+        name : '314',
+        parent : nodePins,
+        description : '314 Event: DRONE_DELIVERY_START<br>Time: 21091.57698376302',
+        position : Cesium.Cartesian3.fromDegrees(-118.373899, 33.763639),
+        billboard : {
+            image : pinBuilder.fromText('314', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[642] = viewer.entities.add({
+        name : '315',
+        parent : nodePins,
+        description : '315 Event: DRONE_DELIVERY_END<br>Time: 21101.57698376302',
+        position : Cesium.Cartesian3.fromDegrees(-118.373899, 33.763639),
+        billboard : {
+            image : pinBuilder.fromText('315', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[643] = viewer.entities.add({
+        name : '316',
+        parent : nodePins,
+        description : '316 Event: LAND<br>Time: 21128.49999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.375015, 33.764231),
+        billboard : {
+            image : pinBuilder.fromText('316', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[644] = viewer.entities.add({
+        name : '317',
+        parent : nodePins,
+        description : '317 Event: DEPART<br>Time: 21216.99999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.375015, 33.764231),
+        billboard : {
+            image : pinBuilder.fromText('317', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[645] = viewer.entities.add({
+        name : '318',
+        parent : nodePins,
+        description : '318 Event: ARRIVE<br>Time: 21266.49999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.374207, 33.764702),
+        billboard : {
+            image : pinBuilder.fromText('318', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[646] = viewer.entities.add({
+        name : '319',
+        parent : nodePins,
+        description : '319 Event: DEPART<br>Time: 21338.99999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.374207, 33.764702),
+        billboard : {
+            image : pinBuilder.fromText('319', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[647] = viewer.entities.add({
+        name : '320',
+        parent : nodePins,
+        description : '320 Event: ARRIVE<br>Time: 21430.199999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.374408, 33.76551),
+        billboard : {
+            image : pinBuilder.fromText('320', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[648] = viewer.entities.add({
+        name : '321',
+        parent : nodePins,
+        description : '321 Event: DEPART<br>Time: 21533.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.374408, 33.76551),
+        billboard : {
+            image : pinBuilder.fromText('321', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[649] = viewer.entities.add({
+        name : '322',
+        parent : nodePins,
+        description : '322 Event: ARRIVE<br>Time: 21559.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.373627, 33.765078),
+        billboard : {
+            image : pinBuilder.fromText('322', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[650] = viewer.entities.add({
+        name : '323',
+        parent : nodePins,
+        description : '323 Event: DEPART<br>Time: 21633.699999999983',
+        position : Cesium.Cartesian3.fromDegrees(-118.373627, 33.765078),
+        billboard : {
+            image : pinBuilder.fromText('323', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[651] = viewer.entities.add({
+        name : '324',
+        parent : nodePins,
+        description : '324 Event: ARRIVE<br>Time: 21802.29999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.375508, 33.7663),
+        billboard : {
+            image : pinBuilder.fromText('324', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[652] = viewer.entities.add({
+        name : '325',
+        parent : nodePins,
+        description : '325 Event: DEPART<br>Time: 21881.29999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.375508, 33.7663),
+        billboard : {
+            image : pinBuilder.fromText('325', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[653] = viewer.entities.add({
+        name : '326',
+        parent : nodePins,
+        description : '326 Event: ARRIVE<br>Time: 21970.89999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.37706, 33.766809),
+        billboard : {
+            image : pinBuilder.fromText('326', Cesium.Color.RED, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[654] = viewer.entities.add({
+        name : '327',
+        parent : nodePins,
+        description : '327 Event: DEPART<br>Time: 22032.89999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.37706, 33.766809),
+        billboard : {
+            image : pinBuilder.fromText('327', Cesium.Color.YELLOW, 40).toDataURL(),
+            verticalOrigin : Cesium.VerticalOrigin.BOTTOM
+        }
+    });
+
+    pin[655] = viewer.entities.add({
+        name : '328',
+        parent : nodePins,
+        description : '328 Event: ARRIVE<br>Time: 24539.89999999998',
+        position : Cesium.Cartesian3.fromDegrees(-118.324843, 33.918699),
+        billboard : {
+            image : pinBuilder.fromText('328', Cesium.Color.RED, 40).toDataURL(),
             verticalOrigin : Cesium.VerticalOrigin.BOTTOM
         }
     });
