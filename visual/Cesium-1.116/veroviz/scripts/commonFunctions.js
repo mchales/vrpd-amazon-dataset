@@ -421,7 +421,8 @@ function loadProblem()  {
 	// reqFilename = document.getElementById("targetFile").value;
 	// reqFilename = reqFilename.replace("C:\\fakepath\\", "");
 	// reqFilename = reqFilename.replace(".vrv", "");
-	reqFilename = ";veroviz;" + document.getElementById("city-select").value;
+	// reqFilename = ";veroviz;" + document.getElementById("city-select").value;
+	reqFilename = ";veroviz;la"
 	problemName = reqFilename.replace(/;/g, "/");
 	if (reqFilename != "")  {
 		setScripts(problemName);
