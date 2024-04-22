@@ -5,7 +5,7 @@ function setConfigs() {
     viewer.camera.flyTo({
         destination: Cesium.Rectangle.fromDegrees(-122.338220, 30.190500, -71.481770, 47.617230) 
     });
-    viewer.clock.currentTime = Cesium.JulianDate.addSeconds('2024-04-21T08:00:00Z', 0, new Cesium.JulianDate());
+    viewer.clock.currentTime = Cesium.JulianDate.addSeconds('2024-04-22T08:00:00Z', 0, new Cesium.JulianDate());
     allIDs = [
         'o-Boston-/veroviz/models/ub_truck.gltf-stationary', 
         'o-Chicago-/veroviz/models/ub_truck.gltf-stationary', 
@@ -17,28 +17,28 @@ function setConfigs() {
         'o-Chicago-/veroviz/models/drone.gltf-stationary', 
         'o-Boston-/veroviz/models/drone.gltf-stationary', 
         'o-LA-/veroviz/models/drone.gltf-stationary', 
-        'o-Austin-/veroviz/models/drone.gltf-move', 
         'o-Austin-/veroviz/models/ub_truck.gltf-move', 
-        'o-Boston-/veroviz/models/drone.gltf-move', 
+        'o-Austin-/veroviz/models/drone.gltf-move', 
         'o-Boston-/veroviz/models/ub_truck.gltf-move', 
-        'o-Chicago-/veroviz/models/drone.gltf-move', 
+        'o-Boston-/veroviz/models/drone.gltf-move', 
         'o-Chicago-/veroviz/models/ub_truck.gltf-move', 
-        'o-LA-/veroviz/models/drone.gltf-move', 
+        'o-Chicago-/veroviz/models/drone.gltf-move', 
         'o-LA-/veroviz/models/ub_truck.gltf-move', 
-        'o-Seattle-/veroviz/models/drone.gltf-move', 
-        'o-Seattle-/veroviz/models/ub_truck.gltf-move'    
+        'o-LA-/veroviz/models/drone.gltf-move', 
+        'o-Seattle-/veroviz/models/ub_truck.gltf-move', 
+        'o-Seattle-/veroviz/models/drone.gltf-move'    
     ];
     orientationIDs = [
-        'o-Austin-/veroviz/models/drone.gltf-move', 
         'o-Austin-/veroviz/models/ub_truck.gltf-move', 
-        'o-Boston-/veroviz/models/drone.gltf-move', 
+        'o-Austin-/veroviz/models/drone.gltf-move', 
         'o-Boston-/veroviz/models/ub_truck.gltf-move', 
-        'o-Chicago-/veroviz/models/drone.gltf-move', 
+        'o-Boston-/veroviz/models/drone.gltf-move', 
         'o-Chicago-/veroviz/models/ub_truck.gltf-move', 
-        'o-LA-/veroviz/models/drone.gltf-move', 
+        'o-Chicago-/veroviz/models/drone.gltf-move', 
         'o-LA-/veroviz/models/ub_truck.gltf-move', 
-        'o-Seattle-/veroviz/models/drone.gltf-move', 
-        'o-Seattle-/veroviz/models/ub_truck.gltf-move'    
+        'o-LA-/veroviz/models/drone.gltf-move', 
+        'o-Seattle-/veroviz/models/ub_truck.gltf-move', 
+        'o-Seattle-/veroviz/models/drone.gltf-move'    
     ];
     czmlRouteFile = '/veroviz/naive/routes.czml';
     runRoutes(czmlRouteFile, allIDs, orientationIDs);
